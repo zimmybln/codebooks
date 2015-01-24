@@ -1,0 +1,7 @@
+C:\Users\Torsten\Documents\Git\Codebooks\Samples Allgemein\StateMachineWithExpressions\StateMachineWithExpressions\bin\Debug\StateMachineWithExpressions.dll
+C:\Users\Torsten\Documents\Git\Codebooks\Samples Allgemein\StateMachineWithExpressions\StateMachineWithExpressions\bin\Debug\StateMachineWithExpressions.pdb
+C:\Users\Torsten\Documents\Git\Codebooks\Samples Allgemein\StateMachineWithExpressions\StateMachineWithExpressions\bin\Debug\nunit.framework.dll
+C:\Users\Torsten\Documents\Git\Codebooks\Samples Allgemein\StateMachineWithExpressions\StateMachineWithExpressions\bin\Debug\nunit.framework.xml
+C:\Users\Torsten\Documents\Git\Codebooks\Samples Allgemein\StateMachineWithExpressions\StateMachineWithExpressions\obj\Debug\StateMachineWithExpressions.csprojResolveAssemblyReference.cache
+C:\Users\Torsten\Documents\Git\Codebooks\Samples Allgemein\StateMachineWithExpressions\StateMachineWithExpressions\obj\Debug\StateMachineWithExpressions.dll
+C:\Users\Torsten\Documents\Git\Codebooks\Samples Allgemein\StateMachineWithExpressions\StateMachineWithExpressions\obj\Debug\StateMachineWithExpressions.pdb
