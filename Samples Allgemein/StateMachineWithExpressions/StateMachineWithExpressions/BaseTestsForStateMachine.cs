@@ -27,9 +27,14 @@ namespace StateMachineWithExpressions
 
             var machine = new StateMachine<IMyData>(data);
             
+            // Hinzufügen eines Status
             var state = machine.AddState("Erster Status")
                 .WithCondition(myData => myData.i == 10)
                 .WithCondition(myData => myData.j == 25);
+
+            // Hinzufügen einer automatisierten Statusänderung
+
+
 
             data.i = 10;
             data.j = 25;
