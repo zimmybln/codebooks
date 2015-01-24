@@ -35,6 +35,7 @@ namespace StateMachineWithExpressions
             // Hinzufügen einer automatisierten Statusänderung
 
 
+            // Das ist eine Änderung, die auf TORSTEN-Desktop durchgeführt wurde
 
             data.i = 10;
             data.j = 25;
