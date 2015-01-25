@@ -1,0 +1,6 @@
+D:\Dokumente\My Dropbox\Codebooks\Samples LINQ\LINQDB\LINQDB\bin\Debug\LINQDB.exe.config
+D:\Dokumente\My Dropbox\Codebooks\Samples LINQ\LINQDB\LINQDB\bin\Debug\LINQDB.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples LINQ\LINQDB\LINQDB\bin\Debug\LINQDB.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples LINQ\LINQDB\LINQDB\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples LINQ\LINQDB\LINQDB\obj\x86\Debug\LINQDB.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples LINQ\LINQDB\LINQDB\obj\x86\Debug\LINQDB.pdb

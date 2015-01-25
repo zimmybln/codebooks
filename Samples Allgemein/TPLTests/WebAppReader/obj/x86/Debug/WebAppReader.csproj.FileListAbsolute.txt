@@ -1,0 +1,9 @@
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\TPLTests\WebAppReader\bin\Debug\WebAppReader.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\TPLTests\WebAppReader\bin\Debug\WebAppReader.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\TPLTests\WebAppReader\obj\x86\Debug\WebAppReader.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\TPLTests\WebAppReader\obj\x86\Debug\WebAppReader.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\TPLTests\WebAppReader\bin\Debug\WebAppReader.exe.config
+D:\Dokumente\Dropbox\Codebooks\Samples Allgemein\TPLTests\WebAppReader\bin\Debug\WebAppReader.exe.config
+D:\Dokumente\Dropbox\Codebooks\Samples Allgemein\TPLTests\WebAppReader\obj\x86\Debug\WebAppReader.exe
+D:\Dokumente\Dropbox\Codebooks\Samples Allgemein\TPLTests\WebAppReader\obj\x86\Debug\WebAppReader.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\TPLTests\WebAppReader\obj\x86\Debug\WebAppReader.csprojResolveAssemblyReference.cache

@@ -1,0 +1,106 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Content/f:MainWindow.xaml.cs" caret="0" fromTop="0" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Library/f:DelegateCommand.cs" caret="462" fromTop="19" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Content/f:MainWindow.xaml" caret="564" fromTop="9" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Content/f:MainWindowModel.cs" caret="1224" fromTop="15" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/f:App.xaml" caret="0" fromTop="0" />
+      <File id="00ACBCBE-5BC7-431B-AA14-97821A670A2C/f:TextFile1.txt/s:..?TextFile1.txt" caret="1307" fromTop="38" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Library/f:CodeExecution.cs" caret="2073" fromTop="15" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Content/f:MainWindow.xaml.cs" caret="0" fromTop="0" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Content/f:MainWindowModel.cs" caret="1510" fromTop="38" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/f:App.xaml" caret="0" fromTop="0" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Content/f:MainWindowModel.cs" caret="200" fromTop="5" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Library/f:CodeExecution.cs" caret="3566" fromTop="12" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Library/f:CodeExecution.cs" caret="1708" fromTop="73" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Library/f:CodeExecution.cs" caret="1046" fromTop="28" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Library/f:CodeExecution.cs" caret="1592" fromTop="33" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Library/f:CodeExecution.cs" caret="3481" fromTop="43" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Library/f:CodeExecution.cs" caret="1189" fromTop="0" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Library/f:DelegateCommand.cs" caret="462" fromTop="12" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Library/f:DelegateCommand.cs" caret="462" fromTop="14" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Library/f:DelegateCommand.cs" caret="664" fromTop="22" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Library/f:DelegateCommand.cs" caret="362" fromTop="14" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Content/f:MainWindowModel.cs" caret="1280" fromTop="26" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Content/f:MainWindow.xaml" caret="735" fromTop="10" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Library/f:CodeExecution.cs" caret="2152" fromTop="29" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Content/f:MainWindowModel.cs" caret="823" fromTop="17" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Library/f:CodeExecution.cs" caret="645" fromTop="15" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Library/f:CodeExecution.cs" caret="459" fromTop="14" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Content/f:MainWindowModel.cs" caret="546" fromTop="20" />
+      <File id="20CE755C-4B5B-4F17-8091-D80C0E1981B5/d:Library/f:CodeExecution.cs" caret="2517" fromTop="33" />
+      <File id="00ACBCBE-5BC7-431B-AA14-97821A670A2C/f:TextFile1.txt/s:..?TextFile1.txt" caret="2616" fromTop="43" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="private" priority="159" />
+      <Item value="string" priority="95" />
+      <Item value="return" priority="95" />
+      <Item value="mv_strRunnableText" priority="159" />
+      <Item value="if" priority="95" />
+      <Item value="value" priority="31" />
+      <Item value="PropertyChanged" priority="63" />
+      <Item value="void" priority="127" />
+      <Item value="PropertyName" priority="63" />
+      <Item value="this" priority="63" />
+      <Item value="p" priority="31" />
+      <Item value="new" priority="127" />
+      <Item value="PropertyChangedEventArgs" priority="28" />
+      <Item value="RaisePropertyChanged`0" priority="31" />
+      <Item value="public" priority="95" />
+      <Item value="CodeToExecute" priority="31" />
+      <Item value="Action`0" priority="63" />
+      <Item value="mv_action" priority="128" />
+      <Item value="true" priority="31" />
+      <Item value="parameter" priority="31" />
+      <Item value="DelegateCommand`0" priority="31" />
+      <Item value="object" priority="62" />
+      <Item value="ICommand`0" priority="31" />
+      <Item value="mv_cmdExecuteText" priority="63" />
+      <Item value="DelegateCommand" priority="28" />
+      <Item value="ExecuteText`0" priority="32" />
+      <Item value="CodeExecution`0" priority="31" />
+      <Item value="CodeExecution" priority="28" />
+      <Item value="cmd" priority="31" />
+      <Item value="&lt;remarks&gt;&lt;/remarks&gt;" priority="25" />
+      <Item value="AppDomain`0" priority="63" />
+      <Item value="appDomainExecuting" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SandboxExecution.MainWindowModel">
+      <Item value="PropertyChanged" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SandboxExecution.Library.CodeExecution">
+      <Item value="ExecuteCode`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Doc Comment tags">
+      <Item value="&lt;remarks&gt;&lt;/remarks&gt;" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.AppDomain">
+      <Item value="CreateDomain`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.AppDomain">
+      <Item value="DefineDynamicAssembly`0" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.7\bin\net-2.0\lib</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="LINQ_SamplesEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Persons" EntityType="Model.Persons" />
+    <EntitySet Name="Cities" EntityType="Model.Cities" />
+    <AssociationSet Name="FK_Persons_Cities" Association="Model.FK_Persons_Cities">
+      <End Role="Cities" EntitySet="Cities" />
+      <End Role="Persons" EntitySet="Persons" />
+    </AssociationSet>
+    <EntitySet Name="Albums" EntityType="Model.Albums" />
+    <AssociationSet Name="AlbumContributors" Association="Model.AlbumContributors">
+      <End Role="Albums" EntitySet="Albums" />
+      <End Role="Persons" EntitySet="Persons" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Persons">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LastName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="CityOfBirth" />
+    <NavigationProperty Name="Cities" Relationship="Model.FK_Persons_Cities" FromRole="Persons" ToRole="Cities" />
+    <NavigationProperty Name="Albums" Relationship="Model.AlbumContributors" FromRole="Persons" ToRole="Albums" />
+  </EntityType>
+  <EntityType Name="Cities">
+    <Key>
+      <PropertyRef Name="CityId" />
+    </Key>
+    <Property Type="Int32" Name="CityId" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Persons" Relationship="Model.FK_Persons_Cities" FromRole="Cities" ToRole="Persons" />
+  </EntityType>
+  <Association Name="FK_Persons_Cities">
+    <End Type="Model.Cities" Role="Cities" Multiplicity="0..1" />
+    <End Type="Model.Persons" Role="Persons" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cities">
+        <PropertyRef Name="CityId" />
+      </Principal>
+      <Dependent Role="Persons">
+        <PropertyRef Name="CityOfBirth" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Albums">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Persons" Relationship="Model.AlbumContributors" FromRole="Albums" ToRole="Persons" />
+  </EntityType>
+  <Association Name="AlbumContributors">
+    <End Type="Model.Albums" Role="Albums" Multiplicity="*" />
+    <End Type="Model.Persons" Role="Persons" Multiplicity="*" />
+  </Association>
+</Schema>

@@ -1,0 +1,90 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="6974170D-9B7E-42BE-80B8-B4990983E4DA/f:Questions.txt" caret="0" fromTop="0" />
+      <File id="6974170D-9B7E-42BE-80B8-B4990983E4DA/f:App.xaml.cs" caret="0" fromTop="0" />
+      <File id="6974170D-9B7E-42BE-80B8-B4990983E4DA/d:Commands/f:MyCommands.cs" caret="436" fromTop="14" />
+      <File id="6974170D-9B7E-42BE-80B8-B4990983E4DA/f:NestedRoute.xaml.cs" caret="378" fromTop="15" />
+      <File id="6974170D-9B7E-42BE-80B8-B4990983E4DA/d:Pages/f:InnerPage.xaml" caret="385" fromTop="6" />
+      <File id="6974170D-9B7E-42BE-80B8-B4990983E4DA/d:Pages/f:InnerPage.xaml.cs" caret="0" fromTop="0" />
+      <File id="6974170D-9B7E-42BE-80B8-B4990983E4DA/f:NestedRoute.xaml" caret="1" fromTop="0" />
+      <File id="6974170D-9B7E-42BE-80B8-B4990983E4DA/f:App.xaml" caret="136" fromTop="2" />
+      <File id="6974170D-9B7E-42BE-80B8-B4990983E4DA/f:Window1.xaml" caret="3839" fromTop="10" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="6974170D-9B7E-42BE-80B8-B4990983E4DA/d:Commands/f:MyCommands.cs" caret="764" fromTop="20" />
+      <File id="6974170D-9B7E-42BE-80B8-B4990983E4DA/d:Commands/f:MyCommands.cs" caret="1140" fromTop="36" />
+      <File id="6974170D-9B7E-42BE-80B8-B4990983E4DA/d:Commands/f:MyCommands.cs" caret="1228" fromTop="33" />
+      <File id="6974170D-9B7E-42BE-80B8-B4990983E4DA/d:Commands/f:MyCommands.cs" caret="427" fromTop="14" />
+      <File id="6974170D-9B7E-42BE-80B8-B4990983E4DA/d:Pages/f:InnerPage.xaml" caret="382" fromTop="6" />
+      <File id="6974170D-9B7E-42BE-80B8-B4990983E4DA/d:Pages/f:InnerPage.xaml.cs" caret="933" fromTop="33" />
+      <File id="6974170D-9B7E-42BE-80B8-B4990983E4DA/f:NestedRoute.xaml.cs" caret="751" fromTop="28" />
+      <File id="6974170D-9B7E-42BE-80B8-B4990983E4DA/d:Pages/f:InnerPage.xaml.cs" caret="819" fromTop="21" />
+      <File id="6974170D-9B7E-42BE-80B8-B4990983E4DA/d:Pages/f:InnerPage.xaml.cs" caret="624" fromTop="26" />
+      <File id="6974170D-9B7E-42BE-80B8-B4990983E4DA/f:NestedRoute.xaml" caret="954" fromTop="10" />
+      <File id="6974170D-9B7E-42BE-80B8-B4990983E4DA/f:NestedRoute.xaml.cs" caret="975" fromTop="35" />
+      <File id="6974170D-9B7E-42BE-80B8-B4990983E4DA/d:Pages/f:InnerPage.xaml" caret="414" fromTop="7" />
+      <File id="6974170D-9B7E-42BE-80B8-B4990983E4DA/f:NestedRoute.xaml" caret="750" fromTop="10" />
+      <File id="6974170D-9B7E-42BE-80B8-B4990983E4DA/f:NestedRoute.xaml" caret="445" fromTop="7" />
+      <File id="6974170D-9B7E-42BE-80B8-B4990983E4DA/f:App.xaml" caret="196" fromTop="3" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="private" priority="0" />
+      <Item value="static" priority="1" />
+      <Item value="RoutedUICommand" priority="2" />
+      <Item value="msv_cmdRoutedCommand" priority="1" />
+      <Item value="new" priority="0" />
+      <Item value="typeof" priority="0" />
+      <Item value="MyCommands" priority="0" />
+      <Item value="public" priority="0" />
+      <Item value="return" priority="0" />
+      <Item value="lstReceives" priority="1" />
+      <Item value="String" priority="1" />
+      <Item value="DateTime" priority="1" />
+      <Item value="e" priority="3" />
+      <Item value="true" priority="2" />
+      <Item value="false" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ListBox">
+      <Item value="Items" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ItemCollection">
+      <Item value="Add" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToString" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Input.CanExecuteRoutedEventArgs">
+      <Item value="CanExecute" priority="1" />
+      <Item value="ContinueRouting" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Input.ExecutedRoutedEventArgs">
+      <Item value="Handled" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.9\bin\net-2.0\lib</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

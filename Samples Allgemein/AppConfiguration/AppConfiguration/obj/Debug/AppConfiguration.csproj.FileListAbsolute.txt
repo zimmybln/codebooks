@@ -1,0 +1,6 @@
+D:\Dokumente\Dropbox\Codebooks\Samples Allgemein\AppConfiguration\AppConfiguration\bin\Debug\AppConfiguration.exe.config
+D:\Dokumente\Dropbox\Codebooks\Samples Allgemein\AppConfiguration\AppConfiguration\bin\Debug\AppConfiguration.exe
+D:\Dokumente\Dropbox\Codebooks\Samples Allgemein\AppConfiguration\AppConfiguration\bin\Debug\AppConfiguration.pdb
+D:\Dokumente\Dropbox\Codebooks\Samples Allgemein\AppConfiguration\AppConfiguration\obj\Debug\AppConfiguration.csprojResolveAssemblyReference.cache
+D:\Dokumente\Dropbox\Codebooks\Samples Allgemein\AppConfiguration\AppConfiguration\obj\Debug\AppConfiguration.exe
+D:\Dokumente\Dropbox\Codebooks\Samples Allgemein\AppConfiguration\AppConfiguration\obj\Debug\AppConfiguration.pdb

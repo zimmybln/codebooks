@@ -1,0 +1,46 @@
+﻿<Window x:Class="TreeViewHierarchy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:app="clr-namespace:TreeViewHierarchy" xmlns:types="clr-namespace:TreeViewHierarchy.Types"
+        xmlns:lib="clr-namespace:TreeViewHierarchy.Library"
+        Title="MainWindow" Height="350" Width="525"
+        Loaded="OnLoaded">
+    <Window.Resources>
+        
+        <lib:HierarchyTemplateSelector x:Key="HierarchyTemplateSelector" />
+        
+        <HierarchicalDataTemplate x:Key="HierarchyBranchTemplate" DataType="types:HierarchyBranch" ItemsSource="{Binding Branches}">
+            <Grid>
+                <TextBlock>
+                    <TextBlock.Inlines>
+                        <Run Text="Template für Branch:" />
+                        <Bold><Run Text="{Binding Name}" /></Bold>
+                    </TextBlock.Inlines>    
+                </TextBlock>
+            </Grid>
+        </HierarchicalDataTemplate>
+
+        <HierarchicalDataTemplate x:Key="HierarchyBranchExtendedTemplate" DataType="types:HierarchyBranchExtended" ItemsSource="{Binding Branches}">
+            <Grid>
+                <TextBlock>
+                    <TextBlock.Inlines>
+                        <Run Text="Template für einen erweiterten Typ:" />
+                        <Bold>
+                            <Run Text="{Binding Name}" />
+                        </Bold>
+                        <Run Text=" " />
+                        <Run Text="{Binding SomeMoreProperty}" />
+                    </TextBlock.Inlines>
+                </TextBlock>
+            </Grid>
+        </HierarchicalDataTemplate>
+
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="45" />
+        </Grid.RowDefinitions>
+        <TreeView Grid.Row="0" Margin="5" Name="trvHierarchy" ItemTemplateSelector="{StaticResource HierarchyTemplateSelector}" />
+    </Grid>
+</Window>

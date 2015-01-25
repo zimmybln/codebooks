@@ -1,0 +1,189 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/f:App.xaml" caret="277" fromTop="5" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/f:App.xaml.cs" caret="255" fromTop="11" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/f:MainWindow.xaml.cs" caret="365" fromTop="13" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:Common/f:ActionCommand.cs" caret="274" fromTop="11" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaComposition/f:InputDialogViaComposition.xaml" caret="270" fromTop="3" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaConstructor/f:IView.cs" caret="139" fromTop="7" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaConstructor/f:InputDialogViaConstructor.xaml.cs" caret="422" fromTop="16" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaComposition/f:InputDialogViaCompositionModel.cs" caret="223" fromTop="11" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/f:MainWindowModel.cs" caret="553" fromTop="2" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaComposition/f:InputDialogViaComposition.xaml.cs" caret="0" fromTop="0" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaConstructor/f:DialogViaConstructorModelBase.cs" caret="0" fromTop="0" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaConstructor/f:IInputDialogView.cs" caret="0" fromTop="0" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaConstructor/f:InputDialogViaConstructorModel.cs" caret="432" fromTop="13" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaComposition/f:DialogViaCompositionModelBase.cs" caret="1537" fromTop="1" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaConstructor/f:InputDialogViaConstructor.xaml" caret="215" fromTop="2" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/f:MainWindow.xaml" caret="1" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaComposition/f:DialogViaCompositionModelBase.cs" caret="4142" fromTop="42" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaComposition/f:DialogViaCompositionModelBase.cs" caret="3788" fromTop="33" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/f:MainWindowModel.cs" caret="1346" fromTop="15" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/f:MainWindowModel.cs" caret="1346" fromTop="14" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaComposition/f:DialogViaCompositionModelBase.cs" caret="216" fromTop="8" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaComposition/f:DialogViaCompositionModelBase.cs" caret="370" fromTop="14" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaComposition/f:DialogViaCompositionModelBase.cs" caret="615" fromTop="21" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/f:MainWindowModel.cs" caret="723" fromTop="5" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/f:MainWindowModel.cs" caret="876" fromTop="9" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaConstructor/f:IView.cs" caret="311" fromTop="10" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaComposition/f:InputDialogViaComposition.xaml.cs" caret="375" fromTop="13" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaComposition/f:InputDialogViaComposition.xaml.cs" caret="575" fromTop="20" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaComposition/f:InputDialogViaComposition.xaml" caret="75" fromTop="0" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaConstructor/f:DialogViaConstructorModelBase.cs" caret="235" fromTop="9" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaConstructor/f:DialogViaConstructorModelBase.cs" caret="373" fromTop="13" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaConstructor/f:InputDialogViaConstructorModel.cs" caret="479" fromTop="14" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaConstructor/f:InputDialogViaConstructorModel.cs" caret="263" fromTop="8" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaConstructor/f:InputDialogViaConstructor.xaml.cs" caret="679" fromTop="22" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaConstructor/f:IInputDialogView.cs" caret="241" fromTop="9" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/f:MainWindowModel.cs" caret="1346" fromTop="16" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/f:MainWindowModel.cs" caret="302" fromTop="9" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/f:MainWindowModel.cs" caret="2039" fromTop="25" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/f:MainWindowModel.cs" caret="2376" fromTop="33" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/f:MainWindowModel.cs" caret="1764" fromTop="18" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaConstructor/f:InputDialogViaConstructor.xaml.cs" caret="491" fromTop="17" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaComposition/f:DialogViaCompositionModelBase.cs" caret="1791" fromTop="12" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaConstructor/f:InputDialogViaConstructor.xaml" caret="870" fromTop="9" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/d:ViaConstructor/f:InputDialogViaConstructor.xaml" caret="215" fromTop="2" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/f:MainWindow.xaml" caret="818" fromTop="11" />
+      <File id="2142C37B-4615-4CAB-88F7-306F58C35AE5/f:MainWindow.xaml" caret="282" fromTop="4" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.9\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="private" priority="14" />
+      <Item value="void" priority="7" />
+      <Item value="string" priority="8" />
+      <Item value="PropertyChangedEventHandler`0" priority="2" />
+      <Item value="if" priority="9" />
+      <Item value="h" priority="5" />
+      <Item value="this" priority="9" />
+      <Item value="new" priority="10" />
+      <Item value="PropertyChangedEventArgs" priority="2" />
+      <Item value="PropertyName" priority="0" />
+      <Item value="public" priority="12" />
+      <Item value="class" priority="0" />
+      <Item value="return" priority="14" />
+      <Item value="ICommand`0" priority="3" />
+      <Item value="MainWindowModel`0" priority="0" />
+      <Item value="mv_cmdShowDialogCommand" priority="1" />
+      <Item value="ShowDialogCommand`0" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="InputDialogModel`0" priority="5" />
+      <Item value="InputDialogModel" priority="0" />
+      <Item value="dlgInputDialog" priority="3" />
+      <Item value="mv_actExecutingMethod" priority="0" />
+      <Item value="ExecuteAction" priority="0" />
+      <Item value="readonly" priority="0" />
+      <Item value="ActionCommand`0" priority="2" />
+      <Item value="mv_cmdOnOkCommand" priority="1" />
+      <Item value="object" priority="4" />
+      <Item value="ActionCommand" priority="1" />
+      <Item value="ReceiveOnOk`0" priority="0" />
+      <Item value="mv_cmdOnCancelCommand" priority="1" />
+      <Item value="ReceiveOnCancel`0" priority="0" />
+      <Item value="viewCorospondingView" priority="1" />
+      <Item value="null" priority="1" />
+      <Item value="false" priority="0" />
+      <Item value="true" priority="5" />
+      <Item value="mv_strInputValue" priority="6" />
+      <Item value="value" priority="2" />
+      <Item value="String`0" priority="3" />
+      <Item value="RaisePropertyChanged`0" priority="2" />
+      <Item value="DialogModelBase`0" priority="3" />
+      <Item value="protected" priority="4" />
+      <Item value="virtual" priority="1" />
+      <Item value="mv_cmdShowInputDialog" priority="0" />
+      <Item value="ShowInputDialog`0" priority="0" />
+      <Item value="MessageBox`0" priority="0" />
+      <Item value="mv_strPropertyValue" priority="0" />
+      <Item value="mv_strFooValue" priority="1" />
+      <Item value="bool" priority="4" />
+      <Item value="override" priority="0" />
+      <Item value="base" priority="1" />
+      <Item value="mv_viewCorospondingView" priority="0" />
+      <Item value="IView`0" priority="3" />
+      <Item value="typeof" priority="1" />
+      <Item value="IInputDialogView`0" priority="2" />
+      <Item value="mv_implView" priority="2" />
+      <Item value="View" priority="0" />
+      <Item value="RunDialogCommand" priority="0" />
+      <Item value="RunDialogViaConstructorCommand" priority="0" />
+      <Item value="ShowInputDialogViaConstructor`0" priority="0" />
+      <Item value="var" priority="3" />
+      <Item value="System" priority="0" />
+      <Item value="Reflection" priority="0" />
+      <Item value="Assembly`0" priority="0" />
+      <Item value="CompositionContainer`0" priority="0" />
+      <Item value="container" priority="0" />
+      <Item value="dlg" priority="4" />
+      <Item value="UseCase_02_Dialog" priority="1" />
+      <Item value="ViaConstructor" priority="1" />
+      <Item value="ImportingConstructor" priority="0" />
+      <Item value="InputDialog`0" priority="0" />
+      <Item value="ViaComposition" priority="0" />
+      <Item value="using" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UseCase_02_Dialog.MainWindowModel">
+      <Item value="PropertyChanged" priority="0" />
+      <Item value="FooValue" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.MessageBox">
+      <Item value="Show`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UseCase_02_Dialog.InputDialogModel">
+      <Item value="PropertyChanged" priority="0" />
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="InputValue" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Window">
+      <Item value="DialogResult" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Compare`0" priority="2" />
+      <Item value="IsNullOrEmpty`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UseCase_02_Dialog.DialogModelBase">
+      <Item value="ArePropertiesValid`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UseCase_02_Dialog.ViaConstructor.IView">
+      <Item value="DataContext" priority="0" />
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Reflection.Assembly">
+      <Item value="GetExecutingAssembly`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.Composition.Hosting.CompositionContainer">
+      <Item value="GetExportedValue`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UseCase_02_Dialog.ViaConstructor.InputDialogModel">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="InputValue" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UseCase_02_Dialog.ViaConstructor.DialogModelBase">
+      <Item value="PropertyChanged" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UseCase_02_Dialog.InputDialog">
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

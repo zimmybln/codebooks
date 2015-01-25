@@ -1,0 +1,11 @@
+<Configuration>
+  <CoverageFilters>
+    <IncludeFilters>
+      <Filter ModuleMask="*" ClassMask="*" FunctionMask="*" />
+    </IncludeFilters>
+    <ExcludeFilters />
+  </CoverageFilters>
+  <SnapshotDialog>
+    <InitialDirectory>D:\Dokumente\My Dropbox\Codebooks\Samples WPF\BitmapEffects</InitialDirectory>
+  </SnapshotDialog>
+</Configuration>

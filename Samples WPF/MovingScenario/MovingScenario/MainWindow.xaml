@@ -1,0 +1,9 @@
+﻿<Window x:Class="MovingScenario.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Button" Height="41" HorizontalAlignment="Left" Margin="390,24,0,0" Name="button1" VerticalAlignment="Top" Width="84" Click="button1_Click" />
+        <Border BorderBrush="#FF962828" BorderThickness="1" Height="71" HorizontalAlignment="Left" Margin="64,97,0,0" Name="border1" VerticalAlignment="Top" Width="143" />
+    </Grid>
+</Window>

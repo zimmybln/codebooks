@@ -1,0 +1,357 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/d:_Resources/f:CheckBoxStyles.xaml" caret="1552" fromTop="23" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/d:_Classes/f:TextPointerExtender.cs" caret="0" fromTop="0" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/d:_Classes/f:TextSelectionExtender.cs" caret="1214" fromTop="0" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/d:_Resources/f:FlowDocument2.xml" caret="145" fromTop="1" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/d:_Resources/f:DefaultDocument.xml" caret="6693" fromTop="30" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/d:_Classes/f:RichTextBoxExtender.cs" caret="328" fromTop="12" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/f:Window1.xaml.cs" caret="8876" fromTop="6" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/f:Window1.xaml" caret="8359" fromTop="12" />
+      <File id="95EEEF06-B8E3-4C90-BE8C-CFCE2B6434AA/f:UseCases.txt/s:..?UseCases.txt" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/d:_Classes/f:TextSelectionExtender.cs" caret="2219" fromTop="17" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/d:_Classes/f:TextSelectionExtender.cs" caret="1899" fromTop="15" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/d:_Classes/f:TextSelectionExtender.cs" caret="1502" fromTop="5" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/d:_Classes/f:TextSelectionExtender.cs" caret="2196" fromTop="19" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/d:_Classes/f:TextSelectionExtender.cs" caret="444" fromTop="16" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/f:Window1.xaml.cs" caret="6296" fromTop="22" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/f:Window1.xaml.cs" caret="6449" fromTop="26" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/d:_Resources/f:FlowDocument2.xml" caret="4327" fromTop="23" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/f:Window1.xaml" caret="8113" fromTop="3" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/f:Window1.xaml" caret="1620" fromTop="6" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/f:Window1.xaml.cs" caret="7308" fromTop="27" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/d:_Resources/f:FlowDocument2.xml" caret="145" fromTop="1" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/f:Window1.xaml.cs" caret="7103" fromTop="26" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/d:_Resources/f:DefaultDocument.xml" caret="224" fromTop="1" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/f:Window1.xaml.cs" caret="1284" fromTop="12" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/f:Window1.xaml.cs" caret="1222" fromTop="23" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/d:_Resources/f:DefaultDocument.xml" caret="8861" fromTop="23" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/f:Window1.xaml" caret="8189" fromTop="7" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/f:Window1.xaml.cs" caret="7432" fromTop="25" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/f:Window1.xaml.cs" caret="7789" fromTop="37" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/d:_Classes/f:RichTextBoxExtender.cs" caret="686" fromTop="32" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/d:_Classes/f:RichTextBoxExtender.cs" caret="1057" fromTop="26" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/f:Window1.xaml.cs" caret="8192" fromTop="29" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/d:_Resources/f:DefaultDocument.xml" caret="6569" fromTop="24" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/d:_Classes/f:RichTextBoxExtender.cs" caret="965" fromTop="21" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/d:_Classes/f:RichTextBoxExtender.cs" caret="379" fromTop="8" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/f:Window1.xaml.cs" caret="7954" fromTop="22" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/f:Window1.xaml" caret="1362" fromTop="8" />
+      <File id="62A874EA-C084-4BB8-B6BB-1BBC15BE65BD/f:Window1.xaml.cs" caret="9221" fromTop="35" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="using" priority="1" />
+      <Item value="System" priority="2" />
+      <Item value="Windows" priority="2" />
+      <Item value="void" priority="5" />
+      <Item value="int" priority="2" />
+      <Item value="Exception" priority="0" />
+      <Item value="ISavingDocumentStrategy" priority="0" />
+      <Item value="Strategy" priority="8" />
+      <Item value="if" priority="21" />
+      <Item value="e" priority="3" />
+      <Item value="else" priority="10" />
+      <Item value="xdw" priority="0" />
+      <Item value="Stream" priority="0" />
+      <Item value="this" priority="5" />
+      <Item value="FlowDocument" priority="4" />
+      <Item value="new" priority="17" />
+      <Item value="flwDefaultDocument" priority="3" />
+      <Item value="FlowDocumentReaderViewingMode" priority="0" />
+      <Item value="FlowDocumentReader" priority="0" />
+      <Item value="r" priority="17" />
+      <Item value="stmDocument" priority="11" />
+      <Item value="TextRange" priority="1" />
+      <Item value="byte" priority="1" />
+      <Item value="bttContent" priority="1" />
+      <Item value="rtbContent" priority="10" />
+      <Item value="t" priority="0" />
+      <Item value="DataFormats" priority="0" />
+      <Item value="SeekOrigin" priority="1" />
+      <Item value="String" priority="3" />
+      <Item value="null" priority="12" />
+      <Item value="StreamReader" priority="2" />
+      <Item value="strContent" priority="2" />
+      <Item value="sr" priority="4" />
+      <Item value="MemoryStream" priority="2" />
+      <Item value="switch" priority="0" />
+      <Item value="StreamWriter" priority="1" />
+      <Item value="sw" priority="5" />
+      <Item value="ms" priority="0" />
+      <Item value="Block" priority="1" />
+      <Item value="Run" priority="4" />
+      <Item value="flwDocument" priority="0" />
+      <Item value="sender" priority="3" />
+      <Item value="is" priority="8" />
+      <Item value="RichTextBox" priority="2" />
+      <Item value="return" priority="3" />
+      <Item value="as" priority="6" />
+      <Item value="rtb" priority="14" />
+      <Item value="Console" priority="7" />
+      <Item value="LogicalDirection" priority="0" />
+      <Item value="Paragraph" priority="3" />
+      <Item value="do" priority="0" />
+      <Item value="while" priority="0" />
+      <Item value="object" priority="0" />
+      <Item value="TextElement" priority="4" />
+      <Item value="public" priority="3" />
+      <Item value="static" priority="3" />
+      <Item value="RichTextBoxExtender" priority="0" />
+      <Item value="Type" priority="0" />
+      <Item value="Control" priority="0" />
+      <Item value="TextBox" priority="3" />
+      <Item value="break" priority="0" />
+      <Item value="typeof" priority="2" />
+      <Item value="p" priority="4" />
+      <Item value="ListItem" priority="1" />
+      <Item value="bool" priority="4" />
+      <Item value="TextSelection" priority="2" />
+      <Item value="objValue" priority="0" />
+      <Item value="FontStyle" priority="0" />
+      <Item value="true" priority="1" />
+      <Item value="chkFormatBold" priority="2" />
+      <Item value="Boolean" priority="1" />
+      <Item value="Comparer" priority="0" />
+      <Item value="fChecked" priority="1" />
+      <Item value="cmdFormatBold" priority="0" />
+      <Item value="cmdFormatItalic" priority="0" />
+      <Item value="cmdFormatUnderline" priority="0" />
+      <Item value="Selection" priority="3" />
+      <Item value="fIsUnderline" priority="0" />
+      <Item value="false" priority="0" />
+      <Item value="TextDecorationCollection" priority="1" />
+      <Item value="colTextDecoration" priority="5" />
+      <Item value="TextDecoration" priority="0" />
+      <Item value="TextDecorations" priority="0" />
+      <Item value="Inline" priority="1" />
+      <Item value="EditingCommands" priority="3" />
+      <Item value="flowViewer" priority="1" />
+      <Item value="FlowDocument`0" priority="3" />
+      <Item value="FileStream`0" priority="0" />
+      <Item value="Stream`0" priority="0" />
+      <Item value="fsDocument" priority="10" />
+      <Item value="XamlWriter`0" priority="1" />
+      <Item value="MemoryStream`0" priority="0" />
+      <Item value="Begin" priority="0" />
+      <Item value="XamlReader`0" priority="1" />
+      <Item value="tiXAML" priority="0" />
+      <Item value="StreamReader`0" priority="0" />
+      <Item value="tbViewer" priority="0" />
+      <Item value="RichTextBox`0" priority="0" />
+      <Item value="where" priority="0" />
+      <Item value="TextElement`0" priority="1" />
+      <Item value="T`0" priority="1" />
+      <Item value="Type`0" priority="0" />
+      <Item value="Hyperlink`0" priority="1" />
+      <Item value="h" priority="1" />
+      <Item value="MessageBox`0" priority="1" />
+      <Item value="String`0" priority="0" />
+      <Item value="Paragraph`0" priority="1" />
+      <Item value="SolidColorBrush`0" priority="1" />
+      <Item value="Colors`0" priority="0" />
+      <Item value="Thickness" priority="0" />
+      <Item value="Color`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ControlWorkbenchRichTextBox.ISavingDocumentStrategy">
+      <Item value="Changed" priority="0" />
+      <Item value="FinishedWithError" priority="0" />
+      <Item value="Canceled" priority="0" />
+      <Item value="Finished" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Documents.Serialization.WritingProgressChangedEventArgs">
+      <Item value="Number" priority="1" />
+      <Item value="ProgressPercentage" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Documents.Serialization.WritingCompletedEventArgs">
+      <Item value="Error" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ControlWorkbenchRichTextBox.Window1">
+      <Item value="GetType" priority="0" />
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="Assembly" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.Assembly">
+      <Item value="GetManifestResourceStream" priority="0" />
+      <Item value="GetManifestResourceStream`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Documents.FlowDocument">
+      <Item value="ContentStart" priority="0" />
+      <Item value="ContentEnd" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.Stream">
+      <Item value="Length" priority="1" />
+      <Item value="Read" priority="0" />
+      <Item value="Close" priority="0" />
+      <Item value="Dispose" priority="0" />
+      <Item value="Flush" priority="0" />
+      <Item value="SetLength" priority="0" />
+      <Item value="Seek" priority="0" />
+      <Item value="Close`0" priority="1" />
+      <Item value="Dispose`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Documents.TextRange">
+      <Item value="Load" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.DataFormats">
+      <Item value="XamlPackage" priority="0" />
+      <Item value="Xaml" priority="1" />
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.RichTextBox">
+      <Item value="Document" priority="6" />
+      <Item value="Focus" priority="0" />
+      <Item value="Selection" priority="6" />
+      <Item value="CaretPosition" priority="7" />
+      <Item value="GetNearest" priority="0" />
+      <Item value="GetItem`1" priority="0" />
+      <Item value="GetNearestFromCaret`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.SeekOrigin">
+      <Item value="Begin" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamReader">
+      <Item value="ReadToEnd" priority="0" />
+      <Item value="Close" priority="0" />
+      <Item value="Dispose" priority="0" />
+      <Item value="ReadToEnd`0" priority="0" />
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamWriter">
+      <Item value="Write" priority="0" />
+      <Item value="Flush" priority="1" />
+      <Item value="Close" priority="0" />
+      <Item value="Dispose" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.MemoryStream">
+      <Item value="Seek" priority="0" />
+      <Item value="Flush`0" priority="0" />
+      <Item value="Seek`0" priority="0" />
+      <Item value="Dispose`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty" priority="1" />
+      <Item value="Format" priority="0" />
+      <Item value="Format`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine" priority="6" />
+      <Item value="Write" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Documents.TextPointer">
+      <Item value="GetAdjacentElement" priority="0" />
+      <Item value="Parent" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Documents.LogicalDirection">
+      <Item value="Forward" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.DependencyObject">
+      <Item value="ToString" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Documents.Run">
+      <Item value="ToString" priority="0" />
+      <Item value="Parent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Documents.TextElement">
+      <Item value="Parent" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="GetType" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.TextAlignment">
+      <Item value="Left" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Documents.TextSelection">
+      <Item value="ApplyPropertyValue" priority="1" />
+      <Item value="ToggleBold" priority="0" />
+      <Item value="IsBold" priority="0" />
+      <Item value="ToggleItalic" priority="0" />
+      <Item value="IsUnderline" priority="0" />
+      <Item value="ToggleUnderline" priority="0" />
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.CheckBox">
+      <Item value="IsChecked" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Collections.Generic.Comparer`1">
+      <Item value="Default" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Comparer`1">
+      <Item value="Compare" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.TextDecorationCollection">
+      <Item value="Remove" priority="0" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.TextDecorations">
+      <Item value="Underline" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Documents.Inline">
+      <Item value="TextDecorationsProperty" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Documents.EditingCommands">
+      <Item value="ToggleUnderline" priority="1" />
+      <Item value="ToggleBold" priority="0" />
+      <Item value="ToggleItalic" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Input.RoutedUICommand">
+      <Item value="Execute" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.SelectionChangedEventArgs">
+      <Item value="AddedItems" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.IList">
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.FlowDocumentScrollViewer">
+      <Item value="Document" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Markup.XamlReader">
+      <Item value="Load`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Markup.XamlWriter">
+      <Item value="Save`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.TextBox">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.MessageBox">
+      <Item value="Show`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Documents.Hyperlink">
+      <Item value="NavigateUri" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Documents.Paragraph">
+      <Item value="Background" priority="0" />
+      <Item value="BorderThickness" priority="0" />
+      <Item value="BorderBrush" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.Colors">
+      <Item value="Beige" priority="0" />
+      <Item value="Blue" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.5.4\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

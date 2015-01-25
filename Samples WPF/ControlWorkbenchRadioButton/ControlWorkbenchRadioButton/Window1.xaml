@@ -1,0 +1,46 @@
+﻿<Window x:Class="ControlWorkbanchRadioButton.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:ControlWorkbanchRadioButton"
+    Title="Window1" Height="300" Width="413">
+    <Window.Resources>
+        <!-- Einbinden von Ressourcen: http://msdn.microsoft.com/en-us/library/aa970069%28VS.85%29.aspx -->
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Themes/Generic.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+        
+  
+    </Window.Resources>
+    <Grid Background="#FF626262">
+        <local:ImageRadioButton Height="41" Image="_Resources/GreenFlag.png" Margin="106,12,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="41" />
+        <local:ImageRadioButton Height="41" Width="41" Image="_Resources/RedFlag.png" HorizontalAlignment="Left" Margin="59,12,0,0" VerticalAlignment="Top" />
+        <local:ImageRadioButton Height="41" Width="41" Image="_Resources/YellowFlag.png" Margin="153,12,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <local:ImageRadioButton Height="41" Margin="12,12,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="41" />
+        <RadioButton Margin="47,0,0,75" Height="28" VerticalAlignment="Bottom" Style="{StaticResource ContentRadioButton}" HorizontalAlignment="Left" Width="28">
+            <Image Source="_Resources/GreenFlag.png" Stretch="None" />
+        </RadioButton>
+        <RadioButton Height="28" Margin="75,159,0,0" Style="{StaticResource ContentRadioButton}" VerticalAlignment="Top" HorizontalAlignment="Left" Width="28">
+            <Image Source="_Resources/YellowFlag.png" Stretch="None" />
+        </RadioButton>
+        <RadioButton Height="28" HorizontalAlignment="Left" Margin="19,0,0,75" VerticalAlignment="Bottom" Width="28" Style="{StaticResource ContentRadioButton}">
+            <!--<TextBlock Height="Auto" HorizontalAlignment="Right" Name="textBlock1" VerticalAlignment="Bottom" Width="Auto" TextWrapping="Wrap" TextAlignment="Center">
+                Ohne Markierung
+            </TextBlock>-->
+        </RadioButton>
+        <CheckBox Height="39" HorizontalAlignment="Left" Margin="130,90,0,0" Name="checkBox1" VerticalAlignment="Top" Width="51" IsChecked="{x:Null}" Style="{StaticResource SimpleCheckBox}">
+                <Image Source="_Resources/YellowFlag.png" Stretch="None" Height="41" Width="52" />
+        </CheckBox>
+        <CheckBox Height="39" HorizontalAlignment="Left" Margin="263,105,0,0" Name="checkBox2" VerticalAlignment="Top" Width="51" IsChecked="{x:Null}" Style="{StaticResource ComplexCheckBox}">
+            <Image Source="_Resources/YellowFlag.png" Stretch="None" Height="41" Width="52" />
+        </CheckBox>
+        <ToggleButton HorizontalAlignment="Left" Height="26" Margin="171,180,0,0" VerticalAlignment="Top" Width="33">
+            <Image Source="_Resources/YellowFlag.png" Stretch="None" VerticalAlignment="Center" HorizontalAlignment="Center" />
+         </ToggleButton>
+        <ToggleButton HorizontalAlignment="Left" Height="24" Margin="171,220,0,0" VerticalAlignment="Top" Width="33">
+            <Image Source="_Resources/RedFlag.png" Stretch="None"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        </ToggleButton>
+        
+    </Grid>
+</Window>

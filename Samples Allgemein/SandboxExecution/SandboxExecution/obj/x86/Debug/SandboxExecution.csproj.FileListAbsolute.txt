@@ -1,0 +1,15 @@
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\SandboxExecution\SandboxExecution\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\SandboxExecution\SandboxExecution\obj\x86\Debug\App.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\SandboxExecution\SandboxExecution\obj\x86\Debug\SandboxExecution_MarkupCompile.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\SandboxExecution\SandboxExecution\bin\Debug\SandboxExecution.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\SandboxExecution\SandboxExecution\bin\Debug\SandboxExecution.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\SandboxExecution\SandboxExecution\obj\x86\Debug\Content\MainWindow.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\SandboxExecution\SandboxExecution\obj\x86\Debug\SandboxExecution_MarkupCompile.lref
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\SandboxExecution\SandboxExecution\obj\x86\Debug\Content\MainWindow.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\SandboxExecution\SandboxExecution\obj\x86\Debug\SandboxExecution.g.resources
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\SandboxExecution\SandboxExecution\obj\x86\Debug\SandboxExecution.Properties.Resources.resources
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\SandboxExecution\SandboxExecution\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\SandboxExecution\SandboxExecution\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\SandboxExecution\SandboxExecution\obj\x86\Debug\SandboxExecution.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\SandboxExecution\SandboxExecution\obj\x86\Debug\SandboxExecution.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\SandboxExecution\SandboxExecution\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs

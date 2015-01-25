@@ -1,0 +1,12 @@
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Foundation\bin\Debug\ImageExplorer.Foundation.dll
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Foundation\bin\Debug\ImageExplorer.Foundation.pdb
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Foundation\bin\Debug\System.ComponentModel.Composition.dll
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Foundation\obj\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Foundation\obj\Debug\ImageExplorer.Foundation.dll
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Foundation\obj\Debug\ImageExplorer.Foundation.pdb
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Foundation\bin\Debug\ImageExplorer.Foundation.dll
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Foundation\bin\Debug\ImageExplorer.Foundation.pdb
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Foundation\bin\Debug\System.ComponentModel.Composition.dll
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Foundation\obj\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Foundation\obj\Debug\ImageExplorer.Foundation.dll
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Foundation\obj\Debug\ImageExplorer.Foundation.pdb

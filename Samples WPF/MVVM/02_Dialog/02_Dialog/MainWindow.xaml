@@ -1,0 +1,15 @@
+﻿<Window x:Class="UseCase_02_Dialog.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:app="clr-namespace:UseCase_02_Dialog"
+        Title="MVVM Beispiel für dotnetpro" Height="169" Width="434">
+    <Window.DataContext>
+        <app:MainWindowModel />
+    </Window.DataContext>
+    <Grid>
+        <Button Content="Dialog per Komposition" Command="{Binding RunDialogViaCompositionCommand}" Height="38" HorizontalAlignment="Left" Margin="28,70,0,0" VerticalAlignment="Top" Width="171" />
+        <Label Content="{Binding FooValue}" ContentStringFormat="Der Wert der Eigenschaft ist {0}" Height="26" HorizontalAlignment="Left" Margin="28,23,0,0" Name="label1" VerticalAlignment="Top" Width="359" />
+
+        <Button Content="Dialog per Constructor" Command="{Binding RunDialogViaConstructorCommand}" Height="38" HorizontalAlignment="Left" Margin="216,70,0,0"  VerticalAlignment="Top" Width="171" />
+    </Grid>
+</Window>

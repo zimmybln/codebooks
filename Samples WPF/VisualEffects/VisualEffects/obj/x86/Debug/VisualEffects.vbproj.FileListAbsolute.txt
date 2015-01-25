@@ -1,0 +1,36 @@
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\Application.g.vb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\VisualEffects_MarkupCompile.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\bin\Debug\VisualEffects.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\bin\Debug\VisualEffects.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\bin\Debug\VisualEffects.xml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\MainWindow.g.vb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\VisualEffects_MarkupCompile.lref
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\MainWindow.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\VisualEffects.g.resources
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\VisualEffects.Resources.resources
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\VisualEffects.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\VisualEffects.xml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\VisualEffects.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\DisplayControl.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\DisplayControl.g.vb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\GeneratedInternalTypeHelper.g.vb
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\VisualEffects.exe
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\VisualEffects.xml
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\VisualEffects.pdb
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\bin\Debug\VisualEffects.exe
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\bin\Debug\VisualEffects.pdb
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\bin\Debug\VisualEffects.xml
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\DisplayControl.baml
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\DisplayControl.g.vb
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\MainWindow.g.vb
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\Application.g.vb
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\GeneratedInternalTypeHelper.g.vb
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\VisualEffects_MarkupCompile.cache
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\VisualEffects_MarkupCompile.lref
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\MainWindow.baml
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\VisualEffects.g.resources
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\VisualEffects.Resources.resources
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\VisualEffects\VisualEffects\obj\x86\Debug\VisualEffects.vbproj.GenerateResource.Cache

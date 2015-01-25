@@ -1,0 +1,46 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="5E7B2AAF-3081-419A-AC49-E34C84D73371/d:DataTypes/f:TestDate.cs" caret="341" fromTop="16" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="5E7B2AAF-3081-419A-AC49-E34C84D73371/d:DataTypes/f:TestDate.cs" caret="477" fromTop="14" />
+      <File id="5E7B2AAF-3081-419A-AC49-E34C84D73371/d:DataTypes/f:TestDate.cs" caret="387" fromTop="17" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Programme\NUnit 2.5.5\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="0" />
+      <Item value="Test" priority="0" />
+      <Item value="DateTime`0" priority="0" />
+      <Item value="new" priority="0" />
+      <Item value="DateTime" priority="0" />
+      <Item value="dt" priority="0" />
+      <Item value="dtResult" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="AddDays`0" priority="0" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Debug">
+      <Item value="WriteLine`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

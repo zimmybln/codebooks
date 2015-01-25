@@ -1,0 +1,44 @@
+﻿<Window x:Class="ControlWorkbenchButton.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:lib="http://www.wpfarchitecture.com"
+        xmlns:Contracts="clr-namespace:ControlWorkbenchButton.Contracts"
+        Title="MainWindow" Height="350" Width="525"
+        DataContext="{lib:ModelLocator {x:Type Contracts:IMainWindowModel}}"
+        lib:LoadedBehavior.LoadedAdapter="{Binding LoadedAdapter}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="150" />
+        </Grid.RowDefinitions>
+        <ListBox Grid.Column="0" Grid.Row="0" ItemsSource="{Binding Modules}" SelectedItem="{Binding SelectedModule}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" Margin="0">
+                        <Image Source="{Binding Image}" HorizontalAlignment="Center" Margin="2"/>
+                        <TextBlock Text="{Binding Name}" TextAlignment="Center" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="2"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <lib:Region RegionName="MainContent" Grid.Row="0" Grid.Column="1" />
+        <GridSplitter Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Height="3" ResizeDirection="Rows" Width="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0">
+            <GridSplitter.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                    <GradientStop Color="LightGray" Offset="0" />
+                    <GradientStop Color="Gray" Offset="0.5" />
+                    <GradientStop Color="LightGray" Offset="1" />
+                </LinearGradientBrush>
+            </GridSplitter.Background>
+        </GridSplitter>
+        <DockPanel Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" LastChildFill="True">
+            <Label Content="Benachrichtigungen" Height="28" DockPanel.Dock="Top" Background="LightGray" VerticalAlignment="Center"/>
+            <ListBox ItemsSource="{Binding Messages}" />
+        </DockPanel>
+    </Grid>
+</Window>

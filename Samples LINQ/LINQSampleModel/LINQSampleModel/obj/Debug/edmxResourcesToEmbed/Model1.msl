@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="LINQ_SamplesEntities">
+    <EntitySetMapping Name="Persons">
+      <EntityTypeMapping TypeName="Model.Persons">
+        <MappingFragment StoreEntitySet="Persons">
+          <ScalarProperty Name="CityOfBirth" ColumnName="CityOfBirth" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cities">
+      <EntityTypeMapping TypeName="Model.Cities">
+        <MappingFragment StoreEntitySet="Cities">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Albums">
+      <EntityTypeMapping TypeName="Model.Albums">
+        <MappingFragment StoreEntitySet="Albums">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="AlbumContributors" TypeName="Model.AlbumContributors" StoreEntitySet="AlbumContributors">
+      <EndProperty Name="Persons">
+        <ScalarProperty Name="Id" ColumnName="PersonId" />
+      </EndProperty>
+      <EndProperty Name="Albums">
+        <ScalarProperty Name="Id" ColumnName="AlbumId" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

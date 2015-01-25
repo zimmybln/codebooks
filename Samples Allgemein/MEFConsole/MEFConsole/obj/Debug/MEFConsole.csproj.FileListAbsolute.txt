@@ -1,0 +1,14 @@
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\MEFConsole\MEFConsole\bin\Debug\MEFConsole.dll
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\MEFConsole\MEFConsole\bin\Debug\MEFConsole.pdb
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\MEFConsole\MEFConsole\bin\Debug\nunit.framework.dll
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\MEFConsole\MEFConsole\bin\Debug\nunit.framework.xml
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\MEFConsole\MEFConsole\obj\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\MEFConsole\MEFConsole\obj\Debug\MEFConsole.dll
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\MEFConsole\MEFConsole\obj\Debug\MEFConsole.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\MEFConsole\MEFConsole\bin\Debug\MEFConsole.dll
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\MEFConsole\MEFConsole\bin\Debug\MEFConsole.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\MEFConsole\MEFConsole\bin\Debug\nunit.framework.dll
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\MEFConsole\MEFConsole\bin\Debug\nunit.framework.xml
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\MEFConsole\MEFConsole\obj\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\MEFConsole\MEFConsole\obj\Debug\MEFConsole.dll
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\MEFConsole\MEFConsole\obj\Debug\MEFConsole.pdb

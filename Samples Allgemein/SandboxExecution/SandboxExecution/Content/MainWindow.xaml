@@ -1,0 +1,13 @@
+﻿<Window x:Class="SandboxExecution.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:SandboxExecution"
+        Title="MainWindow" Height="501" Width="758">
+    <Window.DataContext>
+        <local:MainWindowModel />
+    </Window.DataContext>
+        <Grid>
+        <TextBox Height="277" HorizontalAlignment="Left" Margin="12,12,0,0" VerticalAlignment="Top" Width="712" AcceptsReturn="True" Text="{Binding RunnableText}"  />
+        <Button Content="Button" Height="34" HorizontalAlignment="Left" Margin="593,416,0,0" Name="button1" VerticalAlignment="Top" Width="131" Command="{Binding Execute}" />
+    </Grid>
+</Window>

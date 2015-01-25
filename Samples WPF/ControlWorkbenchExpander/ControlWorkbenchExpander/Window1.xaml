@@ -1,0 +1,17 @@
+﻿<Window x:Class="ControlWorkbenchExpander.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Window1" Height="370" Width="544" Background="{StaticResource WindowBackgroundBrush}">   
+    <Grid>
+        <TabControl Margin="5,7,9,29" Name="tabControl1" Background="Transparent">
+            <TabItem Header="tabItem1" Name="Styles" Background="Transparent">
+                <Grid>
+                    <Expander Header="expander1" Margin="23,23,119,89" Name="expander1">
+                        <Grid />
+                    </Expander>
+                    <ComboBox Height="27" Margin="28,0,178,38" Name="cboStyles" VerticalAlignment="Bottom" SelectionChanged="OnSelectionChanged" />
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

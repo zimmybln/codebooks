@@ -1,0 +1,41 @@
+﻿<Page x:Class="ControlWorkbenchListBox._UseCases.MultiColumnPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="Mehrspaltige Liste">
+
+    <Grid>
+        <ListBox Name="CategoryListBox"
+         ScrollViewer.VerticalScrollBarVisibility="Disabled"
+         ItemsSource="{Binding Path=Values, UpdateSourceTrigger=PropertyChanged}"
+                SelectionMode="Multiple" Margin="12,12,0,19">
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Orientation="Vertical" />
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <ListBox.ItemTemplate>
+                <DataTemplate >
+                    <StackPanel Orientation="Horizontal"
+                        MinWidth="150" MaxWidth="150"
+                        Margin="0,5, 0, 5" >
+                        <CheckBox
+                    Content="checkedListBoxItem"
+                    IsChecked="{Binding
+                            RelativeSource={RelativeSource FindAncestor,
+                            AncestorType={x:Type ListBoxItem} },
+                            Path=IsSelected, Mode=TwoWay}" />
+                        <ContentPresenter
+                    Content="{Binding
+                            RelativeSource={RelativeSource TemplatedParent},
+                            Path=Content}"
+                    Margin="5,0, 0, 0" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Page>

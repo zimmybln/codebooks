@@ -1,0 +1,39 @@
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\bin\Debug\ControlWorkbenchTabControl.exe.config
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\bin\Debug\ControlWorkbenchTabControl.exe
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\bin\Debug\ControlWorkbenchTabControl.pdb
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\MainWindow.baml
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\_Pages\DefaultView.baml
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\MainWindow.g.cs
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\_Pages\DefaultView.g.cs
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\App.g.cs
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\ControlWorkbenchTabControl_MarkupCompile.cache
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\ControlWorkbenchTabControl.g.resources
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\ControlWorkbenchTabControl.Properties.Resources.resources
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\ControlWorkbenchTabControl.exe
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\ControlWorkbenchTabControl.pdb
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\_Pages\VerticalTabs.baml
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\_Pages\VerticalTabs.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\bin\Debug\ControlWorkbenchTabControl.exe.config
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\ControlWorkbenchTabControl.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\ControlWorkbenchTabControl.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\bin\Debug\ControlWorkbenchTabControl.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\bin\Debug\ControlWorkbenchTabControl.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\MainWindow.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\_Pages\DefaultView.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\_Pages\VerticalTabs.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\MainWindow.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\_Pages\DefaultView.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\_Pages\VerticalTabs.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\App.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\ControlWorkbenchTabControl_MarkupCompile.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\ControlWorkbenchTabControl.g.resources
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\ControlWorkbenchTabControl.Properties.Resources.resources
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\bin\Debug\ControlWorkbenchTabControl.exe.config
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\ControlWorkbenchTabControl.exe
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchTabControl\ControlWorkbenchTabControl\obj\x86\Debug\ControlWorkbenchTabControl.pdb

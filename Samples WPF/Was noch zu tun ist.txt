@@ -1,0 +1,13 @@
+
+- Ressourcen
+http://www.codeproject.com/Articles/35159/WPF-Localization-Using-RESX-Files
+
+- Dialoge
+	- Eingebetteter Dialog
+		http://stackoverflow.com/questions/6351612/wpf-mvvm-modal-overlay-dialog-only-over-a-view-not-window
+
+	- Modaler Dialog
+	- Nicht modaler Dialog
+
+- In einem Modul lassen sich mehrere Hintergrundtasks starten. Es soll der Status über alle laufenden Instanzen überwacht werden.
+

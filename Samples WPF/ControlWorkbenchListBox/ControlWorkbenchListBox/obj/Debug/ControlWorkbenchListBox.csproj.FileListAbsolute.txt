@@ -1,0 +1,123 @@
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\bin\Debug\ControlWorkbenchListBox.exe
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\bin\Debug\ControlWorkbenchListBox.pdb
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\Window1.baml
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\Window1.g.cs
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\App.g.cs
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox_MarkupCompile.cache
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.g.resources
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.Properties.Resources.resources
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.exe
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.pdb
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox_MarkupCompile.lref
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.exe
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.pdb
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\bin\Debug\ControlWorkbenchListBox.exe
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\bin\Debug\ControlWorkbenchListBox.pdb
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\Window1.g.cs
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\App.g.cs
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox_MarkupCompile.cache
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox_MarkupCompile.lref
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\Window1.baml
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.g.resources
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.Properties.Resources.resources
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\bin\Debug\ControlWorkbenchListBox.exe.config
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\GenerateResource.read.1.tlog
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\GenerateResource.write.1.tlog
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\App.baml
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\CustomCollectionList.baml
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\CustomCollectionList.g.cs
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\bin\Debug\ControlWorkbenchListBox.exe.config
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.exe
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.pdb
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\bin\Debug\ControlWorkbenchListBox.exe
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\bin\Debug\ControlWorkbenchListBox.pdb
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\CustomCollectionList.baml
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\MultiColumnPage.baml
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\App.baml
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\Window1.g.cs
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\CustomCollectionList.g.cs
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\EditableListBox.g.cs
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\MultiColumnPage.g.cs
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\App.g.cs
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox_MarkupCompile.cache
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox_MarkupCompile.lref
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\Window1.baml
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\EditableListBox.baml
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.g.resources
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.Properties.Resources.resources
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\bin\Debug\ControlWorkbenchListBox.exe.config
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\bin\Debug\ControlWorkbenchListBox.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\bin\Debug\ControlWorkbenchListBox.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\ChangeSelectedItem.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\CustomCollectionList.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\MultiColumnPage.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\App.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\Window1.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_Library\EditableListBox.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\ChangeSelectedItem.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\CustomCollectionList.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\EditableListBox.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\MultiColumnPage.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\App.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox_MarkupCompile.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox_MarkupCompile.lref
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\Window1.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_Library\EditableListBox.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\EditableListBox.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.g.resources
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.Properties.Resources.resources
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.csproj.GenerateResource.Cache
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.pdb
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.csprojResolveAssemblyReference.cache
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\ChangeSelectedItem.baml
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_Library\EditableListBox.g.cs
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\ChangeSelectedItem.g.cs
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_Library\EditableListBox.baml
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.csproj.GenerateResource.Cache
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\ItemsWithProgressBar.baml
+D:\Dokumente\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\ItemsWithProgressBar.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.csprojResolveAssemblyReference.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\ItemsWithProgressBar.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\ItemsWithProgressBar.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\AnimatedListBoxItem.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\AnimatedListBoxItem.g.cs
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\bin\Debug\ControlWorkbenchListBox.exe.config
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.exe
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.pdb
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\bin\Debug\ControlWorkbenchListBox.exe
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\bin\Debug\ControlWorkbenchListBox.pdb
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.csprojResolveAssemblyReference.cache
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\AnimatedListBoxItem.baml
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\CustomCollectionList.baml
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\MultiColumnPage.baml
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\App.baml
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\Window1.g.cs
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_Library\EditableListBox.g.cs
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\AnimatedListBoxItem.g.cs
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\ChangeSelectedItem.g.cs
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\CustomCollectionList.g.cs
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\EditableListBox.g.cs
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\ItemsWithProgressBar.g.cs
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\MultiColumnPage.g.cs
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\App.g.cs
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox_MarkupCompile.cache
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox_MarkupCompile.lref
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\Window1.baml
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_Library\EditableListBox.baml
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\ChangeSelectedItem.baml
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\EditableListBox.baml
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\_UseCases\ItemsWithProgressBar.baml
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.g.resources
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.Properties.Resources.resources
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchListBox\ControlWorkbenchListBox\obj\Debug\ControlWorkbenchListBox.csproj.GenerateResource.Cache

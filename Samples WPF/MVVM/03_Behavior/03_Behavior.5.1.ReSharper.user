@@ -1,0 +1,240 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:MainWindow.xaml.cs" caret="0" fromTop="0" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:MainWindow.xaml" caret="1018" fromTop="6" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:DropAdapter.cs" caret="398" fromTop="0" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:MainWindowModel.cs" caret="4021" fromTop="9" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:DragAdapter.cs" caret="946" fromTop="13" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:DropBehavior.cs" caret="137" fromTop="6" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:DragBehavior.cs" caret="419" fromTop="14" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:MainWindow.xaml" caret="336" fromTop="4" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:MainWindowModel.cs" caret="1631" fromTop="28" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:MainWindowModel.cs" caret="1058" fromTop="18" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:MainWindowModel.cs" caret="785" fromTop="11" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:MainWindow.xaml" caret="1001" fromTop="5" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:MainWindowModel.cs" caret="3229" fromTop="15" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:DropAdapter.cs" caret="3878" fromTop="43" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:DropAdapter.cs" caret="3661" fromTop="34" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:DropAdapter.cs" caret="3146" fromTop="20" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:DropAdapter.cs" caret="345" fromTop="8" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:DropAdapter.cs" caret="577" fromTop="12" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:DropAdapter.cs" caret="904" fromTop="4" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:DropAdapter.cs" caret="4526" fromTop="41" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:DropAdapter.cs" caret="3025" fromTop="17" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:DropAdapter.cs" caret="2401" fromTop="21" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:DropAdapter.cs" caret="1290" fromTop="13" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:DropBehavior.cs" caret="1077" fromTop="23" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:DropBehavior.cs" caret="1461" fromTop="31" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:DropBehavior.cs" caret="925" fromTop="18" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:MainWindowModel.cs" caret="3699" fromTop="28" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:MainWindowModel.cs" caret="3922" fromTop="33" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:DropAdapter.cs" caret="4278" fromTop="25" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:MainWindowModel.cs" caret="5440" fromTop="28" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:MainWindowModel.cs" caret="5362" fromTop="29" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:MainWindowModel.cs" caret="5337" fromTop="37" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:MainWindowModel.cs" caret="576" fromTop="19" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:DragAdapter.cs" caret="2052" fromTop="37" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:DragAdapter.cs" caret="1689" fromTop="23" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:MainWindowModel.cs" caret="3031" fromTop="33" />
+      <File id="3E2BAA3E-2AFD-4713-AD4F-437C3A6C8692/f:MainWindowModel.cs" caret="4602" fromTop="26" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.9\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="private" priority="11" />
+      <Item value="readonly" priority="2" />
+      <Item value="using" priority="0" />
+      <Item value="System" priority="0" />
+      <Item value="Windows" priority="0" />
+      <Item value="UIElement`0" priority="3" />
+      <Item value="RoutedEvent`0" priority="1" />
+      <Item value="public" priority="5" />
+      <Item value="DragAction`0" priority="0" />
+      <Item value="void" priority="3" />
+      <Item value="object" priority="7" />
+      <Item value="mv_dlgPreviewMouseMove" priority="1" />
+      <Item value="new" priority="5" />
+      <Item value="RoutedEvent" priority="0" />
+      <Item value="OnPreviewMouseMove`0" priority="2" />
+      <Item value="RoutedEventHandler`0" priority="1" />
+      <Item value="NewsStyleUriParser`0" priority="0" />
+      <Item value="MouseEventHandler`0" priority="0" />
+      <Item value="return" priority="16" />
+      <Item value="dragAdapter" priority="0" />
+      <Item value="string" priority="5" />
+      <Item value="PropertyChangedEventHandler`0" priority="0" />
+      <Item value="if" priority="12" />
+      <Item value="h" priority="1" />
+      <Item value="this" priority="0" />
+      <Item value="PropertyChangedEventArgs" priority="0" />
+      <Item value="DragAdapter`0" priority="2" />
+      <Item value="MainWindowModel`0" priority="2" />
+      <Item value="mv_objDragAdapter" priority="2" />
+      <Item value="DragAdapter" priority="0" />
+      <Item value="value" priority="3" />
+      <Item value="RaisePropertyChanged`0" priority="2" />
+      <Item value="sender" priority="6" />
+      <Item value="ListBox`0" priority="2" />
+      <Item value="var" priority="1" />
+      <Item value="lst" priority="0" />
+      <Item value="e" priority="11" />
+      <Item value="Pressed" priority="0" />
+      <Item value="DragDrop`0" priority="0" />
+      <Item value="as" priority="0" />
+      <Item value="DependencyObject`0" priority="0" />
+      <Item value="objSelectedItem" priority="2" />
+      <Item value="All" priority="0" />
+      <Item value="protected" priority="11" />
+      <Item value="virtual" priority="3" />
+      <Item value="DragDropEffects`0" priority="15" />
+      <Item value="Selector`0" priority="0" />
+      <Item value="GetAllowedEffects`0" priority="0" />
+      <Item value="enmDragDropEffect" priority="1" />
+      <Item value="class" priority="1" />
+      <Item value="override" priority="4" />
+      <Item value="typeof" priority="3" />
+      <Item value="SelectedItem" priority="2" />
+      <Item value="is" priority="2" />
+      <Item value="s" priority="1" />
+      <Item value="else" priority="2" />
+      <Item value="IDataObject`0" priority="1" />
+      <Item value="GetAllowedDragEnterEffects`0" priority="0" />
+      <Item value="DragDropKeyStates`0" priority="0" />
+      <Item value="DropAdapter`0" priority="3" />
+      <Item value="Trace`0" priority="2" />
+      <Item value="mv_objDropAdapter" priority="2" />
+      <Item value="DropAdapter" priority="0" />
+      <Item value="CustomDropAdapter`0" priority="1" />
+      <Item value="mv_strDroppedValue" priority="3" />
+      <Item value="String`0" priority="5" />
+      <Item value="internal" priority="1" />
+      <Item value="mv_objHost" priority="1" />
+      <Item value="Host" priority="0" />
+      <Item value="DataObject" priority="2" />
+      <Item value="mv_lstDroppedItems" priority="0" />
+      <Item value="ObservableCollection" priority="0" />
+      <Item value="ObservableCollection&lt;string&gt;" priority="0" />
+      <Item value="int" priority="0" />
+      <Item value="mv_nCounter" priority="1" />
+      <Item value="IInputElement`0" priority="2" />
+      <Item value="null" priority="3" />
+      <Item value="Point`0" priority="3" />
+      <Item value="ptDropPoint" priority="3" />
+      <Item value="DropPoint" priority="3" />
+      <Item value="Point" priority="0" />
+      <Item value="objHitTestItem" priority="2" />
+      <Item value="GetBoundItemFromPoint`0" priority="0" />
+      <Item value="HitTestElement" priority="1" />
+      <Item value="ItemsControl`0" priority="0" />
+      <Item value="ItemsControl" priority="0" />
+      <Item value="element" priority="1" />
+      <Item value="DragEventHandler`0" priority="1" />
+      <Item value="mv_dlgReceiveDragOver" priority="1" />
+      <Item value="DragEventHandler" priority="0" />
+      <Item value="DragEventArgs`0" priority="0" />
+      <Item value="dropAdapter" priority="1" />
+      <Item value="base" priority="0" />
+      <Item value="HiTestElement" priority="0" />
+      <Item value="AllowedEffects" priority="0" />
+      <Item value="KeyStates" priority="0" />
+      <Item value="strHitTest" priority="1" />
+      <Item value="enmEffect" priority="1" />
+      <Item value="AfterDrag`0" priority="0" />
+      <Item value="Dragged`0" priority="0" />
+      <Item value="ActionEffect" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Trace">
+      <Item value="WriteLine`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.UIElement">
+      <Item value="MouseMoveEvent" priority="0" />
+      <Item value="DragOverEvent" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:_03_Behavior.DragAdapter">
+      <Item value="MouseMoveEvent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:_03_Behavior.MainWindowModel">
+      <Item value="PropertyChanged" priority="0" />
+      <Item value="DroppedValue" priority="0" />
+      <Item value="mv_lstDroppedItems" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ListBox">
+      <Item value="SelectedItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Input.MouseEventArgs">
+      <Item value="LeftButton" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.DragDrop">
+      <Item value="DoDragDrop`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.DragDropEffects">
+      <Item value="All" priority="2" />
+      <Item value="Move" priority="3" />
+      <Item value="Link" priority="0" />
+      <Item value="None" priority="5" />
+      <Item value="Copy" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="GetType`0" priority="0" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="StartsWith`0" priority="2" />
+      <Item value="Contains`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.DragEventArgs">
+      <Item value="Data" priority="1" />
+      <Item value="Effects" priority="1" />
+      <Item value="AllowedEffects" priority="1" />
+      <Item value="KeyStates" priority="1" />
+      <Item value="GetPosition`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Compare`0" priority="0" />
+      <Item value="IsNullOrEmpty`0" priority="1" />
+      <Item value="Format`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.IDataObject">
+      <Item value="GetDataPresent`0" priority="0" />
+      <Item value="GetData`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ObjectModel.ObservableCollection`1">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Point">
+      <Item value="X" priority="0" />
+      <Item value="Y" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.UIElement">
+      <Item value="RemoveHandler`0" priority="0" />
+      <Item value="AddHandler`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:_03_Behavior.DropAdapter">
+      <Item value="GetAllowedDragOverEffects`0" priority="1" />
+      <Item value="DragOver" priority="1" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

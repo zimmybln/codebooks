@@ -1,0 +1,20 @@
+﻿ImageExplorer.Presentation
+
+
+library
+C#
+.cs
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\
+ImageExplorer.Presentation
+none
+false
+DEBUG;TRACE
+
+81565093933
+
+121521935816
+15313035260
+Controls\Directory.xaml;Controls\Files.xaml;Views\FileMethodWindow.xaml;Views\FileSelectionWindow.xaml;Views\ImageMethodFilterWindow.xaml;Views\ImageMethodResizerWindow.xaml;Views\ImageMethodViewerWindow.xaml;Views\ShellWindow.xaml;
+
+True
+

@@ -1,0 +1,82 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="string" priority="2" />
+      <Item value="if" priority="7" />
+      <Item value="ServiceProvider" priority="0" />
+      <Item value="target" priority="1" />
+      <Item value="public" priority="0" />
+      <Item value="this" priority="1" />
+      <Item value="resolver" priority="0" />
+      <Item value="ValueConversion" priority="0" />
+      <Item value="typeof" priority="1" />
+      <Item value="null" priority="1" />
+      <Item value="return" priority="1" />
+      <Item value="strResult" priority="5" />
+      <Item value="value" priority="1" />
+      <Item value="int" priority="1" />
+      <Item value="nValue" priority="0" />
+      <Item value="else" priority="3" />
+      <Item value="double" priority="2" />
+      <Item value="String" priority="0" />
+      <Item value="dblValue" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Markup.IProvideValueTarget">
+      <Item value="TargetProperty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString" priority="0" />
+      <Item value="GetType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XamlExtensions.UserNameExtension">
+      <Item value="Format" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="8C156449-ACD1-449F-AA82-C68FD8BBAEE1/f:Window1.xaml.cs" caret="0" fromTop="0" />
+      <File id="8C156449-ACD1-449F-AA82-C68FD8BBAEE1/f:App.xaml" caret="0" fromTop="0" />
+      <File id="8C156449-ACD1-449F-AA82-C68FD8BBAEE1/d:Extensions/f:HeightConverter.cs" caret="0" fromTop="0" />
+      <File id="8C156449-ACD1-449F-AA82-C68FD8BBAEE1/d:Extensions/f:UserNameExtension.cs" caret="0" fromTop="0" />
+      <File id="8C156449-ACD1-449F-AA82-C68FD8BBAEE1/f:Window1.xaml" caret="350" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="8C156449-ACD1-449F-AA82-C68FD8BBAEE1/d:Extensions/f:UserNameExtension.cs" caret="1152" fromTop="24" />
+      <File id="8C156449-ACD1-449F-AA82-C68FD8BBAEE1/d:Extensions/f:UserNameExtension.cs" caret="13" fromTop="0" />
+      <File id="8C156449-ACD1-449F-AA82-C68FD8BBAEE1/d:Extensions/f:UserNameExtension.cs" caret="500" fromTop="23" />
+      <File id="8C156449-ACD1-449F-AA82-C68FD8BBAEE1/d:Extensions/f:UserNameExtension.cs" caret="177" fromTop="7" />
+      <File id="8C156449-ACD1-449F-AA82-C68FD8BBAEE1/d:Extensions/f:UserNameExtension.cs" caret="1486" fromTop="29" />
+      <File id="8C156449-ACD1-449F-AA82-C68FD8BBAEE1/d:Extensions/f:UserNameExtension.cs" caret="347" fromTop="12" />
+      <File id="8C156449-ACD1-449F-AA82-C68FD8BBAEE1/d:Extensions/f:UserNameExtension.cs" caret="500" fromTop="18" />
+      <File id="8C156449-ACD1-449F-AA82-C68FD8BBAEE1/d:Extensions/f:UserNameExtension.cs" caret="642" fromTop="6" />
+      <File id="8C156449-ACD1-449F-AA82-C68FD8BBAEE1/d:Extensions/f:UserNameExtension.cs" caret="1150" fromTop="15" />
+      <File id="8C156449-ACD1-449F-AA82-C68FD8BBAEE1/f:Window1.xaml" caret="505" fromTop="2" />
+      <File id="8C156449-ACD1-449F-AA82-C68FD8BBAEE1/f:Window1.xaml" caret="1108" fromTop="8" />
+      <File id="8C156449-ACD1-449F-AA82-C68FD8BBAEE1/f:App.xaml" caret="292" fromTop="6" />
+      <File id="8C156449-ACD1-449F-AA82-C68FD8BBAEE1/f:Window1.xaml" caret="331" fromTop="6" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.9\bin\net-2.0\lib</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="6E200330-27C6-4D04-98C3-0D2CFA162453" ModuleId="CustomControlLibrary" />
+  <Module PersistentId="77530913-8984-4905-A0CF-373A2EEC4443" ModuleId="CustomControlApp" />
+  <Module PersistentId="B63BA90A-32CC-4790-9EAD-385A138A7B5E" ModuleId="CustomControlLibrary.Design" />
+</Modules>

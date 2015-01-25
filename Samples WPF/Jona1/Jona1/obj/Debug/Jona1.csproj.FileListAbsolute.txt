@@ -1,0 +1,13 @@
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\Jona1\Jona1\bin\Debug\Jona1.exe.config
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\Jona1\Jona1\bin\Debug\Jona1.exe
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\Jona1\Jona1\bin\Debug\Jona1.pdb
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\Jona1\Jona1\obj\Debug\Jona1.csprojResolveAssemblyReference.cache
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\Jona1\Jona1\obj\Debug\MainWindow.baml
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\Jona1\Jona1\obj\Debug\MainWindow.g.cs
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\Jona1\Jona1\obj\Debug\App.g.cs
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\Jona1\Jona1\obj\Debug\Jona1_MarkupCompile.cache
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\Jona1\Jona1\obj\Debug\Jona1.g.resources
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\Jona1\Jona1\obj\Debug\Jona1.Properties.Resources.resources
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\Jona1\Jona1\obj\Debug\Jona1.csproj.GenerateResource.Cache
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\Jona1\Jona1\obj\Debug\Jona1.exe
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\Jona1\Jona1\obj\Debug\Jona1.pdb

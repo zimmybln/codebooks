@@ -1,0 +1,70 @@
+﻿<Page x:Class="ControlWorkbenchListView.EditableListView"
+	  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+	  xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+	  xmlns:local="clr-namespace:ControlWorkbenchListView" mc:Ignorable="d" 
+	  d:DesignHeight="300" d:DesignWidth="300"
+	Title="Bearbeiten von Daten im ListView"
+	  ToolTip="Zeigt das Bearbeiten">
+	<Page.Resources>
+		<local:BooleanToVisibilityConverter  x:Key="boolToVis" />
+		<Style TargetType="{x:Type TextBlock}" x:Key="ReadOnlyItemStyle">
+			<Setter Property="VerticalAlignment" Value="Center" />
+			<Setter Property="Visibility" 
+					Value="{Binding Path=IsSelected, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ListViewItem}}, Converter={StaticResource boolToVis}, ConverterParameter=false}" />
+		</Style>
+		<Style TargetType="{x:Type FrameworkElement}" x:Key="EditItemStyle">
+			<Setter Property="VerticalAlignment" Value="Center" />
+			<Setter Property="HorizontalAlignment" Value="Stretch" />
+			<Setter Property="Visibility"
+					Value="{Binding Path=IsSelected, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ListViewItem}}, Converter={StaticResource boolToVis}, ConverterParameter=true}" />
+            
+            <!--<Style.Triggers>
+                <MultiDataTrigger>
+                    <MultiDataTrigger.Conditions>
+                        <Condition Binding="{Binding Path=IsSelected, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ListViewItem}}, Converter={StaticResource boolToVis}, ConverterParameter=true}" Value="false" />
+                    </MultiDataTrigger.Conditions> 
+                    <Setter Property="Visibility" Value="Visible" />
+                </MultiDataTrigger>
+            </Style.Triggers>-->
+            
+		</Style>
+	</Page.Resources>
+	<Grid>
+		<ListView HorizontalAlignment="Left" Margin="2,2,2,2" Name="lsvPersons" VerticalAlignment="Top" ItemsSource="{Binding Persons}">
+			<ListView.ItemContainerStyle>
+				<Style TargetType="ListViewItem">
+					<Setter Property="Height" Value="25" />
+				</Style>
+			</ListView.ItemContainerStyle>
+			<ListView.View>
+				<GridView>
+					<GridViewColumn Width="150" Header="Firstname">
+						<GridViewColumn.CellTemplate>
+							<DataTemplate>
+								<Grid HorizontalAlignment="Stretch">
+									<TextBlock Text="{Binding Path=FirstName}" Style="{StaticResource ReadOnlyItemStyle}"  />
+									<TextBox Text="{Binding Path=FirstName}" Style="{StaticResource EditItemStyle}"  />
+								</Grid>
+							</DataTemplate>
+						</GridViewColumn.CellTemplate>
+					</GridViewColumn>
+					<GridViewColumn Width="200" Header="City">
+						<GridViewColumn.CellTemplate>
+							<DataTemplate>
+								<Grid HorizontalAlignment="Stretch">
+									<TextBlock Text="{Binding Path=City}" Style="{StaticResource ReadOnlyItemStyle}" />
+									<ComboBox SelectedItem="{Binding Path=City}"
+											ItemsSource="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Page}}, Path=Cities}"
+											Style="{StaticResource EditItemStyle}" 
+											HorizontalAlignment="Stretch"/>
+								</Grid>
+							</DataTemplate>
+						</GridViewColumn.CellTemplate>
+					</GridViewColumn>
+				</GridView>
+			</ListView.View>
+		</ListView>
+	</Grid>
+</Page>

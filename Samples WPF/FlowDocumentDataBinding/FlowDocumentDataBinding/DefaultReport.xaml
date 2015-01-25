@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              PageHeight="29.7cm" PageWidth="21cm"
+              ColumnWidth="21cm">
+  <Paragraph>
+        <Bold>
+            <Run Text="{Binding Path=FirstName, FallbackValue='error in binding'}" />
+        </Bold>
+        <LineBreak />
+        <Run>This is a sample coming from a xaml file.</Run>
+    </Paragraph>
+</FlowDocument>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UserManagement.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="UserManagementStoreContainer">
+    <EntitySet Name="Cities" EntityType="UserManagement.Store.Cities" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Persons" EntityType="UserManagement.Store.Persons" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Persons_Cities" Association="UserManagement.Store.FK_Persons_Cities">
+      <End Role="Cities" EntitySet="Cities" />
+      <End Role="Persons" EntitySet="Persons" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Cities">
+    <Key>
+      <PropertyRef Name="CityId" />
+    </Key>
+    <Property Name="CityId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Persons">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="LastName" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="CityOfBirth" Type="int" />
+  </EntityType>
+  <Association Name="FK_Persons_Cities">
+    <End Role="Cities" Type="UserManagement.Store.Cities" Multiplicity="0..1" />
+    <End Role="Persons" Type="UserManagement.Store.Persons" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cities">
+        <PropertyRef Name="CityId" />
+      </Principal>
+      <Dependent Role="Persons">
+        <PropertyRef Name="CityOfBirth" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

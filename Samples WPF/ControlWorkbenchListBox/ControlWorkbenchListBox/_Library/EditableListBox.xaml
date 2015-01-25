@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="ControlWorkbenchListBox._Library.EditableListBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:_Library="clr-namespace:ControlWorkbenchListBox._Library" mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <ListBox Margin="0" VerticalAlignment="Top" Name="lbItems">
+            <ListBox.Resources>
+                <Style TargetType="{x:Type ListBoxItem}">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type ListBoxItem}">
+                                <Grid Height="27">
+                                    <TextBlock Margin="1" Name="ContentText" Text="{Binding Value, Mode=TwoWay}" Visibility="Visible" FontSize="15" PreviewKeyDown="OnContentKeyDown"/>
+                                    <TextBox Margin="1" Name="EditableText" Text="{Binding Value}" Visibility="Collapsed" PreviewKeyDown="OnEditorPreviewKeyDown" />
+                                </Grid>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="{Binding RelativeSource={RelativeSource AncestorType={x:Type _Library:EditableListBox}}, Path=IsEditable}" Value="true">
+                                        <Setter TargetName="EditableText" Property="Visibility" Value="Visible" />
+                                        <Setter TargetName="EditableText" Property="Text" Value="{Binding ElementName=ContentText, Path=Text, Mode=TwoWay}"/>
+                                        <Setter TargetName="ContentText" Property="Visibility" Value="Collapsed" />
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </ListBox.Resources>
+        </ListBox>
+    </Grid>
+</UserControl>

@@ -1,0 +1,72 @@
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.App.exe.config
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.App.exe
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.App.pdb
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.Base.dll
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\bin\Debug\System.ComponentModel.Composition.dll
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\bin\Debug\WpfApplicationFramework.dll
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.Base.pdb
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\obj\x86\Debug\App.g.cs
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ImageExplorer.App_MarkupCompile.cache
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ImageExplorer.App.Properties.Resources.resources
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ResGen.read.1.tlog
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ResGen.write.1.tlog
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ImageExplorer.App.exe
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ImageExplorer.App.pdb
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.App.exe.config
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ImageExplorer.App.exe
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ImageExplorer.App.pdb
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.App.exe
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.App.pdb
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.Base.dll
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.App\bin\Debug\System.ComponentModel.Composition.dll
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.App\bin\Debug\WpfApplicationFramework.dll
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.Base.pdb
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.App\obj\x86\Debug\App.g.cs
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ImageExplorer.App_MarkupCompile.cache
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ImageExplorer.App.Properties.Resources.resources
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.App\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ResGen.read.1.tlog
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.App\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ResGen.write.1.tlog
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.App.exe.config
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ImageExplorer.App.exe
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ImageExplorer.App.pdb
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.App.exe
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.App.pdb
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.Base.dll
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.App\bin\Debug\System.ComponentModel.Composition.dll
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.App\bin\Debug\WpfApplicationFramework.dll
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.Base.pdb
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.App\obj\x86\Debug\App.g.cs
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ImageExplorer.App_MarkupCompile.cache
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ImageExplorer.App.Properties.Resources.resources
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.App\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.App\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ResGen.read.1.tlog
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.App\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.App\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ResGen.write.1.tlog
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.App.exe.config
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ImageExplorer.App.exe
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ImageExplorer.App.pdb
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.App.exe
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.App.pdb
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.Base.dll
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\bin\Debug\System.ComponentModel.Composition.dll
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\bin\Debug\WpfApplicationFramework.dll
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.Base.pdb
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\obj\x86\Debug\App.g.cs
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ImageExplorer.App_MarkupCompile.cache
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ImageExplorer.App.Properties.Resources.resources
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ResGen.read.1.tlog
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\obj\x86\Debug\ResGen.write.1.tlog

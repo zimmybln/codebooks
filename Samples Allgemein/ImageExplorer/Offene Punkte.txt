@@ -1,0 +1,4 @@
+- Wie wird aus einer Modelimplementierung heraus zum View kommuniziert?
+
+- Wie können Ereignisse aus einem View an die Modelimplementierung weitergereicht werden?
+	- 

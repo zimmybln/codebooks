@@ -1,0 +1,38 @@
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\BitmapEffects.exe
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\BitmapEffects.pdb
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\bin\Debug\BitmapEffects.exe
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\bin\Debug\BitmapEffects.pdb
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\Window1.baml
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\Window1.g.cs
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\App.g.cs
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\BitmapEffects_MarkupCompile.cache
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\BitmapEffects.g.resources
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\BitmapEffects.Properties.Resources.resources
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\BitmapEffects.csproj.GenerateResource.Cache
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\BitmapEffects.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\BitmapEffects.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\bin\Debug\BitmapEffects.exe.config
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\bin\Debug\BitmapEffects.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\bin\Debug\BitmapEffects.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\Window1.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\Window1.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\App.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\BitmapEffects_MarkupCompile.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\BitmapEffects.g.resources
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\BitmapEffects.Properties.Resources.resources
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\BitmapEffects.csproj.GenerateResource.Cache
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\bin\Debug\BitmapEffects.exe.config
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\BitmapEffects.exe
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\BitmapEffects.pdb
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\bin\Debug\BitmapEffects.exe
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\bin\Debug\BitmapEffects.pdb
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\BitmapEffects.csprojResolveAssemblyReference.cache
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\Window1.baml
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\Window1.g.cs
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\App.g.cs
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\BitmapEffects_MarkupCompile.cache
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\BitmapEffects.g.resources
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\BitmapEffects.Properties.Resources.resources
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\BitmapEffects.csproj.GenerateResource.Cache
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\BitmapEffects\BitmapEffects\obj\Debug\BitmapEffects.csprojResolveAssemblyReference.cache

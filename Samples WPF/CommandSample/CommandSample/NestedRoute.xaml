@@ -1,0 +1,14 @@
+﻿<Window x:Class="CommandSample.NestedRoute"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:CommandSample"
+    Title="NestedRoute" Height="386" Width="824">
+    <Window.CommandBindings>
+        <CommandBinding Command="local:MyCommands.RouteCommand" Executed="OnRouted" CanExecute="OnCanRoute" />
+    </Window.CommandBindings>
+    <Grid Background="Coral">
+        <Frame Margin="0,38,16,32" Name="frame1" HorizontalAlignment="Right" Width="357" Background="Crimson" Source="../Pages/InnerPage.xaml" />
+        <Button Height="30" Command="local:MyCommands.RouteCommand" CommandTarget="{Binding ElementName=frame1, Path=Content}" HorizontalAlignment="Left" Margin="215,0,0,32" Name="cmdExecute" VerticalAlignment="Bottom" Width="118">Button</Button>
+        <ListBox HorizontalAlignment="Left" Margin="24,24,0,96" Name="lstReceives" Width="365" />
+    </Grid>
+</Window>

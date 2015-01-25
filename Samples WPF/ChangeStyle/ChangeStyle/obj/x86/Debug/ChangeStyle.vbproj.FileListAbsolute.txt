@@ -1,0 +1,16 @@
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ChangeStyle\ChangeStyle\bin\Debug\ChangeStyle.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ChangeStyle\ChangeStyle\bin\Debug\ChangeStyle.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ChangeStyle\ChangeStyle\bin\Debug\ChangeStyle.xml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ChangeStyle\ChangeStyle\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ChangeStyle\ChangeStyle\obj\x86\Debug\MainWindow.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ChangeStyle\ChangeStyle\obj\x86\Debug\Application.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ChangeStyle\ChangeStyle\obj\x86\Debug\MainWindow.g.vb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ChangeStyle\ChangeStyle\obj\x86\Debug\Application.g.vb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ChangeStyle\ChangeStyle\obj\x86\Debug\ChangeStyle_MarkupCompile.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ChangeStyle\ChangeStyle\obj\x86\Debug\ChangeStyle.g.resources
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ChangeStyle\ChangeStyle\obj\x86\Debug\ChangeStyle.Resources.resources
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ChangeStyle\ChangeStyle\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ChangeStyle\ChangeStyle\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ChangeStyle\ChangeStyle\obj\x86\Debug\ChangeStyle.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ChangeStyle\ChangeStyle\obj\x86\Debug\ChangeStyle.xml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ChangeStyle\ChangeStyle\obj\x86\Debug\ChangeStyle.pdb

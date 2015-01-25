@@ -1,0 +1,13 @@
+﻿<Window x:Class="UseCase_02_Dialog.ViaComposition.InputDialogViaComposition"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="InputDialog" Height="201" Width="466">
+    <Grid>
+        <Button Content="OK" Height="32" HorizontalAlignment="Left" Margin="212,119,0,0" Name="button1" VerticalAlignment="Top" Width="107"
+                Command="{Binding OnOkCommand}" IsDefault="True"/>
+        <TextBox Height="31" HorizontalAlignment="Left" Margin="12,67,0,0" Name="textBox1" VerticalAlignment="Top" Width="420" Text="{Binding InputValue}">
+
+        </TextBox>
+        <Button Command="{Binding OnCancelCommand}" Content="Abbrechen" IsCancel="True" Height="32" HorizontalAlignment="Left" Margin="325,119,0,0" Name="button2" VerticalAlignment="Top" Width="107" />
+    </Grid>
+</Window>

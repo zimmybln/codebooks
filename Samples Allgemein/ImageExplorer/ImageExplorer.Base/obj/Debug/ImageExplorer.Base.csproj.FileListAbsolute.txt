@@ -1,0 +1,28 @@
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Base\bin\Debug\ImageExplorer.Base.dll
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Base\bin\Debug\ImageExplorer.Base.pdb
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Base\bin\Debug\System.ComponentModel.Composition.dll
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Base\bin\Debug\WpfApplicationFramework.dll
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Base\obj\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Base\obj\Debug\ImageExplorer.Base.dll
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Base\obj\Debug\ImageExplorer.Base.pdb
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Base\bin\Debug\ImageExplorer.Base.dll
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Base\bin\Debug\ImageExplorer.Base.pdb
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Base\bin\Debug\System.ComponentModel.Composition.dll
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Base\bin\Debug\WpfApplicationFramework.dll
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Base\obj\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Base\obj\Debug\ImageExplorer.Base.dll
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Base\obj\Debug\ImageExplorer.Base.pdb
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Base\bin\Debug\ImageExplorer.Base.dll
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Base\bin\Debug\ImageExplorer.Base.pdb
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Base\bin\Debug\System.ComponentModel.Composition.dll
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Base\bin\Debug\WpfApplicationFramework.dll
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Base\obj\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Base\obj\Debug\ImageExplorer.Base.dll
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Base\obj\Debug\ImageExplorer.Base.pdb
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Base\bin\Debug\ImageExplorer.Base.dll
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Base\bin\Debug\ImageExplorer.Base.pdb
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Base\bin\Debug\System.ComponentModel.Composition.dll
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Base\bin\Debug\WpfApplicationFramework.dll
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Base\obj\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Base\obj\Debug\ImageExplorer.Base.dll
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Base\obj\Debug\ImageExplorer.Base.pdb

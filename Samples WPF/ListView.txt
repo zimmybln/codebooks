@@ -1,0 +1,83 @@
+<UserControl x:Class="Hermine.App.Views.PortfolioView"
+	  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+	  xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+	  xmlns:models="clr-namespace:Hermine.App.Models"
+	  xmlns:flowers="clr-namespace:Flowers.Windows;assembly=Flowers.Windows"
+	  xmlns:input="clr-namespace:System.Windows.Input;assembly=WindowsBase"
+	  xmlns:app="clr-namespace:Hermine.App"
+      xmlns:base="clr-namespace:Hermine.Base;assembly=Hermine.Base"
+			 mc:Ignorable="d" 
+	  d:DesignHeight="385" 
+	  d:DesignWidth="590"
+	  >
+	<UserControl.DataContext>
+		<models:PortfolioViewModel />
+	</UserControl.DataContext>
+	<UserControl.Resources>
+		<DataTemplate x:Key="PortfolioTemplate" DataType="base:IPortfolio">
+			<Grid Width="180" Margin="5">
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto" />
+					<RowDefinition Height="Auto" />
+				</Grid.RowDefinitions>
+				<Image Grid.Row="0" Source="../../Resources/Big/report.png" HorizontalAlignment="Center" Width="48" Height="48" />
+				<TextBlock Grid.Row="1" Text="{Binding Name}" ToolTip="{Binding Description}" HorizontalAlignment="Center" TextWrapping="Wrap" />
+			</Grid>
+		</DataTemplate>
+	</UserControl.Resources>
+	<Grid Background="Transparent">
+		<ListView Margin="12" Name="lvItems" ItemsSource="{Binding Portfolios}" Background="#AAFFFFFF"  
+				  SelectedItem="{Binding SelectedPortfolio}"
+				  ItemTemplate="{StaticResource PortfolioTemplate}"
+                  flowers:DropBehavior.DropAdapter="{Binding DropAdapter}"
+				  flowers:ActionBehavior.SelectionChangedAction="{Binding PortfolioSelectionChanged}" 
+				  flowers:ActionBehavior.MouseDoubleClickAction="{Binding PortfolioDoubleClick}"
+				  flowers:FocusBehavior.FocusControl="{x:Static input:FocusNavigationDirection.First}"
+				  AllowDrop="True"
+				  ScrollViewer.VerticalScrollBarVisibility="Disabled">
+			<ListView.ContextMenu>
+				<ContextMenu ItemsSource="{Binding Source={x:Static app:PortfolioCommands.Commands}}" >
+					<ContextMenu.ItemContainerStyle>
+						<Style TargetType="MenuItem">
+							<Setter Property="Header" Value="{Binding Header}" />
+							<Setter Property="Command" Value="{Binding Command}" />
+							<Setter Property="CommandParameter" Value="{Binding RelativeSource={RelativeSource AncestorType=ContextMenu}, Path=PlacementTarget.SelectedItem}" />
+						</Style>
+					</ContextMenu.ItemContainerStyle>
+				</ContextMenu>
+			</ListView.ContextMenu>
+			<ListView.ItemsPanel>
+				<ItemsPanelTemplate>
+					<WrapPanel Orientation="Vertical" IsItemsHost="True" />
+				</ItemsPanelTemplate>
+			</ListView.ItemsPanel>
+            <ListView.ItemContainerStyle>
+                <Style TargetType="{x:Type ListViewItem}"  >
+                    <Setter Property="Width" Value="200" />
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="true">
+                            <Setter Property="Foreground" Value="Yellow" />
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter Property="Foreground" Value="Black" />
+                            <Setter Property="Background">
+                                <Setter.Value>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="1,0">
+                                        <GradientStop Color="#d3e7ff" Offset="0.986"/>
+                                        <GradientStop Color="#b0d2fc" Offset="0.5"/>
+                                        <GradientStop Color="#8ec1ff" Offset="0.51"/>
+                                    </LinearGradientBrush>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                        <Trigger Property="app:ListViewItemDragState.IsUnderDragCursor" Value="True">
+                            <Setter Property="Foreground" Value="Green" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </ListView.ItemContainerStyle>
+        </ListView>
+    </Grid>
+</UserControl>

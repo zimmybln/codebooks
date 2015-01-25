@@ -1,0 +1,243 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:Application.xaml.vb" caret="0" fromTop="0" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:Info.txt" caret="104" fromTop="1" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:Application.xaml" caret="229" fromTop="4" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml" caret="1018" fromTop="15" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml.vb" caret="1660" fromTop="7" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:Info.txt" caret="104" fromTop="1" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml.vb" caret="3307" fromTop="4" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:Application.xaml" caret="515" fromTop="9" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml.vb" caret="3307" fromTop="7" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml.vb" caret="3307" fromTop="16" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:Application.xaml" caret="229" fromTop="4" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml" caret="223" fromTop="1" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml" caret="223" fromTop="5" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml" caret="2785" fromTop="10" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml" caret="2917" fromTop="10" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml.vb" caret="3307" fromTop="20" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml.vb" caret="3307" fromTop="41" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml.vb" caret="3307" fromTop="25" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml.vb" caret="1693" fromTop="41" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml" caret="2620" fromTop="13" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml" caret="2760" fromTop="19" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml.vb" caret="151" fromTop="8" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml.vb" caret="2111" fromTop="26" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml.vb" caret="3245" fromTop="38" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml.vb" caret="3185" fromTop="30" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml.vb" caret="2068" fromTop="16" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml.vb" caret="812" fromTop="26" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml.vb" caret="1979" fromTop="17" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml.vb" caret="633" fromTop="20" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml.vb" caret="1266" fromTop="13" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml" caret="1812" fromTop="20" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml" caret="1183" fromTop="16" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml.vb" caret="1107" fromTop="12" />
+      <File id="D4D0CC97-06E0-421C-9B9E-20F836BE40CE/f:MainWindow.xaml.vb" caret="988" fromTop="14" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="VBCodeCompletionContextSimple">
+      <Item value="Style`0" priority="55" />
+      <Item value="TryFindResource`0" priority="27" />
+      <Item value="If" priority="69" />
+      <Item value="st" priority="83" />
+      <Item value="Is" priority="27" />
+      <Item value="Not" priority="13" />
+      <Item value="Nothing" priority="97" />
+      <Item value="Then" priority="97" />
+      <Item value="ListBox1" priority="41" />
+      <Item value="Dim" priority="181" />
+      <Item value="IsNot" priority="55" />
+      <Item value="AssemblyLoadEventArgs`0" priority="27" />
+      <Item value="As" priority="135" />
+      <Item value="New" priority="125" />
+      <Item value="ListBox`0" priority="41" />
+      <Item value="lb" priority="13" />
+      <Item value="Xaml" priority="27" />
+      <Item value="XamlWriter`0" priority="23" />
+      <Item value="w" priority="13" />
+      <Item value="TextBlock1" priority="41" />
+      <Item value="Type`0" priority="83" />
+      <Item value="GetType" priority="55" />
+      <Item value="FrameworkElement`0" priority="41" />
+      <Item value="Activator`0" priority="13" />
+      <Item value="typ" priority="27" />
+      <Item value="Object`0" priority="13" />
+      <Item value="fe" priority="13" />
+      <Item value="objDefaultStyleKey" priority="27" />
+      <Item value="Application`0" priority="41" />
+      <Item value="xw" priority="13" />
+      <Item value="Formatting`0" priority="13" />
+      <Item value="sw" priority="13" />
+      <Item value="String`0" priority="83" />
+      <Item value="ComboBox1" priority="111" />
+      <Item value="strSelectedItem" priority="27" />
+      <Item value="ComboBoxItem`0" priority="13" />
+      <Item value="False" priority="13" />
+      <Item value="True" priority="13" />
+      <Item value="MessageBox`0" priority="13" />
+      <Item value="MessageBoxButton`0" priority="13" />
+      <Item value="MessageBoxImage`0" priority="13" />
+      <Item value="Public" priority="12" />
+      <Item value="Class" priority="12" />
+      <Item value="DisplayName" priority="13" />
+      <Item value="Type" priority="27" />
+      <Item value="QualifiedTypeName" priority="13" />
+      <Item value="OrElse" priority="13" />
+      <Item value="TypeInfo`0" priority="68" />
+      <Item value="Assembly`0" priority="13" />
+      <Item value="for" priority="27" />
+      <Item value="In" priority="13" />
+      <Item value="asm" priority="27" />
+      <Item value="Debug`0" priority="13" />
+      <Item value="t" priority="27" />
+      <Item value="From" priority="13" />
+      <Item value="it" priority="27" />
+      <Item value="Select" priority="27" />
+      <Item value="typFrameworkElement" priority="13" />
+      <Item value="End If" priority="13" />
+      <Item value="Order" priority="27" />
+      <Item value="Byte`0" priority="13" />
+      <Item value="itar" priority="13" />
+      <Item value="Italic`0" priority="13" />
+      <Item value="List`0" priority="13" />
+      <Item value="Of" priority="13" />
+      <Item value="lst" priority="41" />
+      <Item value="Comparison`1" priority="13" />
+      <Item value="Sub" priority="27" />
+      <Item value="Function" priority="13" />
+      <Item value="x" priority="13" />
+      <Item value="y" priority="13" />
+      <Item value="cmp" priority="13" />
+      <Item value="Resources" priority="13" />
+      <Item value="cboResources" priority="13" />
+      <Item value="objKey" priority="13" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ListBox">
+      <Item value="ApplyTemplate`0" priority="11" />
+      <Item value="SetResourceReference`0" priority="11" />
+      <Item value="StyleProperty" priority="11" />
+      <Item value="Style" priority="23" />
+    </ItemStatistics>
+    <ItemStatistics item="XamlCodeCompletionContext">
+      <Item value="BurlyWood" priority="5" />
+      <Item value="CornflowerBlue" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.TextBlock">
+      <Item value="Text" priority="35" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Style">
+      <Item value="ToString`0" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Activator">
+      <Item value="CreateInstance`0" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.FrameworkElement">
+      <Item value="GetValue`0" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.FrameworkElement">
+      <Item value="DefaultStyleKeyProperty" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ChangeStyle.Application">
+      <Item value="Current" priority="35" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Application">
+      <Item value="TryFindResource`0" priority="11" />
+      <Item value="Resources" priority="23" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlTextWriter">
+      <Item value="Formatting" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Xml.Formatting">
+      <Item value="Indented" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Markup.XamlWriter">
+      <Item value="Save`0" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StringWriter">
+      <Item value="ToString`0" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ComboBox">
+      <Item value="SelectedItem" priority="35" />
+      <Item value="Items" priority="83" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Type">
+      <Item value="GetType`0" priority="35" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ComboBoxItem">
+      <Item value="Content" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ItemCollection">
+      <Item value="Clear`0" priority="11" />
+      <Item value="Add`0" priority="59" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="Name" priority="35" />
+      <Item value="FullName" priority="11" />
+      <Item value="AssemblyQualifiedName" priority="23" />
+      <Item value="Assembly" priority="11" />
+      <Item value="IsPublic" priority="11" />
+      <Item value="IsSubclassOf`0" priority="11" />
+      <Item value="IsAbstract" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.MessageBox">
+      <Item value="Show`0" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="11" />
+      <Item value="Compare`0" priority="11" />
+      <Item value="Empty" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.MessageBoxButton">
+      <Item value="OK" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.MessageBoxImage">
+      <Item value="Error" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ChangeStyle.TypeInfo">
+      <Item value="QualifiedTypeName" priority="11" />
+      <Item value="DisplayName" priority="23" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Reflection.Assembly">
+      <Item value="Load`0" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.Assembly">
+      <Item value="GetTypes`0" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Debug">
+      <Item value="WriteLine`0" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="12" />
+      <Item value="Sort`0" priority="11" />
+      <Item value="ForEach`0" priority="12" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.ResourceDictionary">
+      <Item value="Keys" priority="11" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.9\bin\net-2.0\lib</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

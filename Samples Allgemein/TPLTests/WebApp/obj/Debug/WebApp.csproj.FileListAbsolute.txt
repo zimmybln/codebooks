@@ -1,0 +1,5 @@
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\TPLTests\WebApp\bin\WebApp.dll
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\TPLTests\WebApp\bin\WebApp.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\TPLTests\WebApp\obj\Debug\WebApp.dll
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\TPLTests\WebApp\obj\Debug\WebApp.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\TPLTests\WebApp\obj\Debug\WebApp.csprojResolveAssemblyReference.cache

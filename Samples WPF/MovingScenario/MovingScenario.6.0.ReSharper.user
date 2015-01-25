@@ -1,0 +1,93 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="BE101422-7072-4939-8A57-A4E6A6C82A13/f:Animation.txt" caret="51" fromTop="1" />
+      <File id="BE101422-7072-4939-8A57-A4E6A6C82A13/f:MainWindow.xaml.cs" caret="932" fromTop="28" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="BE101422-7072-4939-8A57-A4E6A6C82A13/f:MainWindow.xaml.cs" caret="877" fromTop="27" />
+      <File id="BE101422-7072-4939-8A57-A4E6A6C82A13/f:MainWindow.xaml.cs" caret="1574" fromTop="38" />
+      <File id="BE101422-7072-4939-8A57-A4E6A6C82A13/f:MainWindow.xaml.cs" caret="1256" fromTop="32" />
+      <File id="BE101422-7072-4939-8A57-A4E6A6C82A13/f:Animation.txt" caret="51" fromTop="1" />
+      <File id="BE101422-7072-4939-8A57-A4E6A6C82A13/f:MainWindow.xaml.cs" caret="1709" fromTop="48" />
+      <File id="BE101422-7072-4939-8A57-A4E6A6C82A13/f:MainWindow.xaml.cs" caret="1050" fromTop="28" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.5\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="new" priority="4" />
+      <Item value="Storyboard" priority="0" />
+      <Item value="DoubleAnimation`0" priority="0" />
+      <Item value="DoubleAnimation" priority="0" />
+      <Item value="TimeSpan`0" priority="2" />
+      <Item value="sb" priority="4" />
+      <Item value="Storyboard`0" priority="1" />
+      <Item value="border1" priority="6" />
+      <Item value="UIElement`0" priority="0" />
+      <Item value="Control`0" priority="0" />
+      <Item value="FrameworkElement`0" priority="2" />
+      <Item value="PropertyPath" priority="0" />
+      <Item value="da" priority="5" />
+      <Item value="Border`0" priority="0" />
+      <Item value="NameScope`0" priority="1" />
+      <Item value="NameScope" priority="0" />
+      <Item value="this" priority="0" />
+      <Item value="RegisterName`0" priority="0" />
+      <Item value="true" priority="0" />
+      <Item value="RepeatBehavior`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.Animation.Storyboard">
+      <Item value="SetTargetProperty`0" priority="0" />
+      <Item value="SetTargetName`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.FrameworkElement">
+      <Item value="WidthProperty" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.Animation.Storyboard">
+      <Item value="Children" priority="0" />
+      <Item value="Begin`0" priority="0" />
+      <Item value="BeginAnimation`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.Animation.TimelineCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Border">
+      <Item value="Name" priority="1" />
+      <Item value="Width" priority="1" />
+      <Item value="BeginAnimation`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.NameScope">
+      <Item value="SetNameScope`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.Animation.DoubleAnimation">
+      <Item value="AutoReverse" priority="0" />
+      <Item value="RepeatBehavior" priority="0" />
+      <Item value="SpeedRatio" priority="0" />
+      <Item value="Completed" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.Animation.RepeatBehavior">
+      <Item value="Forever" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.TimeSpan">
+      <Item value="FromSeconds`0" priority="1" />
+      <Item value="FromMilliseconds`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,8 @@
+<Modules>
+  <Module PersistentId="4236AA3C-FBAA-4D32-931D-5DEDCC93CE7E" ModuleId="ImageExplorer.Presentation" />
+  <Module PersistentId="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE" ModuleId="ImageExplorer.Applications" />
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="WpfApplicationFramework" />
+  <Module PersistentId="8F1B42E1-2186-4163-8CCD-5DF50624AD8F" ModuleId="ImageExplorer.Base" />
+  <Module PersistentId="A17C4C5F-EB05-4C19-8A35-3D090CAA1414" ModuleId="ImageExplorer.App" />
+  <Module PersistentId="8295C7CC-AFDF-40FB-9E77-C9FF5B24A58C" ModuleId="ImageExplorer.Foundation" />
+</Modules>

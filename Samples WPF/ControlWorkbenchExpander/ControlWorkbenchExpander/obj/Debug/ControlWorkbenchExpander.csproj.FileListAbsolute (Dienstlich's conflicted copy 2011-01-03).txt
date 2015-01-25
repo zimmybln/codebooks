@@ -1,0 +1,15 @@
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchExpander\ControlWorkbenchExpander\bin\Debug\ControlWorkbenchExpander.exe
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchExpander\ControlWorkbenchExpander\bin\Debug\ControlWorkbenchExpander.pdb
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchExpander\ControlWorkbenchExpander\obj\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchExpander\ControlWorkbenchExpander\obj\Debug\Window1.baml
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchExpander\ControlWorkbenchExpander\obj\Debug\Window1.g.cs
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchExpander\ControlWorkbenchExpander\obj\Debug\App.g.cs
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchExpander\ControlWorkbenchExpander\obj\Debug\ControlWorkbenchExpander_MarkupCompile.cache
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchExpander\ControlWorkbenchExpander\obj\Debug\ControlWorkbenchExpander.g.resources
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchExpander\ControlWorkbenchExpander\obj\Debug\ControlWorkbenchExpander.Properties.Resources.resources
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchExpander\ControlWorkbenchExpander\obj\Debug\ControlWorkbenchExpander.csproj.GenerateResource.Cache
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchExpander\ControlWorkbenchExpander\obj\Debug\ControlWorkbenchExpander.exe
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchExpander\ControlWorkbenchExpander\obj\Debug\ControlWorkbenchExpander.pdb
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchExpander\ControlWorkbenchExpander\obj\Debug\_Resources\Common.baml
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchExpander\ControlWorkbenchExpander\obj\Debug\App.baml
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples WPF\ControlWorkbenchExpander\ControlWorkbenchExpander\obj\Debug\_Resources\ExpanderStyles.baml

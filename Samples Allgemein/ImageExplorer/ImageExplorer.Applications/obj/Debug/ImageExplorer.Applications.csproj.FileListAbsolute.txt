@@ -1,0 +1,20 @@
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.Applications.dll
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.Applications.pdb
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Applications\obj\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Applications\obj\Debug\ImageExplorer.Applications.dll
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Applications\obj\Debug\ImageExplorer.Applications.pdb
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.Applications.dll
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.Applications.pdb
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Applications\obj\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Applications\obj\Debug\ImageExplorer.Applications.dll
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Applications\obj\Debug\ImageExplorer.Applications.pdb
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.Applications.dll
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.Applications.pdb
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Applications\obj\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Applications\obj\Debug\ImageExplorer.Applications.dll
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Applications\obj\Debug\ImageExplorer.Applications.pdb
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Applications\obj\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Applications\obj\Debug\ImageExplorer.Applications.dll
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.Applications.dll
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.Applications.pdb
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Applications\obj\Debug\ImageExplorer.Applications.pdb

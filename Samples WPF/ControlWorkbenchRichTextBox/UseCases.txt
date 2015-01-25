@@ -1,0 +1,58 @@
+Allgemein
+	- Position des Cursors
+	- Mehrspaltiger Text
+	- Fußzeile, Kopfzeile
+	- Listenzeichen: Zählung, Bullet, benutzerdefiniert
+	- Wiederholen, Rückgängig
+	- Unterstützung der Zwischenablage
+	- Dokumenteigenschaften
+	- Datei speichern und laden
+
+Hyperlinks
+	- Zur Laufzeit setzen und entfernen
+	- Event abfangen
+	- Beim Starten markieren
+	
+Schriftattribute (auch Absatz)
+	- Fett, Kursiv, Unterstrichen, Doppelt unterstrichen, Zeilenabstrand, Schriftart
+		
+Tabelle
+	- Einfügen und entfernen
+	- Zelleneigenschaften: Hintergrundfarbe, Vordergrundfarbe, Rahmen
+	
+Absatz
+	- Hintergrundfarbe
+	- Rahmen
+	- Besondere Kennzeichnung zur Indentifikation weiterer Verarbeitung
+	- Absatzrichtung: Links, Rechts, Zentriert, Block
+		
+Bilder
+	- Einfügen, Erkennen und Entfernen
+	
+Formulare
+	- Steuerelemente
+	
+Ausgabe
+	- Drucken
+	- Export
+	
+Buttonarten
+	- Befehlsbutton (z.B. Füge Hyperlink ein)
+	- Befehlsbutton mit Zustandsfeedback (z.B. Schriftattribut Fett)
+	
+Ressourcen
+	- http://msdn.microsoft.com/en-us/library/ms771298.aspx (RichTextBox Samples)
+	- http://shevaspace.blogspot.com/2007/11/how-to-search-text-in-wpf-flowdocument.html (How to Seach Text in WPF FlowDocument)
+	- http://blogs.msdn.com/prajakta/archive/2006/11/01/navigate-words-in-richtextbox.aspx (Navigate Words in RichTextBox, Hyperlink Autodetect)
+	- http://msdn.microsoft.com/en-us/library/ms771364.aspx (Flow Content Elements Samples)
+	- http://blog.spencen.com/2008/01/19/html-to-flowdocument-converter.aspx (HTML to FlowDocument Converter)
+	- http://blogs.msdn.com/prajakta/archive/2006/10/17/autp-detecting-hyperlinks-in-richtextbox-part-i.aspx (Autodetect hyperlinks)
+	- http://goalbook.wordpress.com/ (Verschiedene interessante Verfahren)
+	- http://www.drdobbs.com/windows/209800469 (Verwendung von Steuerelementen in einem FlowDocument)
+
+	
+	
+	
+	
+
+Window1.xaml

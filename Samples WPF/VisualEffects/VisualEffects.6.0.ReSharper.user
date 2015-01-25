@@ -1,0 +1,55 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="B2ED7A90-F3F8-4A10-9FB7-C5A6C45CC67A/f:MainWindowModel.vb" caret="30" fromTop="1" />
+      <File id="B2ED7A90-F3F8-4A10-9FB7-C5A6C45CC67A/f:MainWindow.xaml" caret="320" fromTop="6" />
+      <File id="B2ED7A90-F3F8-4A10-9FB7-C5A6C45CC67A/f:MainWindow.xaml.vb" caret="45" fromTop="4" />
+      <File id="B2ED7A90-F3F8-4A10-9FB7-C5A6C45CC67A/f:DisplayControl.xaml" caret="272" fromTop="3" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="B2ED7A90-F3F8-4A10-9FB7-C5A6C45CC67A/f:MainWindow.xaml" caret="256" fromTop="5" />
+      <File id="B2ED7A90-F3F8-4A10-9FB7-C5A6C45CC67A/f:MainWindow.xaml" caret="256" fromTop="6" />
+      <File id="B2ED7A90-F3F8-4A10-9FB7-C5A6C45CC67A/f:MainWindow.xaml" caret="281" fromTop="17" />
+      <File id="B2ED7A90-F3F8-4A10-9FB7-C5A6C45CC67A/f:MainWindow.xaml" caret="643" fromTop="13" />
+      <File id="B2ED7A90-F3F8-4A10-9FB7-C5A6C45CC67A/f:DisplayControl.xaml" caret="458" fromTop="8" />
+      <File id="B2ED7A90-F3F8-4A10-9FB7-C5A6C45CC67A/f:DisplayControl.xaml" caret="2063" fromTop="12" />
+      <File id="B2ED7A90-F3F8-4A10-9FB7-C5A6C45CC67A/f:MainWindow.xaml.vb" caret="53" fromTop="4" />
+      <File id="B2ED7A90-F3F8-4A10-9FB7-C5A6C45CC67A/f:MainWindow.xaml" caret="320" fromTop="6" />
+      <File id="B2ED7A90-F3F8-4A10-9FB7-C5A6C45CC67A/f:MainWindow.xaml.vb" caret="394" fromTop="15" />
+      <File id="B2ED7A90-F3F8-4A10-9FB7-C5A6C45CC67A/f:MainWindow.xaml.vb" caret="587" fromTop="19" />
+      <File id="B2ED7A90-F3F8-4A10-9FB7-C5A6C45CC67A/f:MainWindow.xaml.vb" caret="222" fromTop="8" />
+      <File id="B2ED7A90-F3F8-4A10-9FB7-C5A6C45CC67A/f:DisplayControl.xaml" caret="1544" fromTop="15" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="VBCodeCompletionContextSimple">
+      <Item value="VisualStateManager`0" priority="13" />
+      <Item value="Me" priority="13" />
+      <Item value="True" priority="13" />
+      <Item value="grd" priority="27" />
+      <Item value="diplay" priority="13" />
+      <Item value="display" priority="13" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.VisualStateManager">
+      <Item value="GoToState`0" priority="11" />
+      <Item value="GoToElementState`0" priority="10" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.9\bin\net-2.0\lib</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

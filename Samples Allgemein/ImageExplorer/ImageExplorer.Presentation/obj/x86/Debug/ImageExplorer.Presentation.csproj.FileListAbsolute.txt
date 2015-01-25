@@ -1,0 +1,118 @@
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.Presentation.dll
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.Presentation.pdb
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ShellWindow.g.cs
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ImageExplorer.Presentation_MarkupCompile.cache
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ImageExplorer.Presentation_MarkupCompile.lref
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ShellWindow.baml
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ImageExplorer.Presentation.g.resources
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ImageExplorer.Presentation.Properties.Resources.resources
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ResGen.read.1.tlog
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ResGen.write.1.tlog
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ImageExplorer.Presentation.dll
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ImageExplorer.Presentation.pdb
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Controls\Directory.baml
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Controls\Directory.g.cs
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Controls\Files.baml
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Controls\Files.g.cs
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\FileSelectionWindow.g.cs
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\FileSelectionWindow.baml
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\FileMethodWindow.baml
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\FileMethodWindow.g.cs
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ImageMethodResizerWindow.baml
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ImageMethodResizerWindow.g.cs
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ImageMethodViewerWindow.baml
+D:\Dokumente\Mesh\Mehp\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ImageMethodViewerWindow.g.cs
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.Presentation.dll
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.Presentation.pdb
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Controls\Directory.baml
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Controls\Files.baml
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Controls\Directory.g.cs
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Controls\Files.g.cs
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\FileMethodWindow.g.cs
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\FileSelectionWindow.g.cs
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ImageMethodResizerWindow.g.cs
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ImageMethodViewerWindow.g.cs
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ShellWindow.g.cs
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ImageExplorer.Presentation_MarkupCompile.cache
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ImageExplorer.Presentation_MarkupCompile.lref
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\FileMethodWindow.baml
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\FileSelectionWindow.baml
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ImageMethodResizerWindow.baml
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ImageMethodViewerWindow.baml
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ShellWindow.baml
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ImageExplorer.Presentation.g.resources
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ImageExplorer.Presentation.Properties.Resources.resources
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ResGen.read.1.tlog
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ResGen.write.1.tlog
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ImageExplorer.Presentation.dll
+D:\Dokumente\Artikel\dotnetpro\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ImageExplorer.Presentation.pdb
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.Presentation.dll
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.Presentation.pdb
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Controls\Directory.baml
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Controls\Files.baml
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Controls\Directory.g.cs
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Controls\Files.g.cs
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\FileMethodWindow.g.cs
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\FileSelectionWindow.g.cs
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ImageMethodResizerWindow.g.cs
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ImageMethodViewerWindow.g.cs
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ShellWindow.g.cs
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ImageExplorer.Presentation_MarkupCompile.cache
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ImageExplorer.Presentation_MarkupCompile.lref
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\FileMethodWindow.baml
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\FileSelectionWindow.baml
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ImageMethodResizerWindow.baml
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ImageMethodViewerWindow.baml
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ShellWindow.baml
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ImageExplorer.Presentation.g.resources
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ImageExplorer.Presentation.Properties.Resources.resources
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ResGen.read.1.tlog
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ResGen.write.1.tlog
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ImageExplorer.Presentation.dll
+C:\Dokumente und Einstellungen\Torstenz\Desktop\26 - WAF\26 - WAF\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ImageExplorer.Presentation.pdb
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.Presentation.dll
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.App\bin\Debug\ImageExplorer.Presentation.pdb
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Controls\Directory.baml
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Controls\Files.baml
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ImageMethodFilterWindow.baml
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Controls\Directory.g.cs
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Controls\Files.g.cs
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\FileMethodWindow.g.cs
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\FileSelectionWindow.g.cs
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ImageMethodFilterWindow.g.cs
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ImageMethodResizerWindow.g.cs
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ImageMethodViewerWindow.g.cs
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ShellWindow.g.cs
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ImageExplorer.Presentation_MarkupCompile.cache
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ImageExplorer.Presentation_MarkupCompile.lref
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\FileMethodWindow.baml
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\FileSelectionWindow.baml
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ImageMethodResizerWindow.baml
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ImageMethodViewerWindow.baml
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\Views\ShellWindow.baml
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ImageExplorer.Presentation.g.resources
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ImageExplorer.Presentation.Properties.Resources.resources
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ResGen.read.1.tlog
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ResGen.write.1.tlog
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ImageExplorer.Presentation.dll
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\ImageExplorer\ImageExplorer.Presentation\obj\x86\Debug\ImageExplorer.Presentation.pdb

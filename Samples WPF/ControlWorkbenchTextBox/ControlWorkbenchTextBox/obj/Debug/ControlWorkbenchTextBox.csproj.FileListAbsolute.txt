@@ -1,0 +1,18 @@
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTextBox\ControlWorkbenchTextBox\bin\Debug\ControlWorkbenchTextBox.exe.config
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTextBox\ControlWorkbenchTextBox\bin\Debug\ControlWorkbenchTextBox.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTextBox\ControlWorkbenchTextBox\bin\Debug\ControlWorkbenchTextBox.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTextBox\ControlWorkbenchTextBox\obj\Debug\ControlWorkbenchTextBox.csprojResolveAssemblyReference.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTextBox\ControlWorkbenchTextBox\obj\Debug\MainWindow.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTextBox\ControlWorkbenchTextBox\obj\Debug\Pages\GhostStyle.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTextBox\ControlWorkbenchTextBox\obj\Debug\MainWindow.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTextBox\ControlWorkbenchTextBox\obj\Debug\Pages\GhostStyle.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTextBox\ControlWorkbenchTextBox\obj\Debug\App.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTextBox\ControlWorkbenchTextBox\obj\Debug\ControlWorkbenchTextBox_MarkupCompile.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTextBox\ControlWorkbenchTextBox\obj\Debug\ControlWorkbenchTextBox.g.resources
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTextBox\ControlWorkbenchTextBox\obj\Debug\ControlWorkbenchTextBox.Properties.Resources.resources
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTextBox\ControlWorkbenchTextBox\obj\Debug\ControlWorkbenchTextBox.csproj.GenerateResource.Cache
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTextBox\ControlWorkbenchTextBox\obj\Debug\ControlWorkbenchTextBox.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchTextBox\ControlWorkbenchTextBox\obj\Debug\ControlWorkbenchTextBox.pdb
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchTextBox\ControlWorkbenchTextBox\bin\Debug\ControlWorkbenchTextBox.exe.config
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchTextBox\ControlWorkbenchTextBox\obj\Debug\ControlWorkbenchTextBox.exe
+C:\Users\Torsten\Dropbox\Codebooks\Samples WPF\ControlWorkbenchTextBox\ControlWorkbenchTextBox\obj\Debug\ControlWorkbenchTextBox.pdb

@@ -1,0 +1,15 @@
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\CustomControlLibrary\CustomControlLibrary\bin\Debug\CustomControlLibrary.dll
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\CustomControlLibrary\CustomControlLibrary\bin\Debug\CustomControlLibrary.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\Bin\CustomControlLibrary.dll
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\Bin\CustomControlLibrary.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\CustomControlLibrary\CustomControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\CustomControlLibrary\CustomControlLibrary\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\CustomControlLibrary\CustomControlLibrary\obj\Debug\CustomControlLibrary_MarkupCompile.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\CustomControlLibrary\CustomControlLibrary\obj\Debug\CustomControlLibrary_MarkupCompile.lref
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\CustomControlLibrary\CustomControlLibrary\obj\Debug\Themes\Generic.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\CustomControlLibrary\CustomControlLibrary\obj\Debug\CustomControlLibrary.g.resources
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\CustomControlLibrary\CustomControlLibrary\obj\Debug\CustomControlLibrary.Properties.Resources.resources
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\CustomControlLibrary\CustomControlLibrary\obj\Debug\GenerateResource.read.1.tlog
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\CustomControlLibrary\CustomControlLibrary\obj\Debug\GenerateResource.write.1.tlog
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\CustomControlLibrary\CustomControlLibrary\obj\Debug\CustomControlLibrary.dll
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\CustomControlLibrary\CustomControlLibrary\obj\Debug\CustomControlLibrary.pdb

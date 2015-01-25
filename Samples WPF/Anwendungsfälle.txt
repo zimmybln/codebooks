@@ -1,0 +1,2 @@
+- Eine Liste, in der der Text bearbeitet werden kann und in der der letzte Eintrag das Hinzufügen eines neuen Eintrages erlaubt
+- Ein ListView, in dem die Beiträge optisch verändert werden können

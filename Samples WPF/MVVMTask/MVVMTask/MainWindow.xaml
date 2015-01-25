@@ -1,0 +1,14 @@
+﻿<Window x:Class="MVVMTask.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:app="clr-namespace:MVVMTask"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.DataContext>
+        <app:MainWindowModel />
+    </Window.DataContext>
+    <Grid>
+        <Button Content="Start" Height="43" HorizontalAlignment="Left" Margin="54,50,0,0"  VerticalAlignment="Top" Width="106" 
+                Command="{Binding ExecuteBackgroundTask}"/>
+        <Label Content="{Binding Title}" Height="25" HorizontalAlignment="Left" Margin="56,114,0,0" Name="label1" VerticalAlignment="Top" Width="251" />
+    </Grid>
+</Window>

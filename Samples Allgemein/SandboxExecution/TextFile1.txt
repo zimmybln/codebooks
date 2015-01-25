@@ -1,0 +1,56 @@
+public class ScriptRunner : MarshalByRefObject // make class remotable
+{
+	ICodeCompiler      compiler;	
+	CompilerParameters param;
+	
+	public static ScriptRunner CreateInSeparateDomain()
+	{
+			AppDomain dom = AppDomain.CreateDomain( "sandbox" );
+			
+			return dom.CreateInstanceAndUnwrap( typeof( ScriptRunner ).Assembly.GetName().Name,	typeof( ScriptRunner ).FullName ) as ScriptRunner;
+			
+	}
+	
+	public ScriptRunner()
+	{
+			string parameters = "";		
+			
+			// C# compiler		
+			compiler = new CSharpCodeProvider().CreateCompiler();		
+			
+			// parameters = "/debug+"; // uncomment for debugging		
+			
+			// uncomment for JScript.NET		
+			//compiler = new JScriptCodeProvider().CreateCompiler();		
+			
+			//parameters ="/debug+ /versionsafe+ ";		
+			param = new CompilerParameters();		
+			param.CompilerOptions = parameters;		
+			param.GenerateExecutable = false;		
+			param.GenerateInMemory = true;		
+			param.IncludeDebugInformation = true;		
+			param.ReferencedAssemblies.Add( "Scripting.dll" ); // whatever you need here		
+			
+			// set policy		
+			PolicyLevel level = PolicyLevel.CreateAppDomainLevel();		
+			PermissionSet permissions = new PermissionSet( PermissionState.None );		
+			
+			// uncomment all permissions you need		
+			// (never allow "Assertion"...)		
+			// which flags are required minimally also depends		
+			// on .NET runtime Version		
+			SecurityPermissionFlag permissionFlags =	SecurityPermissionFlag.Assertion |	
+											SecurityPermissionFlag.BindingRedirects |	SecurityPermissionFlag.ControlAppDomain |	SecurityPermissionFlag.ControlDomainPolicy |	
+											SecurityPermissionFlag.ControlEvidence |	SecurityPermissionFlag.ControlPolicy |	SecurityPermissionFlag.ControlThread |	SecurityPermissionFlag.ControlPrincipal |
+											SecurityPermissionFlag.Infrastructure |	SecurityPermissionFlag.RemotingConfiguration |	SecurityPermissionFlag.SerializationFormatter |	SecurityPermissionFlag.Infrastructure |			
+											SecurityPermissionFlag.SkipVerification |	SecurityPermissionFlag.UnmanagedCode|	SecurityPermissionFlag.Execution;
+											
+			permissions.AddPermission( new SecurityPermission( permissionFlags ) );		// allow reflection		
+			permissions.AddPermission( new ReflectionPermission( ReflectionPermissionFlag.AllFlags ) );		
+			PolicyStatement policy = new PolicyStatement( permissions, PolicyStatementAttribute.Exclusive );		
+			
+			CodeGroup group = new UnionCodeGroup( new AllMembershipCondition(), policy );		
+			level.RootCodeGroup = group;		
+			AppDomain.CurrentDomain.SetAppDomainPolicy( level );	
+			}   
+ }    // add code for compiling and running scripts}

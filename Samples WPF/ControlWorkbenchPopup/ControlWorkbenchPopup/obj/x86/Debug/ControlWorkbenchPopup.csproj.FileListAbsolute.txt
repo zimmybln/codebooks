@@ -1,0 +1,36 @@
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\MainWindow.baml
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\_UseCases\ResizeablePopup.baml
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\MainWindow.g.cs
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\_UseCases\ResizeablePopup.g.cs
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\App.g.cs
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\ControlWorkbenchPopup_MarkupCompile.cache
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\ControlWorkbenchPopup.g.resources
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\ControlWorkbenchPopup.Properties.Resources.resources
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\bin\Debug\ControlWorkbenchPopup.exe
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\bin\Debug\ControlWorkbenchPopup.pdb
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\ControlWorkbenchPopup.exe
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\ControlWorkbenchPopup.pdb
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\ControlWorkbenchPopup_MarkupCompile.lref
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\Themes\Generic.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\ControlWorkbenchPopup.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\ControlWorkbenchPopup.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\bin\Debug\ControlWorkbenchPopup.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\bin\Debug\ControlWorkbenchPopup.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\MainWindow.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\MainWindow.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\_UseCases\ResizeablePopup.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\App.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\ControlWorkbenchPopup_MarkupCompile.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\ControlWorkbenchPopup_MarkupCompile.lref
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\Themes\Generic.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\_UseCases\ResizeablePopup.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\ControlWorkbenchPopup.g.resources
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\ControlWorkbenchPopup.Properties.Resources.resources
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\ControlWorkbenchPopup\ControlWorkbenchPopup\obj\x86\Debug\GenerateResource.write.1.tlog

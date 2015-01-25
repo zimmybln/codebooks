@@ -1,0 +1,4 @@
+﻿Organismus:
+ 
+- Lebenspunkte bestimmen die Lebensenergie eines Organismus. Von der Geburt an erhöhen sich die Lebenspunkte bis zu einem bestimmten Wert und reduzieren sich dann durch bestimmte Ereignisse. Ist der Wert 0, stirbt der Organismus. Die Geschwindigkeit, mit der sich die Lebenspunkte reduzieren, kann beeinflusst werden.
+ 

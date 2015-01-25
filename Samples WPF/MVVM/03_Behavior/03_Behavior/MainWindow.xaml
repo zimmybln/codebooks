@@ -1,0 +1,22 @@
+﻿<Window x:Class="_03_Behavior.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:app="clr-namespace:_03_Behavior" xmlns:System="clr-namespace:System;assembly=mscorlib" Title="MainWindow" Height="350" Width="525"
+        >
+    <Window.DataContext>
+        <app:MainWindowModel />
+    </Window.DataContext>
+    <Grid>
+        <ListBox Margin="12,12,348,21" app:DragBehavior.DragAdapter="{Binding DragAdapter}">
+            <ListBox.Items>
+                <System:String>John Lennon</System:String>
+                <System:String>Paul McCartney</System:String>
+                <System:String>George Harrison</System:String>
+                <System:String>Ringo Starr</System:String>
+            </ListBox.Items>
+        </ListBox>
+        <ListBox Margin="276,12,12,12" AllowDrop="True" app:DropBehavior.DropAdapter="{Binding DropAdapter}" ItemsSource="{Binding DroppedValues}">
+            
+        </ListBox>
+    </Grid>
+</Window>

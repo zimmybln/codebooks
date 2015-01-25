@@ -1,0 +1,436 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="4236AA3C-FBAA-4D32-931D-5DEDCC93CE7E/d:Views/f:FileSelectionWindow.xaml" caret="569" fromTop="6" />
+      <File id="8F1B42E1-2186-4163-8CCD-5DF50624AD8F/d:Controller/f:IApplicationController.cs" caret="0" fromTop="0" />
+      <File id="8F1B42E1-2186-4163-8CCD-5DF50624AD8F/d:Views/f:IFileSelectionView.cs" caret="181" fromTop="8" />
+      <File id="8F1B42E1-2186-4163-8CCD-5DF50624AD8F/d:ViewModels/f:IFileSelectionViewModel.cs" caret="0" fromTop="0" />
+      <File id="8F1B42E1-2186-4163-8CCD-5DF50624AD8F/d:Views/f:IFileMethodView.cs" caret="0" fromTop="0" />
+      <File id="4236AA3C-FBAA-4D32-931D-5DEDCC93CE7E/d:Views/f:FileSelectionWindow.xaml.cs" caret="0" fromTop="0" />
+      <File id="8F1B42E1-2186-4163-8CCD-5DF50624AD8F/d:Views/f:IImageMethodViewerView.cs" caret="155" fromTop="6" />
+      <File id="8F1B42E1-2186-4163-8CCD-5DF50624AD8F/d:Views/f:IImageMethodeResizerView.cs" caret="88" fromTop="2" />
+      <File id="4236AA3C-FBAA-4D32-931D-5DEDCC93CE7E/d:Views/f:ImageMethodResizerWindow.xaml.cs" caret="341" fromTop="10" />
+      <File id="4236AA3C-FBAA-4D32-931D-5DEDCC93CE7E/d:Views/f:ImageMethodViewerWindow.xaml" caret="73" fromTop="0" />
+      <File id="4236AA3C-FBAA-4D32-931D-5DEDCC93CE7E/d:Views/f:ImageMethodViewerWindow.xaml.cs" caret="472" fromTop="15" />
+      <File id="8F1B42E1-2186-4163-8CCD-5DF50624AD8F/d:ViewModels/f:IFileMethodViewModel.cs" caret="255" fromTop="9" />
+      <File id="4236AA3C-FBAA-4D32-931D-5DEDCC93CE7E/d:Views/f:FileMethodWindow.xaml" caret="451" fromTop="4" />
+      <File id="4236AA3C-FBAA-4D32-931D-5DEDCC93CE7E/d:Controls/f:Directory.xaml.cs" caret="580" fromTop="16" />
+      <File id="8F1B42E1-2186-4163-8CCD-5DF50624AD8F/d:ViewModels/f:IImageExplorerMethodModel.cs" caret="0" fromTop="0" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:ViewModels/f:ShellViewModel.cs" caret="0" fromTop="0" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:ViewModels/f:FileMethodViewModel.cs" caret="1161" fromTop="30" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:ViewModels/f:FileSelectionViewModel.cs" caret="785" fromTop="13" />
+      <File id="8F1B42E1-2186-4163-8CCD-5DF50624AD8F/d:ViewModels/f:IImageViewerModel.cs" caret="208" fromTop="8" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:ViewModels/d:Methods/f:ImageExplorerResizer.cs" caret="436" fromTop="3" />
+      <File id="4236AA3C-FBAA-4D32-931D-5DEDCC93CE7E/d:Mocks/f:FileMethodViewModelMock.cs" caret="0" fromTop="0" />
+      <File id="8F1B42E1-2186-4163-8CCD-5DF50624AD8F/d:ViewModels/f:IImageResizerModel.cs" caret="171" fromTop="7" />
+      <File id="4236AA3C-FBAA-4D32-931D-5DEDCC93CE7E/d:Mocks/f:ImageResizerMock.cs" caret="193" fromTop="7" />
+      <File id="4236AA3C-FBAA-4D32-931D-5DEDCC93CE7E/d:Views/f:ShellWindow.xaml" caret="568" fromTop="7" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:Controller/f:ImageMethodsController.cs" caret="800" fromTop="10" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:ViewModels/d:Methods/f:ImageExplorerViewer.cs" caret="578" fromTop="18" />
+      <File id="4236AA3C-FBAA-4D32-931D-5DEDCC93CE7E/d:Views/f:ImageMethodResizerWindow.xaml" caret="309" fromTop="2" />
+      <File id="A17C4C5F-EB05-4C19-8A35-3D090CAA1414/f:App.xaml" caret="0" fromTop="0" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:Controller/f:ApplicationController.cs" caret="197" fromTop="4" />
+      <File id="A17C4C5F-EB05-4C19-8A35-3D090CAA1414/f:App.xaml.cs" caret="385" fromTop="7" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="8F1B42E1-2186-4163-8CCD-5DF50624AD8F/d:ViewModels/f:IImageViewerModel.cs" caret="210" fromTop="10" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:ViewModels/d:Methods/f:ImageExplorerViewer.cs" caret="578" fromTop="15" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:Controller/f:ApplicationController.cs" caret="484" fromTop="13" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:Controller/f:ImageMethodsController.cs" caret="1083" fromTop="23" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:Controller/f:ApplicationController.cs" caret="1121" fromTop="26" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:Controller/f:ImageMethodsController.cs" caret="732" fromTop="21" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:Controller/f:ImageMethodsController.cs" caret="502" fromTop="17" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:Controller/f:ImageMethodsController.cs" caret="934" fromTop="27" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:Controller/f:ImageMethodsController.cs" caret="1569" fromTop="41" />
+      <File id="8F1B42E1-2186-4163-8CCD-5DF50624AD8F/d:ViewModels/f:IImageViewerModel.cs" caret="208" fromTop="8" />
+      <File id="8F1B42E1-2186-4163-8CCD-5DF50624AD8F/d:ViewModels/f:IImageResizerModel.cs" caret="204" fromTop="8" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:ViewModels/d:Methods/f:ImageExplorerViewer.cs" caret="1020" fromTop="33" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:ViewModels/d:Methods/f:ImageExplorerResizer.cs" caret="1080" fromTop="38" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:ViewModels/d:Methods/f:ImageExplorerResizer.cs" caret="1375" fromTop="49" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:ViewModels/d:Methods/f:ImageExplorerViewer.cs" caret="427" fromTop="7" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:ViewModels/d:Methods/f:ImageExplorerResizer.cs" caret="480" fromTop="13" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:Controller/f:ImageMethodsController.cs" caret="1073" fromTop="31" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:ViewModels/d:Methods/f:ImageExplorerViewer.cs" caret="678" fromTop="20" />
+      <File id="4236AA3C-FBAA-4D32-931D-5DEDCC93CE7E/d:Mocks/f:ImageResizerMock.cs" caret="213" fromTop="7" />
+      <File id="4236AA3C-FBAA-4D32-931D-5DEDCC93CE7E/d:Mocks/f:ImageResizerMock.cs" caret="288" fromTop="11" />
+      <File id="4236AA3C-FBAA-4D32-931D-5DEDCC93CE7E/d:Views/f:ShellWindow.xaml" caret="290" fromTop="3" />
+      <File id="4236AA3C-FBAA-4D32-931D-5DEDCC93CE7E/d:Views/f:ShellWindow.xaml" caret="545" fromTop="7" />
+      <File id="4236AA3C-FBAA-4D32-931D-5DEDCC93CE7E/d:Views/f:ImageMethodResizerWindow.xaml" caret="485" fromTop="5" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:Controller/f:ImageMethodsController.cs" caret="1355" fromTop="36" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:Controller/f:ImageMethodsController.cs" caret="1555" fromTop="36" />
+      <File id="CEBABEA3-6CDE-4053-90FD-37F8518D2DAE/d:Controller/f:ImageMethodsController.cs" caret="120" fromTop="1" />
+      <File id="4236AA3C-FBAA-4D32-931D-5DEDCC93CE7E/d:Views/f:ImageMethodResizerWindow.xaml" caret="635" fromTop="9" />
+      <File id="A17C4C5F-EB05-4C19-8A35-3D090CAA1414/f:App.xaml.cs" caret="195" fromTop="6" />
+      <File id="A17C4C5F-EB05-4C19-8A35-3D090CAA1414/f:App.xaml.cs" caret="298" fromTop="8" />
+      <File id="A17C4C5F-EB05-4C19-8A35-3D090CAA1414/f:App.xaml" caret="60" fromTop="0" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Programme\NUnit 2.5.4\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="using" priority="2" />
+      <Item value="System" priority="11" />
+      <Item value="ComponentModel" priority="0" />
+      <Item value="Composition" priority="0" />
+      <Item value="Waf" priority="1" />
+      <Item value="Applications" priority="0" />
+      <Item value="Export" priority="3" />
+      <Item value="public" priority="13" />
+      <Item value="ApplicationController`0" priority="1" />
+      <Item value="ImportingConstructor" priority="0" />
+      <Item value="private" priority="21" />
+      <Item value="readonly" priority="8" />
+      <Item value="CompositionContainer`0" priority="1" />
+      <Item value="mv_implCompositionContainer" priority="2" />
+      <Item value="container" priority="1" />
+      <Item value="Controller`0" priority="0" />
+      <Item value="void" priority="13" />
+      <Item value="ViewModels" priority="1" />
+      <Item value="IShellView`0" priority="2" />
+      <Item value="this" priority="11" />
+      <Item value="mv_implShellViewModel" priority="12" />
+      <Item value="ShellViewModel`0" priority="1" />
+      <Item value="mv_objApplicationController" priority="0" />
+      <Item value="IMainView`0" priority="1" />
+      <Item value="typeof" priority="11" />
+      <Item value="MainViewModel`0" priority="1" />
+      <Item value="mv_implMainViewModel" priority="3" />
+      <Item value="new" priority="10" />
+      <Item value="kbExitCommand" priority="0" />
+      <Item value="ICommand`0" priority="1" />
+      <Item value="return" priority="22" />
+      <Item value="mv_cmdSayHelloCommand" priority="1" />
+      <Item value="DelegateCommand`0" priority="0" />
+      <Item value="SayHello`0" priority="0" />
+      <Item value="ViewModel" priority="0" />
+      <Item value="OnDataContextChanged`0" priority="0" />
+      <Item value="Windows" priority="1" />
+      <Item value="Alt" priority="0" />
+      <Item value="Application`0" priority="0" />
+      <Item value="batch" priority="0" />
+      <Item value="AddWeakEventListener`0" priority="1" />
+      <Item value="MessageService" priority="3" />
+      <Item value="IMessageService`0" priority="6" />
+      <Item value="mv_implMessageService" priority="3" />
+      <Item value="Base" priority="12" />
+      <Item value="IMainViewModel`0" priority="1" />
+      <Item value="IApplicationController`0" priority="5" />
+      <Item value="App" priority="0" />
+      <Item value="catalog" priority="0" />
+      <Item value="AssemblyCatalog`0" priority="0" />
+      <Item value="Assembly`0" priority="1" />
+      <Item value="as" priority="5" />
+      <Item value="ImageExplorer" priority="7" />
+      <Item value="Presentation" priority="0" />
+      <Item value="Views" priority="0" />
+      <Item value="MainWindow`0" priority="0" />
+      <Item value="null" priority="11" />
+      <Item value="IShellViewModel`0" priority="4" />
+      <Item value="string" priority="32" />
+      <Item value="String`0" priority="2" />
+      <Item value="Message" priority="5" />
+      <Item value="lblInfo" priority="0" />
+      <Item value="delegate" priority="0" />
+      <Item value="event" priority="1" />
+      <Item value="Message`0" priority="0" />
+      <Item value="MessageBox`0" priority="1" />
+      <Item value="if" priority="17" />
+      <Item value="OnMessage" priority="0" />
+      <Item value="ReceiveMessage`0" priority="0" />
+      <Item value="e" priority="9" />
+      <Item value="Directory`0" priority="10" />
+      <Item value="DependencyObject`0" priority="1" />
+      <Item value="DependencyPropertyChangedEventArgs`0" priority="1" />
+      <Item value="FrameworkPropertyMetadata`0" priority="1" />
+      <Item value="None" priority="1" />
+      <Item value="PropertyChangedCallback" priority="1" />
+      <Item value="d" priority="3" />
+      <Item value="ctl" priority="7" />
+      <Item value="foreach" priority="3" />
+      <Item value="in" priority="2" />
+      <Item value="IO" priority="9" />
+      <Item value="strDirectory" priority="3" />
+      <Item value="strSubDirectory" priority="0" />
+      <Item value="mv_strSelectedPath" priority="10" />
+      <Item value="value" priority="8" />
+      <Item value="RaisePropertyChanged`0" priority="5" />
+      <Item value="Files`0" priority="0" />
+      <Item value="Path`0" priority="3" />
+      <Item value="TreeViewItem`0" priority="4" />
+      <Item value="TreeViewItem" priority="1" />
+      <Item value="tviDirectory" priority="1" />
+      <Item value="AssemblyLoadEventArgs`0" priority="0" />
+      <Item value="TreeView`0" priority="0" />
+      <Item value="tviDrive" priority="4" />
+      <Item value="strDrive" priority="2" />
+      <Item value="trvDirectories" priority="0" />
+      <Item value="OnNodeExpanded`0" priority="0" />
+      <Item value="ItemCollection`0" priority="1" />
+      <Item value="tviItems" priority="2" />
+      <Item value="x" priority="0" />
+      <Item value="tviParent" priority="10" />
+      <Item value="true" priority="1" />
+      <Item value="strPathSegments" priority="3" />
+      <Item value="strFind" priority="3" />
+      <Item value="Length" priority="3" />
+      <Item value="ForegroundProperty" priority="0" />
+      <Item value="int" priority="2" />
+      <Item value="i" priority="1" />
+      <Item value="tviFound" priority="0" />
+      <Item value="item" priority="0" />
+      <Item value="is" priority="3" />
+      <Item value="static" priority="2" />
+      <Item value="bool" priority="1" />
+      <Item value="false" priority="0" />
+      <Item value="try" priority="0" />
+      <Item value="fHasChildren" priority="1" />
+      <Item value="DirectoryInfo`0" priority="0" />
+      <Item value="Directory" priority="2" />
+      <Item value="var" priority="1" />
+      <Item value="strSubDirectories" priority="0" />
+      <Item value="HasChildren`0" priority="1" />
+      <Item value="ApplicationInfo`0" priority="0" />
+      <Item value="object" priority="4" />
+      <Item value="mv_objFileMethodView" priority="2" />
+      <Item value="IFileMethodView`0" priority="1" />
+      <Item value="IFileMethodViewModel`0" priority="1" />
+      <Item value="FileMethodViewModel`0" priority="1" />
+      <Item value="mv_implFileMethodViewModel" priority="4" />
+      <Item value="ListItem`0" priority="0" />
+      <Item value="ListItem" priority="0" />
+      <Item value="lstItem" priority="4" />
+      <Item value="strFile" priority="0" />
+      <Item value="DependencyProperty`0" priority="1" />
+      <Item value="ListBoxItem`0" priority="0" />
+      <Item value="FileProperty" priority="1" />
+      <Item value="mv_implFileSelectionViewModel" priority="7" />
+      <Item value="Exception`0" priority="0" />
+      <Item value="IImageExplorerMethod`0" priority="4" />
+      <Item value="ListBindableAttribute`0" priority="0" />
+      <Item value="Lazy" priority="0" />
+      <Item value="lstMethods" priority="0" />
+      <Item value="Console`0" priority="0" />
+      <Item value="objItem" priority="1" />
+      <Item value="mv_colMethods" priority="1" />
+      <Item value="ObservableCollection&lt;object&gt;" priority="0" />
+      <Item value="IImageExplorerMethodModel`0" priority="2" />
+      <Item value="IImageMethodeResizerView`0" priority="1" />
+      <Item value="ImageExplorerResizer`0" priority="1" />
+      <Item value="base" priority="0" />
+      <Item value="Import" priority="0" />
+      <Item value="IImageMethodViewerView`0" priority="3" />
+      <Item value="mv_implActiveMethod" priority="6" />
+      <Item value="mv_nCount" priority="2" />
+      <Item value="FileSelectionViewModel" priority="1" />
+      <Item value="IFileSelectionViewModel`0" priority="0" />
+      <Item value="OnFileSelectionPropertyChanged`0" priority="0" />
+      <Item value="INotifyPropertyChanged`0" priority="1" />
+      <Item value="ImageMethodsController`0" priority="0" />
+      <Item value="ImageMethodsController" priority="1" />
+      <Item value="mv_implImageMethodsController" priority="0" />
+      <Item value="ImageExplorerResizer" priority="1" />
+      <Item value="mv_implImageExplorerResizer" priority="4" />
+      <Item value="strFiles" priority="1" />
+      <Item value="else" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ImageExplorer.Applications.ViewModels.ShellViewModel">
+      <Item value="ViewCore" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.Composition.Hosting.CompositionContainer">
+      <Item value="GetExportedValue`1" priority="2" />
+      <Item value="GetExportedValues`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ImageExplorer.Applications.ShellViewModel">
+      <Item value="Show`0" priority="0" />
+      <Item value="Close`0" priority="0" />
+      <Item value="ContentView" priority="0" />
+      <Item value="ViewCore" priority="0" />
+      <Item value="View" priority="3" />
+      <Item value="PropertyChanged" priority="0" />
+      <Item value="FileMethodView" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ImageExplorer.Applications.ApplicationController">
+      <Item value="Initialize`0" priority="0" />
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ImageExplorer.Applications.MainViewModel">
+      <Item value="View" priority="0" />
+      <Item value="SayHelloCommand" priority="0" />
+      <Item value="SelectedPath" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ImageExplorer.Presentation.Views.MainWindow">
+      <Item value="DataContextChanged" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Input.KeyBinding">
+      <Item value="Command" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Application">
+      <Item value="Current" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Application">
+      <Item value="Run`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.Composition.Hosting.CompositionBatch">
+      <Item value="AddExportedValue`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.Composition.Hosting.AggregateCatalog">
+      <Item value="Catalogs" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.ICollection`1">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Reflection.Assembly">
+      <Item value="Load`0" priority="0" />
+      <Item value="LoadFrom`0" priority="1" />
+      <Item value="GetExecutingAssembly`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="Assembly" priority="2" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="1" />
+      <Item value="IsNullOrEmpty`0" priority="0" />
+      <Item value="Format`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.MessageBox">
+      <Item value="Show`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ImageExplorer.Base.IMessageService">
+      <Item value="ShowMessage`0" priority="0" />
+      <Item value="OnMessage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Label">
+      <Item value="Content" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ImageExplorer.Base.IShellView">
+      <Item value="OnMessage`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.StartupEventArgs">
+      <Item value="Args" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ImageExplorer.Presentation.Controls.Directory">
+      <Item value="lsbDirectories" priority="1" />
+      <Item value="Path" priority="1" />
+      <Item value="trvDirectories" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ListBox">
+      <Item value="Items" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ItemCollection">
+      <Item value="Clear`0" priority="1" />
+      <Item value="Add`0" priority="3" />
+      <Item value="OfType`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.DependencyPropertyChangedEventArgs">
+      <Item value="NewValue" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Directory">
+      <Item value="GetDirectories`0" priority="1" />
+      <Item value="GetFiles`0" priority="1" />
+      <Item value="GetLogicalDrives`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ImageExplorer.Presentation.Controls.Files">
+      <Item value="lsbFiles" priority="1" />
+      <Item value="GetValue`0" priority="0" />
+      <Item value="SetValue`0" priority="0" />
+      <Item value="File" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.SelectionChangedEventArgs">
+      <Item value="AddedItems" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.IList">
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Path">
+      <Item value="GetFileName`0" priority="0" />
+      <Item value="GetDirectoryName`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.TreeView">
+      <Item value="Items" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.TreeViewItem">
+      <Item value="Header" priority="2" />
+      <Item value="Tag" priority="1" />
+      <Item value="Items" priority="1" />
+      <Item value="Expanded" priority="0" />
+      <Item value="IsExpanded" priority="0" />
+      <Item value="IsSelected" priority="0" />
+      <Item value="Focus`0" priority="0" />
+      <Item value="BringIntoView`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Split`0" priority="0" />
+      <Item value="EndsWith`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="First`1" priority="0" />
+      <Item value="FirstOrDefault`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.RoutedPropertyChangedEventArgs`1">
+      <Item value="NewValue" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.PropertyChangedEventArgs">
+      <Item value="PropertyName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.Assembly">
+      <Item value="CodeBase" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Uri">
+      <Item value="LocalPath" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ImageExplorer.Applications.FileMethodViewModel">
+      <Item value="View" priority="0" />
+      <Item value="PropertyChanged" priority="0" />
+      <Item value="SelectedPath" priority="0" />
+      <Item value="Methods" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ListBoxItem">
+      <Item value="Content" priority="0" />
+      <Item value="Tag" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.DependencyProperty">
+      <Item value="Register`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ImageExplorer.Applications.FileSelectionViewModel">
+      <Item value="SelectedPath" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Debug">
+      <Item value="WriteLine`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Lazy`1">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ImageExplorer.Base.IImageExplorerMethod">
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ObjectModel.ObservableCollection`1">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ImageExplorer.Base.IImageExplorerMethodModel">
+      <Item value="SelectedPath" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ImageExplorer.Applications.ImageExplorerResizer">
+      <Item value="Count" priority="2" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

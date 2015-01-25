@@ -1,0 +1,88 @@
+<!-- StatusBar example from SmartyP of http://www.smartypantscoding.com -->
+<Page
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   Width="500" Height="200" Background="Orange">
+<!-- for full effect change the root Page element to a Page and add - ResizeMode="CanResizeWithGrip" - for the 
+     resizing handle.. you'll also have to change the "Page.Resources" to "Page.Resources" -->
+     
+  <Page.Resources>
+    <!-- style used on text in status bar to show elipses (...) when text is cut off -->
+    <Style TargetType="TextBlock" x:Key="StatusBarTextBlock">
+      <Setter Property="TextWrapping" Value="NoWrap" />
+      <Setter Property="TextTrimming" Value="CharacterEllipsis" />
+      <Setter Property="Padding" Value="2,0" />
+    </Style>
+    
+    <!-- since we are using a Seperator, but not as an immediate child of the StatusBar, we will make use of that style manually -->
+    <!-- thanks to WineNCheese for this one - http://tinyurl.com/byh9ac -->
+    <Style TargetType="Separator" BasedOn="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}">
+      <Setter Property="Margin" Value="2,0" />
+    </Style>
+      
+   </Page.Resources>
+
+   <!-- root element -->   
+   <Grid>
+   
+      <!-- main content secion -->
+      <StackPanel>
+        <TextBlock FontSize="32">A StatusBar Example in WPF</TextBlock>
+        <TextBlock FontSize="22">by SmartyP of smartypantscoding.com</TextBlock>      
+      </StackPanel>
+   
+      <!-- status bar -->
+      <!-- note that the use of VirticalAlignment here to put the StatusBar at the bottom will make the 
+           StatusBar overlay the content area, so you would probably want to use a Grid, etc. instead to prevent that-->
+      <StatusBar VerticalAlignment="Bottom">
+      
+        <!-- the root element of our StatusBar is a Grid where we will define the sections of our StatusBar-->
+        <Grid>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" /> <!-- field one -->
+            <ColumnDefinition Width="Auto" /> <!-- field two -->
+            <ColumnDefinition Width="*" />    <!-- status field -->
+            <ColumnDefinition Width="*" />    <!-- error field -->
+          </Grid.ColumnDefinitions>
+
+          <!-- field one -->
+          <!-- this field is small enough that we will allow it to always take as much space as it needs -->
+          <StackPanel Orientation="Horizontal" Grid.Column="0">
+            <TextBlock Style="{StaticResource StatusBarTextBlock}">First Field:</TextBlock>
+            <TextBlock Style="{StaticResource StatusBarTextBlock}">50</TextBlock>            
+          </StackPanel>
+  
+          <!-- field two -->
+          <!-- this field is small enough that we will allow it to always take as much space as it needs -->
+          <StackPanel Orientation="Horizontal" Grid.Column="1">
+            <Separator />
+            <TextBlock Style="{StaticResource StatusBarTextBlock}">Second Field:</TextBlock>
+            <TextBlock Style="{StaticResource StatusBarTextBlock}">50</TextBlock>            
+          </StackPanel>
+
+          <!-- status field -->                          
+          <!-- the text in this field (and the error field below) can be long, and needs to be truncated if necessary 
+               with an elipses(..). the elipses on the TextBlock is setup by the StatusBarTextBlock Style (as the 
+               previous TextBlocks use as well), but since this Column's width is * instead of Auto, they aren't allowed 
+               to grow indefinitely, so they will truncate the text (which is what we want) -->          
+          <DockPanel LastChildFill="True" Grid.Column="2">          
+            <Separator DockPanel.Dock="Left" />
+            <TextBlock Style="{StaticResource StatusBarTextBlock}" 
+                       ToolTip="Hello this is too much text and it needs to be truncated too"
+                       Text="Hello this is too much text and it needs to be truncated too" />
+          </DockPanel>
+          
+          <!-- error field -->
+          <DockPanel LastChildFill="True" Grid.Column="3">
+            <Separator DockPanel.Dock="Left" />
+            <Image DockPanel.Dock="Left" Margin="2,0" Source="http://www.smartypantscoding.com/sites/default/files/big-red-x.gif" Width="16" />
+            <TextBlock Style="{StaticResource StatusBarTextBlock}" 
+                       ToolTip="An error has occurred and it appears here in this textblock"
+                       Text="An error has occurred and it appears here in this textblock" />                       
+          </DockPanel>          
+        
+        </Grid>
+
+      </StatusBar>
+   </Grid>
+</Page>

@@ -1,0 +1,17 @@
+﻿<Window x:Class="ControlWorkbenchTabControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="428" Width="670">
+    <Grid>
+        <ListBox Height="355" HorizontalAlignment="Left" Margin="12,12,0,0" Name="lsbUseCases" VerticalAlignment="Top" Width="248" SelectionChanged="OnUseCaseSelectionChanged">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Label Content="{Binding Title}" />
+                    </Grid>
+                </DataTemplate>                
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Frame Height="355" HorizontalAlignment="Left" Margin="269,14,0,0" Name="frmUseCases" VerticalAlignment="Top" Width="362" NavigationUIVisibility="Hidden" />
+    </Grid>
+</Window>

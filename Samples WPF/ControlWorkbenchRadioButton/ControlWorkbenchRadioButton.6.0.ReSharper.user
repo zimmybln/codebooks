@@ -1,0 +1,69 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="43CC121A-BB36-4689-A408-7886D1F99361/f:Window1.xaml" caret="2581" fromTop="5" />
+      <File id="43CC121A-BB36-4689-A408-7886D1F99361/d:Themes/f:Generic.xaml" caret="616" fromTop="9" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="43CC121A-BB36-4689-A408-7886D1F99361/f:Window1.xaml" caret="671" fromTop="12" />
+      <File id="43CC121A-BB36-4689-A408-7886D1F99361/f:Window1.xaml" caret="2785" fromTop="15" />
+      <File id="43CC121A-BB36-4689-A408-7886D1F99361/d:Themes/f:Generic.xaml" caret="11340" fromTop="14" />
+      <File id="43CC121A-BB36-4689-A408-7886D1F99361/d:Themes/f:Generic.xaml" caret="14202" fromTop="39" />
+      <File id="43CC121A-BB36-4689-A408-7886D1F99361/d:Themes/f:Generic.xaml" caret="14516" fromTop="9" />
+      <File id="43CC121A-BB36-4689-A408-7886D1F99361/d:Themes/f:Generic.xaml" caret="14718" fromTop="15" />
+      <File id="43CC121A-BB36-4689-A408-7886D1F99361/d:Themes/f:Generic.xaml" caret="20154" fromTop="35" />
+      <File id="43CC121A-BB36-4689-A408-7886D1F99361/d:Themes/f:Generic.xaml" caret="20154" fromTop="35" />
+      <File id="43CC121A-BB36-4689-A408-7886D1F99361/d:Themes/f:Generic.xaml" caret="20154" fromTop="32" />
+      <File id="43CC121A-BB36-4689-A408-7886D1F99361/d:Themes/f:Generic.xaml" caret="20154" fromTop="36" />
+      <File id="43CC121A-BB36-4689-A408-7886D1F99361/d:Themes/f:Generic.xaml" caret="20154" fromTop="9" />
+      <File id="43CC121A-BB36-4689-A408-7886D1F99361/d:Themes/f:Generic.xaml" caret="20154" fromTop="31" />
+      <File id="43CC121A-BB36-4689-A408-7886D1F99361/d:Themes/f:Generic.xaml" caret="20154" fromTop="19" />
+      <File id="43CC121A-BB36-4689-A408-7886D1F99361/d:Themes/f:Generic.xaml" caret="20195" fromTop="39" />
+      <File id="43CC121A-BB36-4689-A408-7886D1F99361/d:Themes/f:Generic.xaml" caret="16410" fromTop="26" />
+      <File id="43CC121A-BB36-4689-A408-7886D1F99361/d:Themes/f:Generic.xaml" caret="18235" fromTop="30" />
+      <File id="43CC121A-BB36-4689-A408-7886D1F99361/f:Window1.xaml" caret="2123" fromTop="27" />
+      <File id="43CC121A-BB36-4689-A408-7886D1F99361/d:Themes/f:Generic.xaml" caret="14848" fromTop="18" />
+      <File id="43CC121A-BB36-4689-A408-7886D1F99361/d:Themes/f:Generic.xaml" caret="15578" fromTop="28" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="RadioButton" priority="0" />
+      <Item value="public" priority="0" />
+      <Item value="static" priority="0" />
+      <Item value="readonly" priority="0" />
+      <Item value="DependencyProperty" priority="0" />
+      <Item value="ImageRadioButton" priority="0" />
+      <Item value="MidnightBlue" priority="0" />
+      <Item value="MintCream" priority="0" />
+      <Item value="MessageBox" priority="0" />
+      <Item value="Int32" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.MessageBox">
+      <Item value="Show" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="MaxValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.5.4\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

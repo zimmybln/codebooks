@@ -1,0 +1,94 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:App.xaml.cs" caret="117" fromTop="4" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:App.xaml" caret="312" fromTop="6" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindow.xaml.cs" caret="595" fromTop="23" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindow.xaml" caret="2213" fromTop="4" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindowModel.cs" caret="183" fromTop="7" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindow.xaml.cs" caret="399" fromTop="14" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:App.xaml.cs" caret="176" fromTop="7" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:App.xaml" caret="44" fromTop="0" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindow.xaml.cs" caret="526" fromTop="19" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindowModel.cs" caret="1355" fromTop="12" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindowModel.cs" caret="199" fromTop="8" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindowModel.cs" caret="838" fromTop="29" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindowModel.cs" caret="601" fromTop="13" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindowModel.cs" caret="1345" fromTop="37" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindowModel.cs" caret="342" fromTop="9" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindowModel.cs" caret="1059" fromTop="34" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindowModel.cs" caret="1100" fromTop="22" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindowModel.cs" caret="1345" fromTop="17" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindow.xaml" caret="3419" fromTop="14" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindow.xaml" caret="416" fromTop="5" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindow.xaml" caret="416" fromTop="11" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindow.xaml" caret="416" fromTop="0" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindow.xaml" caret="326" fromTop="5" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindow.xaml" caret="1334" fromTop="14" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindow.xaml" caret="3007" fromTop="22" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindow.xaml" caret="416" fromTop="9" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindow.xaml" caret="2944" fromTop="16" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindow.xaml" caret="2944" fromTop="30" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindow.xaml" caret="2454" fromTop="21" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindow.xaml" caret="1998" fromTop="14" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindow.xaml" caret="416" fromTop="4" />
+      <File id="1A63712F-5913-4334-B621-881294C03851/f:MainWindow.xaml" caret="1266" fromTop="10" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.9\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="private" priority="2" />
+      <Item value="void" priority="1" />
+      <Item value="string" priority="3" />
+      <Item value="PropertyChangedEventHandler`0" priority="0" />
+      <Item value="if" priority="0" />
+      <Item value="h" priority="1" />
+      <Item value="this" priority="0" />
+      <Item value="new" priority="0" />
+      <Item value="PropertyChangedEventArgs" priority="0" />
+      <Item value="PropertyName" priority="0" />
+      <Item value="public" priority="5" />
+      <Item value="MainWindowModel`0" priority="0" />
+      <Item value="mv_strEnvironmentInfo" priority="2" />
+      <Item value="String`0" priority="0" />
+      <Item value="Environment`0" priority="1" />
+      <Item value="return" priority="2" />
+      <Item value="value" priority="1" />
+      <Item value="RaisePropertyChanged`0" priority="1" />
+      <Item value="class" priority="0" />
+      <Item value="true" priority="0" />
+      <Item value="bool" priority="1" />
+      <Item value="false" priority="0" />
+      <Item value="mv_fState" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UseCase_01_DataTrigger.MainWindowModel">
+      <Item value="PropertyChanged" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment">
+      <Item value="UserDomainName" priority="0" />
+      <Item value="UserName" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

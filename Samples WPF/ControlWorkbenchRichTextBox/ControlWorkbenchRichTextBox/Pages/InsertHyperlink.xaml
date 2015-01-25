@@ -1,0 +1,53 @@
+﻿<Page x:Class="ControlWorkbenchRichTextBox.Pages.InsertHyperlink"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="InsertHyperlink">
+
+    <DockPanel LastChildFill="True" SnapsToDevicePixels="True">
+        <ToolBarTray DockPanel.Dock="Top">
+            <ToolBar>
+                <Button Name="cmdFormatBold" Click="OnFormat" >
+                    <Image Source="../_Resources/Bold.png" Stretch="None" VerticalAlignment="Center"/>
+                </Button>
+                <Button Name="cmdFormatItalic" Click="OnFormat" >
+                    <Image Source="../_Resources/Italic.png" />
+                </Button>
+                <Button Name="cmdFormatUnderline" Click="OnFormat">
+                    <Image Source="../_Resources/Underline.png" />
+                </Button>
+                <Separator />
+                <Button>
+                    <Image Source="../_Resources/NumberList.png" />
+                </Button>
+                <Button Click="OnInsertList">
+                    <Image Source="../_Resources/BulletList.png" />
+                </Button>
+                <Separator />
+                <Button Click="OnHyperlink">
+                    <Image Source="../_Resources/EARTH.ico" />
+                </Button>
+                <Button Content="Absatz" Click="OnParagraph">
+
+                </Button>
+
+            </ToolBar>
+        </ToolBarTray>
+        <TabControl TabStripPlacement="Bottom" SelectionChanged="OnTabControl_SelectionChanged" IsTextSearchEnabled="True">
+            <TabItem Name="tiEditor" Header="Text">
+                <RichTextBox DockPanel.Dock="Top" Name="rtbContent" SelectionChanged="OnSelectionChanged" Margin="1, 1, 1, 1" IsDocumentEnabled="True" Document="{StaticResource DefaultDocument}" />
+            </TabItem>
+            <TabItem Name="tiXAML" Header="XAML">
+                <TextBox Name="tbViewer" Margin="1,1,1,1" />
+            </TabItem>
+            <TabItem Name="tiView" Header="View">
+                <FlowDocumentPageViewer Margin="1,1,1,1" Name="flowViewer">
+
+                </FlowDocumentPageViewer>
+            </TabItem>
+        </TabControl>
+    </DockPanel>
+</Page>

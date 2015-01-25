@@ -1,0 +1,11 @@
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\CustomControlLibrary.Design\bin\Debug\CustomControlLibrary.Design.dll
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\CustomControlLibrary.Design\bin\Debug\CustomControlLibrary.Design.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\CustomControlLibrary.Design\bin\Debug\Microsoft.Windows.Design.Extensibility.dll
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\CustomControlLibrary.Design\bin\Debug\Microsoft.Windows.Design.Interaction.dll
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\CustomControlLibrary.Design\bin\Debug\de\Microsoft.Windows.Design.Extensibility.resources.dll
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\CustomControlLibrary.Design\bin\Debug\de\Microsoft.Windows.Design.Interaction.resources.dll
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\Bin\CustomControlLibrary.Design.dll
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\Bin\CustomControlLibrary.Design.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\CustomControlLibrary.Design\obj\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\CustomControlLibrary.Design\obj\Debug\CustomControlLibrary.Design.dll
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\SampleCustomControl\CustomControlLibrary.Design\obj\Debug\CustomControlLibrary.Design.pdb

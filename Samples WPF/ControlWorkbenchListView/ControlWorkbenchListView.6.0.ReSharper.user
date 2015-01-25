@@ -1,0 +1,226 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:EditableListView.xaml" caret="1198" fromTop="0" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Library/f:PersonView.cs" caret="283" fromTop="10" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:EditableListView.xaml.cs" caret="1083" fromTop="11" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Library/f:BooleanToVisibilityConverter.cs" caret="0" fromTop="0" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Library/f:Person.cs" caret="295" fromTop="10" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Library/f:ImagePathConverter.cs" caret="576" fromTop="16" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Contracts/f:IUseCaseView.cs" caret="131" fromTop="6" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/f:App.xaml" caret="0" fromTop="0" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/f:MainWindow.xaml.cs" caret="622" fromTop="12" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/f:MainWindow.xaml" caret="878" fromTop="10" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/f:Hinweise.txt" caret="104" fromTop="2" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:PlainView.cs" caret="538" fromTop="16" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:CustomView.xaml.cs" caret="954" fromTop="22" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:CustomView.xaml" caret="469" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Library/f:ImagePathConverter.cs" caret="1052" fromTop="23" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Library/f:ImagePathConverter.cs" caret="1229" fromTop="28" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:CustomView.xaml" caret="4419" fromTop="0" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Library/f:Person.cs" caret="1330" fromTop="30" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Library/f:Person.cs" caret="866" fromTop="8" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Library/f:Person.cs" caret="1380" fromTop="25" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:CustomView.xaml" caret="4419" fromTop="16" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Library/f:ImagePathConverter.cs" caret="429" fromTop="13" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Library/f:ImagePathConverter.cs" caret="716" fromTop="17" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:CustomView.xaml" caret="4419" fromTop="2" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:CustomView.xaml" caret="4419" fromTop="6" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:CustomView.xaml" caret="4419" fromTop="9" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:CustomView.xaml" caret="4419" fromTop="21" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:CustomView.xaml" caret="4419" fromTop="17" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:CustomView.xaml.cs" caret="2003" fromTop="29" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:CustomView.xaml" caret="4419" fromTop="9" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:CustomView.xaml" caret="4419" fromTop="23" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:CustomView.xaml.cs" caret="640" fromTop="11" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:CustomView.xaml" caret="4419" fromTop="10" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:CustomView.xaml" caret="4419" fromTop="30" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:PlainView.cs" caret="2457" fromTop="46" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:CustomView.xaml" caret="4419" fromTop="23" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:CustomView.xaml" caret="4419" fromTop="20" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:CustomView.xaml" caret="4419" fromTop="19" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:CustomView.xaml.cs" caret="1340" fromTop="30" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:CustomView.xaml.cs" caret="1094" fromTop="25" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:CustomView.xaml" caret="4419" fromTop="0" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:PlainView.cs" caret="793" fromTop="23" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:CustomView.xaml" caret="2893" fromTop="18" />
+      <File id="40B27182-E5C5-4011-AAFC-51EBE6CFA194/d:_Pages/f:CustomView.xaml" caret="3794" fromTop="16" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Programme\NUnit 2.5.5\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="IUseCaseView`0" priority="2" />
+      <Item value="this" priority="2" />
+      <Item value="typeof" priority="7" />
+      <Item value="colUseCases" priority="0" />
+      <Item value="bool" priority="5" />
+      <Item value="false" priority="1" />
+      <Item value="AssemblyLoadEventArgs`0" priority="0" />
+      <Item value="parameter" priority="1" />
+      <Item value="null" priority="3" />
+      <Item value="as" priority="8" />
+      <Item value="string" priority="9" />
+      <Item value="fTemp" priority="3" />
+      <Item value="fParameter" priority="1" />
+      <Item value="if" priority="2" />
+      <Item value="value" priority="3" />
+      <Item value="fValue" priority="1" />
+      <Item value="return" priority="17" />
+      <Item value="Visibility`0" priority="0" />
+      <Item value="public" priority="9" />
+      <Item value="static" priority="5" />
+      <Item value="readonly" priority="4" />
+      <Item value="DependencyProperty`0" priority="5" />
+      <Item value="_AppDomain`0" priority="1" />
+      <Item value="new" priority="21" />
+      <Item value="GetValue`0" priority="3" />
+      <Item value="FirstNameProperty" priority="1" />
+      <Item value="SetValue`0" priority="2" />
+      <Item value="Person`0" priority="6" />
+      <Item value="ObservableCollection" priority="2" />
+      <Item value="mv_colPersons" priority="4" />
+      <Item value="ObservableCollection&lt;Person&gt;" priority="0" />
+      <Item value="Person" priority="3" />
+      <Item value="p1" priority="2" />
+      <Item value="lsvPersons" priority="2" />
+      <Item value="Persons" priority="0" />
+      <Item value="FirstName" priority="0" />
+      <Item value="Boolean`0" priority="0" />
+      <Item value="CityProperty" priority="1" />
+      <Item value="private" priority="2" />
+      <Item value="mv_colCities" priority="3" />
+      <Item value="ObservableCollection&lt;string&gt;" priority="0" />
+      <Item value="City" priority="1" />
+      <Item value="protected" priority="3" />
+      <Item value="override" priority="3" />
+      <Item value="GetType`0" priority="3" />
+      <Item value="OldLace" priority="0" />
+      <Item value="ImageSource`0" priority="5" />
+      <Item value="ImageProperty" priority="1" />
+      <Item value="imgSource" priority="2" />
+      <Item value="msv_isDefaultImage" priority="3" />
+      <Item value="var" priority="1" />
+      <Item value="BitmapSource`0" priority="5" />
+      <Item value="BitmapImage`0" priority="2" />
+      <Item value="Uri" priority="1" />
+      <Item value="RelativeOrAbsolute" priority="1" />
+      <Item value="bi" priority="13" />
+      <Item value="StreamGeometry`0" priority="0" />
+      <Item value="System" priority="0" />
+      <Item value="IO" priority="0" />
+      <Item value="Stream`0" priority="0" />
+      <Item value="s" priority="2" />
+      <Item value="image1" priority="1" />
+      <Item value="Byte`0" priority="0" />
+      <Item value="StreamReader" priority="0" />
+      <Item value="sr" priority="0" />
+      <Item value="UriKind`0" priority="0" />
+      <Item value="Image" priority="0" />
+      <Item value="img" priority="0" />
+      <Item value="is" priority="0" />
+      <Item value="OnLoad" priority="0" />
+      <Item value="IgnoreImageCache" priority="0" />
+      <Item value="resourceLocation" priority="0" />
+      <Item value="p" priority="0" />
+      <Item value="NotImplementedException" priority="0" />
+      <Item value="PortraitNameProperty" priority="0" />
+      <Item value="PortraitName" priority="1" />
+      <Item value="String`0" priority="0" />
+      <Item value="ComboBoxItem`0" priority="1" />
+      <Item value="cboViews" priority="0" />
+      <Item value="ViewBase`0" priority="1" />
+      <Item value="ciSelectedItem" priority="0" />
+      <Item value="Viewbox`0" priority="0" />
+      <Item value="v" priority="1" />
+      <Item value="class" priority="0" />
+      <Item value="DataTemplate`0" priority="1" />
+      <Item value="mv_tplItemTemplate" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Count`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Boolean">
+      <Item value="TryParse`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Visibility">
+      <Item value="Visible" priority="0" />
+      <Item value="Hidden" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Page">
+      <Item value="Resources" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.DependencyProperty">
+      <Item value="Register`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ObjectModel.ObservableCollection`1">
+      <Item value="Add`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ControlWorkbenchListView.Person">
+      <Item value="FirstName" priority="1" />
+      <Item value="Portrait" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ListView">
+      <Item value="ItemsSource" priority="0" />
+      <Item value="View" priority="0" />
+      <Item value="UpdateLayout`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.Imaging.BitmapImage">
+      <Item value="BeginInit`0" priority="0" />
+      <Item value="UriSource" priority="1" />
+      <Item value="EndInit`0" priority="0" />
+      <Item value="StreamSource" priority="0" />
+      <Item value="CacheOption" priority="0" />
+      <Item value="CreateOptions" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="Assembly" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.Assembly">
+      <Item value="GetManifestResourceStream`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.Stream">
+      <Item value="Close`0" priority="0" />
+      <Item value="Dispose`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Image">
+      <Item value="Source" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.UriKind">
+      <Item value="RelativeOrAbsolute" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Debugger">
+      <Item value="Break`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ComboBox">
+      <Item value="SelectedItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ControlWorkbenchListView.CustomView">
+      <Item value="FindResource`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ComboBoxItem">
+      <Item value="Content" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

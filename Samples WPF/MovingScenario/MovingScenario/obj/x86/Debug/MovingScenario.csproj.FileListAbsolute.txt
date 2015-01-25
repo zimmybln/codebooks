@@ -1,0 +1,26 @@
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\MovingScenario\MovingScenario\bin\Debug\MovingScenario.exe
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\MovingScenario\MovingScenario\bin\Debug\MovingScenario.pdb
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\MovingScenario\MovingScenario\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\MovingScenario\MovingScenario\obj\x86\Debug\MainWindow.baml
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\MovingScenario\MovingScenario\obj\x86\Debug\MainWindow.g.cs
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\MovingScenario\MovingScenario\obj\x86\Debug\App.g.cs
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\MovingScenario\MovingScenario\obj\x86\Debug\MovingScenario_MarkupCompile.cache
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\MovingScenario\MovingScenario\obj\x86\Debug\MovingScenario.g.resources
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\MovingScenario\MovingScenario\obj\x86\Debug\MovingScenario.Properties.Resources.resources
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\MovingScenario\MovingScenario\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\MovingScenario\MovingScenario\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\MovingScenario\MovingScenario\obj\x86\Debug\MovingScenario.exe
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples WPF\MovingScenario\MovingScenario\obj\x86\Debug\MovingScenario.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MovingScenario\MovingScenario\obj\x86\Debug\MovingScenario.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MovingScenario\MovingScenario\obj\x86\Debug\MovingScenario.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MovingScenario\MovingScenario\bin\Debug\MovingScenario.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MovingScenario\MovingScenario\bin\Debug\MovingScenario.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MovingScenario\MovingScenario\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MovingScenario\MovingScenario\obj\x86\Debug\MainWindow.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MovingScenario\MovingScenario\obj\x86\Debug\MainWindow.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MovingScenario\MovingScenario\obj\x86\Debug\App.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MovingScenario\MovingScenario\obj\x86\Debug\MovingScenario_MarkupCompile.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MovingScenario\MovingScenario\obj\x86\Debug\MovingScenario.g.resources
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MovingScenario\MovingScenario\obj\x86\Debug\MovingScenario.Properties.Resources.resources
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MovingScenario\MovingScenario\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MovingScenario\MovingScenario\obj\x86\Debug\GenerateResource.write.1.tlog

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="UserManagement.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="UserManagementStoreContainer">
+          <EntitySet Name="Cities" EntityType="UserManagement.Store.Cities" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Persons" EntityType="UserManagement.Store.Persons" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_Persons_Cities" Association="UserManagement.Store.FK_Persons_Cities">
+            <End Role="Cities" EntitySet="Cities" />
+            <End Role="Persons" EntitySet="Persons" />
+          </AssociationSet>
+        </EntityContainer>
+        <!--Während der Generierung sind Fehler aufgetreten:
+      Warnung 6002: Für Tabelle/Sicht 'dbLINQSamples.dbo.AlbumContribution' ist kein Primärschlüssel definiert. Der Schlüssel wurde abgeleitet, und die Definition wurde als schreibgeschützte Tabelle/Sicht erstellt.
+      -->
+        <EntityType Name="Cities">
+          <Key>
+            <PropertyRef Name="CityId" />
+          </Key>
+          <Property Name="CityId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="varchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Persons">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="LastName" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="CityOfBirth" Type="int" />
+        </EntityType>
+        <Association Name="FK_Persons_Cities">
+          <End Role="Cities" Type="UserManagement.Store.Cities" Multiplicity="0..1" />
+          <End Role="Persons" Type="UserManagement.Store.Persons" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cities">
+              <PropertyRef Name="CityId" />
+            </Principal>
+            <Dependent Role="Persons">
+              <PropertyRef Name="CityOfBirth" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="UserManagement" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="dbLINQSamplesEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Cities" EntityType="UserManagement.Cities" />
+          <EntitySet Name="Persons" EntityType="UserManagement.Person" />
+          <AssociationSet Name="FK_Persons_Cities" Association="UserManagement.FK_Persons_Cities">
+            <End Role="Cities" EntitySet="Cities" />
+            <End Role="Persons" EntitySet="Persons" />
+          </AssociationSet>
+          </EntityContainer>
+        <EntityType Name="Cities">
+          <Key>
+            <PropertyRef Name="CityId" />
+          </Key>
+          <Property Name="CityId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="Persons" Relationship="UserManagement.FK_Persons_Cities" FromRole="Cities" ToRole="Persons" />
+        </EntityType>
+        <EntityType Name="Person">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="LastName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="CityOfBirth" Type="Int32" />
+          <NavigationProperty Name="City" Relationship="UserManagement.FK_Persons_Cities" FromRole="Persons" ToRole="Cities" />
+        </EntityType>
+        <Association Name="FK_Persons_Cities">
+          <End Role="Cities" Type="UserManagement.Cities" Multiplicity="0..1" />
+          <End Role="Persons" Type="UserManagement.Person" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cities">
+              <PropertyRef Name="CityId" />
+            </Principal>
+            <Dependent Role="Persons">
+              <PropertyRef Name="CityOfBirth" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="UserManagementStoreContainer" CdmEntityContainer="dbLINQSamplesEntities">
+          <EntitySetMapping Name="Cities"><EntityTypeMapping TypeName="UserManagement.Cities"><MappingFragment StoreEntitySet="Cities">
+            <ScalarProperty Name="CityId" ColumnName="CityId" />
+            <ScalarProperty Name="Name" ColumnName="Name" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Persons"><EntityTypeMapping TypeName="UserManagement.Person"><MappingFragment StoreEntitySet="Persons">
+            <ScalarProperty Name="Id" ColumnName="Id" />
+            <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+            <ScalarProperty Name="LastName" ColumnName="LastName" />
+            <ScalarProperty Name="CityOfBirth" ColumnName="CityOfBirth" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="UserManagement">
+        <EntityTypeShape EntityType="UserManagement.Cities" Width="1.5" PointX="3.75" PointY="0.625" Height="1.5956835937500002" IsExpanded="true" />
+        <EntityTypeShape EntityType="UserManagement.Person" Width="1.5" PointX="1.375" PointY="0.625" Height="1.9802864583333339" IsExpanded="true" />
+        <AssociationConnector Association="UserManagement.FK_Persons_Cities" ManuallyRouted="false">
+          <ConnectorPoint PointX="3.75" PointY="1.4228417968750002" />
+          <ConnectorPoint PointX="2.875" PointY="1.4228417968750002" />
+        </AssociationConnector>
+        </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,410 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="String" priority="8" />
+      <Item value="public" priority="7" />
+      <Item value="static" priority="3" />
+      <Item value="void" priority="3" />
+      <Item value="UIElement" priority="2" />
+      <Item value="object" priority="0" />
+      <Item value="element" priority="0" />
+      <Item value="value" priority="2" />
+      <Item value="else" priority="15" />
+      <Item value="string" priority="1" />
+      <Item value="Window1" priority="0" />
+      <Item value="e" priority="3" />
+      <Item value="as" priority="10" />
+      <Item value="strPageName" priority="2" />
+      <Item value="MessageBox" priority="5" />
+      <Item value="ControlsWorkbench" priority="1" />
+      <Item value="SampleResourceClass" priority="1" />
+      <Item value="_contentLoaded" priority="0" />
+      <Item value="this" priority="20" />
+      <Item value="if" priority="25" />
+      <Item value="objClass" priority="1" />
+      <Item value="Uniform" priority="0" />
+      <Item value="Imaging" priority="3" />
+      <Item value="using" priority="0" />
+      <Item value="System" priority="10" />
+      <Item value="Drawing" priority="16" />
+      <Item value="new" priority="67" />
+      <Item value="ImageAttributes" priority="0" />
+      <Item value="ColorMatrix" priority="1" />
+      <Item value="Single" priority="4" />
+      <Item value="SourceUpdated" priority="0" />
+      <Item value="Source" priority="4" />
+      <Item value="Bitmap" priority="0" />
+      <Item value="PixelFormat" priority="1" />
+      <Item value="Image" priority="16" />
+      <Item value="ImageSource" priority="28" />
+      <Item value="ims" priority="0" />
+      <Item value="BitmapSource" priority="15" />
+      <Item value="drawing" priority="4" />
+      <Item value="ImageDrawing" priority="13" />
+      <Item value="private" priority="8" />
+      <Item value="Windows" priority="7" />
+      <Item value="Controls" priority="0" />
+      <Item value="imgNewImage" priority="1" />
+      <Item value="imgSource" priority="22" />
+      <Item value="imgGrayScale" priority="1" />
+      <Item value="imgGray" priority="17" />
+      <Item value="Stretch" priority="0" />
+      <Item value="BitmapImage" priority="4" />
+      <Item value="imgSourceBitmap" priority="3" />
+      <Item value="grayBitmapSource" priority="6" />
+      <Item value="Int32Rect" priority="2" />
+      <Item value="ImageBrush" priority="4" />
+      <Item value="CroppedBitmap" priority="3" />
+      <Item value="imgCropped" priority="12" />
+      <Item value="imgCroppedSource" priority="19" />
+      <Item value="return" priority="8" />
+      <Item value="GeometryGroup" priority="1" />
+      <Item value="grpImages" priority="0" />
+      <Item value="DrawingImage" priority="8" />
+      <Item value="imgDrawing" priority="11" />
+      <Item value="objDrawing" priority="0" />
+      <Item value="DrawingGroup" priority="4" />
+      <Item value="idDrawGrayscale" priority="5" />
+      <Item value="grpDrawing" priority="13" />
+      <Item value="idCropped" priority="3" />
+      <Item value="imgCombine" priority="2" />
+      <Item value="Rect" priority="5" />
+      <Item value="imgFinal" priority="2" />
+      <Item value="HorizontalAlignment" priority="1" />
+      <Item value="ImageSourceConverter" priority="0" />
+      <Item value="FormatConvertedBitmap" priority="0" />
+      <Item value="imgBrush" priority="0" />
+      <Item value="DrawingBrush" priority="1" />
+      <Item value="d" priority="0" />
+      <Item value="drawTogether" priority="2" />
+      <Item value="bsSourceImage" priority="0" />
+      <Item value="i" priority="15" />
+      <Item value="Math" priority="1" />
+      <Item value="bs" priority="0" />
+      <Item value="cboImages" priority="0" />
+      <Item value="protected" priority="6" />
+      <Item value="override" priority="4" />
+      <Item value="bool" priority="0" />
+      <Item value="false" priority="1" />
+      <Item value="MouseButtonState" priority="1" />
+      <Item value="mv_fIsMouseDown" priority="3" />
+      <Item value="true" priority="0" />
+      <Item value="Point" priority="3" />
+      <Item value="p" priority="3" />
+      <Item value="DependencyProperty" priority="3" />
+      <Item value="typeof" priority="3" />
+      <Item value="PropertyMetadata" priority="0" />
+      <Item value="GetValue" priority="2" />
+      <Item value="ImageProperty" priority="1" />
+      <Item value="SetValue" priority="1" />
+      <Item value="img" priority="11" />
+      <Item value="drawingContext" priority="4" />
+      <Item value="Media" priority="6" />
+      <Item value="FormattedText" priority="1" />
+      <Item value="null" priority="8" />
+      <Item value="FlowDirection" priority="0" />
+      <Item value="Typeface" priority="0" />
+      <Item value="DropEvent" priority="0" />
+      <Item value="NewsStyleUriParser" priority="0" />
+      <Item value="Pen" priority="2" />
+      <Item value="Brush" priority="0" />
+      <Item value="SolidColorBrush" priority="0" />
+      <Item value="Color" priority="0" />
+      <Item value="b" priority="0" />
+      <Item value="Debug" priority="0" />
+      <Item value="Rating" priority="5" />
+      <Item value="FrameworkElement" priority="0" />
+      <Item value="Control" priority="0" />
+      <Item value="strImageSource" priority="2" />
+      <Item value="Uri" priority="0" />
+      <Item value="UriKind" priority="0" />
+      <Item value="for" priority="0" />
+      <Item value="int" priority="6" />
+      <Item value="double" priority="10" />
+      <Item value="dblWidth" priority="7" />
+      <Item value="dblHeight" priority="2" />
+      <Item value="pcc" priority="1" />
+      <Item value="o" priority="2" />
+      <Item value="PropertyChangedCallback" priority="1" />
+      <Item value="FrameworkPropertyMetadataOptions" priority="0" />
+      <Item value="readonly" priority="0" />
+      <Item value="SectionsProperty" priority="1" />
+      <Item value="dblValue" priority="14" />
+      <Item value="dblX" priority="1" />
+      <Item value="CalculateValue" priority="0" />
+      <Item value="mv_dblCurrentValue" priority="0" />
+      <Item value="ValueProperty" priority="1" />
+      <Item value="DependencyObject" priority="0" />
+      <Item value="DependencyPropertyChangedEventArgs" priority="0" />
+      <Item value="ctl" priority="11" />
+      <Item value="args" priority="4" />
+      <Item value="bmpGrayImage" priority="6" />
+      <Item value="id" priority="0" />
+      <Item value="imgs" priority="0" />
+      <Item value="idGrayImage" priority="0" />
+      <Item value="imgActive" priority="6" />
+      <Item value="idActiveImage" priority="0" />
+      <Item value="nLocalValue" priority="0" />
+      <Item value="imgDraw" priority="14" />
+      <Item value="imgInactive" priority="6" />
+      <Item value="grpDrawingCropped" priority="5" />
+      <Item value="nLocalValueStart" priority="8" />
+      <Item value="nLocalValueEnd" priority="7" />
+      <Item value="nLocalMod" priority="1" />
+      <Item value="imgGrayedImage" priority="2" />
+      <Item value="mv_imgActiveImage" priority="0" />
+      <Item value="mv_imgInactiveImage" priority="0" />
+      <Item value="mv_imgCroppedImage" priority="0" />
+      <Item value="OnImageChanged" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.UIElement">
+      <Item value="SetValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ControlsWorkbench.Window1">
+      <Item value="GetPageName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.SelectionChangedEventArgs">
+      <Item value="AddedItems" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty" priority="1" />
+      <Item value="Format" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.MessageBox">
+      <Item value="Show" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ControlsWorkbench.Pages.ResourcesPage">
+      <Item value="TryFindResource" priority="0" />
+      <Item value="FindName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ControlsWorkbench.SampleResourceClass">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Imaging.PixelFormat">
+      <Item value="Format32bppRgb" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Bitmap">
+      <Item value="Width" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.Imaging.BitmapSource">
+      <Item value="Create" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.ImageDrawing">
+      <Item value="ImageSource" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Image">
+      <Item value="Source" priority="9" />
+      <Item value="Stretch" priority="2" />
+      <Item value="OpacityMask" priority="0" />
+      <Item value="HorizontalAlignment" priority="1" />
+      <Item value="UpdateLayout" priority="1" />
+      <Item value="Width" priority="1" />
+      <Item value="Height" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.ImageSource">
+      <Item value="Clone" priority="1" />
+      <Item value="Width" priority="1" />
+      <Item value="Height" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.Stretch">
+      <Item value="None" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.Imaging.BitmapImage">
+      <Item value="BeginInit" priority="1" />
+      <Item value="EndInit" priority="1" />
+      <Item value="Format" priority="0" />
+      <Item value="BaseUri" priority="0" />
+      <Item value="UriSource" priority="0" />
+      <Item value="Freeze" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.Imaging.FormatConvertedBitmap">
+      <Item value="EndInit" priority="0" />
+      <Item value="Freeze" priority="0" />
+      <Item value="Width" priority="0" />
+      <Item value="Height" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.PixelFormats">
+      <Item value="BlackWhite" priority="0" />
+      <Item value="Gray16" priority="0" />
+      <Item value="Gray32Float" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.Imaging.CroppedBitmap">
+      <Item value="BeginInit" priority="0" />
+      <Item value="Source" priority="0" />
+      <Item value="EndInit" priority="0" />
+      <Item value="SourceRect" priority="0" />
+      <Item value="SetValue" priority="0" />
+      <Item value="Freeze" priority="1" />
+      <Item value="Width" priority="0" />
+      <Item value="Height" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.Imaging.BitmapSource">
+      <Item value="Width" priority="1" />
+      <Item value="Height" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.GeometryGroup">
+      <Item value="Children" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.GeometryCollection">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.DrawingImage">
+      <Item value="Drawing" priority="2" />
+      <Item value="Freeze" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.DrawingGroup">
+      <Item value="Children" priority="7" />
+      <Item value="Freeze" priority="2" />
+      <Item value="OpacityMask" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.DrawingCollection">
+      <Item value="Add" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.HorizontalAlignment">
+      <Item value="Left" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.Imaging.CroppedBitmap">
+      <Item value="Create" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Round" priority="0" />
+      <Item value="Min" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ComboBox">
+      <Item value="SelectedItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Debug">
+      <Item value="WriteLine" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Input.MouseButtonEventArgs">
+      <Item value="ButtonState" priority="0" />
+      <Item value="LeftButton" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Input.MouseButtonState">
+      <Item value="Pressed" priority="0" />
+      <Item value="Released" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Input.MouseEventArgs">
+      <Item value="GetPosition" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Point">
+      <Item value="X" priority="2" />
+      <Item value="Y" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Double">
+      <Item value="ToString" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.DependencyProperty">
+      <Item value="Register" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ControlsWorkbench.Rating">
+      <Item value="Image" priority="2" />
+      <Item value="FlowDirection" priority="0" />
+      <Item value="ImageSource" priority="0" />
+      <Item value="Source" priority="0" />
+      <Item value="UpdateLayout" priority="1" />
+      <Item value="Sections" priority="3" />
+      <Item value="CaptureMouse" priority="0" />
+      <Item value="ReleaseMouseCapture" priority="0" />
+      <Item value="Value" priority="4" />
+      <Item value="InvalidateVisual" priority="0" />
+      <Item value="mv_imgActive" priority="0" />
+      <Item value="mv_imInactive" priority="1" />
+      <Item value="mv_imHalfActive" priority="0" />
+      <Item value="mv_imgInactiveImage" priority="0" />
+      <Item value="mv_imgCroppedImage" priority="0" />
+      <Item value="mv_imgActiveImage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.DrawingContext">
+      <Item value="DrawImage" priority="0" />
+      <Item value="DrawText" priority="0" />
+      <Item value="DrawLine" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Pens">
+      <Item value="Black" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.Color">
+      <Item value="FromRgb" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.UriKind">
+      <Item value="RelativeOrAbsolute" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.FrameworkPropertyMetadataOptions">
+      <Item value="AffectsRender" priority="0" />
+      <Item value="AffectsMeasure" priority="0" />
+      <Item value="None" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.DependencyPropertyChangedEventArgs">
+      <Item value="NewValue" priority="3" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:Extensions/f:ListBoxExtensions.cs" caret="910" fromTop="9" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:Pages/f:ListBoxPage.xaml" caret="1" fromTop="0" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:Pages/f:ResourcesPage.xaml" caret="0" fromTop="0" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/f:Window1.xaml.cs" caret="672" fromTop="6" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/f:App.xaml.cs" caret="0" fromTop="0" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:Pages/f:ResourcesPage.xaml.cs" caret="21" fromTop="0" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/f:App.xaml" caret="439" fromTop="7" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:Pages/f:ListBoxPage.xaml.cs" caret="2880" fromTop="7" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:Pages/f:DrawImage.xaml" caret="1624" fromTop="4" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:Themes/f:Generic.xaml" caret="390" fromTop="9" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:Pages/f:RatingControl.xaml.cs" caret="0" fromTop="0" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:Pages/f:DrawImage.xaml.cs" caret="4178" fromTop="26" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:Pages/f:RatingControl.xaml" caret="146" fromTop="2" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:Pages/f:ButtonPage.xaml" caret="16553" fromTop="0" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="4446" fromTop="21" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/f:Window1.xaml" caret="8393" fromTop="6" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="8992" fromTop="22" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="8901" fromTop="29" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="3512" fromTop="30" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="4498" fromTop="18" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="5001" fromTop="23" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="4691" fromTop="9" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="5461" fromTop="8" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="5001" fromTop="13" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="10804" fromTop="32" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="2573" fromTop="4" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="10344" fromTop="15" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="10104" fromTop="11" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="5937" fromTop="33" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="5811" fromTop="19" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="7110" fromTop="16" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="10516" fromTop="19" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="11114" fromTop="8" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="11828" fromTop="34" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="11667" fromTop="25" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="11319" fromTop="19" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="7590" fromTop="26" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="3769" fromTop="13" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="4185" fromTop="15" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="6403" fromTop="25" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:Pages/f:RatingControl.xaml" caret="300" fromTop="5" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:UserControls/f:Rating.cs" caret="2207" fromTop="20" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:Pages/f:ButtonPage.xaml" caret="16917" fromTop="9" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:Pages/f:ButtonPage.xaml" caret="11790" fromTop="3" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:Pages/f:ButtonPage.xaml" caret="16553" fromTop="10" />
+      <File id="5910480D-1BC6-4C3D-BD28-2FEA365CCFE8/d:Pages/f:ButtonPage.xaml" caret="18704" fromTop="10" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Programme\NUnit 2.5.5\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

@@ -1,0 +1,7 @@
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\Various\Various\bin\Debug\Various.dll
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\Various\Various\bin\Debug\Various.pdb
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\Various\Various\bin\Debug\nunit.framework.dll
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\Various\Various\bin\Debug\nunit.framework.xml
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\Various\Various\obj\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\Various\Various\obj\Debug\Various.dll
+D:\Dokumente\Mesh\Sommer\Codebooks\Samples Allgemein\Various\Various\obj\Debug\Various.pdb

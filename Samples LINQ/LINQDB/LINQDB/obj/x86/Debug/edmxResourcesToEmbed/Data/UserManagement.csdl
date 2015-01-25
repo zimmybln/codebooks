@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UserManagement" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="dbLINQSamplesEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Cities" EntityType="UserManagement.Cities" />
+    <EntitySet Name="Persons" EntityType="UserManagement.Person" />
+    <AssociationSet Name="FK_Persons_Cities" Association="UserManagement.FK_Persons_Cities">
+      <End Role="Cities" EntitySet="Cities" />
+      <End Role="Persons" EntitySet="Persons" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Cities">
+    <Key>
+      <PropertyRef Name="CityId" />
+    </Key>
+    <Property Name="CityId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Persons" Relationship="UserManagement.FK_Persons_Cities" FromRole="Cities" ToRole="Persons" />
+  </EntityType>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="CityOfBirth" Type="Int32" />
+    <NavigationProperty Name="City" Relationship="UserManagement.FK_Persons_Cities" FromRole="Persons" ToRole="Cities" />
+  </EntityType>
+  <Association Name="FK_Persons_Cities">
+    <End Role="Cities" Type="UserManagement.Cities" Multiplicity="0..1" />
+    <End Role="Persons" Type="UserManagement.Person" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cities">
+        <PropertyRef Name="CityId" />
+      </Principal>
+      <Dependent Role="Persons">
+        <PropertyRef Name="CityOfBirth" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

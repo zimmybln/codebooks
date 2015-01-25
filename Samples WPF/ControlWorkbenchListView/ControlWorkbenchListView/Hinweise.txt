@@ -1,0 +1,4 @@
+﻿
+
+How to create a custom view:
+http://blogs.msdn.com/b/atc_avalon_team/archive/2006/04/28/585844.aspx

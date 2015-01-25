@@ -1,0 +1,162 @@
+﻿<Window x:Class="BitmapEffects.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:System="clr-namespace:System;assembly=mscorlib"
+    Title="Bitmap Effekte" Height="398" Width="612">
+    <Window.Resources>
+        <ImageSource x:Key="DefaultImage2">
+            _Resources/notebook.png
+        </ImageSource>
+        <Style TargetType="{x:Type Image}">
+            <Setter Property="Height" Value="87" />
+            <Setter Property="Source" Value="{DynamicResource DefaultImage2}" />
+            <Setter Property="Width" Value="95" />
+            <Setter Property="VerticalAlignment" Value="Top" />
+            <Setter Property="HorizontalAlignment" Value="Left" />
+            <Setter Property="Margin" Value="36,33,0,0" />
+            <Setter Property="Stretch" Value="Uniform" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <TabControl Margin="10,10,12,48" Name="tabControl1">
+            <TabItem Header="OuterGlowSize" Name="tabItem1">
+                <Grid>
+                    <Image Name="imgOuterGlow">
+                        <Image.BitmapEffect>
+                            <OuterGlowBitmapEffect GlowColor="DarkGray" 
+                                                   GlowSize="{Binding ElementName=sldOuterGlowSize, Path=Value}" 
+                                                   Noise="{Binding ElementName=sldOuterGlowNoise, Path=Value}"
+                                                   Opacity="{Binding ElementName=sldOuterGlowOpacity, Path=Value}"/>
+                        </Image.BitmapEffect>
+                    </Image>
+                    <Slider Height="23" Margin="0,33,35,0" Name="sldOuterGlowSize" VerticalAlignment="Top" SmallChange="1" LargeChange="5" Maximum="50" Value="5" HorizontalAlignment="Right" Width="225" />
+                    <Label Height="24" Margin="188,33,258,0" Name="label1" VerticalAlignment="Top" Content="{Binding ElementName=sldOuterGlowSize, Path=Value}" ContentStringFormat="GlowSize: {0:0.0}" />
+                    <Slider Height="23" LargeChange="0.2" Margin="0,63,35,0" Maximum="1.0" Name="sldOuterGlowNoise" SmallChange="0.1" Value="0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="225" />
+                    <Label Content="{Binding ElementName=sldOuterGlowNoise, Path=Value}" ContentStringFormat="Noise: {0:0.0}" Height="24" Margin="188,63,258,0" Name="label2" VerticalAlignment="Top" />
+                    <Slider Height="23" LargeChange="0.2" Margin="0,97,35,0" Maximum="1" Name="sldOuterGlowOpacity" SmallChange="0.1" Value="1" VerticalAlignment="Top" HorizontalAlignment="Right" Width="225" />
+                    <Label Content="{Binding ElementName=sldOuterGlowOpacity, Path=Value}" ContentStringFormat="Opacity: {0:0.0}" Height="24" Margin="188,97,258,0" Name="label3" VerticalAlignment="Top" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="DropShadow">
+                <Grid>
+                    <Image Name="imgDropShadow">
+                        <Image.BitmapEffect>
+                            <DropShadowBitmapEffect Color="DarkGray" 
+                                                    Direction="{Binding ElementName=sldDropShadowDirection, Path=Value}"
+                                                    Noise="{Binding ElementName=sldDropShadowNoise, Path=Value}"
+                                                    Opacity="{Binding ElementName=sldDropShadowOpacity, Path=Value}"
+                                                    ShadowDepth="{Binding ElementName=sldDropShadowDepth, Path=Value}"
+                                                    Softness="{Binding ElementName=sldDropShadowSoftness, Path=Value}"
+                                                    />
+                        </Image.BitmapEffect>
+                    </Image>
+                    <Slider Height="23" Margin="0,33,35,0" Name="sldDropShadowDirection" VerticalAlignment="Top" SmallChange="1" LargeChange="10" Maximum="360" Value="5" HorizontalAlignment="Right" Width="225" />
+                    <Label Height="24" Margin="188,33,258,0" VerticalAlignment="Top" Content="{Binding ElementName=sldDropShadowDirection, Path=Value}" ContentStringFormat="Direction: {0:0}" />
+                    <Slider Height="23" LargeChange="0.2" Margin="0,63,35,0" Maximum="1.0" Name="sldDropShadowNoise" SmallChange="0.1" Value="0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="225" />
+                    <Label Content="{Binding ElementName=sldDropShadowNoise, Path=Value}" ContentStringFormat="Noise: {0:0.0}" Height="24" Margin="188,63,258,0" VerticalAlignment="Top" />
+                    <Slider Height="23" LargeChange="0.2" Margin="0,92,35,0" Maximum="1" Name="sldDropShadowOpacity" SmallChange="0.1" Value="1" VerticalAlignment="Top" HorizontalAlignment="Right" Width="225" />
+                    <Label Content="{Binding ElementName=sldDropShadowOpacity, Path=Value}" ContentStringFormat="Opacity: {0:0.0}" Height="24" Margin="188,92,258,0" Name="label4" VerticalAlignment="Top" />
+                    <Slider LargeChange="10" Margin="0,121,35,122" Maximum="50" Name="sldDropShadowDepth" SmallChange="1" Value="5" HorizontalAlignment="Right" Width="225" />
+                    <Label Content="{Binding ElementName=sldDropShadowDepth, Path=Value}" ContentStringFormat="ShadowDepth: {0:0.0}" Margin="188,121,258,122" Name="label5" />
+                    <Slider Height="23" LargeChange="0.2" Margin="0,0,35,93" Maximum="1" Name="sldDropShadowSoftness" SmallChange="0.1" Value="1" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="225" />
+                    <Label Content="{Binding ElementName=sldDropShadowSoftness, Path=Value}" ContentStringFormat="Softness: {0:0.0}" Height="24" Margin="188,0,258,92" Name="label6" VerticalAlignment="Bottom" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Blur">
+                <Grid>
+                    <Image>
+                        <Image.BitmapEffect>
+                            <BlurBitmapEffect KernelType="Gaussian" 
+                                              Radius="{Binding ElementName=sldBlurRadius, Path=Value}" />
+                        </Image.BitmapEffect>
+                    </Image>
+                    <Slider Height="23" LargeChange="5" Margin="0,33,20,0" Maximum="50" Name="sldBlurRadius" SmallChange="1" Value="5" VerticalAlignment="Top" HorizontalAlignment="Right" Width="225" />
+                    <Label Content="{Binding ElementName=sldBlurRadius, Path=Value}" ContentStringFormat="Radius: {0:0}" Height="24" Margin="203,33,243,0" VerticalAlignment="Top" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Emboss">
+                <Grid>
+                    <Image>
+                        <Image.BitmapEffect>
+                            <EmbossBitmapEffect LightAngle="{Binding ElementName=sldEmbossLightAngle, Path=Value}"
+                                                Relief="{Binding ElementName=sldEmbossRelief, Path=Value}" />
+                                                
+                        </Image.BitmapEffect>
+                    </Image>
+                    <Slider Height="23" LargeChange="10" Margin="0,33,18,0" Maximum="360" Name="sldEmbossLightAngle" SmallChange="1" Value="5" VerticalAlignment="Top" HorizontalAlignment="Right" Width="225" />
+                    <Label Content="{Binding ElementName=sldEmbossLightAngle, Path=Value}" ContentStringFormat="LightAngle: {0:0}" Height="24" Margin="205,33,241,0" VerticalAlignment="Top" />
+                    <Slider Height="23" LargeChange="0.20" Margin="0,62,18,0" Maximum="1" Name="sldEmbossRelief" SmallChange="0.10" Value="0.44" VerticalAlignment="Top" HorizontalAlignment="Right" Width="225" />
+                    <Label Content="{Binding ElementName=sldEmbossRelief, Path=Value}" ContentStringFormat="Relief: {0:0.0}" Height="24" Margin="205,62,241,0" Name="label7" VerticalAlignment="Top" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Bevel">
+                <Grid>
+                    <Image>
+                        <Image.BitmapEffect>
+                            <BevelBitmapEffect BevelWidth="{Binding ElementName=sldBevelWidth, Path=Value}"
+                                               LightAngle="{Binding ElementName=sldBevelLightAngle, Path=Value}"
+                                               Relief="{Binding ElementName=sldBevelRelief, Path=Value}"
+                                               Smoothness="{Binding ElementName=sldBevelSmoothness, Path=Value}"/>
+                        </Image.BitmapEffect>
+                    </Image>
+                    <Slider Height="23" LargeChange="10" Margin="0,33,31,0" Maximum="360" Name="sldBevelLightAngle" SmallChange="1" Value="5" VerticalAlignment="Top" HorizontalAlignment="Right" Width="225" />
+                    <Label Content="{Binding ElementName=sldBevelLightAngle, Path=Value}" ContentStringFormat="LightAngle: {0:0}" Height="24" Margin="192,33,254,0" VerticalAlignment="Top" />
+                    <Slider Height="23" LargeChange="10" Margin="0,63,31,0" Maximum="100" Name="sldBevelWidth" SmallChange="1" Value="5" VerticalAlignment="Top" HorizontalAlignment="Right" Width="225" />
+                    <Label Content="{Binding ElementName=sldBevelWidth, Path=Value}" ContentStringFormat="BevelWidth: {0:0}" Height="24" Margin="192,63,254,0" VerticalAlignment="Top" />
+                    <Slider Height="23" LargeChange="0.2" Margin="0,92,31,0" Maximum="1" Name="sldBevelSmoothness" SmallChange="0.1" Value="0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="225" />
+                    <Label Content="{Binding ElementName=sldBevelSmoothness, Path=Value}" ContentStringFormat="Smoothness: {0:0.0}" Height="24" Margin="192,92,254,0" Name="label8" VerticalAlignment="Top" />
+                    <Slider LargeChange="0.2" Margin="0,121,31,127" Maximum="1" Name="sldBevelRelief" SmallChange="0.1" Value="0" HorizontalAlignment="Right" Width="225" />
+                    <Label Content="{Binding ElementName=sldBevelRelief, Path=Value}" ContentStringFormat="Relief: {0:0.0}" Margin="192,121,254,126" Name="label9" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="RotateTransform">
+                <Grid>
+                    <Image Name="imgRotateTransform">
+                        <Image.RenderTransform>
+                            <RotateTransform CenterX="{Binding ElementName=sldRotateCenterX, Path=Value, Mode=TwoWay}" 
+                                             CenterY="{Binding ElementName=sldRotateCenterY, Path=Value, Mode=TwoWay}"
+                                             Angle="{Binding ElementName=sldRotateAngle, Path=Value, Mode=TwoWay}"/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Slider Height="23" LargeChange="10" Margin="0,33,31,0" Maximum="{Binding ElementName=imgRotateTransform, Path=Width}" Name="sldRotateCenterX" SmallChange="1" Value="0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="225" />
+                    <Label Content="{Binding ElementName=sldRotateCenterX, Path=Value}" ContentStringFormat="CenterX: {0:0}" Height="24" Margin="192,33,254,0" VerticalAlignment="Top" />
+
+                    <Slider Height="23" LargeChange="10" Margin="0,63,31,0" Maximum="{Binding ElementName=imgRotateTransform, Path=Height}" Name="sldRotateCenterY" SmallChange="1" Value="0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="225" />
+                    <Label Content="{Binding ElementName=sldRotateCenterY, Path=Value}" ContentStringFormat="CenterY: {0:0}" Height="24" Margin="192,63,254,0" VerticalAlignment="Top" />
+
+                    <Slider Height="23" LargeChange="10" Margin="0,93,31,0" Maximum="360" Name="sldRotateAngle" SmallChange="1" Value="0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="225" />
+                    <Label Content="{Binding ElementName=sldRotateAngle, Path=Value}" ContentStringFormat="Angle: {0:0}" Height="24" Margin="192,93,254,0" VerticalAlignment="Top" />
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="ScaleTransform">
+                <Grid>
+                    <Image Name="imgScaleTransform">
+                        <Image.RenderTransform>
+                                <ScaleTransform CenterX="{Binding ElementName=sldScaleCenterX, Path=Value, Mode=TwoWay}" 
+                                             CenterY="{Binding ElementName=sldScaleCenterY, Path=Value, Mode=TwoWay}"
+                                                ScaleX="{Binding ElementName=sldScaleScaleX, Path=Value, Mode=TwoWay}"
+                                                ScaleY="{Binding ElementName=sldScaleScaleY, Path=Value, Mode=TwoWay}"/>
+                        </Image.RenderTransform>
+                    </Image>
+
+                    <Slider Height="23" LargeChange="10" Margin="0,33,31,0" Maximum="{Binding ElementName=imgScaleTransform, Path=Width}" Name="sldScaleCenterX" SmallChange="1" Value="0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="225" />
+                    <Label Content="{Binding ElementName=sldScaleCenterX, Path=Value}" ContentStringFormat="CenterX: {0:0}" Height="24" Margin="192,33,254,0" VerticalAlignment="Top" />
+
+                    <Slider Height="23" LargeChange="10" Margin="0,63,31,0" Maximum="{Binding ElementName=imgScaleTransform, Path=Height}" Name="sldScaleCenterY" SmallChange="1" Value="0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="225" />
+                    <Label Content="{Binding ElementName=sldScaleCenterY, Path=Value}" ContentStringFormat="CenterY: {0:0}" Height="24" Margin="192,63,254,0" VerticalAlignment="Top" />
+
+                    <Slider Height="23" LargeChange="10" Margin="0,93,31,0" Maximum="2" Minimum="0" Name="sldScaleScaleX" SmallChange="0.1" Value="1" VerticalAlignment="Top" HorizontalAlignment="Right" Width="225" />
+                    <Label Content="{Binding ElementName=sldScaleScaleX, Path=Value}" ContentStringFormat="ScaleX: {0:0.00}" Height="24" Margin="192,93,254,0" VerticalAlignment="Top" />
+
+                    <Slider Height="23" LargeChange="10" Margin="0,123,31,0" Maximum="2" Minimum="0" Name="sldScaleScaleY" SmallChange="0.1" Value="1" VerticalAlignment="Top" HorizontalAlignment="Right" Width="225" />
+                    <Label Content="{Binding ElementName=sldScaleScaleY, Path=Value}" ContentStringFormat="ScaleY: {0:0.00}" Height="24" Margin="192,123,254,0" VerticalAlignment="Top" />
+
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Button Height="30" HorizontalAlignment="Right" Margin="0,0,12,12" Name="button1" VerticalAlignment="Bottom" Width="99" Click="button1_Click">Schließen</Button>
+        <Button Height="30" HorizontalAlignment="Left" Margin="15,0,0,12" Name="button2" VerticalAlignment="Bottom" Width="99" Click="OnLoadImage">Bild laden</Button>
+        <Button Height="30" HorizontalAlignment="Left" Margin="120,0,0,12" Name="cmdSelectColor" VerticalAlignment="Bottom" Width="99" Click="OnSelectColor" IsEnabled="False">Farbe wählen</Button>
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MVVM\01_DataTrigger\01_DataTrigger\bin\Debug\01_DataTrigger.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MVVM\01_DataTrigger\01_DataTrigger\bin\Debug\01_DataTrigger.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MVVM\01_DataTrigger\01_DataTrigger\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MVVM\01_DataTrigger\01_DataTrigger\obj\x86\Debug\MainWindow.baml
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MVVM\01_DataTrigger\01_DataTrigger\obj\x86\Debug\MainWindow.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MVVM\01_DataTrigger\01_DataTrigger\obj\x86\Debug\App.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MVVM\01_DataTrigger\01_DataTrigger\obj\x86\Debug\01_DataTrigger_MarkupCompile.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MVVM\01_DataTrigger\01_DataTrigger\obj\x86\Debug\01_DataTrigger.g.resources
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MVVM\01_DataTrigger\01_DataTrigger\obj\x86\Debug\UseCase_01_DataTrigger.Properties.Resources.resources
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MVVM\01_DataTrigger\01_DataTrigger\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MVVM\01_DataTrigger\01_DataTrigger\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MVVM\01_DataTrigger\01_DataTrigger\obj\x86\Debug\01_DataTrigger.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MVVM\01_DataTrigger\01_DataTrigger\obj\x86\Debug\01_DataTrigger.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MVVM\01_DataTrigger\01_DataTrigger\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Dokumente\My Dropbox\Codebooks\Samples WPF\MVVM\01_DataTrigger\01_DataTrigger\obj\x86\Debug\01_DataTrigger_MarkupCompile.lref

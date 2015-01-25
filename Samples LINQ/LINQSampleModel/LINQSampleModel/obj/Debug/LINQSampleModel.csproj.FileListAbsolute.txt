@@ -1,0 +1,8 @@
+D:\Dokumente\My Dropbox\Codebooks\Samples LINQ\LINQSampleModel\LINQSampleModel\bin\Debug\LINQ Samples.mdf
+D:\Dokumente\My Dropbox\Codebooks\Samples LINQ\LINQSampleModel\LINQSampleModel\bin\Debug\LINQ Samples_log.ldf
+D:\Dokumente\My Dropbox\Codebooks\Samples LINQ\LINQSampleModel\LINQSampleModel\bin\Debug\LINQSampleModel.dll.config
+D:\Dokumente\My Dropbox\Codebooks\Samples LINQ\LINQSampleModel\LINQSampleModel\bin\Debug\LINQSampleModel.dll
+D:\Dokumente\My Dropbox\Codebooks\Samples LINQ\LINQSampleModel\LINQSampleModel\bin\Debug\LINQSampleModel.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples LINQ\LINQSampleModel\LINQSampleModel\obj\Debug\ResolveAssemblyReference.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples LINQ\LINQSampleModel\LINQSampleModel\obj\Debug\LINQSampleModel.dll
+D:\Dokumente\My Dropbox\Codebooks\Samples LINQ\LINQSampleModel\LINQSampleModel\obj\Debug\LINQSampleModel.pdb

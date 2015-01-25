@@ -1,0 +1,120 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/f:App.xaml.cs" caret="0" fromTop="0" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/f:Window1.xaml.cs" caret="727" fromTop="10" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/d:_Resources/f:ExpanderStyles.xaml" caret="5520" fromTop="84" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/f:App.xaml" caret="273" fromTop="5" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/f:Window1.xaml" caret="0" fromTop="0" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/d:_Resources/f:Common.xaml" caret="453" fromTop="7" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/f:Window1.xaml" caret="280" fromTop="20" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/f:Window1.xaml" caret="280" fromTop="22" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/f:Window1.xaml" caret="280" fromTop="21" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/f:Window1.xaml" caret="280" fromTop="20" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/f:Window1.xaml" caret="280" fromTop="22" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/f:Window1.xaml" caret="280" fromTop="10" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/f:Window1.xaml" caret="280" fromTop="7" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/f:Window1.xaml.cs" caret="1914" fromTop="36" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/f:Window1.xaml.cs" caret="1795" fromTop="34" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/f:Window1.xaml" caret="280" fromTop="0" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/d:_Resources/f:Common.xaml" caret="2633" fromTop="34" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/d:_Resources/f:ExpanderStyles.xaml" caret="7287" fromTop="38" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/d:_Resources/f:ExpanderStyles.xaml" caret="148" fromTop="2" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/f:App.xaml" caret="478" fromTop="8" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/d:_Resources/f:Common.xaml" caret="745" fromTop="13" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/d:_Resources/f:Common.xaml" caret="239" fromTop="3" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/f:Window1.xaml" caret="458" fromTop="6" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/f:Window1.xaml.cs" caret="1858" fromTop="29" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/f:Window1.xaml.cs" caret="806" fromTop="2" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/f:Window1.xaml.cs" caret="1079" fromTop="17" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/d:_Resources/f:ExpanderStyles.xaml" caret="1828" fromTop="29" />
+      <File id="35CAEDE1-43EA-4DB3-8B01-669634D3FDCC/f:Window1.xaml" caret="605" fromTop="9" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="if" priority="4" />
+      <Item value="MessageBox" priority="0" />
+      <Item value="cboStyles" priority="5" />
+      <Item value="is" priority="2" />
+      <Item value="ComboBoxItem" priority="2" />
+      <Item value="as" priority="2" />
+      <Item value="cbi" priority="0" />
+      <Item value="return" priority="0" />
+      <Item value="string" priority="2" />
+      <Item value="Style" priority="3" />
+      <Item value="this" priority="1" />
+      <Item value="strStyleName" priority="0" />
+      <Item value="s" priority="1" />
+      <Item value="expander1" priority="0" />
+      <Item value="App" priority="0" />
+      <Item value="Application" priority="0" />
+      <Item value="myapp" priority="2" />
+      <Item value="foreach" priority="2" />
+      <Item value="object" priority="1" />
+      <Item value="AssemblyLoadEventHandler" priority="0" />
+      <Item value="in" priority="2" />
+      <Item value="objKey" priority="3" />
+      <Item value="ResourceDictionary" priority="0" />
+      <Item value="dic" priority="2" />
+      <Item value="else" priority="0" />
+      <Item value="Expander" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.MessageBox">
+      <Item value="Show" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ComboBox">
+      <Item value="SelectedItem" priority="2" />
+      <Item value="Text" priority="1" />
+      <Item value="Items" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ControlWorkbenchExpander.Window1">
+      <Item value="FindResource" priority="0" />
+      <Item value="TryFindResource" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Expander">
+      <Item value="Style" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ComboBoxItem">
+      <Item value="Content" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Application">
+      <Item value="Current" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ControlWorkbenchExpander.App">
+      <Item value="Resources" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.ResourceDictionary">
+      <Item value="Keys" priority="1" />
+      <Item value="MergedDictionaries" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ItemCollection">
+      <Item value="Add" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Style">
+      <Item value="TargetType" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.5.4\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

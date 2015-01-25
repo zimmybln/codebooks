@@ -1,0 +1,185 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/d:Themes/f:Blue.xaml" caret="216" fromTop="2" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/d:Resources/f:Styles.xaml" caret="213" fromTop="1" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/d:Resources/f:DefaultColor.xaml" caret="254" fromTop="2" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:MainWindow.xaml" caret="924" fromTop="9" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/d:Themes/f:Green.xaml" caret="164" fromTop="1" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/d:Themes/f:Pink.xaml" caret="85" fromTop="0" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:App.xaml" caret="0" fromTop="0" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:MainWindow.xaml.cs" caret="365" fromTop="0" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:App.xaml.cs" caret="440" fromTop="14" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:MainWindow.xaml.cs" caret="1161" fromTop="30" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:MainWindow.xaml.cs" caret="971" fromTop="26" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:MainWindow.xaml.cs" caret="799" fromTop="16" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:MainWindow.xaml.cs" caret="610" fromTop="21" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:MainWindow.xaml.cs" caret="1425" fromTop="43" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:App.xaml" caret="700" fromTop="9" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:App.xaml" caret="605" fromTop="7" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:MainWindow.xaml.cs" caret="1425" fromTop="37" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:MainWindow.xaml.cs" caret="1425" fromTop="36" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:MainWindow.xaml.cs" caret="1425" fromTop="41" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:MainWindow.xaml.cs" caret="1423" fromTop="30" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/d:Resources/f:Styles.xaml" caret="259" fromTop="1" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/d:Themes/f:Green.xaml" caret="254" fromTop="2" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/d:Themes/f:Blue.xaml" caret="266" fromTop="3" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:MainWindow.xaml" caret="298" fromTop="3" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/d:Resources/f:DefaultColor.xaml" caret="254" fromTop="2" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:App.xaml.cs" caret="555" fromTop="17" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:App.xaml.cs" caret="2215" fromTop="49" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:App.xaml.cs" caret="1837" fromTop="38" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:MainWindow.xaml" caret="924" fromTop="9" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:MainWindow.xaml.cs" caret="1651" fromTop="45" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:MainWindow.xaml.cs" caret="1490" fromTop="20" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:App.xaml.cs" caret="978" fromTop="20" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:App.xaml.cs" caret="541" fromTop="10" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:App.xaml.cs" caret="2145" fromTop="46" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:App.xaml.cs" caret="1406" fromTop="27" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:App.xaml.cs" caret="398" fromTop="0" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/d:Themes/f:Pink.xaml" caret="254" fromTop="2" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:App.xaml.cs" caret="346" fromTop="18" />
+      <File id="56DFF268-BC98-4A60-8E01-30575340CB61/f:App.xaml.cs" caret="13" fromTop="0" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Programme\NUnit 2.5.5\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="string" priority="4" />
+      <Item value="this" priority="1" />
+      <Item value="Uri`0" priority="1" />
+      <Item value="new" priority="5" />
+      <Item value="Uri" priority="1" />
+      <Item value="uriPath" priority="0" />
+      <Item value="System" priority="2" />
+      <Item value="IO" priority="3" />
+      <Item value="Path`0" priority="3" />
+      <Item value="foreach" priority="1" />
+      <Item value="in" priority="1" />
+      <Item value="Directory`0" priority="0" />
+      <Item value="strPath" priority="2" />
+      <Item value="cboThemes" priority="0" />
+      <Item value="strFile" priority="0" />
+      <Item value="Application`0" priority="1" />
+      <Item value="ResourceDictionary`0" priority="6" />
+      <Item value="ResourceDictionary" priority="2" />
+      <Item value="rd" priority="2" />
+      <Item value="ReasonSessionEnding`0" priority="0" />
+      <Item value="x" priority="5" />
+      <Item value="XmlDataProvider`0" priority="0" />
+      <Item value="null" priority="2" />
+      <Item value="r" priority="0" />
+      <Item value="UriKind`0" priority="0" />
+      <Item value="rdStyles" priority="0" />
+      <Item value="String`0" priority="5" />
+      <Item value="strTheme" priority="3" />
+      <Item value="return" priority="0" />
+      <Item value="e" priority="0" />
+      <Item value="as" priority="1" />
+      <Item value="Resources" priority="2" />
+      <Item value="public" priority="0" />
+      <Item value="void" priority="0" />
+      <Item value="AssemblyName" priority="0" />
+      <Item value="amsName" priority="3" />
+      <Item value="if" priority="0" />
+      <Item value="Debug`0" priority="0" />
+      <Item value="protected" priority="0" />
+      <Item value="override" priority="0" />
+      <Item value="ApplyDesign`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ThemedApplication.MainWindow">
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="Assembly" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.Assembly">
+      <Item value="CodeBase" priority="0" />
+      <Item value="FullName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Uri">
+      <Item value="LocalPath" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Shapes.Path">
+      <Item value="WidthProperty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Path">
+      <Item value="Combine`0" priority="0" />
+      <Item value="GetFileName`0" priority="0" />
+      <Item value="GetDirectoryName`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Directory">
+      <Item value="GetFiles`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ComboBox">
+      <Item value="Items" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ItemCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Application">
+      <Item value="Current" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ThemedApplication.App">
+      <Item value="Resources" priority="1" />
+      <Item value="ApplyDefaultDesign`0" priority="0" />
+      <Item value="ApplyDesign`0" priority="0" />
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.ResourceDictionary">
+      <Item value="MergedDictionaries" priority="5" />
+      <Item value="Source" priority="1" />
+      <Item value="FindName`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ObjectModel.Collection`1">
+      <Item value="Clear`0" priority="0" />
+      <Item value="Add`0" priority="2" />
+      <Item value="FirstOrDefault`1" priority="1" />
+      <Item value="Select`2" priority="0" />
+      <Item value="SingleOrDefault`1" priority="0" />
+      <Item value="AsQueryable`0" priority="0" />
+      <Item value="ToLookup`3" priority="0" />
+      <Item value="Where`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.UriKind">
+      <Item value="RelativeOrAbsolute" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="0" />
+      <Item value="Format`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.SelectionChangedEventArgs">
+      <Item value="AddedItems" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.IList">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="FirstOrDefault`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Debug">
+      <Item value="WriteLine`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.AssemblyName">
+      <Item value="Name" priority="3" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

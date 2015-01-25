@@ -1,0 +1,9 @@
+D:\Dokumente\Dropbox\Codebooks\Samples Expressions\PropertyAssignment\PropertyAssignment\bin\Debug\PropertyAssignment.exe.config
+D:\Dokumente\Dropbox\Codebooks\Samples Expressions\PropertyAssignment\PropertyAssignment\obj\Debug\PropertyAssignment.csprojResolveAssemblyReference.cache
+D:\Dokumente\Dropbox\Codebooks\Samples Expressions\PropertyAssignment\PropertyAssignment\bin\Debug\PropertyAssignment.exe
+D:\Dokumente\Dropbox\Codebooks\Samples Expressions\PropertyAssignment\PropertyAssignment\bin\Debug\PropertyAssignment.pdb
+D:\Dokumente\Dropbox\Codebooks\Samples Expressions\PropertyAssignment\PropertyAssignment\obj\Debug\PropertyAssignment.exe
+D:\Dokumente\Dropbox\Codebooks\Samples Expressions\PropertyAssignment\PropertyAssignment\obj\Debug\PropertyAssignment.pdb
+C:\Users\Torsten\Dropbox\Codebooks\Samples Expressions\PropertyAssignment\PropertyAssignment\bin\Debug\PropertyAssignment.exe.config
+C:\Users\Torsten\Dropbox\Codebooks\Samples Expressions\PropertyAssignment\PropertyAssignment\obj\Debug\PropertyAssignment.exe
+C:\Users\Torsten\Dropbox\Codebooks\Samples Expressions\PropertyAssignment\PropertyAssignment\obj\Debug\PropertyAssignment.pdb

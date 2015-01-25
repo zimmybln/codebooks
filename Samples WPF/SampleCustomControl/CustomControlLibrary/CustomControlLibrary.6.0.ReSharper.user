@@ -1,0 +1,146 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="B63BA90A-32CC-4790-9EAD-385A138A7B5E/d:Properties/f:AssemblyInfo.cs" caret="1648" fromTop="24" />
+      <File id="6E200330-27C6-4D04-98C3-0D2CFA162453/f:ExtendedItemList.cs" caret="1311" fromTop="10" />
+      <File id="B63BA90A-32CC-4790-9EAD-385A138A7B5E/f:Metadata.cs" caret="805" fromTop="19" />
+      <File id="6E200330-27C6-4D04-98C3-0D2CFA162453/d:Themes/f:Generic.xaml" caret="932" fromTop="13" />
+      <File id="77530913-8984-4905-A0CF-373A2EEC4443/f:MainWindow.xaml.cs" caret="231" fromTop="8" />
+      <File id="77530913-8984-4905-A0CF-373A2EEC4443/f:MainWindow.xaml" caret="1022" fromTop="17" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="6E200330-27C6-4D04-98C3-0D2CFA162453/d:Themes/f:Generic.xaml" caret="260" fromTop="4" />
+      <File id="6E200330-27C6-4D04-98C3-0D2CFA162453/f:ExtendedItemList.cs" caret="2634" fromTop="33" />
+      <File id="6E200330-27C6-4D04-98C3-0D2CFA162453/f:ExtendedItemList.cs" caret="4854" fromTop="26" />
+      <File id="6E200330-27C6-4D04-98C3-0D2CFA162453/f:ExtendedItemList.cs" caret="3111" fromTop="21" />
+      <File id="77530913-8984-4905-A0CF-373A2EEC4443/f:MainWindow.xaml.cs" caret="795" fromTop="31" />
+      <File id="6E200330-27C6-4D04-98C3-0D2CFA162453/f:ExtendedItemList.cs" caret="4242" fromTop="27" />
+      <File id="6E200330-27C6-4D04-98C3-0D2CFA162453/f:ExtendedItemList.cs" caret="2912" fromTop="13" />
+      <File id="6E200330-27C6-4D04-98C3-0D2CFA162453/f:ExtendedItemList.cs" caret="3474" fromTop="28" />
+      <File id="6E200330-27C6-4D04-98C3-0D2CFA162453/f:ExtendedItemList.cs" caret="2712" fromTop="23" />
+      <File id="6E200330-27C6-4D04-98C3-0D2CFA162453/d:Themes/f:Generic.xaml" caret="932" fromTop="13" />
+      <File id="6E200330-27C6-4D04-98C3-0D2CFA162453/f:ExtendedItemList.cs" caret="2082" fromTop="7" />
+      <File id="6E200330-27C6-4D04-98C3-0D2CFA162453/f:ExtendedItemList.cs" caret="3829" fromTop="27" />
+      <File id="6E200330-27C6-4D04-98C3-0D2CFA162453/f:ExtendedItemList.cs" caret="4777" fromTop="33" />
+      <File id="77530913-8984-4905-A0CF-373A2EEC4443/f:MainWindow.xaml" caret="1309" fromTop="12" />
+      <File id="B63BA90A-32CC-4790-9EAD-385A138A7B5E/d:Properties/f:AssemblyInfo.cs" caret="1697" fromTop="26" />
+      <File id="B63BA90A-32CC-4790-9EAD-385A138A7B5E/f:Metadata.cs" caret="259" fromTop="8" />
+      <File id="B63BA90A-32CC-4790-9EAD-385A138A7B5E/f:Metadata.cs" caret="805" fromTop="10" />
+      <File id="B63BA90A-32CC-4790-9EAD-385A138A7B5E/f:Metadata.cs" caret="803" fromTop="18" />
+      <File id="77530913-8984-4905-A0CF-373A2EEC4443/f:MainWindow.xaml" caret="446" fromTop="7" />
+      <File id="77530913-8984-4905-A0CF-373A2EEC4443/f:MainWindow.xaml" caret="949" fromTop="15" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="public" priority="189" />
+      <Item value="static" priority="191" />
+      <Item value="readonly" priority="31" />
+      <Item value="DependencyProperty`0" priority="96" />
+      <Item value="typeof" priority="95" />
+      <Item value="ItemCollection`0" priority="31" />
+      <Item value="ExtendedItemList`0" priority="128" />
+      <Item value="new" priority="95" />
+      <Item value="UIPropertyMetadata" priority="28" />
+      <Item value="class" priority="61" />
+      <Item value="string" priority="159" />
+      <Item value="void" priority="159" />
+      <Item value="Control`0" priority="95" />
+      <Item value="ItemsProperty" priority="63" />
+      <Item value="value" priority="31" />
+      <Item value="return" priority="63" />
+      <Item value="Item" priority="31" />
+      <Item value="DescriptionProperty" priority="95" />
+      <Item value="this" priority="63" />
+      <Item value="lst" priority="31" />
+      <Item value="protected" priority="95" />
+      <Item value="override" priority="127" />
+      <Item value="private" priority="127" />
+      <Item value="EventManager`0" priority="63" />
+      <Item value="object" priority="95" />
+      <Item value="RoutedEventArgs`0" priority="95" />
+      <Item value="Trace`0" priority="63" />
+      <Item value="String`0" priority="63" />
+      <Item value="DependencyObject`0" priority="27" />
+      <Item value="obj" priority="31" />
+      <Item value="e" priority="31" />
+      <Item value="Button`0" priority="129" />
+      <Item value="OnButtonClick`0" priority="32" />
+      <Item value="var" priority="31" />
+      <Item value="sender" priority="31" />
+      <Item value="as" priority="63" />
+      <Item value="if" priority="63" />
+      <Item value="btt" priority="191" />
+      <Item value="strButtonName" priority="31" />
+      <Item value="TemplatePart" priority="31" />
+      <Item value="Name" priority="30" />
+      <Item value="base" priority="31" />
+      <Item value="RoutedEventHandler" priority="28" />
+      <Item value="OnButtonClickByTemplate`0" priority="32" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.DependencyProperty">
+      <Item value="Register`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Control">
+      <Item value="SetValue`0" priority="26" />
+      <Item value="GetValue`0" priority="26" />
+      <Item value="GetTemplateChild`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CustomControlLibrary.ExtendedItemList">
+      <Item value="GetValue`0" priority="26" />
+      <Item value="SetValue`0" priority="26" />
+      <Item value="Description" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Debug">
+      <Item value="WriteLine`0" priority="55" />
+    </ItemStatistics>
+    <ItemStatistics item="XamlCodeCompletionContext">
+      <Item value="BurlyWood" priority="5" />
+      <Item value="Background" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.EventManager">
+      <Item value="RegisterClassHandler`0" priority="26" />
+      <Item value="RegisterRoutedEvent`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Controls.Control">
+      <Item value="PreviewMouseDoubleClickEvent" priority="26" />
+      <Item value="PreviewMouseDownEvent" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CustomControlLibrary.ExtendedItemList">
+      <Item value="OnMouseDown`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Trace">
+      <Item value="WriteLine`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.RoutedEventArgs">
+      <Item value="OriginalSource" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Controls.Button">
+      <Item value="ClickEvent" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Button">
+      <Item value="Name" priority="53" />
+      <Item value="Click" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.9\bin\net-2.0\lib</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

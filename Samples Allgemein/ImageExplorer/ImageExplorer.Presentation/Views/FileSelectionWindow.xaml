@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="ImageExplorer.Presentation.Views.FileSelectionWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" xmlns:my="clr-namespace:ImageExplorer.Presentation.Controls" Width="Auto" Height="Auto">
+   
+    <Grid Background="#FF326958">
+        <my:Directory Margin="0,0,0,0" x:Name="fcDirectory" Path="{Binding SelectedPath, Mode=TwoWay}" />
+    </Grid>
+</UserControl>

@@ -1,0 +1,13 @@
+﻿<Page x:Class="CommandSample.Pages.InnerPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:CommandSample"
+    Title="InnerPage">
+    <Page.CommandBindings>
+        <CommandBinding Command="local:MyCommands.RouteCommand" Executed="OnRoute" CanExecute="OnCanRoute"/>
+    </Page.CommandBindings>
+    <Grid>
+        <ListBox Margin="14,22,19,98" Name="lstReceives" />
+        <Button Command="local:MyCommands.RouteCommand"  Height="30" HorizontalAlignment="Left" Margin="14,0,0,22" Name="cmdExecute" VerticalAlignment="Bottom" Width="118">Button</Button>
+    </Grid>
+</Page>

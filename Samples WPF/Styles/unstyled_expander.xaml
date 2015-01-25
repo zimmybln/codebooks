@@ -1,0 +1,15 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <StackPanel>
+    <Expander Width="200" Header="This is the Header">
+      <Border Height="100">
+        <StackPanel>
+          <TextBlock>TextBlock text</TextBlock>
+          <Label>Label text</Label>
+          <Label IsEnabled="False">Disabled label</Label>
+        </StackPanel>
+      </Border>
+    </Expander>
+  </StackPanel>
+</Page>

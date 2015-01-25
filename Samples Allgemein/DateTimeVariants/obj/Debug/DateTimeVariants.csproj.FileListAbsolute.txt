@@ -1,0 +1,6 @@
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\DateTimeVariants\bin\Debug\DateTimeVariants.exe.config
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\DateTimeVariants\bin\Debug\DateTimeVariants.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\DateTimeVariants\bin\Debug\DateTimeVariants.pdb
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\DateTimeVariants\obj\Debug\DateTimeVariants.csprojResolveAssemblyReference.cache
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\DateTimeVariants\obj\Debug\DateTimeVariants.exe
+D:\Dokumente\My Dropbox\Codebooks\Samples Allgemein\DateTimeVariants\obj\Debug\DateTimeVariants.pdb
