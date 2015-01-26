@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Data;
 using System.Diagnostics;
 using System.Linq;
@@ -11,26 +13,29 @@ namespace StateMachineWithExpressions
 {
     public class StateDescriptor<TState>
     {
-        private readonly List<Func<StateTransition, bool>> _stateExpressions;
-        
+        //private readonly List<Func<StateRequest, bool>> _stateExpressions;
+
+        private readonly ArrayList _listExpressions;
+         
         internal StateDescriptor(TState state)
         {
-            _stateExpressions = new List<Func<StateTransition, bool>>();
+            // _stateExpressions = new List<Func<StateRequest, bool>>();
+            _listExpressions = new ArrayList();
             ItemState = state;
         }
-        
-        public TState ItemState { get; private set; }
-        
-        public StateDescriptor<TState> WithCondition(Expression<Func<StateTransition, bool>> condition)
-        {
-            if (condition.Body.NodeType == ExpressionType.Equal)
-            {
-                BinaryExpression expression = (BinaryExpression)condition.Body;
 
-                Debug.WriteLine(expression.Left.ToString());
-            }
+        public TState ItemState { get; private set; }
+
+        public StateDescriptor<TState> WithEnterCondition<T>(Expression<Func<T, bool>> condition)
+        {
+            //if (condition.Body.NodeType == ExpressionType.Equal)
+            //{
+            //    BinaryExpression expression = (BinaryExpression)condition.Body;
+
+            //    Debug.WriteLine(expression.Left.ToString());
+            //}
             
-            _stateExpressions.Add(condition.Compile());
+            _listExpressions.Add(condition.Compile());
             return this;
         }
 
@@ -41,9 +46,11 @@ namespace StateMachineWithExpressions
         /// Der Status ist an eine Anzahl von Bedingungen geknüpft. Hier wird überprüft, ob es mindestens
         /// eine Bedingung gibt, die nicht erfüllt ist.
         /// </remarks>
-        public bool IsState()
+        public bool IsState<TData>(TData queryData)
         {
-            return _stateExpressions.FirstOrDefault(c => c(new StateTransition()) == false) == null;
+            return _listExpressions.ToArray()
+                .OfType<Func<TData, bool>>()
+                .FirstOrDefault(c => c(queryData) == false) == null;
         }
 
     }
