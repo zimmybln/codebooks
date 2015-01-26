@@ -9,23 +9,19 @@ using System.Threading.Tasks;
 
 namespace StateMachineWithExpressions
 {
-    public class State<T>
-        where T: class 
+    public class StateDescriptor<TState>
     {
-        private readonly List<Func<T, bool>> _stateExpressions;
-        private readonly StateMachine<T> _parentMachine;
-
-        internal State(string name, StateMachine<T> parent)
+        private readonly List<Func<StateTransition, bool>> _stateExpressions;
+        
+        internal StateDescriptor(TState state)
         {
-            _stateExpressions = new List<Func<T, bool>>();
-            Name = name;
-            _parentMachine = parent;
+            _stateExpressions = new List<Func<StateTransition, bool>>();
+            ItemState = state;
         }
         
-        public string Name { get; private set; }
-
-
-        public State<T> WithCondition(Expression<Func<T, bool>> condition)
+        public TState ItemState { get; private set; }
+        
+        public StateDescriptor<TState> WithCondition(Expression<Func<StateTransition, bool>> condition)
         {
             if (condition.Body.NodeType == ExpressionType.Equal)
             {
@@ -33,8 +29,7 @@ namespace StateMachineWithExpressions
 
                 Debug.WriteLine(expression.Left.ToString());
             }
-
-
+            
             _stateExpressions.Add(condition.Compile());
             return this;
         }
@@ -48,7 +43,7 @@ namespace StateMachineWithExpressions
         /// </remarks>
         public bool IsState()
         {
-            return _stateExpressions.FirstOrDefault(c => c(_parentMachine.Host) == false) == null;
+            return _stateExpressions.FirstOrDefault(c => c(new StateTransition()) == false) == null;
         }
 
     }

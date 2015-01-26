@@ -14,4 +14,7 @@ https://social.msdn.microsoft.com/Forums/vstudio/de-DE/d2e4786a-7dbb-4bca-a505-3
 http://www.dofactory.com/net/state-design-pattern
 http://www.codeguru.com/columns/experts/working-with-state-machines-in-the-.net-framework.htm
 
+http://blogs.msdn.com/b/nblumhardt/archive/2009/04/16/state-machines-in-domain-models.aspx
+
+
 

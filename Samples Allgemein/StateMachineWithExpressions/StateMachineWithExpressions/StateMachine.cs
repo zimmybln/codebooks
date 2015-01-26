@@ -8,39 +8,38 @@ using System.Threading.Tasks;
 
 namespace StateMachineWithExpressions
 {
-    public class StateMachine<T>
+    public class StateMachine<TStates, T>
         where T: class 
     {
-        private List<State<T>> _states = new List<State<T>>();
+        private List<StateDescriptor<TStates>> _states = new List<StateDescriptor<TStates>>();
 
         private Dictionary<string, object> dictionary
             = new Dictionary<string, object>();
 
         private T _item;
 
-        public StateMachine(T item)
+        public StateMachine(TStates state, T item)
         {
             _item = item;
         }
 
-
-        public State<T> AddState(string name)
+        public StateDescriptor<TStates> AddStateDescriptor(TStates state)
         {
-            if (_states.FirstOrDefault(s => s.Name.Equals(name)) != null)
+            if (_states.FirstOrDefault(s => s.ItemState.Equals(state)) != null)
                 throw new Exception("item already in");
 
-            var state = new State<T>(name, this);
+            var statedescriptor = new StateDescriptor<TStates>(state);
 
-            _states.Add(state);
+            _states.Add(statedescriptor);
 
-            return state;
+            return statedescriptor;
         }
 
         internal T Host  { get { return _item; } }
 
-        public State<T> this[string name]
+        public StateDescriptor<TStates> this[TStates state]
         {
-            get { return _states.FirstOrDefault(s => s.Name.Equals(name)); }
+            get { return _states.FirstOrDefault(s => s.ItemState.Equals(state)); }
         }
 
 

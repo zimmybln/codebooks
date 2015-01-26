@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace StateMachineWithExpressions
 {
+
+    public enum ItemStates
+    {
+        Empty = 0,
+        Saved = 1
+    }
     public interface IMyData
     {
         int i { get; set; }
