@@ -12,11 +12,10 @@ namespace StateMachineWithExpressions
     {
         private List<StateDescriptor<TStates>> _states = new List<StateDescriptor<TStates>>();
 
-        private Dictionary<string, object> dictionary
-            = new Dictionary<string, object>();
-
         public StateMachine(TStates state)
         {
+            Data = new Dictionary<string, object>();
+            
             Current = state;
         }
 
@@ -58,6 +57,8 @@ namespace StateMachineWithExpressions
 
             return true;
         }
+
+        public Dictionary<string, object> Data { get; private set; } 
 
         public TStates Current { get; private set; }
 

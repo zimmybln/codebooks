@@ -16,12 +16,16 @@ namespace StateMachineWithExpressions
         //private readonly List<Func<StateRequest, bool>> _stateExpressions;
 
         private readonly ArrayList _listExpressions;
+        private readonly Dictionary<string, object> _parentData;
+        
          
-        internal StateDescriptor(TState state)
+        internal StateDescriptor(TState state, Dictionary<string, object> data)
         {
             // _stateExpressions = new List<Func<StateRequest, bool>>();
             _listExpressions = new ArrayList();
             ItemState = state;
+
+            _parentData = data;
         }
 
         public TState ItemState { get; private set; }
@@ -51,6 +55,21 @@ namespace StateMachineWithExpressions
             return _listExpressions.ToArray()
                 .OfType<Func<TData, bool>>()
                 .FirstOrDefault(c => c(queryData) == false) == null;
+        }
+
+        public bool IsState()
+        {
+            // http://stackoverflow.com/questions/7801165/how-to-create-a-expression-lambda-when-a-type-is-not-known-until-runtime
+
+            //_parentData.Values.ToList()
+            //    .ForEach(delegate(object o)
+            //    {
+            //        var t = o.GetType().MakeByRefType();
+
+            //        _listExpressions.ToArray().OfType<t>()
+            //    });
+
+
         }
 
     }

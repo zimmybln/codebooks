@@ -27,6 +27,8 @@ namespace StateMachineWithExpressions
             var data = new MyData();
 
             var machine = new StateMachine<ItemStates>(ItemStates.Empty);
+            machine.Data.Add("MyData", data);
+
             
             // Hinzufügen eines Status
             var stateEmpty = machine.AddStateDescriptor(ItemStates.Empty)
@@ -35,8 +37,6 @@ namespace StateMachineWithExpressions
 
             // Hinzufügen einer automatisierten Statusänderung
 
-
-            // Das ist eine Änderung, die auf TORSTEN-Desktop durchgeführt wurde
 
             data.i = 10;
             data.j = 25;
