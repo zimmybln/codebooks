@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,11 +26,12 @@ namespace StateMachineWithExpressions
         {
             var data = new MyData();
 
-            var machine = new StateMachine<ItemStates, IMyData>(ItemStates.Empty, data);
+            var machine = new StateMachine<ItemStates>(ItemStates.Empty);
             
             // Hinzufügen eines Status
-            var state = machine.AddStateDescriptor(ItemStates.Empty)
-                .WithCondition(transition => true);
+            var stateEmpty = machine.AddStateDescriptor(ItemStates.Empty)
+                .WithEnterCondition<MyData>(d => d.i == 10)
+                .WithEnterCondition<MyData>(d => d.j == 25);
 
             // Hinzufügen einer automatisierten Statusänderung
 
@@ -39,12 +41,15 @@ namespace StateMachineWithExpressions
             data.i = 10;
             data.j = 25;
             
-            Assert.IsTrue(state.IsState());
+            Assert.IsTrue(stateEmpty.IsState(data));
+
+            data.j = 20;
+
+            Assert.IsFalse(stateEmpty.IsState(data));
             
             data.i = 5;
-            data.j = 30;
 
-            Assert.IsFalse(state.IsState());
+            Assert.IsFalse(stateEmpty.IsState(data));
         }
 
 
