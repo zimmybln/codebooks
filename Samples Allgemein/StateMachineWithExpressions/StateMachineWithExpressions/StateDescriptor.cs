@@ -13,24 +13,21 @@ namespace StateMachineWithExpressions
 {
     public class StateDescriptor<TState>
     {
-        //private readonly List<Func<StateRequest, bool>> _stateExpressions;
+        private readonly List<Func<StateMachine<TState>, bool>> _stateExpressions;
 
-        private readonly ArrayList _listExpressions;
-        private readonly Dictionary<string, object> _parentData;
-        
+        private readonly StateMachine<TState> _parentMachine;
          
-        internal StateDescriptor(TState state, Dictionary<string, object> data)
+        internal StateDescriptor(TState state, StateMachine<TState> parentMachine)
         {
-            // _stateExpressions = new List<Func<StateRequest, bool>>();
-            _listExpressions = new ArrayList();
+            _stateExpressions = new List<Func<StateMachine<TState>, bool>>();
             ItemState = state;
 
-            _parentData = data;
+            _parentMachine = parentMachine;
         }
 
         public TState ItemState { get; private set; }
 
-        public StateDescriptor<TState> WithEnterCondition<T>(Expression<Func<T, bool>> condition)
+        public StateDescriptor<TState> WithEnterCondition(Expression<Func<StateMachine<TState>, bool>> condition)
         {
             //if (condition.Body.NodeType == ExpressionType.Equal)
             //{
@@ -38,8 +35,8 @@ namespace StateMachineWithExpressions
 
             //    Debug.WriteLine(expression.Left.ToString());
             //}
-            
-            _listExpressions.Add(condition.Compile());
+
+            _stateExpressions.Add(condition.Compile());
             return this;
         }
 
@@ -50,27 +47,25 @@ namespace StateMachineWithExpressions
         /// Der Status ist an eine Anzahl von Bedingungen geknüpft. Hier wird überprüft, ob es mindestens
         /// eine Bedingung gibt, die nicht erfüllt ist.
         /// </remarks>
-        public bool IsState<TData>(TData queryData)
-        {
-            return _listExpressions.ToArray()
-                .OfType<Func<TData, bool>>()
-                .FirstOrDefault(c => c(queryData) == false) == null;
-        }
-
         public bool IsState()
         {
-            // http://stackoverflow.com/questions/7801165/how-to-create-a-expression-lambda-when-a-type-is-not-known-until-runtime
-
-            //_parentData.Values.ToList()
-            //    .ForEach(delegate(object o)
-            //    {
-            //        var t = o.GetType().MakeByRefType();
-
-            //        _listExpressions.ToArray().OfType<t>()
-            //    });
-
-
+            return _stateExpressions.FirstOrDefault(fnc => !fnc(_parentMachine)) == null;
         }
+
+        //public bool IsState()
+        //{
+        //    // http://stackoverflow.com/questions/7801165/how-to-create-a-expression-lambda-when-a-type-is-not-known-until-runtime
+
+        //    //_parentData.Values.ToList()
+        //    //    .ForEach(delegate(object o)
+        //    //    {
+        //    //        var t = o.GetType().MakeByRefType();
+
+        //    //        _listExpressions.ToArray().OfType<t>()
+        //    //    });
+
+
+        //}
 
     }
 }

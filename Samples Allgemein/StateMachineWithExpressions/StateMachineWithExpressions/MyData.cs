@@ -9,9 +9,11 @@ namespace StateMachineWithExpressions
 
     public enum ItemStates
     {
-        Empty = 0,
-        Saved = 1
+        Zero = 0,
+        Between10And19 = 1,
+        Between20And21 = 2
     }
+
     public interface IMyData
     {
         int i { get; set; }

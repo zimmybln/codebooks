@@ -18,41 +18,56 @@ namespace StateMachineWithExpressions
          * 
          * 
          */
-
-
+        
 
         [Test]
-        public void IsExpressionTest()
+        public void CheckState()
         {
             var data = new MyData();
 
-            var machine = new StateMachine<ItemStates>(ItemStates.Empty);
+            var machine = new StateMachine<ItemStates>(ItemStates.Zero);
             machine.Data.Add("MyData", data);
-
             
             // Hinzufügen eines Status
-            var stateEmpty = machine.AddStateDescriptor(ItemStates.Empty)
-                .WithEnterCondition<MyData>(d => d.i == 10)
-                .WithEnterCondition<MyData>(d => d.j == 25);
-
-            // Hinzufügen einer automatisierten Statusänderung
-
+            var stateBetween10And19 = machine.AddStateDescriptor(ItemStates.Between10And19)
+                .WithEnterCondition(sm => ((MyData)sm.Data["MyData"]).i >= 10)
+                .WithEnterCondition(sm => ((MyData)sm.Data["MyData"]).i <= 19);
 
             data.i = 10;
-            data.j = 25;
             
-            Assert.IsTrue(stateEmpty.IsState(data));
+            Assert.IsTrue(stateBetween10And19.IsState());
 
-            data.j = 20;
+            data.i = 20;
 
-            Assert.IsFalse(stateEmpty.IsState(data));
+            Assert.IsFalse(stateBetween10And19.IsState());
             
             data.i = 5;
 
-            Assert.IsFalse(stateEmpty.IsState(data));
+            Assert.IsFalse(stateBetween10And19.IsState());
         }
 
+        [Test]
+        public void CheckStateChange()
+        {
+            var data = new MyData();
 
+            var machine = new StateMachine<ItemStates>(ItemStates.Zero);
+            machine.Data.Add("MyData", data);
+
+            // Hinzufügen eines Status
+            machine.AddStateDescriptor(ItemStates.Between10And19)
+                .WithEnterCondition(sm => ((MyData)sm.Data["MyData"]).i >= 10)
+                .WithEnterCondition(sm => ((MyData)sm.Data["MyData"]).i <= 19);
+
+            data.i = 15;
+
+            Assert.IsTrue(machine.TryToEnterState(ItemStates.Between10And19), "Der Statuswechsel konnte nicht erfolgen");
+            Assert.IsTrue(machine.Current == ItemStates.Between10And19, "Der Status hat nicht den erwarteten Wert");
+
+            Assert.IsFalse(machine.TryToEnterState(ItemStates.Between10And19), "Der Statuswechsel konnte nicht erfolgen");
+            Assert.IsTrue(machine.Current == ItemStates.Between10And19, "Der Status hat nicht den erwarteten Wert");
+            
+        }
 
     }
 }

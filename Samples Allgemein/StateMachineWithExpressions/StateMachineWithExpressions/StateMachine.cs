@@ -10,7 +10,7 @@ namespace StateMachineWithExpressions
 {
     public class StateMachine<TStates>
     {
-        private List<StateDescriptor<TStates>> _states = new List<StateDescriptor<TStates>>();
+        private readonly List<StateDescriptor<TStates>> _states = new List<StateDescriptor<TStates>>();
 
         public StateMachine(TStates state)
         {
@@ -24,7 +24,7 @@ namespace StateMachineWithExpressions
             if (_states.FirstOrDefault(s => s.ItemState.Equals(state)) != null)
                 throw new Exception("item already in");
 
-            var statedescriptor = new StateDescriptor<TStates>(state);
+            var statedescriptor = new StateDescriptor<TStates>(state, this);
 
             _states.Add(statedescriptor);
 
@@ -47,9 +47,9 @@ namespace StateMachineWithExpressions
 
             var stateTo = this[state];
 
-            if (stateTo != null)
+            if (stateTo != null && !stateTo.IsState())
             {
-                
+                return false;
             }
 
             // Wenn alle überprüfungen erfolgreich durchgeführt worden sind, kann der Status gewechselt werden
