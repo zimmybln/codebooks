@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.Dynamic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -12,11 +13,18 @@ namespace StateMachineWithExpressions
     {
         private readonly List<StateDescriptor<TStates>> _states = new List<StateDescriptor<TStates>>();
 
+        
         public StateMachine(TStates state)
         {
-            Data = new Dictionary<string, object>();
-            
+            Data = new ObservableDictionary<string, object>();
+            Data.CollectionChanged += OnDataCollectionChanged;
+
             Current = state;
+        }
+
+        private void OnDataCollectionChanged(object sender, NotifyCollectionChangedEventArgs args)
+        {
+            
         }
 
         public StateDescriptor<TStates> AddStateDescriptor(TStates state)
@@ -43,22 +51,30 @@ namespace StateMachineWithExpressions
             if (stateFrom != null)
             {
                 
+                // TODO: Überprüfen, ob von diesem Status in den anderes gewechselt werden kann: ist gültiger Nachfolgestatus
+                
             }
 
             var stateTo = this[state];
 
+            // TODO: Was passiert, wenn keine Beschreibung des Status gefunden wurde?
+            // a ) Der Statuswechsel wird durchgeführt
+            // b ) Der Statuswechsel wird mit einer Fehlermeldung abgebrochen
+            
             if (stateTo != null && !stateTo.IsState())
             {
+                // TODO: Überprüfen, ob von diesem Status in den anderes gewechselt werden kann: ist gültiger Vorgängerstatus
+
                 return false;
             }
 
-            // Wenn alle überprüfungen erfolgreich durchgeführt worden sind, kann der Status gewechselt werden
+            // Wenn alle Überprüfungen erfolgreich durchgeführt worden sind, kann der Status gewechselt werden
             Current = state;
 
             return true;
         }
 
-        public Dictionary<string, object> Data { get; private set; } 
+        public ObservableDictionary<string, object> Data { get; private set; } 
 
         public TStates Current { get; private set; }
 

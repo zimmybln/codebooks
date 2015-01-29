@@ -14,6 +14,8 @@ namespace StateMachineWithExpressions
     public class StateDescriptor<TState>
     {
         private readonly List<Func<StateMachine<TState>, bool>> _stateExpressions;
+        private readonly List<TState> _listPredecessorStates = new List<TState>();
+        private readonly List<TState> _listSucessorStates = new List<TState>(); 
 
         private readonly StateMachine<TState> _parentMachine;
          
@@ -37,6 +39,29 @@ namespace StateMachineWithExpressions
             //}
 
             _stateExpressions.Add(condition.Compile());
+            return this;
+        }
+
+        /// <summary>
+        /// Fügt dem Status Nachfolgestatus zu.
+        /// </summary>
+        public StateDescriptor<TState> WithSuccessorStates(params TState[] states)
+        {
+            _listSucessorStates.Clear();
+            _listPredecessorStates.AddRange(states);
+
+            return this;
+        }
+
+
+        /// <summary>
+        /// Fügt dem Status Vorgängerstatus hinzu.    
+        /// </summary>
+        public StateDescriptor<TState> WithPredecessorStates(params TState[] states)
+        {
+            _listPredecessorStates.Clear();
+            _listPredecessorStates.AddRange(states);
+
             return this;
         }
 

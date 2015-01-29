@@ -59,12 +59,16 @@ namespace StateMachineWithExpressions
                 .WithEnterCondition(sm => ((MyData)sm.Data["MyData"]).i >= 10)
                 .WithEnterCondition(sm => ((MyData)sm.Data["MyData"]).i <= 19);
 
+            machine.AddStateDescriptor(ItemStates.Between20And21)
+                .WithEnterCondition(sm => ((MyData) sm.Data["MyData"]).i >= 20)
+                .WithEnterCondition(sm => ((MyData) sm.Data["MyData"]).i <= 29);
+
             data.i = 15;
 
             Assert.IsTrue(machine.TryToEnterState(ItemStates.Between10And19), "Der Statuswechsel konnte nicht erfolgen");
             Assert.IsTrue(machine.Current == ItemStates.Between10And19, "Der Status hat nicht den erwarteten Wert");
 
-            Assert.IsFalse(machine.TryToEnterState(ItemStates.Between10And19), "Der Statuswechsel konnte nicht erfolgen");
+            Assert.IsFalse(machine.TryToEnterState(ItemStates.Between20And21), "Der Statuswechsel konnte nicht erfolgen");
             Assert.IsTrue(machine.Current == ItemStates.Between10And19, "Der Status hat nicht den erwarteten Wert");
             
         }
