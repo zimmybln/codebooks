@@ -102,7 +102,27 @@ namespace StateMachineWithExpressions
             Assert.IsTrue(machine.Current == ItemStates.Between10And19);
         }
 
+        [Test]
+        public void CheckStateChangedEvent()
+        {
+            bool changed = false;
 
+            var machine = new StateMachine<ItemStates>(ItemStates.Zero);
+            machine.StateChanged += delegate(object sender, EventArgs args)
+            {
+                changed = true;
+            };
+
+            Assert.IsFalse(changed);
+
+            machine.EnterState(ItemStates.Between10And19);
+
+            Assert.IsTrue(changed);
+
+            
+
+
+        }
 
     }
 }
