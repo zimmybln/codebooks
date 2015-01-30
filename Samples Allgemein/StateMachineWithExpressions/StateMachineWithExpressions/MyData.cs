@@ -11,7 +11,7 @@ namespace StateMachineWithExpressions
     {
         Zero = 0,
         Between10And19 = 1,
-        Between20And21 = 2
+        Between20And29 = 2
     }
 
     public interface IMyData

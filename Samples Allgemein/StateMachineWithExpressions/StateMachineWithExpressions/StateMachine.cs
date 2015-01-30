@@ -6,6 +6,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using StateMachineWithExpressions.Exceptions;
 
 namespace StateMachineWithExpressions
 {
@@ -39,20 +40,18 @@ namespace StateMachineWithExpressions
             return statedescriptor;
         }
 
-        public bool TryToEnterState(TStates state)
+        public InvalidStateChangeReasons TryToEnterState(TStates state)
         {
             // Wenn der Status bereits aktuell ist, erfolgt kein Wechsel
             if (state.Equals(Current))
-                return true;
+                return InvalidStateChangeReasons.Ok;
 
             // Darf der aktuelle Status verlassen werden?
             var stateFrom = this[Current];
 
             if (stateFrom != null)
             {
-                
-                // TODO: Überprüfen, ob von diesem Status in den anderes gewechselt werden kann: ist gültiger Nachfolgestatus
-                
+
             }
 
             var stateTo = this[state];
@@ -61,17 +60,31 @@ namespace StateMachineWithExpressions
             // a ) Der Statuswechsel wird durchgeführt
             // b ) Der Statuswechsel wird mit einer Fehlermeldung abgebrochen
             
-            if (stateTo != null && !stateTo.IsState())
+            if (stateTo != null)
             {
-                // TODO: Überprüfen, ob von diesem Status in den anderes gewechselt werden kann: ist gültiger Vorgängerstatus
+                // Überprüfen, ob von diesem Status in den anderes gewechselt werden kann: ist gültiger Vorgängerstatus
+                var lst = stateTo.PredecessorStates;
 
-                return false;
+                if (lst.Any() && !lst.Contains(Current))
+                    return InvalidStateChangeReasons.InvalidPredecessor;
+
+                // Überprüfen, ob die Daten gültig sind
+                if (!stateTo.IsState())
+                    return InvalidStateChangeReasons.DataDoesntMatch;
             }
 
             // Wenn alle Überprüfungen erfolgreich durchgeführt worden sind, kann der Status gewechselt werden
             Current = state;
 
-            return true;
+            return InvalidStateChangeReasons.Ok;
+        }
+
+        public void EnterState(TStates state)
+        {
+            var reason = TryToEnterState(state);
+
+            if (reason != InvalidStateChangeReasons.Ok)
+                throw new InvalidStateChangeException(reason);
         }
 
         public ObservableDictionary<string, object> Data { get; private set; } 

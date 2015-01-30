@@ -15,7 +15,6 @@ namespace StateMachineWithExpressions
     {
         private readonly List<Func<StateMachine<TState>, bool>> _stateExpressions;
         private readonly List<TState> _listPredecessorStates = new List<TState>();
-        private readonly List<TState> _listSucessorStates = new List<TState>(); 
 
         private readonly StateMachine<TState> _parentMachine;
          
@@ -29,6 +28,11 @@ namespace StateMachineWithExpressions
 
         public TState ItemState { get; private set; }
 
+        public ReadOnlyCollection<TState> PredecessorStates
+        {
+            get { return _listPredecessorStates.AsReadOnly(); }
+        }
+
         public StateDescriptor<TState> WithEnterCondition(Expression<Func<StateMachine<TState>, bool>> condition)
         {
             //if (condition.Body.NodeType == ExpressionType.Equal)
@@ -41,18 +45,6 @@ namespace StateMachineWithExpressions
             _stateExpressions.Add(condition.Compile());
             return this;
         }
-
-        /// <summary>
-        /// Fügt dem Status Nachfolgestatus zu.
-        /// </summary>
-        public StateDescriptor<TState> WithSuccessorStates(params TState[] states)
-        {
-            _listSucessorStates.Clear();
-            _listPredecessorStates.AddRange(states);
-
-            return this;
-        }
-
 
         /// <summary>
         /// Fügt dem Status Vorgängerstatus hinzu.    
