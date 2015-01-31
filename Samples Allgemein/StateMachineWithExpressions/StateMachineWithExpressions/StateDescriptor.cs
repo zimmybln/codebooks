@@ -13,20 +13,27 @@ namespace StateMachineWithExpressions
 {
     public class StateDescriptor<TState>
     {
-        //private readonly List<Func<StateRequest, bool>> _stateExpressions;
+        private readonly List<Func<StateMachine<TState>, bool>> _stateExpressions;
+        private readonly List<TState> _listPredecessorStates = new List<TState>();
 
-        private readonly ArrayList _listExpressions;
+        private readonly StateMachine<TState> _parentMachine;
          
-        internal StateDescriptor(TState state)
+        internal StateDescriptor(TState state, StateMachine<TState> parentMachine)
         {
-            // _stateExpressions = new List<Func<StateRequest, bool>>();
-            _listExpressions = new ArrayList();
+            _stateExpressions = new List<Func<StateMachine<TState>, bool>>();
             ItemState = state;
+
+            _parentMachine = parentMachine;
         }
 
         public TState ItemState { get; private set; }
 
-        public StateDescriptor<TState> WithEnterCondition<T>(Expression<Func<T, bool>> condition)
+        public ReadOnlyCollection<TState> PredecessorStates
+        {
+            get { return _listPredecessorStates.AsReadOnly(); }
+        }
+
+        public StateDescriptor<TState> WithEnterCondition(Expression<Func<StateMachine<TState>, bool>> condition)
         {
             //if (condition.Body.NodeType == ExpressionType.Equal)
             //{
@@ -34,8 +41,19 @@ namespace StateMachineWithExpressions
 
             //    Debug.WriteLine(expression.Left.ToString());
             //}
-            
-            _listExpressions.Add(condition.Compile());
+
+            _stateExpressions.Add(condition.Compile());
+            return this;
+        }
+
+        /// <summary>
+        /// Fügt dem Status Vorgängerstatus hinzu.    
+        /// </summary>
+        public StateDescriptor<TState> WithPredecessorStates(params TState[] states)
+        {
+            _listPredecessorStates.Clear();
+            _listPredecessorStates.AddRange(states);
+
             return this;
         }
 
@@ -46,12 +64,25 @@ namespace StateMachineWithExpressions
         /// Der Status ist an eine Anzahl von Bedingungen geknüpft. Hier wird überprüft, ob es mindestens
         /// eine Bedingung gibt, die nicht erfüllt ist.
         /// </remarks>
-        public bool IsState<TData>(TData queryData)
+        public bool IsState()
         {
-            return _listExpressions.ToArray()
-                .OfType<Func<TData, bool>>()
-                .FirstOrDefault(c => c(queryData) == false) == null;
+            return _stateExpressions.FirstOrDefault(fnc => !fnc(_parentMachine)) == null;
         }
+
+        //public bool IsState()
+        //{
+        //    // http://stackoverflow.com/questions/7801165/how-to-create-a-expression-lambda-when-a-type-is-not-known-until-runtime
+
+        //    //_parentData.Values.ToList()
+        //    //    .ForEach(delegate(object o)
+        //    //    {
+        //    //        var t = o.GetType().MakeByRefType();
+
+        //    //        _listExpressions.ToArray().OfType<t>()
+        //    //    });
+
+
+        //}
 
     }
 }

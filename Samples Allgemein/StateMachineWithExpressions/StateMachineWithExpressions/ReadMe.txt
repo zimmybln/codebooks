@@ -1,7 +1,6 @@
-- Der Status wird über ein Enum festgelegt
+
 - Statusübergänge berücksichtigen
 
-- Statusübergang: TryToEnterState(Status) überprüft, ob alle Bedingungen erfüllt sind, die für einen Statusübergang gegeben sein müssen
 
 - Statusübergänge können über explizite Methoden ausgeführt werden. Alternativ sind auch Commands möglich.
 
