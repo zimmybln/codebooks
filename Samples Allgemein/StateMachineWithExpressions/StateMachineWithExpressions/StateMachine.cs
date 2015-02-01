@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
+using System.ComponentModel;
 using System.Data;
 using System.Dynamic;
 using System.Linq;
@@ -12,9 +13,17 @@ using StateMachineWithExpressions.Exceptions;
 
 namespace StateMachineWithExpressions
 {
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <remarks>
+    /// Eine Statusbeschreibung ist die Zuordnung von Gültigkeiten zu einem Status. 
+    /// </remarks>
     public class StateMachine<TStates> : IStateMachine
     {
         private readonly List<StateDescriptor<TStates>> _states = new List<StateDescriptor<TStates>>();
+        private readonly List<string> _listTriggerNames = new List<string>(); 
         private bool _deferRefresh = false;
         
         public StateMachine(TStates state)
@@ -41,7 +50,27 @@ namespace StateMachineWithExpressions
 
         private void OnDataCollectionChanged(object sender, NotifyCollectionChangedEventArgs args)
         {
-            
+            if (args.Action == NotifyCollectionChangedAction.Add)
+            {
+                // Es werden alle NotifyPropertyChanged gesucht und abboniert
+                args.NewItems.OfType<INotifyPropertyChanged>().ToList().ForEach(
+                    delegate(INotifyPropertyChanged changed)
+                    {
+                        ((INotifyPropertyChanged)changed).PropertyChanged += OnPropertyChanged;
+                    });
+            }
+        }
+
+        /// <summary>
+        /// Diese Methode wird verwendet, um Änderungen an zugeordneten Eigenschaften
+        /// zu ermitteln
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="args"></param>
+        private void OnPropertyChanged(object sender, PropertyChangedEventArgs args)
+        {
+            if (_listTriggerNames.Contains(args.PropertyName))
+                FindState();
         }
 
         public StateDescriptor<TStates> AddStateDescriptor(TStates state)
@@ -54,6 +83,20 @@ namespace StateMachineWithExpressions
             _states.Add(statedescriptor);
 
             return statedescriptor;
+        }
+
+        /// <summary>
+        /// Fügt eine Liste von Eigenschaftsnamen hinzu, bei deren Änderung das Finden des neuen Status
+        /// ausgelöst wird.
+        /// </summary>
+        public StateMachine<TStates> WithTriggers(params string[] propertyTriggers)
+        {
+            propertyTriggers.ToList().ForEach(delegate(string s)
+            {
+                if (!_listTriggerNames.Contains(s))
+                    _listTriggerNames.Add(s);
+            });
+            return this;
         }
 
         /// <summary>

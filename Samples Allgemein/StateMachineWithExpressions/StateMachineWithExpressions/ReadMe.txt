@@ -1,6 +1,10 @@
 
 - Statusübergänge berücksichtigen
 
+- Gültigkeiten eines Status:
+	- Wenn eine definierte Datenkonstellation erfüllt ist, darf ein Status betreten werden
+	- Wenn eine definierte Datenkonstellation erfüllt ist, darf ein Status verlassen werden
+
 
 - Statusübergänge können über explizite Methoden ausgeführt werden. Alternativ sind auch Commands möglich.
 
