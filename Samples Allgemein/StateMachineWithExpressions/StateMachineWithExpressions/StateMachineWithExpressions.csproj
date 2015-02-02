@@ -48,6 +48,7 @@
     <Compile Include="Events\StateChanged.cs" />
     <Compile Include="Exceptions\AmbiguousStates.cs" />
     <Compile Include="Exceptions\InvalidStateChange.cs" />
+    <Compile Include="FindStateCases.cs" />
     <Compile Include="IGuard.cs" />
     <Compile Include="MyData.cs" />
     <Compile Include="ObservableDictionary.cs" />
