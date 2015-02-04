@@ -49,6 +49,10 @@ namespace StateMachineWithExpressions
 
             Assert.IsTrue(machine.Current == ItemStates.Between10And19, "Es wurde nicht der erwartete Status geliefert");
 
+            data.i = 29;
+
+            Assert.IsTrue(machine.Current == ItemStates.Zero, "Es wurde nicht der Ausgangszustand wiederhergestellt");
+
         }
 
         [Test]

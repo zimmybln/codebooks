@@ -25,6 +25,7 @@ namespace StateMachineWithExpressions
         private readonly List<StateDescriptor<TStates>> _states = new List<StateDescriptor<TStates>>();
         private readonly List<string> _listTriggerNames = new List<string>(); 
         private bool _deferRefresh = false;
+        private readonly TStates _defaultState;
         
         public StateMachine(TStates state)
         {
@@ -32,6 +33,7 @@ namespace StateMachineWithExpressions
             Data.CollectionChanged += OnDataCollectionChanged;
 
             Current = state;
+            _defaultState = state;
         }
 
         #region Ereignisse
@@ -166,6 +168,10 @@ namespace StateMachineWithExpressions
             return new DeferRefreshEnvelope(this);
         }
 
+        /// <summary>
+        /// Aktualisiert den aktuellen Status. Konnte kein gültiger Status gefunden werden, wird der 
+        /// Wert für den aktuellen Status auf den Ausgangszustand gesetzt.
+        /// </summary>
         public void FindState()
         {
             if (_deferRefresh)
@@ -186,12 +192,9 @@ namespace StateMachineWithExpressions
                 }
             }
 
-            if (detectedState != null)
-            {
-                Current = detectedState.ItemState;
-
-                RaiseStateChanged();
-            }
+            // Setzen des Status
+            Current = detectedState != null ? detectedState.ItemState : _defaultState;
+            RaiseStateChanged();
         }
 
         public ObservableDictionary<string, object> Data { get; private set; } 
