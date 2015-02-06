@@ -101,6 +101,15 @@ namespace StateMachineWithExpressions
             return statedescriptor;
         }
 
+        public StateDescriptor<TStates> AddStateDescriptor(TStates state, Expression<Func<StateMachine<TStates>, bool>> condition)
+        {
+            var stateDescriptor = AddStateDescriptor(state);
+
+            stateDescriptor.WithEnterCondition(condition);
+
+            return stateDescriptor;
+        }
+
         /// <summary>
         /// Fügt eine Liste von Eigenschaftsnamen hinzu, bei deren Änderung das Finden des neuen Status
         /// ausgelöst wird.
