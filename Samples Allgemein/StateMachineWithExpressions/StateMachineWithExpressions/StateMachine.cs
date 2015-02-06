@@ -36,14 +36,30 @@ namespace StateMachineWithExpressions
 
         #region Ereignisse
 
+        public delegate void StateChangedHandler(object sender, StateChangedArgs args);
+
+        public class StateChangedArgs : EventArgs
+        {
+            internal StateChangedArgs(TStates formerState, TStates newState)
+            {
+                FormerState = formerState;
+                NewState = newState;
+            }
+
+            public TStates FormerState { get; private set; }
+
+            public TStates NewState { get; private set; }
+
+        }
+
         public event StateChangedHandler StateChanged;
 
-        protected void RaiseStateChanged()
+        protected void RaiseStateChanged(TStates formerState, TStates newState)
         {
             var evt = StateChanged;
 
             if (evt != null)
-                StateChanged(this, EventArgs.Empty);
+                StateChanged(this, new StateChangedArgs(formerState, newState));
         }
 
         #endregion
@@ -136,11 +152,13 @@ namespace StateMachineWithExpressions
                     return InvalidStateChangeReasons.DataDoesntMatch;
             }
 
+            var formerstate = Current;
+
             // Wenn alle Überprüfungen erfolgreich durchgeführt worden sind, kann der Status gewechselt werden
             Current = state;
 
             // Ereignis über Statusänderung auslösen
-            RaiseStateChanged();
+            RaiseStateChanged(formerstate, Current);
 
             return InvalidStateChangeReasons.Ok;
         }
@@ -188,9 +206,11 @@ namespace StateMachineWithExpressions
 
             if (detectedState != null)
             {
+                var formerstate = Current;
+
                 Current = detectedState.ItemState;
 
-                RaiseStateChanged();
+                RaiseStateChanged(formerstate, Current);
             }
         }
 

@@ -1,5 +1,6 @@
+TODOs
+- Der Zustand wird bis zur Änderung an den Eigenschaften gecacht: Die Abfrage nach dem gültigen Status bewirkt damit nicht jedesmal eine Neuberechnung
 
-- Statusübergänge berücksichtigen
 
 - Gültigkeiten eines Status:
 	- Wenn eine definierte Datenkonstellation erfüllt ist, darf ein Status betreten werden
@@ -9,6 +10,12 @@
 - Statusübergänge können über explizite Methoden ausgeführt werden. Alternativ sind auch Commands möglich.
 
 - Wenn versucht wird, in einen ungültigen Status zu wechseln, erfolgt eine Fehlermeldung.
+
+Umgang mit den Daten
+-> Es gibt Daten, die haben für den Status keine Bedeutung
+-> Es gibt Daten, die haben für einzelne Status nur teilweise eine Bedeutung
+-> Es gibt Daten, die haben für jeden Status eine Bedeutung
+
 
 Links
 http://www.codeproject.com/Articles/509234/The-State-Design-Pattern-vs-State-Machine

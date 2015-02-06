@@ -108,7 +108,7 @@ namespace StateMachineWithExpressions
             bool changed = false;
 
             var machine = new StateMachine<ItemStates>(ItemStates.Zero);
-            machine.StateChanged += delegate(object sender, EventArgs args)
+            machine.StateChanged += delegate(object sender, StateMachine<ItemStates>.StateChangedArgs args)
             {
                 changed = true;
             };
