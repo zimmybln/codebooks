@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
+using System.Runtime;
 using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
@@ -13,27 +15,6 @@ namespace StateMachineWithExpressions
         [Test]
         public void InvokeStateChangeByTrigger()
         {
-            /*
-             *      Ein Guard ist ein Mechanismus, der eine bestimmte Eigenschaft überprüft und bei deren
-             *      Änderung das Finden eines neuen Status auslöst.
-             *      
-             *      Variante 1: Das Finden des Status wird ausgelöst, durch die Änderung einer Eigenschaft
-             *      
-             *      var machine = new StateMachine...
-             *      
-             *      machine.Data.Add("name", referenz)
-             *      
-             *      Wenn Referenz vom Typ INotifyPropertyChanged ist, werden deren Änderungen überwacht 
-             *      
-             *      machine.Guards.Add("name", "name der Eigenschaft")
-             *      
-             *      -> Problem hierbei ist, dass sich der Name überschneiden kann
-             * 
-             *      Variante 2: Das Finden wird intern ausgel
-             * 
-             * 
-             */
-
             var data = new MyDataWithNotifier();
 
             var machine = new StateMachine<ItemStates>(ItemStates.Zero)
@@ -58,12 +39,22 @@ namespace StateMachineWithExpressions
         [Test]
         public void InvokeStateChangeByTriggerWithDelay()
         {
+            bool eventTriggered = false;
+
             var data = new MyDataWithNotifier();
 
             var machine = new StateMachine<ItemStates>(ItemStates.Zero)
                 .WithTriggers("i");
 
             machine.Data.Add("MyData", data);
+            machine.StateChanged += delegate(object sender, StateMachine<ItemStates>.StateChangedArgs args)
+            {
+                eventTriggered = true;
+
+                Assert.IsTrue(args.FormerState == ItemStates.Zero, "Nicht erwarteter Ausgangszustand");
+                Assert.IsTrue(args.NewState == ItemStates.Between10And19, "Nicht erwarteter Zielstand");
+                
+            };
 
             machine.AddStateDescriptor(ItemStates.Between10And19)
                 .WithEnterCondition(sm => ((IMyData)sm.Data["MyData"]).i >= 10)
@@ -74,8 +65,11 @@ namespace StateMachineWithExpressions
                 data.i = 10;    
 
                 Assert.IsTrue(machine.Current == ItemStates.Zero, "Der Status wurde schon gewechselt");
+
+                Assert.IsFalse(eventTriggered, "Das Ereignis wurde bereits ausgelöst");
             }
             
+            Assert.IsTrue(eventTriggered, "Das Ereignis wurde noch nicht ausgelöst");
             Assert.IsTrue(machine.Current == ItemStates.Between10And19, "Es wurde nicht der erwartete Status geliefert");
         }
 

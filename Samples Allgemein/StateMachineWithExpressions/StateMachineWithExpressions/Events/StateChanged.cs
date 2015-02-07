@@ -7,10 +7,5 @@ using System.Threading.Tasks;
 namespace StateMachineWithExpressions.Events
 {
 
-    public delegate void StateChangedHandler(object sender, EventArgs args);
 
-    public class StateChangedArgs : EventArgs
-    {
-
-    }
 }
