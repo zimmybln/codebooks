@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlWorkbenchButton", "ControlWorkbenchButton\ControlWorkbenchButton.csproj", "{A43B43F3-A7EB-4E7E-AF39-990520A7DC78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFArchitectureModel.Library", "..\..\..\WPFComponents\WPFArchitectureModel.Library\WPFArchitectureModel.Library.csproj", "{B3C5A9FA-9E00-4B81-8224-8121FE3F33F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{A43B43F3-A7EB-4E7E-AF39-990520A7DC78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A43B43F3-A7EB-4E7E-AF39-990520A7DC78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A43B43F3-A7EB-4E7E-AF39-990520A7DC78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3C5A9FA-9E00-4B81-8224-8121FE3F33F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C5A9FA-9E00-4B81-8224-8121FE3F33F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C5A9FA-9E00-4B81-8224-8121FE3F33F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C5A9FA-9E00-4B81-8224-8121FE3F33F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

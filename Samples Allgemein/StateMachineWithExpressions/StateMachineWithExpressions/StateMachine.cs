@@ -25,7 +25,6 @@ namespace StateMachineWithExpressions
         private readonly List<StateDescriptor<TStates>> _states = new List<StateDescriptor<TStates>>();
         private readonly List<string> _listTriggerNames = new List<string>(); 
         private bool _deferRefresh = false;
-        private readonly TStates _defaultState;
         
         public StateMachine(TStates state)
         {
@@ -33,19 +32,34 @@ namespace StateMachineWithExpressions
             Data.CollectionChanged += OnDataCollectionChanged;
 
             Current = state;
-            _defaultState = state;
         }
 
         #region Ereignisse
 
+        public delegate void StateChangedHandler(object sender, StateChangedArgs args);
+
+        public class StateChangedArgs : EventArgs
+        {
+            internal StateChangedArgs(TStates formerState, TStates newState)
+            {
+                FormerState = formerState;
+                NewState = newState;
+            }
+
+            public TStates FormerState { get; private set; }
+
+            public TStates NewState { get; private set; }
+
+        }
+
         public event StateChangedHandler StateChanged;
 
-        protected void RaiseStateChanged()
+        protected void RaiseStateChanged(TStates formerState, TStates newState)
         {
             var evt = StateChanged;
 
             if (evt != null)
-                StateChanged(this, EventArgs.Empty);
+                StateChanged(this, new StateChangedArgs(formerState, newState));
         }
 
         #endregion
@@ -85,6 +99,15 @@ namespace StateMachineWithExpressions
             _states.Add(statedescriptor);
 
             return statedescriptor;
+        }
+
+        public StateDescriptor<TStates> AddStateDescriptor(TStates state, Expression<Func<StateMachine<TStates>, bool>> condition)
+        {
+            var stateDescriptor = AddStateDescriptor(state);
+
+            stateDescriptor.WithEnterCondition(condition);
+
+            return stateDescriptor;
         }
 
         /// <summary>
@@ -138,11 +161,13 @@ namespace StateMachineWithExpressions
                     return InvalidStateChangeReasons.DataDoesntMatch;
             }
 
+            var formerstate = Current;
+
             // Wenn alle Überprüfungen erfolgreich durchgeführt worden sind, kann der Status gewechselt werden
             Current = state;
 
             // Ereignis über Statusänderung auslösen
-            RaiseStateChanged();
+            RaiseStateChanged(formerstate, Current);
 
             return InvalidStateChangeReasons.Ok;
         }
@@ -168,10 +193,6 @@ namespace StateMachineWithExpressions
             return new DeferRefreshEnvelope(this);
         }
 
-        /// <summary>
-        /// Aktualisiert den aktuellen Status. Konnte kein gültiger Status gefunden werden, wird der 
-        /// Wert für den aktuellen Status auf den Ausgangszustand gesetzt.
-        /// </summary>
         public void FindState()
         {
             if (_deferRefresh)
@@ -192,9 +213,14 @@ namespace StateMachineWithExpressions
                 }
             }
 
-            // Setzen des Status
-            Current = detectedState != null ? detectedState.ItemState : _defaultState;
-            RaiseStateChanged();
+            if (detectedState != null)
+            {
+                var formerstate = Current;
+
+                Current = detectedState.ItemState;
+
+                RaiseStateChanged(formerstate, Current);
+            }
         }
 
         public ObservableDictionary<string, object> Data { get; private set; } 
