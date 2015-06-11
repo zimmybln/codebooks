@@ -53,7 +53,9 @@
     <Compile Include="MyData.cs" />
     <Compile Include="ObservableDictionary.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StateDescriptionTests.cs" />
     <Compile Include="StateDescriptor.cs" />
+    <Compile Include="StateDescriptorWithExpressions.cs" />
     <Compile Include="StateMachine.cs" />
     <Compile Include="StateTransition.cs" />
   </ItemGroup>

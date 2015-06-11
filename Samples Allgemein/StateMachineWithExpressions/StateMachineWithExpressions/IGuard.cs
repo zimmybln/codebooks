@@ -13,6 +13,6 @@ namespace StateMachineWithExpressions
 
     public interface IStateMachine
     {
-        void FindState();
+        bool FindState();
     }
 }

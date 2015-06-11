@@ -11,22 +11,32 @@ using System.Threading.Tasks;
 
 namespace StateMachineWithExpressions
 {
+
+    /// <summary>
+    /// Mit dieser Klasse wird ein Zustand beschrieben.
+    /// </summary>
     public class StateDescriptor<TState>
     {
         private readonly List<Func<StateMachine<TState>, bool>> _stateExpressions;
         private readonly List<TState> _listPredecessorStates = new List<TState>();
 
-        private readonly StateMachine<TState> _parentMachine;
-         
-        internal StateDescriptor(TState state, StateMachine<TState> parentMachine)
+        private StateMachine<TState> _parentMachine;
+
+        public StateDescriptor(TState state)
         {
             _stateExpressions = new List<Func<StateMachine<TState>, bool>>();
             ItemState = state;
 
-            _parentMachine = parentMachine;
+            _parentMachine = null;
         }
-
+         
         public TState ItemState { get; private set; }
+
+        internal StateMachine<TState> Host
+        {
+            get { return _parentMachine; }
+            set { _parentMachine = value; }
+        }
 
         public ReadOnlyCollection<TState> PredecessorStates
         {
@@ -64,7 +74,7 @@ namespace StateMachineWithExpressions
         /// Der Status ist an eine Anzahl von Bedingungen geknüpft. Hier wird überprüft, ob es mindestens
         /// eine Bedingung gibt, die nicht erfüllt ist.
         /// </remarks>
-        public bool IsState()
+        public virtual bool IsState()
         {
             return _stateExpressions.FirstOrDefault(fnc => !fnc(_parentMachine)) == null;
         }

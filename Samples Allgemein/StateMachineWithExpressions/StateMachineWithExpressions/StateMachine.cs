@@ -89,25 +89,20 @@ namespace StateMachineWithExpressions
                 FindState();
         }
 
-        public StateDescriptor<TStates> AddStateDescriptor(TStates state)
+        /// <summary>
+        /// Fügt die Beschreibung eines Zustandes hinzu.
+        /// </summary>
+        public void AddStateDescriptor(StateDescriptor<TStates> stateDescriptor)
         {
-            if (_states.FirstOrDefault(s => s.ItemState.Equals(state)) != null)
+            if (stateDescriptor == null)
+                throw new ArgumentNullException("stateDescriptor");
+
+            if (_states.FirstOrDefault(s => s.ItemState.Equals(stateDescriptor.ItemState)) != null)
                 throw new DuplicateNameException();
+            
+            stateDescriptor.Host = this;
 
-            var statedescriptor = new StateDescriptor<TStates>(state, this);
-
-            _states.Add(statedescriptor);
-
-            return statedescriptor;
-        }
-
-        public StateDescriptor<TStates> AddStateDescriptor(TStates state, Expression<Func<StateMachine<TStates>, bool>> condition)
-        {
-            var stateDescriptor = AddStateDescriptor(state);
-
-            stateDescriptor.WithEnterCondition(condition);
-
-            return stateDescriptor;
+            _states.Add(stateDescriptor);
         }
 
         /// <summary>
@@ -193,10 +188,21 @@ namespace StateMachineWithExpressions
             return new DeferRefreshEnvelope(this);
         }
 
-        public void FindState()
+
+        /// <summary>
+        /// Löst die Suche nach dem aktuellen Zustand aus.
+        /// </summary>
+        /// <remarks>
+        /// Wenn sich die Instanz aktuell in einem Verzögerungszustand befindet,
+        /// wird die Suche nicht ausgeführt.
+        /// </remarks>
+        /// <returns>
+        /// Liefert True, wenn ein neuer Zustand erreicht worden ist
+        /// </returns>
+        public bool FindState()
         {
             if (_deferRefresh)
-                return;
+                return false;
 
             StateDescriptor<TStates> detectedState = null;
 
@@ -213,14 +219,18 @@ namespace StateMachineWithExpressions
                 }
             }
 
-            if (detectedState != null)
+            if (detectedState != null && !Equals(detectedState.ItemState, Current))
             {
                 var formerstate = Current;
 
                 Current = detectedState.ItemState;
 
                 RaiseStateChanged(formerstate, Current);
+
+                return true;
             }
+
+            return false;
         }
 
         public ObservableDictionary<string, object> Data { get; private set; } 

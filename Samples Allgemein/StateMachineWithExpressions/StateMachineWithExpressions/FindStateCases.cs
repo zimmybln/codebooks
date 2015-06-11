@@ -43,11 +43,11 @@ namespace StateMachineWithExpressions
 
             var data = new MyDataWithNotifier();
 
-            var machine = new StateMachine<ItemStates>(ItemStates.Zero)
+            var stateMachine = new StateMachine<ItemStates>(ItemStates.Zero)
                 .WithTriggers("i");
 
-            machine.Data.Add("MyData", data);
-            machine.StateChanged += delegate(object sender, StateMachine<ItemStates>.StateChangedArgs args)
+            stateMachine.Data.Add("MyData", data);
+            stateMachine.StateChanged += delegate(object sender, StateMachine<ItemStates>.StateChangedArgs args)
             {
                 eventTriggered = true;
 
@@ -56,21 +56,21 @@ namespace StateMachineWithExpressions
                 
             };
 
-            machine.AddStateDescriptor(ItemStates.Between10And19)
+            stateMachine.AddStateDescriptor(ItemStates.Between10And19)
                 .WithEnterCondition(sm => ((IMyData)sm.Data["MyData"]).i >= 10)
                 .WithEnterCondition(sm => ((IMyData)sm.Data["MyData"]).i <= 19);
             
-            using (var defer = machine.DeferRefresh())
+            using (var defer = stateMachine.DeferRefresh())
             {
                 data.i = 10;    
 
-                Assert.IsTrue(machine.Current == ItemStates.Zero, "Der Status wurde schon gewechselt");
+                Assert.IsTrue(stateMachine.Current == ItemStates.Zero, "Der Status wurde schon gewechselt");
 
                 Assert.IsFalse(eventTriggered, "Das Ereignis wurde bereits ausgelöst");
             }
             
             Assert.IsTrue(eventTriggered, "Das Ereignis wurde noch nicht ausgelöst");
-            Assert.IsTrue(machine.Current == ItemStates.Between10And19, "Es wurde nicht der erwartete Status geliefert");
+            Assert.IsTrue(stateMachine.Current == ItemStates.Between10And19, "Es wurde nicht der erwartete Status geliefert");
         }
 
     }
