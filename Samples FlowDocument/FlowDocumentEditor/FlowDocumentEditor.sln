@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30110.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowDocumentEditor", "FlowDocumentEditor\FlowDocumentEditor.csproj", "{72BD4EFB-609A-454C-86E5-E8E10B9E85FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFArchitectureModel.Library", "..\..\..\WPFComponents\WPFArchitectureModel.Library\WPFArchitectureModel.Library.csproj", "{B3C5A9FA-9E00-4B81-8224-8121FE3F33F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{72BD4EFB-609A-454C-86E5-E8E10B9E85FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72BD4EFB-609A-454C-86E5-E8E10B9E85FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72BD4EFB-609A-454C-86E5-E8E10B9E85FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3C5A9FA-9E00-4B81-8224-8121FE3F33F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C5A9FA-9E00-4B81-8224-8121FE3F33F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C5A9FA-9E00-4B81-8224-8121FE3F33F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C5A9FA-9E00-4B81-8224-8121FE3F33F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
