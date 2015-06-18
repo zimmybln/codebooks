@@ -20,9 +20,9 @@ namespace StateMachineWithExpressions
     /// <remarks>
     /// Eine Statusbeschreibung ist die Zuordnung von Gültigkeiten zu einem Status. 
     /// </remarks>
-    public class StateMachine<TStates> : IStateMachine
+    public class StateMachine<TStates, TData>
     {
-        private readonly List<StateDescriptor<TStates>> _states = new List<StateDescriptor<TStates>>();
+        private readonly List<StateDescriptor<TStates, TData>> _states = new List<StateDescriptor<TStates, TData>>();
         private readonly List<string> _listTriggerNames = new List<string>(); 
         private bool _deferRefresh = false;
         
@@ -85,44 +85,37 @@ namespace StateMachineWithExpressions
         /// <param name="args"></param>
         private void OnPropertyChanged(object sender, PropertyChangedEventArgs args)
         {
-            if (_listTriggerNames.Contains(args.PropertyName))
-                FindState();
+            //if (_listTriggerNames.Contains(args.PropertyName))
+            //    FindState();
         }
 
-        public StateDescriptor<TStates> AddStateDescriptor(TStates state)
+        /// <summary>
+        /// Fügt die Beschreibung eines Zustandes hinzu.
+        /// </summary>
+        public void AddStateDescriptor(StateDescriptor<TStates, TData> stateDescriptor)
         {
-            if (_states.FirstOrDefault(s => s.ItemState.Equals(state)) != null)
+            if (stateDescriptor == null)
+                throw new ArgumentNullException("stateDescriptor");
+
+            if (_states.FirstOrDefault(s => s.ItemState.Equals(stateDescriptor.ItemState)) != null)
                 throw new DuplicateNameException();
 
-            var statedescriptor = new StateDescriptor<TStates>(state, this);
-
-            _states.Add(statedescriptor);
-
-            return statedescriptor;
-        }
-
-        public StateDescriptor<TStates> AddStateDescriptor(TStates state, Expression<Func<StateMachine<TStates>, bool>> condition)
-        {
-            var stateDescriptor = AddStateDescriptor(state);
-
-            stateDescriptor.WithEnterCondition(condition);
-
-            return stateDescriptor;
+            _states.Add(stateDescriptor);
         }
 
         /// <summary>
         /// Fügt eine Liste von Eigenschaftsnamen hinzu, bei deren Änderung das Finden des neuen Status
         /// ausgelöst wird.
         /// </summary>
-        public StateMachine<TStates> WithTriggers(params string[] propertyTriggers)
-        {
-            propertyTriggers.ToList().ForEach(delegate(string s)
-            {
-                if (!_listTriggerNames.Contains(s))
-                    _listTriggerNames.Add(s);
-            });
-            return this;
-        }
+        //public StateMachine<TStates> WithTriggers(params string[] propertyTriggers)
+        //{
+        //    propertyTriggers.ToList().ForEach(delegate(string s)
+        //    {
+        //        if (!_listTriggerNames.Contains(s))
+        //            _listTriggerNames.Add(s);
+        //    });
+        //    return this;
+        //}
 
         /// <summary>
         /// Überprüft, ob für einen Status bereits eine Beschreibung vorhanden ist.
@@ -157,8 +150,8 @@ namespace StateMachineWithExpressions
                     return InvalidStateChangeReasons.InvalidPredecessor;
 
                 // Überprüfen, ob die Daten gültig sind
-                if (!stateTo.IsState())
-                    return InvalidStateChangeReasons.DataDoesntMatch;
+                //if (!stateTo.IsState())
+                //    return InvalidStateChangeReasons.DataDoesntMatch;
             }
 
             var formerstate = Current;
@@ -183,6 +176,8 @@ namespace StateMachineWithExpressions
                 throw new InvalidStateChangeException(reason);
         }
 
+        
+
         /// <summary>
         /// Unterbindet die fortlaufende Aktualisierung des Status, die erst dann wieder aufgenommen 
         /// wird, wenn das zurückgegebene Objekt freigegeben wurde.
@@ -193,16 +188,27 @@ namespace StateMachineWithExpressions
             return new DeferRefreshEnvelope(this);
         }
 
-        public void FindState()
+
+        /// <summary>
+        /// Löst die Suche nach dem aktuellen Zustand aus.
+        /// </summary>
+        /// <remarks>
+        /// Wenn sich die Instanz aktuell in einem Verzögerungszustand befindet,
+        /// wird die Suche nicht ausgeführt.
+        /// </remarks>
+        /// <returns>
+        /// Liefert True, wenn ein neuer Zustand erreicht worden ist
+        /// </returns>
+        public TStates FindState(TData data)
         {
             if (_deferRefresh)
-                return;
+                return default(TStates);
 
-            StateDescriptor<TStates> detectedState = null;
+            StateDescriptor<TStates, TData> detectedState = null;
 
-            foreach (StateDescriptor<TStates> state in _states)
+            foreach (StateDescriptor<TStates, TData> state in _states)
             {
-                if (state.IsState())
+                if (state.IsState(data))
                 {
                     if (detectedState != null)
                     {
@@ -213,30 +219,34 @@ namespace StateMachineWithExpressions
                 }
             }
 
-            if (detectedState != null)
+            if (detectedState != null && !Equals(detectedState.ItemState, Current))
             {
                 var formerstate = Current;
 
                 Current = detectedState.ItemState;
 
                 RaiseStateChanged(formerstate, Current);
+
+                return Current;
             }
+
+            return Current;
         }
 
         public ObservableDictionary<string, object> Data { get; private set; } 
 
         public TStates Current { get; private set; }
 
-        public StateDescriptor<TStates> this[TStates state]
+        public StateDescriptor<TStates, TData> this[TStates state]
         {
             get { return _states.FirstOrDefault(s => s.ItemState.Equals(state)); }
         }
         
         protected class DeferRefreshEnvelope : IDisposable
         {
-            private readonly StateMachine<TStates> _parentMachine;
+            private readonly StateMachine<TStates, TData> _parentMachine;
  
-            internal DeferRefreshEnvelope(StateMachine<TStates> parentMachine)
+            internal DeferRefreshEnvelope(StateMachine<TStates, TData> parentMachine)
             {
                 _parentMachine = parentMachine;
             }
@@ -246,7 +256,7 @@ namespace StateMachineWithExpressions
                 if (_parentMachine != null)
                 {
                     _parentMachine._deferRefresh = false;
-                    _parentMachine.FindState();
+                   // _parentMachine.FindState();
                 }
             }
         }

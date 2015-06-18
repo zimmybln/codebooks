@@ -11,45 +11,32 @@ using System.Threading.Tasks;
 
 namespace StateMachineWithExpressions
 {
-    public class StateDescriptor<TState>
+
+    /// <summary>
+    /// Mit dieser Klasse wird ein Zustand beschrieben.
+    /// </summary>
+    /// <remarks>Diese Klasse beschreibt die grundlegenden Eigenschaften eines Zustandes</remarks>
+    public abstract class StateDescriptor<TState, TData>
     {
-        private readonly List<Func<StateMachine<TState>, bool>> _stateExpressions;
+        
         private readonly List<TState> _listPredecessorStates = new List<TState>();
 
-        private readonly StateMachine<TState> _parentMachine;
-         
-        internal StateDescriptor(TState state, StateMachine<TState> parentMachine)
+        protected StateDescriptor(TState state)
         {
-            _stateExpressions = new List<Func<StateMachine<TState>, bool>>();
             ItemState = state;
-
-            _parentMachine = parentMachine;
         }
-
+         
         public TState ItemState { get; private set; }
 
         public ReadOnlyCollection<TState> PredecessorStates
         {
             get { return _listPredecessorStates.AsReadOnly(); }
         }
-
-        public StateDescriptor<TState> WithEnterCondition(Expression<Func<StateMachine<TState>, bool>> condition)
-        {
-            //if (condition.Body.NodeType == ExpressionType.Equal)
-            //{
-            //    BinaryExpression expression = (BinaryExpression)condition.Body;
-
-            //    Debug.WriteLine(expression.Left.ToString());
-            //}
-
-            _stateExpressions.Add(condition.Compile());
-            return this;
-        }
-
+        
         /// <summary>
         /// Fügt dem Status Vorgängerstatus hinzu.    
         /// </summary>
-        public StateDescriptor<TState> WithPredecessorStates(params TState[] states)
+        public StateDescriptor<TState, TData> WithPredecessorStates(params TState[] states)
         {
             _listPredecessorStates.Clear();
             _listPredecessorStates.AddRange(states);
@@ -64,9 +51,9 @@ namespace StateMachineWithExpressions
         /// Der Status ist an eine Anzahl von Bedingungen geknüpft. Hier wird überprüft, ob es mindestens
         /// eine Bedingung gibt, die nicht erfüllt ist.
         /// </remarks>
-        public bool IsState()
+        public virtual bool IsState(TData data)
         {
-            return _stateExpressions.FirstOrDefault(fnc => !fnc(_parentMachine)) == null;
+            return false;
         }
 
         //public bool IsState()

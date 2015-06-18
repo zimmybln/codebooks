@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StateMachineWithExpressions.StateDescriptor&lt;TState, TData&gt;" Collapsed="true">
+    <Position X="1.75" Y="0.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAACBoAACAAAAAAAAAAAAQA=</HashCode>
+      <FileName>StateDescriptor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMachineWithExpressions.StateDescriptorWithExpressions&lt;TState, TData&gt;" Collapsed="true">
+    <Position X="1.75" Y="2.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>StateDescriptorWithExpressions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
