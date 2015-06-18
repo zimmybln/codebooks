@@ -30,7 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL" />
+    <Reference Include="nunit.framework, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL" />
     <Reference Include="PresentationFramework" />
     <Reference Include="ReachFramework" />
     <Reference Include="System" />
@@ -55,12 +55,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StateDescriptionTests.cs" />
     <Compile Include="StateDescriptor.cs" />
+    <Compile Include="StateDescriptorWithData.cs" />
     <Compile Include="StateDescriptorWithExpressions.cs" />
     <Compile Include="StateMachine.cs" />
     <Compile Include="StateTransition.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
+    <None Include="StateMachine.cd" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Guards\" />
