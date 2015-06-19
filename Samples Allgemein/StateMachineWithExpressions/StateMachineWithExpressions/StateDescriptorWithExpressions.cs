@@ -16,18 +16,18 @@ namespace StateMachineWithExpressions
             _stateExpressions = new List<Func<TData, bool>>();
         }
 
-        //public StateDescriptor<TState, TData> WithEnterCondition(Expression<Func<TData, bool>> condition)
-        //{
-        //    //if (condition.Body.NodeType == ExpressionType.Equal)
-        //    //{
-        //    //    BinaryExpression expression = (BinaryExpression)condition.Body;
+        public StateDescriptorWithExpressions<TState, TData> WithEnterCondition(Expression<Func<TData, bool>> condition)
+        {
+            //if (condition.Body.NodeType == ExpressionType.Equal)
+            //{
+            //    BinaryExpression expression = (BinaryExpression)condition.Body;
 
-        //    //    Debug.WriteLine(expression.Left.ToString());
-        //    //}
+            //    Debug.WriteLine(expression.Left.ToString());
+            //}
 
-        //    _stateExpressions.Add(condition.Compile());
-        //    return this;
-        //}
+            _stateExpressions.Add(condition.Compile());
+            return this;
+        }
 
         public override bool IsState(TData data)
         {

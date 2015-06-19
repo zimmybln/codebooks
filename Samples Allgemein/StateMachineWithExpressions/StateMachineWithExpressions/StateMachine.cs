@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Dynamic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -22,16 +24,32 @@ namespace StateMachineWithExpressions
     /// </remarks>
     public class StateMachine<TStates, TData>
     {
-        private readonly List<StateDescriptor<TStates, TData>> _states = new List<StateDescriptor<TStates, TData>>();
+        // private readonly List<StateDescriptor<TStates, TData>> _states = new List<StateDescriptor<TStates, TData>>();
         private readonly List<string> _listTriggerNames = new List<string>(); 
         private bool _deferRefresh = false;
+
+        private readonly ObservableCollection<StateDescriptor<TStates, TData>> _stateDescriptors = new ObservableCollection<StateDescriptor<TStates, TData>>();
         
         public StateMachine(TStates state)
         {
-            Data = new ObservableDictionary<string, object>();
-            Data.CollectionChanged += OnDataCollectionChanged;
-
             Current = state;
+
+            _stateDescriptors.CollectionChanged += OnStatesCollectionChanged;
+        }
+
+        private void OnStatesCollectionChanged(object sender, NotifyCollectionChangedEventArgs args)
+        {
+            if (args.Action == NotifyCollectionChangedAction.Add)
+            {
+                foreach (StateDescriptor<TStates, TData> item in args.NewItems)
+                {
+                    if (_stateDescriptors.FirstOrDefault(sd => Equals(sd.ItemState, item.ItemState)) != null)
+                    {
+                        throw new DuplicateNameException(item.ItemState.ToString());
+                    }
+                }
+            }
+
         }
 
         #region Ereignisse
@@ -64,44 +82,29 @@ namespace StateMachineWithExpressions
 
         #endregion
 
-        private void OnDataCollectionChanged(object sender, NotifyCollectionChangedEventArgs args)
+        #region Eigenschaften
+
+        public ObservableCollection<StateDescriptor<TStates, TData>> States
         {
-            if (args.Action == NotifyCollectionChangedAction.Add)
-            {
-                // Es werden alle NotifyPropertyChanged gesucht und abboniert
-                args.NewItems.OfType<INotifyPropertyChanged>().ToList().ForEach(
-                    delegate(INotifyPropertyChanged changed)
-                    {
-                        ((INotifyPropertyChanged)changed).PropertyChanged += OnPropertyChanged;
-                    });
-            }
+            get { return _stateDescriptors; }
         }
 
-        /// <summary>
-        /// Diese Methode wird verwendet, um Änderungen an zugeordneten Eigenschaften
-        /// zu ermitteln
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="args"></param>
-        private void OnPropertyChanged(object sender, PropertyChangedEventArgs args)
-        {
-            //if (_listTriggerNames.Contains(args.PropertyName))
-            //    FindState();
-        }
+        #endregion
 
-        /// <summary>
-        /// Fügt die Beschreibung eines Zustandes hinzu.
-        /// </summary>
-        public void AddStateDescriptor(StateDescriptor<TStates, TData> stateDescriptor)
-        {
-            if (stateDescriptor == null)
-                throw new ArgumentNullException("stateDescriptor");
 
-            if (_states.FirstOrDefault(s => s.ItemState.Equals(stateDescriptor.ItemState)) != null)
-                throw new DuplicateNameException();
+        ///// <summary>
+        ///// Fügt die Beschreibung eines Zustandes hinzu.
+        ///// </summary>
+        //public void AddStateDescriptor(StateDescriptor<TStates, TData> stateDescriptor)
+        //{
+        //    if (stateDescriptor == null)
+        //        throw new ArgumentNullException("stateDescriptor");
 
-            _states.Add(stateDescriptor);
-        }
+        //    if (_stateDescriptors.FirstOrDefault(s => s.ItemState.Equals(stateDescriptor.ItemState)) != null)
+        //        throw new DuplicateNameException();
+
+        //    _states.Add(stateDescriptor);
+        //}
 
         /// <summary>
         /// Fügt eine Liste von Eigenschaftsnamen hinzu, bei deren Änderung das Finden des neuen Status
@@ -120,12 +123,8 @@ namespace StateMachineWithExpressions
         /// <summary>
         /// Überprüft, ob für einen Status bereits eine Beschreibung vorhanden ist.
         /// </summary>
-        public bool Exists(TStates state)
-        {
-            return _states.FirstOrDefault(s => s.ItemState.Equals(state)) != null;
-        }
 
-        public InvalidStateChangeReasons TryToEnterState(TStates state)
+        public InvalidStateChangeReasons TryToEnterState(TStates state, TData data)
         {
             // Wenn der Status bereits aktuell ist, erfolgt kein Wechsel
             if (state.Equals(Current))
@@ -150,8 +149,8 @@ namespace StateMachineWithExpressions
                     return InvalidStateChangeReasons.InvalidPredecessor;
 
                 // Überprüfen, ob die Daten gültig sind
-                //if (!stateTo.IsState())
-                //    return InvalidStateChangeReasons.DataDoesntMatch;
+                if (!stateTo.IsState(data))
+                    return InvalidStateChangeReasons.DataDoesntMatch;
             }
 
             var formerstate = Current;
@@ -168,9 +167,9 @@ namespace StateMachineWithExpressions
         /// <summary>
         /// Wechselt den Status. Kann der Status nicht gewechselt werden, wird eine Ausnahme ausgelöst.
         /// </summary>
-        public void EnterState(TStates state)
+        public void EnterState(TStates state, TData data)
         {
-            var reason = TryToEnterState(state);
+            var reason = TryToEnterState(state, data);
 
             if (reason != InvalidStateChangeReasons.Ok)
                 throw new InvalidStateChangeException(reason);
@@ -206,7 +205,7 @@ namespace StateMachineWithExpressions
 
             StateDescriptor<TStates, TData> detectedState = null;
 
-            foreach (StateDescriptor<TStates, TData> state in _states)
+            foreach (StateDescriptor<TStates, TData> state in _stateDescriptors)
             {
                 if (state.IsState(data))
                 {
@@ -239,7 +238,7 @@ namespace StateMachineWithExpressions
 
         public StateDescriptor<TStates, TData> this[TStates state]
         {
-            get { return _states.FirstOrDefault(s => s.ItemState.Equals(state)); }
+            get { return _stateDescriptors.FirstOrDefault(s => s.ItemState.Equals(state)); }
         }
         
         protected class DeferRefreshEnvelope : IDisposable
