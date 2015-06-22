@@ -16,7 +16,7 @@ namespace StateMachineWithExpressions
         {
             var state = new StateDescriptorWithData<ItemStates, IMyData>(ItemStates.Between10And19);
 
-            var machine = new StateMachine<ItemStates, IMyData>(ItemStates.Between10And19);
+            var machine = new StateMachine<ItemStates, IMyData>(ItemStates.Zero);
 
             machine.States.Add(state);
 
@@ -35,6 +35,21 @@ namespace StateMachineWithExpressions
             var state = new StateDescriptorWithData<ItemStates, IMyData>(ItemStates.Between10And19);
 
             Assert.Throws<DuplicateNameException>(() => machine.States.Add(state));
+        }
+
+        [Test]
+        public void AddDuplicateStateWithMixedDescriptors()
+        {
+            // Ausgangszustand herstellen
+            var machine = new StateMachine<ItemStates, IMyData>(ItemStates.Zero);
+
+            machine.States.Add(new StateDescriptorWithData<ItemStates, IMyData>(ItemStates.Between10And19));
+
+            // Doppelten Status definieren
+            var state = new StateDescriptorWithExpressions<ItemStates, IMyData>(ItemStates.Between10And19);
+
+            Assert.Throws<DuplicateNameException>(() => machine.States.Add(state));
+            
         }
 
         [Test]

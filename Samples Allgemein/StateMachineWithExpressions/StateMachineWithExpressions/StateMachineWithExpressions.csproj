@@ -49,6 +49,7 @@
     <Compile Include="Exceptions\AmbiguousStates.cs" />
     <Compile Include="Exceptions\InvalidStateChange.cs" />
     <Compile Include="FindStateCases.cs" />
+    <Compile Include="Guards\PropertyChangedGuard.cs" />
     <Compile Include="IGuard.cs" />
     <Compile Include="MyData.cs" />
     <Compile Include="ObservableDictionary.cs" />
@@ -59,14 +60,13 @@
     <Compile Include="StateDescriptorWithExpressions.cs" />
     <Compile Include="StateMachine.cs" />
     <Compile Include="StateTransition.cs" />
+    <Compile Include="Tests\PropertyChangedGuardTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
     <None Include="StateMachine.cd" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Guards\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

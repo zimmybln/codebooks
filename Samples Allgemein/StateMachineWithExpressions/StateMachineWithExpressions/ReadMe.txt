@@ -1,3 +1,15 @@
+Features
+- Definition von Status (als Enum) und deren Gültigkeiten (anhand von Daten, Ausdrücken etc.)
+- Die Suche nach dem aktuell gültigen Status kann von außen initiiert werden
+- Der aktuelle Status kann als Eigenschaften abgefragt werden
+
+
+Zusammenspiel zwischen Daten und Statemachine
+- Die Daten lösen bei Änderungen die Überprüfung der Statemachine aus. Wann das passiert, liegt in der Verantwortung der Daten und wird ausschließlich dort konfiguriert
+- Das könnte ein "Guard" sein, dem die Instanz der Statemachine übergeben wird.
+
+
+
 TODOs
 - Der Zustand wird bis zur Änderung an den Eigenschaften gecacht: Die Abfrage nach dem gültigen Status bewirkt damit nicht jedesmal eine Neuberechnung
 

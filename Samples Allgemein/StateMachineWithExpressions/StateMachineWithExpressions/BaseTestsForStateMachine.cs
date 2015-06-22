@@ -70,11 +70,11 @@ namespace StateMachineWithExpressions
         [Test]
         public void CheckStateChangeWithEmptyStates()
         {
-            //var machine = new StateMachine<ItemStates>(ItemStates.Between20And29);
+            var machine = new StateMachine<ItemStates, MyData>(ItemStates.Between20And29);
 
-            //Assert.IsTrue(machine.Current == ItemStates.Between20And29);
-            //Assert.IsTrue(machine.TryToEnterState(ItemStates.Between10And19) == InvalidStateChangeReasons.Ok);
-            //Assert.IsTrue(machine.Current == ItemStates.Between10And19);
+            Assert.IsTrue(machine.Current == ItemStates.Between20And29);
+            Assert.IsTrue(machine.TryToEnterState(ItemStates.Between10And19, new MyData()) == InvalidStateChangeReasons.Ok);
+            Assert.IsTrue(machine.Current == ItemStates.Between10And19);
         }
 
         [Test]

@@ -28,13 +28,13 @@ namespace StateMachineWithExpressions
         private readonly List<string> _listTriggerNames = new List<string>(); 
         private bool _deferRefresh = false;
 
-        private readonly ObservableCollection<StateDescriptor<TStates, TData>> _stateDescriptors = new ObservableCollection<StateDescriptor<TStates, TData>>();
+        private readonly StateCollection _stateDescriptors;
         
         public StateMachine(TStates state)
         {
             Current = state;
 
-            _stateDescriptors.CollectionChanged += OnStatesCollectionChanged;
+            _stateDescriptors = new StateCollection(this);
         }
 
         private void OnStatesCollectionChanged(object sender, NotifyCollectionChangedEventArgs args)
@@ -84,7 +84,7 @@ namespace StateMachineWithExpressions
 
         #region Eigenschaften
 
-        public ObservableCollection<StateDescriptor<TStates, TData>> States
+        public StateCollection States
         {
             get { return _stateDescriptors; }
         }
@@ -231,8 +231,7 @@ namespace StateMachineWithExpressions
 
             return Current;
         }
-
-        public ObservableDictionary<string, object> Data { get; private set; } 
+        
 
         public TStates Current { get; private set; }
 
@@ -257,6 +256,68 @@ namespace StateMachineWithExpressions
                     _parentMachine._deferRefresh = false;
                    // _parentMachine.FindState();
                 }
+            }
+        }
+
+        public class StateCollection : ICollection<StateDescriptor<TStates, TData>>
+        {
+            private readonly List<StateDescriptor<TStates, TData>> _lstItems = new List<StateDescriptor<TStates, TData>>();
+            private readonly StateMachine<TStates, TData> _host;
+
+            internal StateCollection(StateMachine<TStates, TData> host)
+            {
+                _host = host;
+            }
+
+            public void Add(StateDescriptor<TStates, TData> item)
+            {
+                if (item == null)
+                    throw new ArgumentNullException("stateDescriptor");
+
+                if (_lstItems.FirstOrDefault(s => s.ItemState.Equals(item.ItemState)) != null)
+                    throw new DuplicateNameException();
+                
+                _lstItems.Add(item);
+            }
+
+            public void Clear()
+            {
+                _lstItems.Clear();
+            }
+
+            public bool Contains(StateDescriptor<TStates, TData> item)
+            {
+                return _lstItems.Contains(item);
+            }
+
+            public void CopyTo(StateDescriptor<TStates, TData>[] array, int arrayIndex)
+            {
+                _lstItems.CopyTo(array, arrayIndex);
+            }
+
+            public int Count
+            {
+                get { return _lstItems.Count; }
+            }
+
+            public bool IsReadOnly
+            {
+                get { return false; }
+            }
+
+            public bool Remove(StateDescriptor<TStates, TData> item)
+            {
+                return _lstItems.Remove(item);
+            }
+
+            public IEnumerator<StateDescriptor<TStates, TData>> GetEnumerator()
+            {
+                return _lstItems.GetEnumerator();
+            }
+
+            System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
+            {
+                return _lstItems.GetEnumerator();
             }
         }
 
