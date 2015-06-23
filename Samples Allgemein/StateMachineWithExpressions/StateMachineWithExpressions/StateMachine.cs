@@ -91,6 +91,15 @@ namespace StateMachineWithExpressions
 
         #endregion
 
+        public TGuard CreateGuard<TGuard>(TData data)
+            where TGuard : IGuard<TStates, TData>, new()
+        {
+            var guard = new TGuard();
+
+            guard.Initialize(this, data);
+
+            return guard;
+        }
 
         ///// <summary>
         ///// Fügt die Beschreibung eines Zustandes hinzu.

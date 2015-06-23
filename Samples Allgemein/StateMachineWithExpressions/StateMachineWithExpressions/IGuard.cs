@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace StateMachineWithExpressions
 {
-    public interface IGuard
+    public interface IGuard<TStates, TData>
     {
-        void Initialize(IStateMachine hostMachine);
+        void Initialize(StateMachine<TStates, TData> stateMachine, TData propertyHost);
     }
 
     public interface IStateMachine
