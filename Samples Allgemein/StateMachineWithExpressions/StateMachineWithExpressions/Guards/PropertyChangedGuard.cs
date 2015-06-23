@@ -7,12 +7,17 @@ using System.Threading.Tasks;
 
 namespace StateMachineWithExpressions.Guards
 {
-    public class PropertyChangedGuard<TStates, TData>
+    public class PropertyChangedGuard<TStates, TData> : IGuard<TStates, TData>
         where TData : INotifyPropertyChanged
     {
-        private readonly StateMachine<TStates, TData> _stateMachine;
-        private readonly TData _propertyHost;
-        private readonly List<string> _listOfPropertyNames = new List<string>(); 
+        private StateMachine<TStates, TData> _stateMachine;
+        private TData _propertyHost;
+        private readonly List<string> _listOfPropertyNames = new List<string>();
+
+        public PropertyChangedGuard()
+        {
+            
+        }
 
         public PropertyChangedGuard(StateMachine<TStates, TData> stateMachine, TData propertyHost)
         {
@@ -33,6 +38,19 @@ namespace StateMachineWithExpressions.Guards
         public List<string> PropertyNames
         {
             get { return _listOfPropertyNames; }
+        }
+
+        public void AddWatch(Func<TData, bool> watchFunc)
+        {
+            
+        }
+
+        public void Initialize(StateMachine<TStates, TData> stateMachine, TData propertyHost)
+        {
+            _propertyHost = propertyHost;
+            _stateMachine = stateMachine;
+
+            _propertyHost.PropertyChanged += OnPropertyChanged;
         }
     }
 }

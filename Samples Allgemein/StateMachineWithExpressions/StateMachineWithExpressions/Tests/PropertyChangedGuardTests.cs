@@ -19,18 +19,20 @@ namespace StateMachineWithExpressions.Tests
         {
             // Konfiguration der StateMachine und der relevanten Status
             var machine = new StateMachine<ItemStates, SampleContainer>(ItemStates.Zero);
-            var state = new StateDescriptorWithExpressions<ItemStates, SampleContainer>(ItemStates.Between10And19)
-                .WithEnterCondition(d => d.X >= 10 && d.X < 20);
+            
+            machine.States.Add(new StateDescriptorWithExpressions<ItemStates, SampleContainer>(ItemStates.Between10And19)
+                .WithEnterCondition(d => d.X >= 10 && d.X < 20));
 
-            machine.States.Add(state);
 
             // Erstellen des Datencontainers
             var data = new SampleContainer();
-
+            
             // Erstellen und Konfiguration des Datenquards
-            var guard = new PropertyChangedGuard<ItemStates, SampleContainer>(machine, data);
+            //var guard = new PropertyChangedGuard<ItemStates, SampleContainer>(machine, data);
+            var guard = machine.CreateGuard<PropertyChangedGuard<ItemStates, SampleContainer>>(data);
 
             guard.PropertyNames.Add("X");
+            guard.AddWatch(d => d.X == 10);
 
             // Ändern der Daten 
             data.X = 15;
