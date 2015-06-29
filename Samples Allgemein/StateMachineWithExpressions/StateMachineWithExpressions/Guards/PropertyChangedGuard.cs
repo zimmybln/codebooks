@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -40,9 +42,12 @@ namespace StateMachineWithExpressions.Guards
             get { return _listOfPropertyNames; }
         }
 
-        public void AddWatch(Func<TData, bool> watchFunc)
+        public void AddWatch(Expression<Func<TData, bool>> watchFunc)
         {
-            
+            if (watchFunc != null)
+            {
+                Debug.WriteLine("Expression gefunden");
+            }
         }
 
         public void Initialize(StateMachine<TStates, TData> stateMachine, TData propertyHost)

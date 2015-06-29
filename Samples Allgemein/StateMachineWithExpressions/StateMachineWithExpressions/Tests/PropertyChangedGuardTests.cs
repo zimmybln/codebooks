@@ -22,8 +22,7 @@ namespace StateMachineWithExpressions.Tests
             
             machine.States.Add(new StateDescriptorWithExpressions<ItemStates, SampleContainer>(ItemStates.Between10And19)
                 .WithEnterCondition(d => d.X >= 10 && d.X < 20));
-
-
+            
             // Erstellen des Datencontainers
             var data = new SampleContainer();
             
@@ -39,9 +38,6 @@ namespace StateMachineWithExpressions.Tests
 
             // Überprüfen des aktuellen Status
             Assert.IsTrue(machine.Current == ItemStates.Between10And19, "Es liegt der erwartete Status vor");
-
-
-
         }
 
 
