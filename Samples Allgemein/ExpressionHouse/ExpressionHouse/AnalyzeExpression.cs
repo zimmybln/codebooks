@@ -33,10 +33,20 @@ namespace ExpressionHouse
         {
             var methodCallExpression = (MethodCallExpression) callExpression;
 
-            var objectExpression = methodCallExpression.Object as Expression;
+            if (methodCallExpression.Object != null)
+            {
+                var propertyExpression = methodCallExpression.Object as MemberExpression;
 
+
+                WriteLine("\tObjekt: {0} : {1}", methodCallExpression.Object.NodeType, methodCallExpression.Object.GetType().Name);
+
+                //if (propertyExpression != null)
+                //{
+                //    //
+                //    WriteLine("\t{0}", propertyExpression.NodeType);
+                //}
+            }
             
-
             WriteLine("\t {0} {1} {2}", methodCallExpression.Object.NodeType, methodCallExpression.Type.Name, methodCallExpression.Method.Name);
         }
 
