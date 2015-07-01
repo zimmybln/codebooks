@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AnalyzeExpression.cs" />
-    <Compile Include="SimpleExpressions.cs" />
+    <Compile Include="MethodCallExpressions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
