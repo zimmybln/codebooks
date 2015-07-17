@@ -30,6 +30,18 @@ namespace ExpressionHouse
             WriteLine("{0}", compiled()); 
         }
 
+
+        public void Analyze(string expression)
+        {
+
+            var reader = new StringReader(expression);
+            
+
+
+
+
+        }
+
         private void AnalyzeCall(Expression callExpression)
         {
             var methodCallExpression = (MethodCallExpression) callExpression;

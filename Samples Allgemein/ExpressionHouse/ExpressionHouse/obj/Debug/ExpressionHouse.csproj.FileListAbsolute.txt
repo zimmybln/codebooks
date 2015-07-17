@@ -1,0 +1,7 @@
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\ExpressionHouse\ExpressionHouse\bin\Debug\ExpressionHouse.dll
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\ExpressionHouse\ExpressionHouse\bin\Debug\ExpressionHouse.pdb
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\ExpressionHouse\ExpressionHouse\bin\Debug\nunit.framework.dll
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\ExpressionHouse\ExpressionHouse\bin\Debug\nunit.framework.xml
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\ExpressionHouse\ExpressionHouse\obj\Debug\ExpressionHouse.csprojResolveAssemblyReference.cache
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\ExpressionHouse\ExpressionHouse\obj\Debug\ExpressionHouse.dll
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\ExpressionHouse\ExpressionHouse\obj\Debug\ExpressionHouse.pdb
