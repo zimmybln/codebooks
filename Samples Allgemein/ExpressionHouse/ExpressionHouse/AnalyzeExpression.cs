@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
@@ -51,7 +52,20 @@ namespace ExpressionHouse
         }
 
 
+        public void FindExpression(string expression)
+        {
+            int nChar;
+            var reader = new StringReader(expression);
 
+            nChar = reader.Read();
+            while (nChar > 0)
+            {
+                WriteLine(String.Format("{0}", (char)nChar));
+                
+
+                nChar = reader.Read();
+            }
+        }
 
 
         protected void WriteLine(string format, params object[] args)
