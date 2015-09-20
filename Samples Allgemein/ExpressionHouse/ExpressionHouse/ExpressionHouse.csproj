@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AnalyzeExpression.cs" />
+    <Compile Include="CharExtensions.cs" />
     <Compile Include="MethodCallExpressions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringToExpressionTests.cs" />

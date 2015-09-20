@@ -66,16 +66,30 @@ namespace ExpressionHouse
 
         public void FindExpression(string expression)
         {
-            int nChar;
+            int sign;
             var reader = new StringReader(expression);
 
-            nChar = reader.Read();
-            while (nChar > 0)
+            sign = reader.Read();
+            while (sign > 0)
             {
-                WriteLine(String.Format("{0}", (char)nChar));
+                Char chSign = (Char) sign;
+
+                if (Char.IsNumber(chSign))
+                {
+                    WriteLine(String.Format("Nummer {0}", chSign));
+                }
+                else if (Char.IsLetter(chSign))
+                {
+                    WriteLine(String.Format("Buchstabe {0}", chSign));
+
+                }
+                else if (sign.IsOperator())
+                {
+                    WriteLine(String.Format("Operator {0}", chSign));
+                }
                 
 
-                nChar = reader.Read();
+                sign = reader.Read();
             }
         }
 
