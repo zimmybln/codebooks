@@ -1,0 +1,6 @@
+C:\Users\Torsten\AppData\Local\Microsoft\VisualStudio\14.0Roslyn\Extensions\Torsten\AnalyzerFromLibrary.Vsix\1.0\\AnalyzerFromLibrary.dll
+C:\Users\Torsten\AppData\Local\Microsoft\VisualStudio\14.0Roslyn\Extensions\Torsten\AnalyzerFromLibrary.Vsix\1.0\\extension.vsixmanifest
+C:\Users\Torsten\AppData\Local\Microsoft\VisualStudio\14.0Roslyn\Extensions\Torsten\AnalyzerFromLibrary.Vsix\1.0\\Diagnostic.nuspec
+C:\Users\Torsten\AppData\Local\Microsoft\VisualStudio\14.0Roslyn\Extensions\Torsten\AnalyzerFromLibrary.Vsix\1.0\\tools\install.ps1
+C:\Users\Torsten\AppData\Local\Microsoft\VisualStudio\14.0Roslyn\Extensions\Torsten\AnalyzerFromLibrary.Vsix\1.0\\tools\uninstall.ps1
+C:\Users\Torsten\AppData\Local\Microsoft\VisualStudio\14.0Roslyn\Extensions\Torsten\AnalyzerFromLibrary.Vsix\1.0\\AnalyzerFromLibrary.pdb

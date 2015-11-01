@@ -1,0 +1,2 @@
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\Agile Series\02 - SOC1\02 - SOC1\bin\Debug\02 - SOC1.exe.config
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\Agile Series\02 - SOC1\02 - SOC1\bin\Debug\SeparationOfConcern1.exe.config

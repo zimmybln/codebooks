@@ -1,0 +1,24 @@
+﻿<Window x:Class="DynamicViews.Classic.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DynamicViews.Classic"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.DataContext>
+        <local:MainWindowView />
+    </Window.DataContext>
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="40*" />
+                <ColumnDefinition Width="60*" />
+            </Grid.ColumnDefinitions>
+
+            <ListBox Grid.Column="0" ItemsSource="{Binding ViewParts}" />
+            
+            <Frame Source="View/DataPage.xaml" Grid.Column="1" NavigationUIVisibility="Hidden" />
+        </Grid>
+    </Grid>
+</Window>

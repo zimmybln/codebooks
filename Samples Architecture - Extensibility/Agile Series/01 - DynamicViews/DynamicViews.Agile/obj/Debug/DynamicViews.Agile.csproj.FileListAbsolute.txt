@@ -1,0 +1,14 @@
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\Agile Series\01 - DynamicViews\DynamicViews.Agile\bin\Debug\DynamicViews.Agile.exe.config
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\Agile Series\01 - DynamicViews\DynamicViews.Agile\bin\Debug\DynamicViews.Agile.exe
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\Agile Series\01 - DynamicViews\DynamicViews.Agile\bin\Debug\DynamicViews.Agile.pdb
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\Agile Series\01 - DynamicViews\DynamicViews.Agile\obj\Debug\DynamicViews.Agile.csprojResolveAssemblyReference.cache
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\Agile Series\01 - DynamicViews\DynamicViews.Agile\obj\Debug\MainWindow.g.cs
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\Agile Series\01 - DynamicViews\DynamicViews.Agile\obj\Debug\App.g.cs
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\Agile Series\01 - DynamicViews\DynamicViews.Agile\obj\Debug\DynamicViews.Agile_MarkupCompile.cache
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\Agile Series\01 - DynamicViews\DynamicViews.Agile\obj\Debug\DynamicViews.Agile_MarkupCompile.lref
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\Agile Series\01 - DynamicViews\DynamicViews.Agile\obj\Debug\MainWindow.baml
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\Agile Series\01 - DynamicViews\DynamicViews.Agile\obj\Debug\DynamicViews.Agile.g.resources
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\Agile Series\01 - DynamicViews\DynamicViews.Agile\obj\Debug\DynamicViews.Agile.Properties.Resources.resources
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\Agile Series\01 - DynamicViews\DynamicViews.Agile\obj\Debug\DynamicViews.Agile.csproj.GenerateResource.Cache
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\Agile Series\01 - DynamicViews\DynamicViews.Agile\obj\Debug\DynamicViews.Agile.exe
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\Agile Series\01 - DynamicViews\DynamicViews.Agile\obj\Debug\DynamicViews.Agile.pdb

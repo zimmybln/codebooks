@@ -1,0 +1,14 @@
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\01 - Views For Data (WPF)\01 - Views For Data (WPF)\bin\Debug\01 - Views For Data (WPF).exe.config
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\01 - Views For Data (WPF)\01 - Views For Data (WPF)\bin\Debug\01 - Views For Data (WPF).exe
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\01 - Views For Data (WPF)\01 - Views For Data (WPF)\bin\Debug\01 - Views For Data (WPF).pdb
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\01 - Views For Data (WPF)\01 - Views For Data (WPF)\obj\Debug\01 - Views For Data (WPF).csprojResolveAssemblyReference.cache
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\01 - Views For Data (WPF)\01 - Views For Data (WPF)\obj\Debug\MainWindow.g.cs
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\01 - Views For Data (WPF)\01 - Views For Data (WPF)\obj\Debug\App.g.cs
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\01 - Views For Data (WPF)\01 - Views For Data (WPF)\obj\Debug\01 - Views For Data (WPF)_MarkupCompile.cache
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\01 - Views For Data (WPF)\01 - Views For Data (WPF)\obj\Debug\01 - Views For Data (WPF)_MarkupCompile.lref
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\01 - Views For Data (WPF)\01 - Views For Data (WPF)\obj\Debug\MainWindow.baml
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\01 - Views For Data (WPF)\01 - Views For Data (WPF)\obj\Debug\01 - Views For Data (WPF).g.resources
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\01 - Views For Data (WPF)\01 - Views For Data (WPF)\obj\Debug\ViewsForData.Properties.Resources.resources
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\01 - Views For Data (WPF)\01 - Views For Data (WPF)\obj\Debug\01 - Views For Data (WPF).csproj.GenerateResource.Cache
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\01 - Views For Data (WPF)\01 - Views For Data (WPF)\obj\Debug\01 - Views For Data (WPF).exe
+D:\Dokumente\GitHub\codebooks\Samples Architecture - Extensibility\01 - Views For Data (WPF)\01 - Views For Data (WPF)\obj\Debug\01 - Views For Data (WPF).pdb

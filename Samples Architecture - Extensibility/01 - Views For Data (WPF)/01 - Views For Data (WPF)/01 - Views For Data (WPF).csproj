@@ -7,7 +7,7 @@
     <ProjectGuid>{F912F436-F3F7-4734-ADE1-0C326083D532}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_01___Views_For_Data__WPF_</RootNamespace>
+    <RootNamespace>ViewsForData</RootNamespace>
     <AssemblyName>01 - Views For Data %28WPF%29</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -94,6 +94,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\WPFComponents\WPFArchitectureModel.Library\WPFArchitectureModel.Library.csproj">
+      <Project>{b3c5a9fa-9e00-4b81-8224-8121fe3f33f1}</Project>
+      <Name>WPFArchitectureModel.Library</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
