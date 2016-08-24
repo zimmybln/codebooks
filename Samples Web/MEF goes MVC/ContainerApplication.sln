@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainerApplication", "ContainerApplication\ContainerApplication.csproj", "{DCAA0FCB-9492-4929-9165-0840CC52B62C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{00351769-58AF-44A8-8038-9B956680E258} = {00351769-58AF-44A8-8038-9B956680E258}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondPlugIn", "SecondPlugIn\SecondPlugIn.csproj", "{00351769-58AF-44A8-8038-9B956680E258}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCAA0FCB-9492-4929-9165-0840CC52B62C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCAA0FCB-9492-4929-9165-0840CC52B62C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCAA0FCB-9492-4929-9165-0840CC52B62C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCAA0FCB-9492-4929-9165-0840CC52B62C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00351769-58AF-44A8-8038-9B956680E258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00351769-58AF-44A8-8038-9B956680E258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00351769-58AF-44A8-8038-9B956680E258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00351769-58AF-44A8-8038-9B956680E258}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
