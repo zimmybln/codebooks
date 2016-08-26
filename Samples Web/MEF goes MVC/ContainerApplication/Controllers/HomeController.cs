@@ -4,6 +4,7 @@ using System.ComponentModel.Composition;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using ContainerApplication.Components;
 
 namespace ContainerApplication.Controllers
 {
@@ -14,6 +15,19 @@ namespace ContainerApplication.Controllers
         {
             ViewBag.Test = "Das ist ein Test, den wir für eine Teilansicht durchführen";
 
+            string requestid = "keine Daten vorhanden";
+
+            if (HttpContext.Items.Contains("SharedData"))
+            {
+                SharedDataBag databag = HttpContext.Items["SharedData"] as SharedDataBag;
+
+                if (databag != null)
+                {
+                    requestid = databag.Id;
+                }
+            }
+
+            ViewBag.RequestId = requestid;
 
             return View();
         }

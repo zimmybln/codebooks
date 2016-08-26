@@ -1,0 +1,5 @@
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Web\MEF goes MVC\CommonItems\bin\Debug\CommonItems.dll
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Web\MEF goes MVC\CommonItems\bin\Debug\CommonItems.pdb
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Web\MEF goes MVC\CommonItems\obj\Debug\CommonItems.csprojResolveAssemblyReference.cache
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Web\MEF goes MVC\CommonItems\obj\Debug\CommonItems.dll
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Web\MEF goes MVC\CommonItems\obj\Debug\CommonItems.pdb

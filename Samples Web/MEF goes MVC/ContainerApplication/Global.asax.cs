@@ -14,6 +14,9 @@ namespace ContainerApplication
 {
     public class MvcApplication : System.Web.HttpApplication
     {
+
+        private readonly Random _random = new Random();
+
         protected void Application_Start()
         {
             var extensionFolders = new List<string>();
@@ -46,6 +49,37 @@ namespace ContainerApplication
             // System.Web.Hosting.HostingEnvironment.RegisterVirtualPathProvider(new EmbeddedResourceVirtualPathProvider());
 
             
+        }
+        public override void Init()
+        {
+            base.Init();
+
+            this.BeginRequest += OnBeginRequest;
+            this.EndRequest += OnEndRequest;
+        }
+
+        private void OnBeginRequest(object sender, EventArgs eventArgs)
+        {
+            Debug.WriteLine("BeginRequest");
+
+            SharedDataBag sharedData = new SharedDataBag();
+
+            sharedData.Number = _random.Next(0, 2000);
+            sharedData.Id = Guid.NewGuid().ToString();
+
+            if (HttpContext.Current.Items.Contains("SharedData"))
+            {
+                Debug.WriteLine("Geteilte Daten sind bereits enthalten");
+            }
+            else
+            {
+                HttpContext.Current.Items.Add("SharedData", sharedData);
+            }
+        }
+
+        private void OnEndRequest(object sender, EventArgs eventArgs)
+        {
+            Debug.WriteLine("EndRequest");
         }
     }
 }

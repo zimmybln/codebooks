@@ -8,6 +8,7 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.UI.WebControls;
 using System.Web.Mvc.Html;
+using ContainerApplication.Components;
 
 namespace SecondPlugIn
 {
@@ -22,7 +23,20 @@ namespace SecondPlugIn
 
         public ActionResult SampleView()
         {
-            ViewBag.Message = $"Das ist eine Nachricht, die wir über den Controller {DateTime.Now} erzeugt haben ";
+            // Geteilte Daten ermitteln
+            string requestid = "keine Daten vorhanden";
+
+            if (HttpContext.Items.Contains("SharedData"))
+            {
+                SharedDataBag databag = HttpContext.Items["SharedData"] as SharedDataBag;
+
+                if (databag != null)
+                {
+                    requestid = databag.Id;
+                }
+            }
+
+            ViewBag.Message = $"Das ist eine Nachricht, die wir über den Controller {DateTime.Now} im Request {requestid} erzeugt haben ";
 
             return View();
 
@@ -30,6 +44,20 @@ namespace SecondPlugIn
 
         public ActionResult ShowPartialView()
         {
+            string requestid = "keine Daten vorhanden";
+
+            if (HttpContext.Items.Contains("SharedData"))
+            {
+                SharedDataBag databag = HttpContext.Items["SharedData"] as SharedDataBag;
+
+                if (databag != null)
+                {
+                    requestid = databag.Id;
+                }
+            }
+
+            ViewBag.Message = $"Request {requestid}";
+
             return PartialView("SomePartialView");
         }
     }

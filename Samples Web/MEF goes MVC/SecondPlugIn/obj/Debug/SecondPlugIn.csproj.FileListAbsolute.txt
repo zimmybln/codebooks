@@ -1,0 +1,7 @@
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Web\MEF goes MVC\ContainerApplication\Extensions\SecondPlugIn\Views\SampleView.cshtml
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Web\MEF goes MVC\ContainerApplication\Extensions\SecondPlugIn\Views\SomePartialView.cshtml
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Web\MEF goes MVC\ContainerApplication\Extensions\SecondPlugIn\SecondPlugIn.dll
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Web\MEF goes MVC\ContainerApplication\Extensions\SecondPlugIn\SecondPlugIn.pdb
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Web\MEF goes MVC\SecondPlugIn\obj\Debug\SecondPlugIn.csprojResolveAssemblyReference.cache
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Web\MEF goes MVC\SecondPlugIn\obj\Debug\SecondPlugIn.dll
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Web\MEF goes MVC\SecondPlugIn\obj\Debug\SecondPlugIn.pdb
