@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using ContainerApplication.Components;
 
 namespace ContainerApplication
 {
@@ -17,7 +18,12 @@ namespace ContainerApplication
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
-            );
+            ).RouteHandler = new CustomRouteHandler();
+
+            routes.RouteExistingFiles = true;
+
+            //routes.MapRoute(name: "Extensions",
+            //    url: "{controller}/{action}");
         }
     }
 }

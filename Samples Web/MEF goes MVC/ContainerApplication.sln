@@ -6,11 +6,14 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainerApplication", "ContainerApplication\ContainerApplication.csproj", "{DCAA0FCB-9492-4929-9165-0840CC52B62C}"
 	ProjectSection(ProjectDependencies) = postProject
 		{00351769-58AF-44A8-8038-9B956680E258} = {00351769-58AF-44A8-8038-9B956680E258}
+		{AC13A9D0-C16A-44D9-A2EE-D0EB925A46DE} = {AC13A9D0-C16A-44D9-A2EE-D0EB925A46DE}
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondPlugIn", "SecondPlugIn\SecondPlugIn.csproj", "{00351769-58AF-44A8-8038-9B956680E258}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonItems", "CommonItems\CommonItems.csproj", "{8D61C97A-64B6-47CC-9C99-9BD17C28932D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdPlugIn", "ThirdPlugIn\ThirdPlugIn.csproj", "{AC13A9D0-C16A-44D9-A2EE-D0EB925A46DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +33,10 @@ Global
 		{8D61C97A-64B6-47CC-9C99-9BD17C28932D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D61C97A-64B6-47CC-9C99-9BD17C28932D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D61C97A-64B6-47CC-9C99-9BD17C28932D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC13A9D0-C16A-44D9-A2EE-D0EB925A46DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC13A9D0-C16A-44D9-A2EE-D0EB925A46DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC13A9D0-C16A-44D9-A2EE-D0EB925A46DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC13A9D0-C16A-44D9-A2EE-D0EB925A46DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,3 +6,6 @@
 *.cache
 *.suo
 *.suo
+/Samples Web/MEF goes MVC/ThirdPlugIn/obj/Debug
+/Samples Web/MEF goes MVC/.vs/Supercharger
+/Samples Web/MEF goes MVC/ContainerApplication/Extensions/ThirdPlugIn

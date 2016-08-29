@@ -25,8 +25,9 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Startseite", "Index", "Home")</li>
                     <li>@Html.ActionLink("Info", "About", "Home")</li>
-                    <li>@Html.ActionLink("Erweiterung: Gesamtseite laden", "SampleView", "AdditionalController")</li>
-                    <li>@Ajax.ActionLink("Erweiterung: Teilansicht laden", "ShowPartialView", "AdditionalController", new AjaxOptions() {UpdateTargetId = "actionresult"})</li>
+                    <li>@Html.ActionLink("Erweiterung: Gesamtseite laden (zweite)", "SampleView", "Additional")</li>
+                    <li>@Html.ActionLink("Erweiterung: Gesamtseite laden (dritte)", "SampleView", "ThirdPlugIn")</li>
+                    <li>@Ajax.ActionLink("Erweiterung: Teilansicht laden", "ShowPartialView", "Additional", new AjaxOptions() {UpdateTargetId = "actionresult"})</li>
                 </ul>
             </div>
         </div>

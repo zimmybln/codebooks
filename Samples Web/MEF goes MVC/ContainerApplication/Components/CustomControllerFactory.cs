@@ -16,7 +16,12 @@ namespace ContainerApplication.Components
     {
         public override IController CreateController(RequestContext requestContext, string controllerName)
         {
-            var controller = MefConnector.GetInstance<IController>(controllerName) ??
+            var name = controllerName;
+
+            if (!name.EndsWith("Controller", StringComparison.InvariantCultureIgnoreCase))
+                name += "Controller";
+            
+            var controller = MefConnector.GetInstance<IController>(name) ??
                              base.CreateController(requestContext, controllerName);
 
             return controller;

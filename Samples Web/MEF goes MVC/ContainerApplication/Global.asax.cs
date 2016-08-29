@@ -29,7 +29,10 @@ namespace ContainerApplication
                 var di = new DirectoryInfo(s);
                 extensionFolders.Add(di.Name);
             });
-            
+
+            // Das benötigen wir für die Weiterentwicklung, dass mehrere Erweiterungen die gleichen Viewnamen haben können
+            System.Web.Hosting.HostingEnvironment.RegisterVirtualPathProvider(new ExtensionVirtualPathProvider());
+
             // Das ist Standardverhalten
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
@@ -45,8 +48,7 @@ namespace ContainerApplication
 
             ViewEngines.Engines.Add(new CustomViewEngine(extensionFolders));
 
-            // Das benötigen wir für die Weiterentwicklung, dass mehrere Erweiterungen die gleichen Viewnamen haben können
-            // System.Web.Hosting.HostingEnvironment.RegisterVirtualPathProvider(new EmbeddedResourceVirtualPathProvider());
+
 
             
         }

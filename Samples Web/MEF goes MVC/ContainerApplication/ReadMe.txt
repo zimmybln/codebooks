@@ -16,5 +16,53 @@ Bekannte Herausforderungen
 - Schönes Beispiel für SingleResponsibilty: Die Logik zur Auflösung der Verzeichnisstruktur (~/Extensions/...) ist an mehreren Stellen zu finden. Nicht nur eine Codesequenz soll nicht für mehrere Aspekte verantwortlich sein, sondern auch für einen Aspekt sollen nicht mehrere Codesequenzen verantwortlich sein.
 
 Nächste Schritte Infrastruktur
-- Beim Beginn einer Anfrage wird die Verbindung zur Datenbank hergestellt und als globale Ressource zur Verfügung gestellt. Alle Bestandteile der Abfrage (einschließlich die Erweiterungen) teilen sich diese Verbindung. Am Ende des Requests wird die Verbindung wieder geschlossen.
 - Erweiterungen können Views mit dem gleichen Namen haben.
+
+
+Die Abfrage einer Seite aus einer Erweiterung
+BeginRequest
+GetHttpHandler: /AdditionalController/SampleView causes MvcHandler
+
+... Hier wird der Controller ermittelt und ausgewertet
+
+FileExists: ~/AdditionalController/SampleView:True
+
+Ausnahme ausgelöst: "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException" in Microsoft.CSharp.dll
+Ausnahme ausgelöst: "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException" in Microsoft.CSharp.dll
+
+FileExists: ~/Views/AdditionalController/SampleView.aspx:False
+FileExists: ~/Views/AdditionalController/SampleView.ascx:False
+FileExists: ~/Views/Shared/SampleView.aspx:False
+FileExists: ~/Views/Shared/SampleView.ascx:False
+FileExists: ~/Views/AdditionalController/SampleView.cshtml:False
+FileExists: ~/Views/AdditionalController/SampleView.vbhtml:False
+FileExists: ~/Views/Shared/SampleView.cshtml:False
+FileExists: ~/Views/Shared/SampleView.vbhtml:False
+FileExists: ~/Extensions/SecondPlugIn/Views/SampleView.cshtml:True
+FileExists: ~/Extensions/SecondPlugIn/Views/SampleView.Mobile.cshtml:False
+FileExists: ~/Extensions/SecondPlugIn/Views/_ViewStart.cshtml:False
+FileExists: ~/Extensions/SecondPlugIn/Views/_ViewStart.vbhtml:False
+FileExists: ~/Extensions/SecondPlugIn/_ViewStart.cshtml:False
+FileExists: ~/Extensions/SecondPlugIn/_ViewStart.vbhtml:False
+FileExists: ~/Extensions/_ViewStart.cshtml:False
+FileExists: ~/Extensions/_ViewStart.vbhtml:False
+FileExists: ~/_ViewStart.cshtml:False
+FileExists: ~/_ViewStart.vbhtml:False
+Ausnahme ausgelöst: "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException" in Microsoft.CSharp.dll
+Ausnahme ausgelöst: "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException" in Microsoft.CSharp.dll
+Ausnahme ausgelöst: "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException" in Microsoft.CSharp.dll
+Ausnahme ausgelöst: "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException" in Microsoft.CSharp.dll
+Ausnahme ausgelöst: "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException" in Microsoft.CSharp.dll
+Ausnahme ausgelöst: "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException" in Microsoft.CSharp.dll
+FileExists: ~/Views/Shared/_Layout.cshtml:True
+FileExists: ~/Views/AdditionalController/SomePartialView.aspx:False
+FileExists: ~/Views/AdditionalController/SomePartialView.ascx:False
+FileExists: ~/Views/Shared/SomePartialView.aspx:False
+FileExists: ~/Views/Shared/SomePartialView.ascx:False
+FileExists: ~/Views/AdditionalController/SomePartialView.cshtml:False
+FileExists: ~/Views/AdditionalController/SomePartialView.vbhtml:False
+FileExists: ~/Views/Shared/SomePartialView.cshtml:False
+FileExists: ~/Views/Shared/SomePartialView.vbhtml:False
+FileExists: ~/Extensions/SecondPlugIn/Views/SomePartialView.cshtml:True
+FileExists: ~/Extensions/SecondPlugIn/Views/SomePartialView.Mobile.cshtml:False
+EndRequest

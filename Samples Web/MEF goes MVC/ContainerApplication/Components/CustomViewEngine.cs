@@ -36,10 +36,12 @@ namespace ContainerApplication.Components
 
             if (defaultItems != null)
                 views.AddRange(defaultItems);
-           
-            extensionFolders.ForEach(plugin =>
-                views.Add("~/Extensions/" + plugin + "/Views/{0}.cshtml")
-            );
+          
+            extensionFolders.ForEach(delegate(string plugin)
+            {
+                views.Add("~/Extensions/" + plugin + "/Views/{0}.cshtml");
+                views.Add("~/Extensions/" + plugin + "/Views/{0}.vbhtml");
+            });
 
             return views.ToArray();
         }

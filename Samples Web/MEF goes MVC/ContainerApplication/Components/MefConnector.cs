@@ -5,6 +5,7 @@ using System.ComponentModel.Composition.Hosting;
 using System.IO;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace ContainerApplication.Components
 {
@@ -12,6 +13,7 @@ namespace ContainerApplication.Components
     {
         private static CompositionContainer CompositionContainer;
         private static bool IsLoaded = false;
+        private static Dictionary<string, string> _controllerassemblies = new Dictionary<string, string>(); 
 
         public static void Compose(List<string> extensionFolders)
         {
@@ -67,8 +69,33 @@ namespace ContainerApplication.Components
                 
             }
 
+            // Wenn es sich um einen Controller handelt, merken wir uns das Assembly aus dem es kommt
+            if (type is IController && !String.IsNullOrEmpty(contractName))
+            {
+                if (!_controllerassemblies.ContainsKey(contractName))
+                {
+                    var assemblyfile = new Uri(type.GetType().Assembly.CodeBase).LocalPath;
+                    _controllerassemblies.Add(contractName, assemblyfile);
+                }
+            }
 
             return type;
+        }
+
+        /// <summary>
+        /// Ermittelt den Namen des Assemblies, aus dem der Controller geladen worden ist.
+        /// </summary>
+        public static string GetControllerAssemblyFile(string controllerName)
+        {
+            if (String.IsNullOrWhiteSpace(controllerName))
+                throw new ArgumentNullException(nameof(controllerName));
+
+            if (_controllerassemblies.ContainsKey(controllerName))
+            {
+                return _controllerassemblies[controllerName];
+            }
+            
+            return null;
         }
     }
 }
