@@ -6,7 +6,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - MVC goes MEF - Prototyp</title>
-    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/css") 
     @Scripts.Render("~/bundles/modernizr")
 
 </head>
@@ -25,8 +25,8 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Startseite", "Index", "Home")</li>
                     <li>@Html.ActionLink("Info", "About", "Home")</li>
-                    <li>@Html.ActionLink("Erweiterung: Gesamtseite laden (zweite)", "SampleView", "Additional")</li>
-                    <li>@Html.ActionLink("Erweiterung: Gesamtseite laden (dritte)", "SampleView", "ThirdPlugIn")</li>
+                    <li>@Html.ActionLink("Erweiterung 2", "SampleView", "Additional")</li>
+                    <li>@Html.ActionLink("Erweiterung 3", "SampleView", "ThirdPlugIn")</li>
                     <li>@Ajax.ActionLink("Erweiterung: Teilansicht laden", "ShowPartialView", "Additional", new AjaxOptions() {UpdateTargetId = "actionresult"})</li>
                 </ul>
             </div>
@@ -34,7 +34,7 @@
     </div>
 <div class="container body-content">
     <div id="actionresult">
-        @{ Html.RenderAction("ShowPartialView", "AdditionalController"); }
+        @{ Html.RenderAction("ShowPartialView", "Additional"); }
     </div>
     <br/>
     <br/>
