@@ -11,7 +11,7 @@ using SelfhostingWebAPI.CustomServices;
 
 namespace SelfhostingWebAPI
 {
-    public class Startup
+    public class StartupWithInfoOnlyServices
     {
         // This method is required by Katana:
         public void Configuration(IAppBuilder app)
@@ -36,7 +36,9 @@ namespace SelfhostingWebAPI
 
         private void ConfigureComponents(HttpConfiguration configuration)
         {
-            configuration.Services.Replace(typeof(IHttpControllerSelector), new CustomHttpControllerSelector(configuration));
+            configuration.Services.Replace(typeof(IAssembliesResolver), new InfoOnlyAssemblyResolver());
+            configuration.Services.Replace(typeof(IHttpControllerSelector), new InfoOnlyHttpControllerSelector(configuration));
+            configuration.Services.Replace(typeof(IHttpControllerTypeResolver), new InfoOnlyHttpControllerTypeResolver());
 
         }
     }

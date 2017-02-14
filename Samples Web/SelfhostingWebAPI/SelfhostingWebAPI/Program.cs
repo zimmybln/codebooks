@@ -16,7 +16,7 @@ namespace SelfhostingWebAPI
             
 
             Console.WriteLine("Starting web Server...");
-            using (var webapp = WebApp.Start<Startup>(baseUri))
+            using (var webapp = WebApp.Start<StartupWithInfoOnlyServices>(baseUri))
             {
                 Console.WriteLine("Server running at {0} - press Enter to quit. ", baseUri);
                 Console.ReadLine();

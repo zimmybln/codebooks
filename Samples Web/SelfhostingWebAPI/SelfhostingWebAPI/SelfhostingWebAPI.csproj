@@ -78,9 +78,13 @@
   <ItemGroup>
     <Compile Include="CustomController.cs" />
     <Compile Include="CustomServices\CustomHttpControllerSelector.cs" />
+    <Compile Include="CustomServices\GlobalCounter.cs" />
+    <Compile Include="CustomServices\InfoOnlyAssemblyResolver.cs" />
+    <Compile Include="CustomServices\InfoOnlyHttpControllerSelector.cs" />
+    <Compile Include="CustomServices\InfoOnlyHttpControllerTypeResolver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Startup.cs" />
+    <Compile Include="StartupWithInfoOnlyServices.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
