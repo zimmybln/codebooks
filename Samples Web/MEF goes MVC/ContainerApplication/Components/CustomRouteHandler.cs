@@ -14,6 +14,7 @@ namespace ContainerApplication.Components
         {
             var defaultroutehandler = base.GetHttpHandler(requestContext);
 
+            // do your own stuff
             Debug.WriteLine($"GetHttpHandler: {requestContext.HttpContext.Request.Path} causes {defaultroutehandler.GetType().Name}");
             
             return defaultroutehandler;
