@@ -33,6 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="GraphQL, Version=0.15.1.678, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GraphQL.0.15.1.678\lib\net45\GraphQL.dll</HintPath>
+    </Reference>
+    <Reference Include="GraphQL-Parser, Version=2.0.0.17, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GraphQL-Parser.2.0.0\lib\net45\GraphQL-Parser.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Owin, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
       <Private>True</Private>
@@ -76,19 +82,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomController.cs" />
+    <Compile Include="Controllers\CustomersController.cs" />
+    <Compile Include="Controllers\PocoController.cs" />
+    <Compile Include="Controllers\CustomController.cs" />
     <Compile Include="CustomServices\CustomHttpControllerSelector.cs" />
     <Compile Include="CustomServices\GlobalCounter.cs" />
+    <Compile Include="CustomServices\InfoOnlyApiExplorer.cs" />
+    <Compile Include="CustomServices\InfoOnlyHttpActionInvoker.cs" />
+    <Compile Include="CustomServices\InfoOnlyActionSelector.cs" />
     <Compile Include="CustomServices\InfoOnlyAssemblyResolver.cs" />
+    <Compile Include="CustomServices\InfoOnlyHttpControllerActivator.cs" />
     <Compile Include="CustomServices\InfoOnlyHttpControllerSelector.cs" />
     <Compile Include="CustomServices\InfoOnlyHttpControllerTypeResolver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StartupWithInfoOnlyServices.cs" />
+    <Compile Include="Types\Customer.cs" />
+    <Compile Include="Types\Invoice.cs" />
+    <Compile Include="Types\Person.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Types\GraphQL\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

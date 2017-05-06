@@ -22,13 +22,13 @@ namespace SelfhostingWebAPI.CustomServices
         {
             var httpcontrollerdescriptor = base.SelectController(request);
 
-            Debug.WriteLine($"{GlobalCounter.GetGlobalCounter():00000}: {base.GetType().Name}.{MethodBase.GetCurrentMethod().Name}()");
+            Debug.WriteLine($"{GlobalCounter.GetGlobalCounter():00000}: {typeof(IHttpControllerSelector).Name}.{MethodBase.GetCurrentMethod().Name}()");
 
             Debug.WriteLine($"\t{request.RequestUri}");
 
             if (httpcontrollerdescriptor != null)
             {
-                Debug.WriteLine($"\tController: {httpcontrollerdescriptor.ControllerType.Name + " (" + httpcontrollerdescriptor.ControllerType.FullName + ")"}");
+                Debug.WriteLine($"\tControllertype: {httpcontrollerdescriptor.ControllerType.Name + " (" + httpcontrollerdescriptor.ControllerType.FullName + ")"}");
             }
 
             return httpcontrollerdescriptor;
@@ -38,12 +38,20 @@ namespace SelfhostingWebAPI.CustomServices
         {
             var name = base.GetControllerName(request);
 
-            Debug.WriteLine($"{GlobalCounter.GetGlobalCounter():00000}: {this.GetType().Name}.{MethodBase.GetCurrentMethod().Name}()");
+            Debug.WriteLine($"{GlobalCounter.GetGlobalCounter():00000}: {typeof(IHttpControllerSelector).Name}.{MethodBase.GetCurrentMethod().Name}()");
 
             Debug.WriteLine($"\tControllername: {name}");
 
             return name;
         }
-        
+
+        public override IDictionary<string, HttpControllerDescriptor> GetControllerMapping()
+        {
+            var mapping = base.GetControllerMapping();
+
+            Debug.WriteLine($"{GlobalCounter.GetGlobalCounter():00000}: {typeof(IHttpControllerSelector).Name}.{MethodBase.GetCurrentMethod().Name}()");
+            
+            return mapping;
+        }
     }
 }

@@ -16,7 +16,7 @@ namespace SelfhostingWebAPI.CustomServices
         {
             var assemblies = base.GetAssemblies();
 
-            Debug.WriteLine($"{GlobalCounter.GetGlobalCounter():00000}: {this.GetType().Name}.{MethodBase.GetCurrentMethod().Name}()");
+            Debug.WriteLine($"{GlobalCounter.GetGlobalCounter():00000}: {typeof(IAssembliesResolver).Name}.{MethodBase.GetCurrentMethod().Name}()");
 
             Debug.WriteLine($"\t{String.Join("\r\n\t", assemblies.Select(asm => asm.GetName().Name))}");
 

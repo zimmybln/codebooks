@@ -1,8 +1,8 @@
 ﻿{
   "dependencies": {
-    "Microsoft.EntityFrameworkCore.Sqlite": "1.1.0",
-    "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
-    "MSTest.TestFramework": "1.0.0-preview"
+    "Microsoft.EntityFrameworkCore.Sqlite": "1.1.1",
+    "Microsoft.NETCore.UniversalWindowsPlatform": "5.3.1",
+    "MSTest.TestFramework": "1.1.13"
   },
   "frameworks": {
     "uap10.0": {}

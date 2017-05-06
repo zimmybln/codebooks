@@ -15,7 +15,7 @@ namespace SelfhostingWebAPI.CustomServices
         {
             var types = base.GetControllerTypes(assembliesResolver);
 
-            Debug.WriteLine($"{GlobalCounter.GetGlobalCounter():00000}: {this.GetType().Name}.{MethodBase.GetCurrentMethod().Name}()");
+            Debug.WriteLine($"{GlobalCounter.GetGlobalCounter():00000}: {typeof(IHttpControllerTypeResolver).Name}.{MethodBase.GetCurrentMethod().Name}()");
 
             if (types != null)
             {
