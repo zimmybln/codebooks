@@ -37,6 +37,31 @@ namespace GraphQLTest.Tests
         }
 
         [Test]
+        public void QueryWithoutWithMetadata()
+        {
+            var schema = new Schema { Query = new CustomerQuery() };
+
+            string query = @"
+                            query {
+                                customer {
+                                    __typename
+                                    # __Shema
+                                    # __TypeKind
+                                    # __field
+                                    # __directive
+                                    id
+                                    firstName
+                                    lastName
+                                }                                
+                            }";
+
+            Task<string> task = Query(query, schema, new DataSource());
+            task.Wait();
+
+            Console.WriteLine(task.Result);
+        }
+
+        [Test]
         public void QueryWithParameters()
         {
             var schema = new Schema { Query = new CustomerQuery() };
@@ -51,6 +76,28 @@ namespace GraphQLTest.Tests
                             }";
 
             Task<string> task = Query(queryWithParameter, schema, new DataSource());
+            task.Wait();
+
+            Console.WriteLine(task.Result);
+        }
+
+        [Test]
+        public void QueryWithVariables()
+        {
+            var schema = new Schema {Query = new CustomerQuery()};
+            var inputs = new Inputs();
+            inputs.Add("firstName", "Sim");
+
+            string queryWithParameter = @"
+                            query CustomerQuery ($firstName : String) {
+                                customer (firstName: $firstName) {
+                                    id
+                                    firstName
+                                    lastName
+                                }
+                            }";
+
+            Task<string> task = Query(queryWithParameter, schema, new DataSource(), inputs);
             task.Wait();
 
             Console.WriteLine(task.Result);
@@ -84,19 +131,13 @@ namespace GraphQLTest.Tests
             Console.WriteLine(task.Result);
         }
 
-        [Test]
-        public void QueryWithVariables()
-        {
-            
-        }
-
-
-        private static async Task<string> Query(string query, Schema schema, object userContext)
+        private static async Task<string> Query(string query, Schema schema, object userContext, Inputs inputs = null)
         {
             var result = await new DocumentExecuter().ExecuteAsync(options =>
             {
                 options.Schema = schema;
                 options.UserContext = userContext;
+                options.Inputs = inputs;
                 options.Query = query;
             }).ConfigureAwait(false);
 

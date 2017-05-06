@@ -14,6 +14,7 @@ namespace GraphQLTest.Data
             new Customer(){Id = 1, FirstName = "Hans", LastName = "Maier"},
             new Customer(){Id = 2, FirstName = "Simone", LastName = "Selmke"},
             new Customer(){Id = 3, FirstName = "Simone", LastName = "Schulze"},
+            new Customer(){Id = 4, FirstName = "Peter", LastName = "Traurig"}
         };
 
         public List<Invoice> Invoices { get; } = new List<Invoice>()
