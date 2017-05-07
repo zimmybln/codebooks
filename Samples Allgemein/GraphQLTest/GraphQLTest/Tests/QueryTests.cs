@@ -37,6 +37,32 @@ namespace GraphQLTest.Tests
         }
 
         [Test]
+        public void QueryWithFragments()
+        {
+            var schema = new Schema { Query = new CustomerQuery() };
+
+            string query = @"
+                            query {
+                                customer {
+                                    id
+                                    ...fullname
+                                } 
+                            }
+
+                            fragment fullname on customer {
+                                firstName
+                                lastName
+                            }
+                            ";
+
+            Task<string> task = Query(query, schema, new DataSource());
+            task.Wait();
+
+            Console.WriteLine(task.Result);
+        }
+
+
+        [Test]
         public void QueryWithoutWithMetadata()
         {
             var schema = new Schema { Query = new CustomerQuery() };
@@ -86,7 +112,7 @@ namespace GraphQLTest.Tests
         {
             var schema = new Schema {Query = new CustomerQuery()};
             var inputs = new Inputs();
-            inputs.Add("firstName", "Sim");
+            inputs.Add("firstName", "S");
 
             string queryWithParameter = @"
                             query CustomerQuery ($firstName : String) {

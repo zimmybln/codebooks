@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace GraphQLTest.Tests
 {
-    class MutationTests
+    public class MutationTests
     {
+        public void CreateCustomer()
+        {
+            
+        }
     }
 }

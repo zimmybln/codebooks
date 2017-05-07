@@ -24,8 +24,6 @@ namespace GraphQLTest.Types
 
                 return data?.Invoices.Where(i => i.CustomerId == context.Source.Id);
             });
-
-
         }
     }
 }
