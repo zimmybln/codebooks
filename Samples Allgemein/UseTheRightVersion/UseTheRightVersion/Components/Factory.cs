@@ -13,42 +13,51 @@ namespace UseTheRightVersion.Components
     public static class Factory
     {
         private static Dictionary<Type, Type> _alternativeTypes = new Dictionary<Type, Type>();
+
+        static Factory()
+        {
+            var path = Path.Combine(Path.GetDirectoryName(new Uri(typeof(Factory).Assembly.CodeBase).LocalPath), "Alternatives");
+
+            foreach (string file in Directory.GetFiles(path, "*.dll"))
+            {
+                var assembly = Assembly.LoadFile(file);
+
+                foreach (Type exportedType in assembly.GetExportedTypes())
+                {
+                    var attr = exportedType.GetCustomAttributes(typeof(AlternativeTypeAttribute), false);
+
+                    if (attr.Any())
+                    {
+                        var alternativeTypeAttribute = attr[0] as AlternativeTypeAttribute;
+                        if (alternativeTypeAttribute != null)
+                        {
+                            if (!_alternativeTypes.ContainsKey(alternativeTypeAttribute.AlternativeType))
+                            {
+                                _alternativeTypes.Add(alternativeTypeAttribute.AlternativeType, exportedType);
+                            }
+                        }
+                    }
+                }
+            }
+        }
          
-        public static T Create<T>()
+        public static T Create<T>(params object[] constructorParameters)
             where T : class, new()
         {
             Type t = typeof(T);
 
             // Alternatives Assembly suchen
-            var path = Path.Combine(Path.GetDirectoryName(new Uri(typeof (Factory).Assembly.CodeBase).LocalPath), "Alternatives");
-
-            foreach (string file in Directory.GetFiles(path, "*.dll"))
+            if (_alternativeTypes.ContainsKey(t))
             {
-                var assembly = Assembly.LoadFile(file);
-                Type alternativeType = null;
+                var alternativeType = _alternativeTypes[t];
 
-                foreach (Type exportedType in assembly.GetExportedTypes())
-                {
-                    var attr = exportedType.GetCustomAttributes(typeof (AlternativeTypeAttribute), false);
-
-                    if (attr.Any())
-                    {
-                        var alternativeTypeAttribute = attr[0] as AlternativeTypeAttribute;
-                        if (alternativeTypeAttribute != null && exportedType.IsSubclassOf(t))
-                        {
-                            alternativeType = exportedType;
-                            break;
-                        }
-                    }
-                }
-
-                if (alternativeType != null)
+                if (alternativeType.IsSubclassOf(t))
                 {
                     t = alternativeType;
                 }
             }
-
-            return Activator.CreateInstance(t) as T;
+            
+            return Activator.CreateInstance(t, constructorParameters) as T;
         }
 
 
