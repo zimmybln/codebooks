@@ -1,0 +1,8 @@
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\UseTheRightVersion\UseTheRightVersion\bin\Debug\UseTheRightVersion.exe.config
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\UseTheRightVersion\UseTheRightVersion\bin\Debug\UseTheRightVersion.exe
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\UseTheRightVersion\UseTheRightVersion\bin\Debug\UseTheRightVersion.pdb
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\UseTheRightVersion\UseTheRightVersion\obj\Debug\UseTheRightVersion.exe
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\UseTheRightVersion\UseTheRightVersion\obj\Debug\UseTheRightVersion.pdb
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\UseTheRightVersion\Bin\UseTheRightVersion.exe.config
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\UseTheRightVersion\Bin\UseTheRightVersion.exe
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\UseTheRightVersion\Bin\UseTheRightVersion.pdb

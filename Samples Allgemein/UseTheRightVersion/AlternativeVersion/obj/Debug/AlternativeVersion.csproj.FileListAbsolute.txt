@@ -1,0 +1,5 @@
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\UseTheRightVersion\Bin\Alternatives\AlternativeVersion.dll
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\UseTheRightVersion\Bin\Alternatives\AlternativeVersion.pdb
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\UseTheRightVersion\AlternativeVersion\obj\Debug\AlternativeVersion.csprojResolveAssemblyReference.cache
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\UseTheRightVersion\AlternativeVersion\obj\Debug\AlternativeVersion.dll
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\UseTheRightVersion\AlternativeVersion\obj\Debug\AlternativeVersion.pdb
