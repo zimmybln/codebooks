@@ -1,0 +1,6 @@
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\MutableObject\MutableObject\bin\Debug\MutableObject.exe.config
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\MutableObject\MutableObject\bin\Debug\MutableObject.exe
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\MutableObject\MutableObject\bin\Debug\MutableObject.pdb
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\MutableObject\MutableObject\obj\Debug\MutableObject.csprojResolveAssemblyReference.cache
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\MutableObject\MutableObject\obj\Debug\MutableObject.exe
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\MutableObject\MutableObject\obj\Debug\MutableObject.pdb

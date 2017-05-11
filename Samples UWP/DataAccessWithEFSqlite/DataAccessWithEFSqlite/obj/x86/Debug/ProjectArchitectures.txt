@@ -1,0 +1,1 @@
+D:\Dokumente\GitHub\codebooks\codebooks\Samples UWP\DataAccessWithEFSqlite\DataAccessWithEFSqlite\DataAccessWithEFSqlite.csproj;x86

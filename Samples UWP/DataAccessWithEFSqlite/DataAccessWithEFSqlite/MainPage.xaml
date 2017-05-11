@@ -1,0 +1,67 @@
+﻿<Page
+    x:Class="DataAccessWithEFSqlite.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DataAccessWithEFSqlite"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+   <SplitView x:Name="MainSplitView" DisplayMode="CompactOverlay"  IsPaneOpen="False" 
+               CompactPaneLength="50" OpenPaneLength="200">
+        <SplitView.Pane>
+            <Grid>
+                <StackPanel Background="Gray">
+
+                   <StackPanel Orientation="Horizontal">
+                       <Button x:Name="SingleLinePage" FontFamily="Segoe MDL2 Assets" Content="&#xE70F;" Width="50" Height="50" Background="Transparent"
+                               Click="ShowPage_Click"/>
+                       <TextBlock Text="Einzelner Datensatz" FontSize="14" VerticalAlignment="Center" />
+                   </StackPanel>
+                
+                   <StackPanel Orientation="Horizontal">
+                       <Button x:Name="MultiLinePage" FontFamily="Segoe MDL2 Assets" Content="&#xE8F7;" Width="50" Height="50" Background="Transparent"
+                               Click="ShowPage_Click"/>
+                       <TextBlock Text="Mehrere Datensätze" FontSize="14" VerticalAlignment="Center" />
+                   </StackPanel>
+
+                   <StackPanel Orientation="Horizontal">
+                       <Button x:Name="FilterDataPage" FontFamily="Segoe MDL2 Assets" Content="&#xE71C;" Width="50" Height="50" Background="Transparent"
+                               Click="ShowPage_Click"/>
+                       <TextBlock Text="Filter" FontSize="14" VerticalAlignment="Center" />
+                   </StackPanel>
+                
+                   <StackPanel Orientation="Horizontal">
+                       <Button x:Name="ShowDataPage" FontFamily="Segoe MDL2 Assets" Content="&#xE8A9;" Width="50" Height="50" Background="Transparent"
+                               Click="ShowPage_Click"/>
+                       <TextBlock Text="Daten anzeigen" FontSize="14" VerticalAlignment="Center" />
+                   </StackPanel>
+
+                </StackPanel> 
+                
+                <StackPanel VerticalAlignment="Bottom">
+                    <StackPanel Orientation="Horizontal">
+                       <Button x:Name="Settings" FontFamily="Segoe MDL2 Assets" Content="&#xE713;" Width="50" Height="50" Background="Transparent"
+                               Click="ShowPage_Click"/>
+                       <TextBlock Text="Daten anzeigen" FontSize="14" VerticalAlignment="Center" />
+                   </StackPanel>
+                </StackPanel>
+            </Grid>
+        </SplitView.Pane>
+        <SplitView.Content>
+             <Frame x:Name="ContentFrame">
+              <Frame.ContentTransitions>
+                <TransitionCollection>
+                  <NavigationThemeTransition>
+                    <NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                      <EntranceNavigationTransitionInfo/>
+                    </NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                  </NavigationThemeTransition>
+                </TransitionCollection>
+              </Frame.ContentTransitions>
+            </Frame>
+          </SplitView.Content>
+    </SplitView>
+        
+    
+</Page>
