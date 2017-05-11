@@ -17,6 +17,7 @@ namespace GraphQLTest.Types
             Field(x => x.Id);
             Field(x => x.FirstName);
             Field(x => x.LastName);
+            Field(x => x.City);
 
             Field<ListGraphType<InvoiceType>>("invoices", resolve: context =>
             {

@@ -15,6 +15,8 @@ namespace GraphQLTest.Types
 
         public string LastName { get; set; }
 
+        public string City { get; set; }
+
         public IEnumerable<Invoice> Invoices { get; set; }
     }
 }

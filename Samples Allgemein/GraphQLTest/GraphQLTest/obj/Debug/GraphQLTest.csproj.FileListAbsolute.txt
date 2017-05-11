@@ -15,3 +15,16 @@ D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTes
 D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\obj\Debug\GraphQLTest.pdb
 D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\GraphQLTest.dll.config
 D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\System.Linq.Dynamic.dll
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\GraphQLTest.dll.config
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\GraphQLTest.dll
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\GraphQLTest.pdb
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\GraphQL-Parser.dll
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\GraphQL.dll
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\nunit.framework.dll
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\System.Linq.Dynamic.dll
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\nunit.framework.xml
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\obj\Debug\GraphQLTest.dll
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\obj\Debug\GraphQLTest.pdb
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\Newtonsoft.Json.dll
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\Newtonsoft.Json.xml
+D:\Dokumente\GitHub\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\obj\Debug\GraphQLTest.csprojResolveAssemblyReference.cache

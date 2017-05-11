@@ -1,19 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using GraphQLTest.Data;
+using GraphQLTest.Types;
+using System;
 using System.Threading.Tasks;
 using GraphQL;
 using GraphQL.Http;
 using GraphQL.Types;
-using GraphQLTest.Data;
-using GraphQLTest.Types;
 using NUnit.Framework;
 
 namespace GraphQLTest.Tests
 {
     [TestFixture]
-    public class QueryTests
+    public class QueryTests : TestBase
     {
 
         [Test]
@@ -108,6 +105,35 @@ namespace GraphQLTest.Tests
         }
 
         [Test]
+        public void QueryWithAliases()
+        {
+            var schema = new Schema { Query = new CustomerQuery() };
+            var inputs = new Inputs();
+            
+            string queryWithParameter = @"
+                            query {
+                                norddeutsche : customer (city : ""Hamburg"") {
+                                    id
+                                    firstName
+                                    lastName
+                                    city
+                                }
+
+                                süddeutsche : customer (city : ""München"") {
+                                    id
+                                    firstName
+                                    lastName
+                                    city
+                                }
+                            }";
+
+            Task<string> task = Query(queryWithParameter, schema, new DataSource(), inputs);
+            task.Wait();
+
+            Console.WriteLine(task.Result);
+        }
+
+        [Test]
         public void QueryWithVariables()
         {
             var schema = new Schema {Query = new CustomerQuery()};
@@ -157,17 +183,35 @@ namespace GraphQLTest.Tests
             Console.WriteLine(task.Result);
         }
 
-        private static async Task<string> Query(string query, Schema schema, object userContext, Inputs inputs = null)
+        [Test]
+        public void QueryWithDirectives()
         {
-            var result = await new DocumentExecuter().ExecuteAsync(options =>
-            {
-                options.Schema = schema;
-                options.UserContext = userContext;
-                options.Inputs = inputs;
-                options.Query = query;
-            }).ConfigureAwait(false);
+            var schema = new Schema { Query = new CustomerQuery() };
+            var inputs = new Inputs();
+            inputs.Add("withInvoices", "false");
 
-            return new DocumentWriter(indent: true).Write(result);
+            string queryWithRelation = @"
+                        query DirectivesQuery ($withInvoices : Boolean!) {
+                            customer {
+                                id
+                                firstName
+                                lastName
+                                invoices @skip(if: $withInvoices)
+                                {
+                                    id
+                                    customerId
+                                    date
+                                    price
+                                }
+                            }
+                        }";
+
+            Task<string> task = Query(queryWithRelation, schema, new DataSource(), inputs);
+            task.Wait();
+
+            Console.WriteLine(task.Result);
         }
+
+
     }
 }

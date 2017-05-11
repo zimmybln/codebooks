@@ -19,9 +19,11 @@ namespace GraphQLTest.Types
                 arguments: new QueryArguments(
                     new QueryArgument<IntGraphType> { Name = "id", DefaultValue = 0 },
                     new QueryArgument<StringGraphType> { Name = "firstName", DefaultValue = "" },
-                    new QueryArgument<StringGraphType> { Name = "lastName", DefaultValue = "" }
+                    new QueryArgument<StringGraphType> { Name = "lastName", DefaultValue = "" },
+                    new QueryArgument<StringGraphType> { Name = "city", DefaultValue = ""}
                 ),
                 resolve: ResolveCustomers);
+            
 
         }
 
@@ -30,6 +32,7 @@ namespace GraphQLTest.Types
             var idValue = resolveFieldContext.GetArgument<int>("id");
             var firstNameValue = resolveFieldContext.GetArgument<string>("firstName");
             var lastNameValue = resolveFieldContext.GetArgument<string>("lastName");
+            var cityValue = resolveFieldContext.GetArgument<string>("city");
 
             var data = resolveFieldContext.UserContext as DataSource;
 
@@ -53,6 +56,14 @@ namespace GraphQLTest.Types
                     query.Append(" AND ");
 
                 query.AppendFormat("LastName.Contains({0}{1}{0})", (char)34, lastNameValue);
+            }
+
+            if (!String.IsNullOrWhiteSpace(cityValue))
+            {
+                if (query.Length > 0)
+                    query.Append(" AND ");
+
+                query.AppendFormat("City.Contains({0}{1}{0})", (char)34, cityValue);
             }
 
             if (query.Length == 0)
