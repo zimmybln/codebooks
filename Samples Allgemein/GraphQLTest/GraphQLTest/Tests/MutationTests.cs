@@ -28,19 +28,22 @@ namespace GraphQLTest.Tests
                                     id
                                     firstName
                                     lastName
+                                    city
                                 } 
-                            }
-                            ";
+                            }";
 
             string mutation = @"
-                            mutation CreateCustomerMutation($firstName : String!, $lastName : String!) {
-                                createCustomer (firstName : $firstName, lastName : $lastName) {
+                            mutation ($firstName : String!,
+                                      $lastName : String!,
+                                      $city : String!) {
+                                createCustomer (firstName : $firstName, 
+                                                lastName : $lastName,
+                                                city : $city) {
                                     id
                                     firstName
                                     lastName
                                 }
-                            }
-                            ";
+                            }";
 
 
             // Ausgangsdaten anzeigen

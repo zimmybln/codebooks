@@ -11,30 +11,41 @@ namespace GraphQLTest.Types
 {
     public class CustomerQuery : ObjectGraphType<Customer>
     {
-        // https://github.com/graphql-dotnet/graphql-dotnet/issues/301
-
         public CustomerQuery()
+        {
+            CreateFieldDefinition(ResolveCustomers);
+        }
+
+        protected CustomerQuery(Func<ResolveFieldContext<Customer>, IEnumerable<Customer>> resolver)
+        {
+            CreateFieldDefinition(resolver);
+        }
+
+        protected void CreateFieldDefinition(Func<ResolveFieldContext<Customer>, IEnumerable<Customer>> resolver)
         {
             Field<ListGraphType<CustomerType>>("customer",
                 arguments: new QueryArguments(
                     new QueryArgument<IntGraphType> { Name = "id", DefaultValue = 0 },
                     new QueryArgument<StringGraphType> { Name = "firstName", DefaultValue = "" },
                     new QueryArgument<StringGraphType> { Name = "lastName", DefaultValue = "" },
-                    new QueryArgument<StringGraphType> { Name = "city", DefaultValue = ""}
+                    new QueryArgument<StringGraphType> { Name = "city", DefaultValue = "" }
                 ),
-                resolve: ResolveCustomers);
-            
-
+                resolve: resolver);
         }
 
-        private IEnumerable<Customer> ResolveCustomers(ResolveFieldContext<Customer> resolveFieldContext)
+        protected virtual IEnumerable<Customer> ResolveCustomers(ResolveFieldContext<Customer> resolveFieldContext)
+        {
+            var data = resolveFieldContext.UserContext as DataSource;
+
+            return ResolveCustomers(resolveFieldContext, data);
+        }
+
+        protected  virtual IEnumerable<Customer> ResolveCustomers(ResolveFieldContext<Customer> resolveFieldContext, DataSource data)
         {
             var idValue = resolveFieldContext.GetArgument<int>("id");
             var firstNameValue = resolveFieldContext.GetArgument<string>("firstName");
             var lastNameValue = resolveFieldContext.GetArgument<string>("lastName");
             var cityValue = resolveFieldContext.GetArgument<string>("city");
-
-            var data = resolveFieldContext.UserContext as DataSource;
 
             StringBuilder query = new StringBuilder();
 
@@ -70,7 +81,7 @@ namespace GraphQLTest.Types
                 return data.Customers;
 
             return data.Customers.Where(query.ToString()).ToArray(); ;
-
         }
+
     }
 }

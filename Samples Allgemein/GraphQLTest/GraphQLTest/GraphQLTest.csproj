@@ -64,6 +64,7 @@
     <Compile Include="Types\CustomerMutation.cs" />
     <Compile Include="Types\Customer.cs" />
     <Compile Include="Types\CustomerQuery.cs" />
+    <Compile Include="Types\CustomerQueryWithData.cs" />
     <Compile Include="Types\CustomerType.cs" />
     <Compile Include="Types\Invoice.cs" />
     <Compile Include="Types\InvoiceType.cs" />

@@ -8,7 +8,10 @@ using GraphQLTest.Data;
 
 namespace GraphQLTest.Types
 {
-    public class CustomerMutation : ObjectGraphType
+    /// <summary>
+    /// This Graphtype allows to add a new customer
+    /// </summary>
+    public class CustomerMutation : ObjectGraphType<Customer>
     {
         public CustomerMutation()
         {
@@ -17,24 +20,31 @@ namespace GraphQLTest.Types
                     new QueryArgument<StringGraphType> {Name = "firstName", DefaultValue = ""},
                     new QueryArgument<StringGraphType> {Name = "lastName", DefaultValue = ""},
                     new QueryArgument<StringGraphType> {Name = "city", DefaultValue = ""}
-                ),
-                resolve: context =>
-                {
-                    var data = context.UserContext as DataSource;
-                    var firstName = context.GetArgument<string>("firstName");
-                    var lastName = context.GetArgument<string>("lastName");
-                    var city = context.GetArgument<string>("city");
+                ), resolve: OnCreateCustomer);
+        }
 
-                    var customer = new Customer() {
-                                    FirstName = firstName,
-                                    LastName = lastName,
-                                    City = city,
-                                    Id = data.Customers.Max(c => c.Id) + 1};
+        private Customer OnCreateCustomer(ResolveFieldContext<Customer> context)
+        {
+            var data = context.UserContext as DataSource;
 
-                    data.Customers.Add(customer);
+            if (data == null)
+                return null;
 
-                    return customer;
-                });
+            var firstName = context.GetArgument<string>("firstName");
+            var lastName = context.GetArgument<string>("lastName");
+            var city = context.GetArgument<string>("city");
+
+            var customer = new Customer()
+            {
+                FirstName = firstName,
+                LastName = lastName,
+                City = city,
+                Id = data.Customers.Max(c => c.Id) + 1
+            };
+
+            data.Customers.Add(customer);
+
+            return customer;
         }
     }
 }

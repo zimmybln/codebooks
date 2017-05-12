@@ -26,5 +26,20 @@ namespace GraphQLTest.Types
                 return data?.Invoices.Where(i => i.CustomerId == context.Source.Id);
             });
         }
+
+        public CustomerType(DataSource dataSource)
+        {
+            Name = "customer";
+
+            Field(x => x.Id);
+            Field(x => x.FirstName);
+            Field(x => x.LastName);
+            Field(x => x.City);
+
+            Field<ListGraphType<InvoiceType>>("invoices", resolve: context =>
+            {
+                return dataSource?.Invoices.Where(i => i.CustomerId == context.Source.Id);
+            });
+        }
     }
 }

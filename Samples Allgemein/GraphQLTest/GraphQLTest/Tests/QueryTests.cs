@@ -14,7 +14,7 @@ namespace GraphQLTest.Tests
     {
 
         [Test]
-        public void QueryWithoutParameters()
+        public void QueryAll()
         {
             var schema = new Schema { Query = new CustomerQuery() };
 
@@ -57,8 +57,7 @@ namespace GraphQLTest.Tests
 
             Console.WriteLine(task.Result);
         }
-
-
+        
         [Test]
         public void QueryWithoutWithMetadata()
         {
@@ -212,6 +211,46 @@ namespace GraphQLTest.Tests
             Console.WriteLine(task.Result);
         }
 
+        [Test]
+        public void QueryWithCustomFactory()
+        {
+            var datasource = new DataSource();
+
+            // callback for resolving types with parameters
+            IGraphType OnResolveType(Type type)
+            {
+                return Activator.CreateInstance(type, datasource) as IGraphType;
+            }
+            
+            // schema with resolving function
+            var schema = new Schema
+            {
+                Query = new CustomerQueryWithData(datasource),
+                ResolveType = OnResolveType
+            };
+
+            // query definition
+            string queryWithRelation = @"
+                        query {
+                            customer {
+                                id
+                                firstName
+                                lastName
+                                invoices
+                                {
+                                    id
+                                    customerId
+                                    date
+                                    price
+                                }
+                            }
+                        }";
+
+            Task<string> task = Query(queryWithRelation, schema);
+            task.Wait();
+
+            Console.WriteLine(task.Result);
+        }
 
     }
 }
