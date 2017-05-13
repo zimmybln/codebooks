@@ -13,16 +13,6 @@ namespace GraphQLTest.Types
     {
         public CustomerQuery()
         {
-            CreateFieldDefinition(ResolveCustomers);
-        }
-
-        protected CustomerQuery(Func<ResolveFieldContext<Customer>, IEnumerable<Customer>> resolver)
-        {
-            CreateFieldDefinition(resolver);
-        }
-
-        protected void CreateFieldDefinition(Func<ResolveFieldContext<Customer>, IEnumerable<Customer>> resolver)
-        {
             Field<ListGraphType<CustomerType>>("customer",
                 arguments: new QueryArguments(
                     new QueryArgument<IntGraphType> { Name = "id", DefaultValue = 0 },
@@ -30,17 +20,17 @@ namespace GraphQLTest.Types
                     new QueryArgument<StringGraphType> { Name = "lastName", DefaultValue = "" },
                     new QueryArgument<StringGraphType> { Name = "city", DefaultValue = "" }
                 ),
-                resolve: resolver);
+                resolve: ResolveCustomers);
         }
 
-        protected virtual IEnumerable<Customer> ResolveCustomers(ResolveFieldContext<Customer> resolveFieldContext)
+        protected virtual IEnumerable<Customer> ResolveCustomers(ResolveFieldContext<Customer> context)
         {
-            var data = resolveFieldContext.UserContext as DataSource;
+            var data = context.UserContext as DataSource;
 
-            return ResolveCustomers(resolveFieldContext, data);
+            return ResolveCustomers(context, data);
         }
 
-        protected  virtual IEnumerable<Customer> ResolveCustomers(ResolveFieldContext<Customer> resolveFieldContext, DataSource data)
+        protected  IEnumerable<Customer> ResolveCustomers(ResolveFieldContext<Customer> resolveFieldContext, DataSource data)
         {
             var idValue = resolveFieldContext.GetArgument<int>("id");
             var firstNameValue = resolveFieldContext.GetArgument<string>("firstName");

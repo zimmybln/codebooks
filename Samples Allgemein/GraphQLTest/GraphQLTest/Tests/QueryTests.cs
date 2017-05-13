@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using GraphQL;
 using GraphQL.Http;
 using GraphQL.Types;
+using Microsoft.Practices.Unity;
 using NUnit.Framework;
 
 namespace GraphQLTest.Tests
@@ -216,10 +217,15 @@ namespace GraphQLTest.Tests
         {
             var datasource = new DataSource();
 
+            var container = new UnityContainer();
+            container.RegisterInstance(typeof(DataSource), datasource);
+            container.RegisterType<CustomerType>();
+            container.RegisterType<InvoiceType>();
+            
             // callback for resolving types with parameters
             IGraphType OnResolveType(Type type)
             {
-                return Activator.CreateInstance(type, datasource) as IGraphType;
+                return container.Resolve(type) as IGraphType;
             }
             
             // schema with resolving function

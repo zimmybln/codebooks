@@ -2,12 +2,8 @@ D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTes
 D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\GraphQLTest.pdb
 D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\GraphQL-Parser.dll
 D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\GraphQL.dll
-D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
-D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\Newtonsoft.Json.dll
 D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\nunit.framework.dll
-D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
-D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\Newtonsoft.Json.xml
 D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\nunit.framework.xml
 D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\obj\Debug\GraphQLTest.csprojResolveAssemblyReference.cache
@@ -28,3 +24,12 @@ D:\Dokumente\GitHub\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\obj\Debu
 D:\Dokumente\GitHub\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\Newtonsoft.Json.dll
 D:\Dokumente\GitHub\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\Newtonsoft.Json.xml
 D:\Dokumente\GitHub\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\obj\Debug\GraphQLTest.csprojResolveAssemblyReference.cache
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Dokumente\GitHub\codebooks\codebooks\Samples Allgemein\GraphQLTest\GraphQLTest\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
