@@ -15,7 +15,7 @@ namespace GraphQLTest.Tests
     {
 
         [Test]
-        public void QueryAll()
+        public async Task QueryAll()
         {
             var schema = new Schema { Query = new CustomerQuery() };
 
@@ -28,14 +28,13 @@ namespace GraphQLTest.Tests
                                 }                                
                             }";
 
-            Task<string> task = Query(query, schema, new DataSource());
-            task.Wait();
+            var result = await Query(query, schema, new DataSource());
             
-            Console.WriteLine(task.Result);
+            Console.WriteLine(result);
         }
 
         [Test]
-        public void QueryWithFragments()
+        public async Task QueryWithFragments()
         {
             var schema = new Schema { Query = new CustomerQuery() };
 
@@ -53,14 +52,13 @@ namespace GraphQLTest.Tests
                             }
                             ";
 
-            Task<string> task = Query(query, schema, new DataSource());
-            task.Wait();
-
-            Console.WriteLine(task.Result);
+            var result = await Query(query, schema, new DataSource());
+            
+            Console.WriteLine(result);
         }
         
         [Test]
-        public void QueryWithoutWithMetadata()
+        public async Task QueryWithoutWithMetadata()
         {
             var schema = new Schema { Query = new CustomerQuery() };
 
@@ -78,14 +76,13 @@ namespace GraphQLTest.Tests
                                 }                                
                             }";
 
-            Task<string> task = Query(query, schema, new DataSource());
-            task.Wait();
-
-            Console.WriteLine(task.Result);
+            var result = await Query(query, schema, new DataSource());
+            
+            Console.WriteLine(result);
         }
 
         [Test]
-        public void QueryWithParameters()
+        public async Task QueryWithParameters()
         {
             var schema = new Schema { Query = new CustomerQuery() };
 
@@ -98,14 +95,13 @@ namespace GraphQLTest.Tests
                                 }
                             }";
 
-            Task<string> task = Query(queryWithParameter, schema, new DataSource());
-            task.Wait();
-
-            Console.WriteLine(task.Result);
+            var result = await Query(queryWithParameter, schema, new DataSource());
+            
+            Console.WriteLine(result);
         }
 
         [Test]
-        public void QueryWithAliases()
+        public async Task QueryWithAliases()
         {
             var schema = new Schema { Query = new CustomerQuery() };
             var inputs = new Inputs();
@@ -127,14 +123,13 @@ namespace GraphQLTest.Tests
                                 }
                             }";
 
-            Task<string> task = Query(queryWithParameter, schema, new DataSource(), inputs);
-            task.Wait();
-
-            Console.WriteLine(task.Result);
+            var result = await Query(queryWithParameter, schema, new DataSource(), inputs);
+            
+            Console.WriteLine(result);
         }
 
         [Test]
-        public void QueryWithVariables()
+        public async Task QueryWithVariables()
         {
             var schema = new Schema {Query = new CustomerQuery()};
             var inputs = new Inputs();
@@ -149,14 +144,13 @@ namespace GraphQLTest.Tests
                                 }
                             }";
 
-            Task<string> task = Query(queryWithParameter, schema, new DataSource(), inputs);
-            task.Wait();
-
-            Console.WriteLine(task.Result);
+            var result = await Query(queryWithParameter, schema, new DataSource(), inputs);
+            
+            Console.WriteLine(result);
         }
 
         [Test]
-        public void QueryWithRelation()
+        public async Task QueryWithRelation()
         {
             var schema = new Schema { Query = new CustomerQuery() };
 
@@ -177,14 +171,13 @@ namespace GraphQLTest.Tests
 
                         }";
 
-            Task<string> task = Query(queryWithRelation, schema, new DataSource());
-            task.Wait();
-
-            Console.WriteLine(task.Result);
+            var result = await Query(queryWithRelation, schema, new DataSource());
+            
+            Console.WriteLine(result);
         }
 
         [Test]
-        public void QueryWithDirectives()
+        public async Task QueryWithDirectives()
         {
             var schema = new Schema { Query = new CustomerQuery() };
             var inputs = new Inputs();
@@ -206,18 +199,20 @@ namespace GraphQLTest.Tests
                             }
                         }";
 
-            Task<string> task = Query(queryWithRelation, schema, new DataSource(), inputs);
-            task.Wait();
+            var result = await Query(queryWithRelation, schema, new DataSource(), inputs);
+            
+            Console.WriteLine(result);
 
-            Console.WriteLine(task.Result);
         }
 
         [Test]
-        public void QueryWithCustomFactory()
+        public async Task QueryWithCustomFactory()
         {
             var datasource = new DataSource();
 
+            // define the unity container
             var container = new UnityContainer();
+
             container.RegisterInstance(typeof(DataSource), datasource);
             container.RegisterType<CustomerType>();
             container.RegisterType<InvoiceType>();
@@ -252,10 +247,9 @@ namespace GraphQLTest.Tests
                             }
                         }";
 
-            Task<string> task = Query(queryWithRelation, schema);
-            task.Wait();
-
-            Console.WriteLine(task.Result);
+            var result = await Query(queryWithRelation, schema);
+            
+            Console.WriteLine(result);
         }
 
     }

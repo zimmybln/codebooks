@@ -16,7 +16,7 @@ namespace GraphQLTest.Tests
     public class MutationTests : TestBase
     {
         [Test]
-        public void CreateCustomer()
+        public async Task CreateCustomer()
         {
             var data = new DataSource();
 
@@ -47,25 +47,21 @@ namespace GraphQLTest.Tests
 
 
             // Ausgangsdaten anzeigen
-            Task<string> taskBefore = Query(query, schema, data);
-            taskBefore.Wait();
-
-            Console.WriteLine(taskBefore.Result);
+            var dataBefore = await Query(query, schema, data);
+            
+            Console.WriteLine(dataBefore);
 
             var inputs = new Inputs();
             inputs.Add("firstName", "Johanna");
             inputs.Add("lastName", "Reske");
             inputs.Add("city", "Köln");
 
-            Task<string> taskCreate = Query(mutation, new Schema() {Mutation = new CustomerMutation()}, data, inputs);
-
-            taskCreate.Wait();
-
+            await Query(mutation, new Schema() {Mutation = new CustomerMutation()}, data, inputs);
+            
             // Abschlussdaten anzeigen
-            Task<string> taskAfter = Query(query, schema, data);
-            taskAfter.Wait();
-
-            Console.WriteLine(taskAfter.Result);
+            var dataAfter = Query(query, schema, data);
+            
+            Console.WriteLine(dataAfter);
 
         }
     }
