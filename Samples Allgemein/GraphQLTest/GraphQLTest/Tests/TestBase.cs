@@ -19,7 +19,7 @@ namespace GraphQLTest.Tests
     /// </summary>
     public abstract class TestBase
     {
-        protected static async Task<string> Query(string query, Schema schema, object userContext = null, Inputs inputs = null)
+        protected static async Task<ExecutionResult> Query(string query, Schema schema, object userContext = null, Inputs inputs = null, System.Type middlewaretype = null)
         {
             var result = await new DocumentExecuter().ExecuteAsync(options =>
             {
@@ -27,9 +27,13 @@ namespace GraphQLTest.Tests
                 options.UserContext = userContext;
                 options.Inputs = inputs;
                 options.Query = query;
+                if (middlewaretype != null)
+                {
+                    options.FieldMiddleware.Use(middlewaretype);
+                }
             }).ConfigureAwait(false);
 
-            return new DocumentWriter(indent: true).Write(result);
+            return result;
         }
 
         protected static async Task<ExecutionResult> Validate(string query, Schema schema, Inputs inputs = null)
@@ -42,6 +46,12 @@ namespace GraphQLTest.Tests
                 options.Inputs = inputs;
                 options.ValidationRules = DocumentValidator.CoreRules();
             });
+        }
+
+        protected void Write(ExecutionResult result)
+        {
+            var resultasstring = new DocumentWriter(indent:true).Write(result);
+            Console.WriteLine(resultasstring);
         }
     }
 }

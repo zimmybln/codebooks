@@ -49,7 +49,7 @@ namespace GraphQLTest.Tests
             // Ausgangsdaten anzeigen
             var dataBefore = await Query(query, schema, data);
             
-            Console.WriteLine(dataBefore);
+            Write(dataBefore);
 
             var inputs = new Inputs();
             inputs.Add("firstName", "Johanna");
@@ -59,9 +59,9 @@ namespace GraphQLTest.Tests
             await Query(mutation, new Schema() {Mutation = new CustomerMutation()}, data, inputs);
             
             // Abschlussdaten anzeigen
-            var dataAfter = Query(query, schema, data);
+            var resultAfter = await Query(query, schema, data);
             
-            Console.WriteLine(dataAfter);
+            Write(resultAfter);
 
         }
     }

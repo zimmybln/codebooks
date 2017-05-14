@@ -12,12 +12,7 @@ namespace GraphQLTest.Types
     {
         public CustomerType()
         {
-            Name = "customer";
-
-            Field(x => x.Id);
-            Field(x => x.FirstName);
-            Field(x => x.LastName);
-            Field(x => x.City);
+            DefineCommonPropertiesAndFields();
 
             Field<ListGraphType<InvoiceType>>("invoices", resolve: context =>
             {
@@ -29,17 +24,23 @@ namespace GraphQLTest.Types
 
         public CustomerType(DataSource dataSource)
         {
-            Name = "customer";
-
-            Field(x => x.Id);
-            Field(x => x.FirstName);
-            Field(x => x.LastName);
-            Field(x => x.City);
+            DefineCommonPropertiesAndFields();
 
             Field<ListGraphType<InvoiceType>>("invoices", resolve: context =>
             {
                 return dataSource?.Invoices.Where(i => i.CustomerId == context.Source.Id);
             });
+        }
+
+        private void DefineCommonPropertiesAndFields()
+        {
+            Name = "customer";
+            Description = "a person or company";
+
+            Field(x => x.Id);
+            Field(x => x.FirstName);
+            Field(x => x.LastName);
+            Field(x => x.City);
         }
     }
 }

@@ -1,12 +1,16 @@
 ﻿using GraphQLTest.Data;
 using GraphQLTest.Types;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using GraphQL;
 using GraphQL.Http;
+using GraphQL.Instrumentation;
 using GraphQL.Types;
 using Microsoft.Practices.Unity;
 using NUnit.Framework;
+using Type = System.Type;
 
 namespace GraphQLTest.Tests
 {
@@ -29,8 +33,10 @@ namespace GraphQLTest.Tests
                             }";
 
             var result = await Query(query, schema, new DataSource());
-            
-            Console.WriteLine(result);
+
+            Write(result);
+            Assert.IsNull(result.Errors, "There were any errors");
+
         }
 
         [Test]
@@ -53,12 +59,17 @@ namespace GraphQLTest.Tests
                             ";
 
             var result = await Query(query, schema, new DataSource());
-            
-            Console.WriteLine(result);
+
+            Assert.IsNull(result.Errors, "There were any errors");
+            Write(result);
         }
-        
+
+        #region Introspection
+
+        // http://graphql.org/learn/introspection/
+
         [Test]
-        public async Task QueryWithoutWithMetadata()
+        public async Task QueryForMetadataTypename()
         {
             var schema = new Schema { Query = new CustomerQuery() };
 
@@ -66,20 +77,93 @@ namespace GraphQLTest.Tests
                             query {
                                 customer {
                                     __typename
-                                    # __Shema
-                                    # __TypeKind
-                                    # __field
-                                    # __directive
-                                    id
-                                    firstName
-                                    lastName
                                 }                                
                             }";
 
             var result = await Query(query, schema, new DataSource());
-            
-            Console.WriteLine(result);
+
+            Assert.IsNull(result.Errors, "There were any errors");
+            Write(result);
         }
+
+        [Test]
+        public async Task QueryForMetadataSchemaTypes()
+        {
+            var schema = new Schema { Query = new CustomerQuery() };
+
+            string query = @"
+                            query askforschema {
+                                __schema {
+                                    types {
+                                        name
+                                        fields {
+                                            name
+                                        }
+                                    }
+                                }
+                            }";
+
+            var result = await Query(query, schema, new DataSource());
+
+            Assert.IsNull(result.Errors, "There were any errors");
+            Write(result);
+        }
+
+        [Test]
+        public async Task QueryForMetadataSchemaQueryType()
+        {
+            var schema = new Schema { Query = new CustomerQuery() };
+
+            string query = @"
+                            query askforschema {
+                                __schema {
+                                    queryType {
+                                        name
+                                    }
+                                }
+                            }";
+
+            var result = await Query(query, schema, new DataSource());
+
+            Assert.IsNull(result.Errors, "There were any errors");
+            Write(result);
+        }
+
+        [Test]
+        public async Task QueryForMetadataType()
+        {
+            var schema = new Schema { Query = new CustomerQuery() };
+
+            string query = @"
+                            query askfortype {
+                                __type (name: ""customer"") {
+                                    name
+                                    description
+                                    kind
+                                    fields {
+                                        name
+                                        type {
+                                            name
+                                            kind
+                                            ofType {
+                                                name
+                                                kind
+                                            }
+                                        }
+                                        args {
+                                            name
+                                        }
+                                    }
+                                }
+                            }";
+
+            var result = await Query(query, schema, new DataSource());
+
+            Assert.IsNull(result.Errors, "There were any errors");
+            Write(result);
+        }
+
+        #endregion
 
         [Test]
         public async Task QueryWithParameters()
@@ -96,8 +180,9 @@ namespace GraphQLTest.Tests
                             }";
 
             var result = await Query(queryWithParameter, schema, new DataSource());
-            
-            Console.WriteLine(result);
+
+            Assert.IsNull(result.Errors, "There were any errors");
+            Write(result);
         }
 
         [Test]
@@ -124,8 +209,9 @@ namespace GraphQLTest.Tests
                             }";
 
             var result = await Query(queryWithParameter, schema, new DataSource(), inputs);
-            
-            Console.WriteLine(result);
+
+            Assert.IsNull(result.Errors, "There were any errors");
+            Write(result);
         }
 
         [Test]
@@ -145,8 +231,9 @@ namespace GraphQLTest.Tests
                             }";
 
             var result = await Query(queryWithParameter, schema, new DataSource(), inputs);
-            
-            Console.WriteLine(result);
+
+            Assert.IsNull(result.Errors, "There were any errors");
+            Write(result);
         }
 
         [Test]
@@ -172,8 +259,9 @@ namespace GraphQLTest.Tests
                         }";
 
             var result = await Query(queryWithRelation, schema, new DataSource());
-            
-            Console.WriteLine(result);
+
+            Assert.IsNull(result.Errors, "There were any errors");
+            Write(result);
         }
 
         [Test]
@@ -181,15 +269,15 @@ namespace GraphQLTest.Tests
         {
             var schema = new Schema { Query = new CustomerQuery() };
             var inputs = new Inputs();
-            inputs.Add("withInvoices", "false");
+            inputs.Add("withInvoices", "true");
 
             string queryWithRelation = @"
-                        query DirectivesQuery ($withInvoices : Boolean!) {
+                        query {
                             customer {
                                 id
                                 firstName
                                 lastName
-                                invoices @skip(if: $withInvoices)
+                                invoices @include(if: true)
                                 {
                                     id
                                     customerId
@@ -199,9 +287,12 @@ namespace GraphQLTest.Tests
                             }
                         }";
 
+            // the result is not as expected -> bug or misunderstood feature?
+
             var result = await Query(queryWithRelation, schema, new DataSource(), inputs);
-            
-            Console.WriteLine(result);
+
+            Assert.IsNull(result.Errors, "There were any errors");
+            Write(result);
 
         }
 
@@ -248,9 +339,11 @@ namespace GraphQLTest.Tests
                         }";
 
             var result = await Query(queryWithRelation, schema);
-            
-            Console.WriteLine(result);
+
+            Assert.IsNull(result.Errors, "There were any errors");
+            Write(result);
         }
+
 
     }
 }
