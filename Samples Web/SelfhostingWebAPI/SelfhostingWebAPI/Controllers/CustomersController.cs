@@ -8,11 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Http;
 using SelfhostingWebAPI.Types;
- 
+using System.Web.Http.Cors;
+
+
 namespace SelfhostingWebAPI.Controllers
 {
+    [EnableCors("*", "*", "*")]
     [RoutePrefix("api/customers")]
-     public class CustomersController : ApiController
+   public class CustomersController : ApiController
     {
         [HttpGet]
         [Route("")]
